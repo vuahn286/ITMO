@@ -1,0 +1,19 @@
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\bin\Debug\WPF Application.exe.config
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\bin\Debug\WPF Application.exe
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\bin\Debug\WPF Application.pdb
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\MainWindow.g.cs
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\App.g.cs
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\MainWindow.baml
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application.g.resources
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application.csproj.CoreCompileInputs.cache
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application.exe
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\WPF Application.pdb
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\Page1.g.cs
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\Page2.g.cs
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\Page1.baml
+C:\Users\Mmeo\source\repos\WPFHelloNav\WPF Application\obj\Debug\Page2.baml
