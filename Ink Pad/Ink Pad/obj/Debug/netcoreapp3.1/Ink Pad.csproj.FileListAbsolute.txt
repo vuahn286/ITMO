@@ -1,0 +1,19 @@
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.csprojAssemblyReference.cache
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad_MarkupCompile.cache
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad_MarkupCompile.lref
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\bin\Debug\netcoreapp3.1\Ink Pad.exe
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\bin\Debug\netcoreapp3.1\Ink Pad.deps.json
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\bin\Debug\netcoreapp3.1\Ink Pad.runtimeconfig.json
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\bin\Debug\netcoreapp3.1\Ink Pad.runtimeconfig.dev.json
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\bin\Debug\netcoreapp3.1\Ink Pad.dll
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\bin\Debug\netcoreapp3.1\Ink Pad.pdb
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.g.resources
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.AssemblyInfoInputs.cache
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.AssemblyInfo.cs
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.csproj.CoreCompileInputs.cache
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.dll
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.pdb
+C:\Users\Mmeo\source\repos\Ink Pad\Ink Pad\obj\Debug\netcoreapp3.1\Ink Pad.genruntimeconfig.cache

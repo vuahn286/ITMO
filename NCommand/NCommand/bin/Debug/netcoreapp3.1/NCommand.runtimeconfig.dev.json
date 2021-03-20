@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Mmeo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Mmeo\\.nuget\\packages"
+    ]
+  }
+}

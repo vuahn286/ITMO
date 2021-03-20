@@ -1,0 +1,3 @@
+C:\Users\Mmeo\source\repos\UserForm\UserForm\obj\Debug\netcoreapp3.1\UserForm.csprojAssemblyReference.cache
+C:\Users\Mmeo\source\repos\UserForm\UserForm\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Mmeo\source\repos\UserForm\UserForm\obj\Debug\netcoreapp3.1\UserForm_MarkupCompile.cache
