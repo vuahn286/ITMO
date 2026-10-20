@@ -1,0 +1,9 @@
+﻿muc,so_dong,mo_ta,ket_luan
+Đơn vị WL,387,Từ điển dữ liệu ghi g/m². Nếu hiểu là µm/năm: 99.5% khớp cột CAT; nếu là g/m²: 33.1% khớp.,WL thực chất là µm/năm (lỗi trong từ điển dữ liệu của nguồn)
+Cấp ăn mòn không khớp,2,Barcelona: 49.9 µm → C3 (nguồn ghi C4); Aerop. El Hierro: 263.2 µm → CX (nguồn ghi C5),Dùng cấp tính lại theo ngưỡng ISO; giữ cột gốc
+Ô trống,0,Tổng số ô trống trong các cột số,—
+TOW cực thấp (< 300 h/năm),2,"PE41, PE42",Giữ – có thể là trạm khô hạn/lạnh; đánh dấu
+TOW vượt 8760 h/năm,0,,Không có
+Cl⁻ = 0 hoặc SO₂ = 0,4,Giá trị 0 (dưới ngưỡng phát hiện),"Thay bằng 0,1 khi lấy log"
+Dòng trùng hoàn toàn,0,,Loại bản trùng
+Một trạm có nhiều quan sát,2,"Murmansk, Vladivostok",Giữ – các năm phơi mẫu khác nhau (Cl⁻ khác nhau)
