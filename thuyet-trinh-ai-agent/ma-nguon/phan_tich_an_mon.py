@@ -22,7 +22,9 @@ OUT = ROOT / "ket-qua-mau"
 OUT.mkdir(exist_ok=True)
 
 KHOI_LUONG_RIENG = {"Thep_CT3": 7.85, "Kem": 7.14, "Dong": 8.96, "Nhom": 2.70}  # g/cm³
-# Ngưỡng tốc độ ăn mòn năm đầu (g/m²·năm) – ISO 9223:2012, Bảng 2 (cần đối chiếu bản gốc)
+# Ngưỡng tốc độ ăn mòn năm đầu (g/m²·năm) – ISO 9223:2012, Bảng 2.
+# Đã đối chiếu: thép, kẽm (cả 6 cấp); đồng, nhôm (C1–C3).
+# Đồng, nhôm từ C4 trở lên: CẦN ĐỐI CHIẾU BẢN GỐC trước khi dùng chính thức.
 ISO9223 = {
     "Thep_CT3": [10, 200, 400, 650, 1500, 5500],
     "Kem":      [0.7, 5, 15, 30, 60, 180],

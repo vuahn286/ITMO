@@ -137,7 +137,7 @@ Lưu toàn bộ mã Python để tái lập.
 | Ven biển | Đồng | 18,2 | 0,68 | 0,995 | C4 | 9,7 |
 | Ven biển | Nhôm | 4,2 | 0,59 | 0,993 | C4 | 6,0 |
 
-(Đầy đủ 12 dòng trong tệp CSV. Do mô hình chạy lại có thể chọn cách làm sạch hơi khác, các số có thể lệch nhẹ – sai khác lớn là dấu hiệu cần xem lại.)
+(Ngưỡng ISO 9223:2012 đã đối chiếu cho thép và kẽm; với đồng và nhôm, ngưỡng C4 trở lên cần đối chiếu bản gốc tiêu chuẩn trước khi nói "C4". Đầy đủ 12 dòng trong tệp CSV. Do mô hình chạy lại có thể chọn cách làm sạch hơi khác, các số có thể lệch nhẹ – sai khác lớn là dấu hiệu cần xem lại.)
 
 ### Câu lệnh 4.4 – Biểu đồ
 ```
