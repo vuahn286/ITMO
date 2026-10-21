@@ -1,6 +1,6 @@
 # BỘ CÂU LỆNH DEMO – SAO CHÉP VÀ DÁN TRỰC TIẾP VÀO CLAUDE
 
-> Dùng kèm **Kế hoạch thuyết trình** và **DANH-SACH-SLIDE.md** (số slide theo bản v2.2). Mỗi câu lệnh ghi rõ: dán vào đâu, cần tải tệp nào và kết quả mong đợi (để đối chiếu với thư mục `ket-qua-mau/`).
+> Dùng kèm **Kế hoạch thuyết trình** và **DANH-SACH-SLIDE.md** (số slide theo bản v2.3). Mỗi câu lệnh ghi rõ: dán vào đâu, cần tải tệp nào và kết quả mong đợi (để đối chiếu với thư mục `ket-qua-mau/`).
 > Tình huống xuyên suốt: **Đánh giá ăn mòn khí quyển của kim loại tại ba trạm thử nghiệm nhiệt đới** (Phương án A). Toàn bộ dữ liệu là **giả lập, thuộc nhóm xanh**.
 
 ---
@@ -23,7 +23,7 @@ Bạn là trợ lý nghiên cứu cho nhóm nghiên cứu độ bền nhiệt đ
 
 ---
 
-## 1. Slide 11 – Tài liệu → khoảng trống nghiên cứu
+## 1. Slide 13 – Tài liệu → khoảng trống nghiên cứu
 
 ### Câu lệnh 1.1 – Lập bản đồ chủ đề (bật Web search hoặc dùng Research)
 ```
@@ -51,7 +51,7 @@ Sau bảng, chỉ ra: (a) các điểm các nghiên cứu KHÔNG thống nhất;
 
 ---
 
-## 2. Slide 12 – Khoảng trống → thuyết minh (DEMO 1, trình diễn trực tiếp câu lệnh 2.2)
+## 2. Slide 14 – Khoảng trống → thuyết minh (DEMO 1, trình diễn trực tiếp câu lệnh 2.2)
 
 ### Câu lệnh 2.1 – Soạn các mục thuyết minh
 ```
@@ -74,7 +74,7 @@ Lập bảng đối chiếu: Mục tiêu cụ thể → Nội dung → Phương 
 
 ---
 
-## 3. Slide 13 – Tiến độ và kinh phí
+## 3. Slide 15 – Tiến độ và kinh phí
 
 ### Câu lệnh 3.1 (tệp `ke_hoach_cong_viec.csv`)
 ```
@@ -89,7 +89,7 @@ Lập bảng đối chiếu: Mục tiêu cụ thể → Nội dung → Phương 
 
 ---
 
-## 4. Slide 14 – Dữ liệu thô → kết quả (DEMO 2, trình diễn trực tiếp 4.2 – 4.4)
+## 4. Slide 16 – Dữ liệu thô → kết quả (DEMO 2, trình diễn trực tiếp 4.2 – 4.4)
 
 ### Câu lệnh 4.1 – Từ điển dữ liệu
 ```
@@ -154,7 +154,7 @@ Trình bày thành 2 phần tách biệt: "Kết quả tính toán" và "Diễn 
 
 ---
 
-## 5. Slide 15 – Kết quả → bài báo, báo cáo
+## 5. Slide 17 – Kết quả → bài báo, báo cáo
 
 ### Câu lệnh 5.1 – Dàn ý bài báo
 ```
@@ -174,11 +174,11 @@ Lập bảng: Mục tiêu (theo thuyết minh đã duyệt) | Sản phẩm cam k
 
 ---
 
-## 6. Slide 18 – Quy trình tự động QT-01 (bản tin công bố hằng tuần)
+## 6. Slide 20 – Quy trình tự động QT-01 (bản tin công bố hằng tuần)
 
 ```
 Mỗi sáng thứ Hai: tìm các công bố mới trong 7 ngày qua về "atmospheric corrosion" AND (tropical OR marine OR chloride) trên Crossref, arXiv, ScienceDirect.
 Với mỗi bài: tiêu đề, tác giả, tạp chí, DOI, tóm tắt tiếng Việt 3 câu, mức độ liên quan với hướng "ăn mòn khí quyển nhiệt đới" (cao / trung bình / thấp) và lý do.
 Sắp xếp theo mức độ liên quan, tối đa 10 bài.
 ```
-(Trên Claude: dùng tính năng tác vụ định kỳ/Routine hoặc chạy thủ công rồi chụp màn hình cho Slide 18.)
+(Trên Claude: dùng tính năng tác vụ định kỳ/Routine hoặc chạy thủ công rồi chụp màn hình cho Slide 20.)

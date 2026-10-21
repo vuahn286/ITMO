@@ -1,8 +1,8 @@
 # DANH SÁCH SLIDE ĐỂ CHỈNH SỬA VÀ DUYỆT
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
-**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 20 slide trình bày + 4 phụ lục + trang bìa
-**Căn cứ:** Kế hoạch v2.1 (`Ke-hoach-thuyet-trinh-v2.md`), cập nhật 21/10/2026 · **Bản v2.2:** bỏ slide ví dụ Google (chuyển xuống Phụ lục B); tách slide "Năm quyết định" – 5 quyết định gộp vào Slide 17, căn cứ pháp lý gộp vào Slide 7, thông điệp Phần III chuyển sang Slide 15. **Từ v2.2, tệp này là bố cục slide chính thức.**
+**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 22 slide trình bày + 4 phụ lục + trang bìa
+**Căn cứ:** Kế hoạch v2.1 (`Ke-hoach-thuyet-trinh-v2.md`) · **Bản v2.3 (21/10/2026):** thêm 2 slide giới thiệu Claude và cách dùng cơ bản (Slide 7, 8). Bản v2.2: bỏ slide ví dụ Google (chuyển Phụ lục B); 5 quyết định của nhà khoa học gộp vào Slide 19, căn cứ pháp lý gộp vào Slide 9, thông điệp Phần III ở Slide 17. **Tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -28,27 +28,29 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | 2 | AI trong các lĩnh vực khoa học: quốc tế và Việt Nam | I | 5′ | [ ] |
 | 3 | Năng lực cốt lõi của AI: từ trả lời đến thực hiện | I | 5′ | [ ] |
 | 4 | Phương thức nghiên cứu đang thay đổi | I | 4′ | [ ] |
-| 5 | Công việc nào cần chatbot, công việc nào cần AI Agent? | II | 5′ | [ ] |
-| 6 | Các công cụ AI và vai trò khác nhau | II | 6′ | [ ] |
-| 7 | Một cách giao việc chung cho các công cụ AI | II | 6′ | [ ] |
-| 8 | Tổ chức một không gian làm việc nghiên cứu | II | 7′ | [ ] |
-| 9 | Skill, Subagent và hệ thống nhiều Agent | II | 7′ | [ ] |
-| 10 | Một nhiệm vụ khoa học đi qua AI Agent như thế nào? | III | 3′ | [ ] |
-| 11 | Từ tài liệu đến khoảng trống nghiên cứu | III | 7′ | [ ] |
-| 12 | Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 | III | 10′ | [ ] |
-| 13 | Tổ chức công việc, tiến độ và kinh phí | III | 5′ | [ ] |
-| 14 | Từ dữ liệu thô đến kết quả: nhà khoa học dùng AI viết và chạy mã – DEMO 2 | III | 10′ | [ ] |
-| 15 | Từ kết quả đến bài báo và báo cáo tổng hợp | III | 6′ | [ ] |
-| 16 | Skill và khoa học mở: nền móng của tự động hóa | IV | 4′ | [ ] |
-| 17 | Từ hỗ trợ từng bước đến tự động hóa toàn trình, và năm quyết định của nhà khoa học | IV | 6′ | [ ] |
-| 18 | Bản đồ quy trình tự động của Trung tâm | IV | 5′ | [ ] |
-| 19 | Lộ trình triển khai và kết luận | IV | 3′ | [ ] |
-| 20 | Trao đổi và thảo luận | – | 12′ | [ ] |
-| 21 | Phụ lục A: AI lập trình (không trình bày) | – | – | [ ] |
-| 22 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | – | – | [ ] |
-| 23 | Phụ lục C: Nguồn tham khảo (không trình bày) | – | – | [ ] |
-| 24 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | – | – | [ ] |
-| | **Tổng** | | **120′** = 108′ trình bày + 12′ thảo luận. Khi tập dượt, nói trong khoảng 100′ để còn dự phòng cho demo. | |
+| 5 | Công việc nào cần chatbot, công việc nào cần AI Agent? | II | 4′ | [ ] |
+| 6 | Các công cụ AI và vai trò khác nhau | II | 5′ | [ ] |
+| 7 | Claude là gì? Mô hình, gói dịch vụ và công cụ cho nhà khoa học | II | 5′ | [ ] |
+| 8 | Dùng Claude cơ bản: 6 bước đầu tiên | II | 7′ | [ ] |
+| 9 | Một cách giao việc chung cho các công cụ AI | II | 6′ | [ ] |
+| 10 | Tổ chức một không gian làm việc nghiên cứu | II | 5′ | [ ] |
+| 11 | Skill, Subagent và hệ thống nhiều Agent | II | 5′ | [ ] |
+| 12 | Một nhiệm vụ khoa học đi qua AI Agent như thế nào? | III | 3′ | [ ] |
+| 13 | Từ tài liệu đến khoảng trống nghiên cứu | III | 6′ | [ ] |
+| 14 | Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 | III | 9′ | [ ] |
+| 15 | Tổ chức công việc, tiến độ và kinh phí | III | 5′ | [ ] |
+| 16 | Từ dữ liệu thô đến kết quả: nhà khoa học dùng AI viết và chạy mã – DEMO 2 | III | 9′ | [ ] |
+| 17 | Từ kết quả đến bài báo và báo cáo tổng hợp | III | 6′ | [ ] |
+| 18 | Skill và khoa học mở: nền móng của tự động hóa | IV | 4′ | [ ] |
+| 19 | Từ hỗ trợ từng bước đến tự động hóa toàn trình, và năm quyết định của nhà khoa học | IV | 5′ | [ ] |
+| 20 | Bản đồ quy trình tự động của Trung tâm | IV | 5′ | [ ] |
+| 21 | Lộ trình triển khai và kết luận | IV | 3′ | [ ] |
+| 22 | Trao đổi và thảo luận | – | 10′ | [ ] |
+| 23 | Phụ lục A: AI lập trình (không trình bày) | – | – | [ ] |
+| 24 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | – | – | [ ] |
+| 25 | Phụ lục C: Nguồn tham khảo (không trình bày) | – | – | [ ] |
+| 26 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | – | – | [ ] |
+| | **Tổng** | | **120′** = 110′ trình bày + 10′ thảo luận. Khi tập dượt, nói trong khoảng 100′ để còn dự phòng cho demo. | |
 
 ---
 
@@ -142,7 +144,7 @@ Sáu năng lực cốt lõi:
 | Kiểm tra kết quả | Người dùng tự làm | Tự kiểm tra từng bước |
 | Chi phí – thời gian | Thấp | Cao hơn |
 
-> *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 14.
+> *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 16.
 > *Câu chốt:* Không phải công việc nào cũng cần Agent.
 
 **Hình ảnh:** sơ đồ tiến hóa: AI phân tích → AI tạo sinh → AI dùng công cụ → AI Agent.
@@ -179,11 +181,11 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (31 phút)
+# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (37 phút)
 
 ---
 
-## Slide 5 – Công việc nào cần chatbot, công việc nào cần AI Agent? (5′)
+## Slide 5 – Công việc nào cần chatbot, công việc nào cần AI Agent? (4′)
 
 **Chữ trên slide:** bậc thang 5 bậc – càng lên cao càng phức tạp, tốn thời gian và chi phí
 
@@ -204,7 +206,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 6 – Các công cụ AI và vai trò khác nhau (6′)
+## Slide 6 – Các công cụ AI và vai trò khác nhau (5′)
 
 **Chữ trên slide:** *(cập nhật 10/2026)*
 
@@ -225,7 +227,91 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 7 – Một cách giao việc chung cho các công cụ AI (6′)
+## Slide 7 – Claude là gì? Mô hình, gói dịch vụ và công cụ cho nhà khoa học (5′)
+
+**Chữ trên slide:**
+- **Claude** – trợ lý AI của công ty Anthropic (Mỹ). Dùng trên **trình duyệt (claude.ai)**, **ứng dụng máy tính** (Windows, macOS) và **điện thoại**; hội thoại, dự án đồng bộ giữa các thiết bị.
+- **Bốn mô hình** *(cập nhật 10/2026)*:
+
+| Mô hình | Dùng khi | Gói |
+|---|---|---|
+| Haiku 5.5 | Câu hỏi nhanh, việc đơn giản | Mọi gói |
+| Sonnet 5.5 | Công việc hằng ngày – cân bằng tốc độ và chất lượng | Mọi gói |
+| Opus 5.5 | Phân tích phức tạp, chuỗi nhiệm vụ dài | Từ Pro |
+| Fable 5.1 | Dự án lớn, AI Agent làm việc dài hơi | Từ Pro |
+
+- **Các gói dịch vụ:**
+
+| Gói | Điểm chính |
+|---|---|
+| Free (miễn phí) | Hỏi đáp, tải tệp, tìm kiếm web, viết và chạy mã, tạo tệp; tối đa 5 dự án |
+| Pro (~20 USD/tháng) | Thêm mô hình mạnh, Research (nghiên cứu chuyên sâu), dự án không giới hạn, Claude Code |
+| Max | Hạn mức sử dụng gấp 5 hoặc 20 lần Pro |
+| Team / Enterprise | Cho tổ chức: chia sẻ dự án, quản trị tập trung; **dữ liệu không dùng để huấn luyện mô hình theo mặc định** |
+
+- **Dành riêng cho nhà khoa học:**
+  - **Claude Science** (bản thử nghiệm, từ 06/2026; gói trả phí): ứng dụng máy tính cho nghiên cứu, chạy trên **macOS và Linux** – máy Windows chưa có bản riêng, chạy bản Linux qua WSL 2 – hơn 60 Skill và kết nối sẵn (gen, protein, hóa tin…); tự viết và chạy mã Python/R; mỗi kết quả lưu kèm mã, môi trường và lịch sử để tái lập; có "trợ lý phản biện" tự kiểm tra trích dẫn sai, số liệu không truy được nguồn.
+  - **Gói Team cho nhà khoa học:** ưu đãi cho nhóm nghiên cứu của trường đại học và viện nghiên cứu phi lợi nhuận (chủ nhiệm nhóm đăng ký).
+
+> *Công cụ tương đương:* ChatGPT (OpenAI), Gemini (Google) – đều có mô hình nhiều mức, gói miễn phí – trả phí – tổ chức.
+
+**Hình ảnh:** ảnh chụp giao diện claude.ai (màn hình chính, nút chọn mô hình); ảnh giao diện Claude Science.
+
+**Lời nói:**
+- "Chọn mô hình như chọn người làm việc: việc nhanh giao Haiku, việc hằng ngày dùng Sonnet, việc khó dùng Opus hoặc Fable."
+- "Với dữ liệu: gói cá nhân (Free, Pro, Max) – người dùng tự chọn có cho dùng hội thoại để cải thiện mô hình hay không, trong phần cài đặt quyền riêng tư; gói tổ chức (Team, Enterprise) – mặc định không dùng để huấn luyện. Dù gói nào, **dữ liệu đỏ vẫn không đưa lên**."
+- Claude Science: "Đây đúng là hướng 'AI làm khoa học' – nhưng Anthropic cũng ghi rõ: công cụ giảm sai sót chứ không loại bỏ hết, kết quả phải được kiểm tra; không dùng cho chẩn đoán lâm sàng."
+
+**Lưu ý trước khi trình bày:**
+- Kiểm tra lại giá, tên mô hình và gói tại claude.com/pricing (thay đổi thường xuyên).
+- Claude Science trên Windows: hiện chưa có bản riêng (đã kiểm tra thực tế); tài liệu của Anthropic chưa thống nhất – kiểm tra lại claude.com/product/claude-science trước buổi thuyết trình.
+- Gói Team cho nhà khoa học: kiểm tra điều kiện áp dụng với Trung tâm (đơn vị thuộc Bộ Quốc phòng) trước khi giới thiệu như một lựa chọn.
+
+**Nguồn:** N20 (gói, tính năng), N21 (mô hình), N22 (chính sách dữ liệu), N23 (Claude Science, gói cho nhà khoa học)
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
+
+---
+
+## Slide 8 – Dùng Claude cơ bản: 6 bước đầu tiên (7′)
+
+**Chữ trên slide:**
+
+| Bước | Làm gì | Ở đâu |
+|---|---|---|
+| 1. Tạo tài khoản | Đăng nhập bằng email; cài ứng dụng máy tính hoặc điện thoại nếu cần | claude.ai · claude.com/download |
+| 2. Cài đặt quyền riêng tư **trước tiên** | Chọn có cho dùng hội thoại để cải thiện mô hình hay không; xem và sửa "bộ nhớ" Claude lưu về bạn | Settings → Privacy · Settings → Capabilities |
+| 3. Hỏi đáp và tải tệp | Gõ câu hỏi; kéo thả PDF, Word, Excel, ảnh vào khung chat; chọn mô hình | Màn hình chính |
+| 4. Bật công cụ | Tìm kiếm web; viết và chạy mã, tạo tệp; Research (gói Pro trở lên) | Settings → Capabilities, hoặc nút công cụ trong khung chat |
+| 5. Tạo Dự án (Project) | Viết hướng dẫn chung một lần + tải bộ tài liệu dùng chung cho mọi cuộc trò chuyện trong dự án | Mục Projects |
+| 6. Nhận sản phẩm | Văn bản, bảng, biểu đồ hiện ngay bên cạnh; tải về Word, Excel, PowerPoint, PDF | Khung kết quả bên phải |
+
+> **3 thói quen tốt:** nói rõ việc cần làm và dạng kết quả · yêu cầu dẫn nguồn · luôn kiểm tra lại trước khi dùng.
+
+**Hình ảnh:** 6 ảnh chụp màn hình nhỏ theo 6 bước (dùng tài khoản demo, dữ liệu xanh).
+
+**Demo nhỏ (2 phút, trực tiếp):**
+1. Kéo thả một bài báo PDF về ăn mòn khí quyển (truy cập mở) vào khung chat.
+2. Câu lệnh:
+   ```
+   Tóm tắt bài báo này bằng tiếng Việt trong 5 ý. Sau đó lập bảng: địa điểm, kim loại,
+   thời gian phơi mẫu, tốc độ ăn mòn, kết luận chính. Ghi số trang cho mỗi số liệu.
+   ```
+3. Tiếp: `Xuất bảng này ra tệp Excel.` → mở tệp vừa tải về.
+
+**Lời nói:** "Bước 2 làm đầu tiên vì liên quan trực tiếp đến quy tắc dữ liệu xanh / vàng / đỏ. Các cuộc trò chuyện ngoài dự án không 'nhớ' tài liệu của nhau – muốn dùng chung thì đưa vào dự án (bước 5); slide sau sẽ nói cách giao việc cho tốt, và Phần III dùng chính dự án này."
+
+**Lưu ý:** tên mục cài đặt có thể khác đôi chút tùy phiên bản giao diện – chụp ảnh màn hình mới nhất trước buổi thuyết trình.
+
+**Nguồn:** N20, N22
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
+
+---
+
+## Slide 9 – Một cách giao việc chung cho các công cụ AI (6′)
 
 **Chữ trên slide:** quy trình 5 bước
 
@@ -255,26 +341,30 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 8 – Tổ chức một không gian làm việc nghiên cứu (7′)
+## Slide 10 – Tổ chức một không gian làm việc nghiên cứu (5′)
 
-**Chữ trên slide:**
-- Đưa tài liệu, biểu mẫu, dữ liệu vào **một không gian dự án**
-- Viết **hướng dẫn chung** một lần – AI áp dụng cho mọi câu hỏi trong dự án
-- Giao nhiệm vụ nhiều bước; yêu cầu tạo sản phẩm (văn bản, bảng, biểu đồ)
-- Tiếp tục chỉnh sửa trên kết quả
+**Chữ trên slide:** *Mỗi nhiệm vụ khoa học – một dự án* (cách tạo dự án: xem Slide 8)
+
+| Thành phần của dự án | Ví dụ – nhiệm vụ ăn mòn khí quyển |
+|---|---|
+| **Hướng dẫn chung** (viết một lần) | Trả lời tiếng Việt; luôn dẫn nguồn; không tự xóa dữ liệu; tách "kết quả tính toán" và "diễn giải" |
+| **Tài liệu nền** | 10–15 bài báo, tiêu chuẩn ISO 9223 / 9224 |
+| **Biểu mẫu** | Mẫu 01A, 07, 08, 21, 22 (bản trống) |
+| **Dữ liệu** | Chỉ dữ liệu xanh – tệp đặt tên theo quy ước: `ngày_trạm_loại-dữ-liệu` |
+| **Các cuộc trò chuyện** | Mỗi công đoạn một cuộc: tổng quan, thuyết minh, phân tích dữ liệu, bài báo |
 
 > *Công cụ tương đương:* Claude Projects ↔ ChatGPT Projects ↔ Gemini Gems ↔ NotebookLM
 
 **Hình ảnh:** ảnh chụp dự án mẫu "Demo – Ăn mòn khí quyển nhiệt đới" (dữ liệu xanh).
 
-**Lời nói:** đọc to đoạn hướng dẫn chung của dự án mẫu (Mục 0 trong `cau-lenh-demo.md`).
+**Lời nói:** đọc to đoạn hướng dẫn chung của dự án mẫu (Mục 0 trong `cau-lenh-demo.md`). "Dự án này sẽ được dùng xuyên suốt Phần III."
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-## Slide 9 – Skill, Subagent và hệ thống nhiều Agent (7′)
+## Slide 11 – Skill, Subagent và hệ thống nhiều Agent (5′)
 
 **Chữ trên slide:**
 - **Skill:** quy trình mẫu đóng gói sẵn (hướng dẫn + biểu mẫu + mã), AI tự dùng lại
@@ -293,19 +383,19 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (41 phút)
+# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (38 phút)
 
 > Toàn bộ số liệu demo ở Phần III là **dữ liệu giả lập** – ghi rõ trên mọi slide có số liệu.
 
 ---
 
-## Slide 10 – Một nhiệm vụ khoa học đi qua AI Agent như thế nào? (3′)
+## Slide 12 – Một nhiệm vụ khoa học đi qua AI Agent như thế nào? (3′)
 
 **Chữ trên slide:**
 > **Tình huống:** Đánh giá ăn mòn khí quyển của thép CT3, kẽm, đồng, nhôm tại 3 trạm thử nghiệm (ven biển, đô thị, nội địa); xây dựng mô hình dự báo và phân cấp ăn mòn theo ISO 9223.
 > 3 trạm × 4 kim loại × 7 mốc thu mẫu × 3 mẫu lặp = **252 mẫu** · số liệu khí tượng 36 tháng · *dữ liệu giả lập*
 
-**Hình ảnh (chính):** sơ đồ vòng đời: Tài liệu → Khoảng trống → Thuyết minh → Tiến độ – kinh phí → Dữ liệu – kết quả → Bài báo – báo cáo; mỗi bước có dấu ✅ "nhà khoa học xác nhận" và số slide (11–15).
+**Hình ảnh (chính):** sơ đồ vòng đời: Tài liệu → Khoảng trống → Thuyết minh → Tiến độ – kinh phí → Dữ liệu – kết quả → Bài báo – báo cáo; mỗi bước có dấu ✅ "nhà khoa học xác nhận" và số slide (13–17).
 
 **Lời nói:** "Trong 30 phút tới, chúng ta đi hết vòng đời của một nhiệm vụ giả định – dữ liệu giả lập nhưng câu lệnh và cách làm là thật, anh chị về chạy lại được ngay." Giải nghĩa C = A·tⁿ: A là lượng kim loại mất trong năm đầu; n < 1 nghĩa là lớp gỉ che chắn dần.
 
@@ -314,7 +404,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 11 – Từ tài liệu đến khoảng trống nghiên cứu (7′)
+## Slide 13 – Từ tài liệu đến khoảng trống nghiên cứu (6′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** AI co-scientist – nhiều trợ lý đề xuất, phản biện, xếp hạng giả thuyết
@@ -334,7 +424,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 12 – Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 (10′)
+## Slide 14 – Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 (9′)
 
 **Chữ trên slide:**
 - Khoảng trống → tính cấp thiết, mục tiêu, nội dung, phương pháp, sản phẩm
@@ -355,7 +445,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 13 – Tổ chức công việc, tiến độ và kinh phí (5′)
+## Slide 15 – Tổ chức công việc, tiến độ và kinh phí (5′)
 
 **Chữ trên slide:**
 - ⌨ **Câu lệnh:** Đọc kế hoạch công việc, vẽ sơ đồ Gantt, tính tổng kinh phí, kiểm tra logic trình tự; liệt kê bất hợp lý và đề xuất điều chỉnh
@@ -374,7 +464,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 14 – Từ dữ liệu thô đến kết quả: nhà khoa học dùng AI viết và chạy mã – DEMO 2 (10′)
+## Slide 16 – Từ dữ liệu thô đến kết quả: nhà khoa học dùng AI viết và chạy mã – DEMO 2 (9′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** ERA (Google, *Nature* 2026) – AI tự viết, chạy, chấm điểm, cải tiến mã
@@ -398,7 +488,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 15 – Từ kết quả đến bài báo và báo cáo tổng hợp (6′)
+## Slide 17 – Từ kết quả đến bài báo và báo cáo tổng hợp (6′)
 
 **Chữ trên slide:**
 - 🌍 Các công trình dùng AI vừa nêu (AI co-scientist, ERA) đều do **nhà khoa học đứng tên và chịu trách nhiệm**; AI không được đứng tên tác giả, việc sử dụng AI phải được khai báo
@@ -421,11 +511,11 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN IV. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (18 phút)
+# PHẦN IV. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (17 phút)
 
 ---
 
-## Slide 16 – Skill và khoa học mở: nền móng của tự động hóa (4′)
+## Slide 18 – Skill và khoa học mở: nền móng của tự động hóa (4′)
 
 **Chữ trên slide:**
 - **Skill** = hướng dẫn quy trình + tri thức chuyên môn + biểu mẫu + mã; AI tự dùng khi cần, cho kết quả nhất quán
@@ -434,7 +524,7 @@ Sáu năng lực cốt lõi:
 - **Phù hợp khoa học mở:** nguyên tắc FAIR (dễ tìm, dễ truy cập, liên thông, tái sử dụng) · tái lập · minh bạch
 - **Chiến lược:** Kế thừa → Bản địa hóa (biểu mẫu, thuật ngữ Việt – Nga – Anh) → Chia sẻ nội bộ
 
-> *Ví dụ:* Skill "Kiểm tra chất lượng dữ liệu cân mẫu ăn mòn" – đóng gói câu lệnh ở Slide 14, đã sửa bài học về 3 mẫu lặp → lần sau ai chạy cũng đúng ngay.
+> *Ví dụ:* Skill "Kiểm tra chất lượng dữ liệu cân mẫu ăn mòn" – đóng gói câu lệnh ở Slide 16, đã sửa bài học về 3 mẫu lặp → lần sau ai chạy cũng đúng ngay.
 
 **Hình ảnh:** sơ đồ "Thư viện Skill mở → Bản địa hóa → Thư viện Skill của Trung tâm".
 
@@ -445,7 +535,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 17 – Từ hỗ trợ từng bước đến tự động hóa toàn trình, và năm quyết định của nhà khoa học (6′)
+## Slide 19 – Từ hỗ trợ từng bước đến tự động hóa toàn trình, và năm quyết định của nhà khoa học (5′)
 
 **Chữ trên slide:**
 
@@ -476,7 +566,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 18 – Bản đồ quy trình tự động của Trung tâm (5′)
+## Slide 20 – Bản đồ quy trình tự động của Trung tâm (5′)
 
 **Chữ trên slide:**
 
@@ -490,7 +580,7 @@ Sáu năng lực cốt lõi:
 | QT-05 | Theo dõi tiến độ – kinh phí | Hằng tháng | Báo cáo, cảnh báo chậm mốc |
 | QT-06 | Bài báo, báo cáo tổng kết | Khi có kết quả | Bản thảo, Mẫu 21, 22 |
 
-**Hình ảnh (chính):** sơ đồ dòng chảy, mỗi quy trình gắn điểm phê duyệt tương ứng với năm quyết định ở Slide 17: QT-01 → QT-02 → QT-03 → QT-04 → QT-06, QT-05 chạy song song, tất cả đi qua QT-00; ảnh chụp bản tin QT-01 chạy thật với chủ đề ăn mòn khí quyển.
+**Hình ảnh (chính):** sơ đồ dòng chảy, mỗi quy trình gắn điểm phê duyệt tương ứng với năm quyết định ở Slide 19: QT-01 → QT-02 → QT-03 → QT-04 → QT-06, QT-05 chạy song song, tất cả đi qua QT-00; ảnh chụp bản tin QT-01 chạy thật với chủ đề ăn mòn khí quyển.
 
 **Việc phải làm:** chạy thử QT-01 để có ảnh bản tin thật.
 
@@ -499,7 +589,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 19 – Lộ trình triển khai và kết luận (3′)
+## Slide 21 – Lộ trình triển khai và kết luận (3′)
 
 **Chữ trên slide:**
 
@@ -524,7 +614,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 20 – Trao đổi và thảo luận (12′)
+## Slide 22 – Trao đổi và thảo luận (10′)
 
 **Chữ trên slide:**
 - Kết quả phiếu khảo sát trước buổi học (biểu đồ)
@@ -537,7 +627,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 21 – Phụ lục A: AI lập trình (không trình bày)
+## Slide 23 – Phụ lục A: AI lập trình (không trình bày)
 
 **Chữ trên slide:**
 - GitHub Octoverse 2025: hơn 180 triệu lập trình viên; hơn 36 triệu người mới trong một năm; 630 triệu kho mã; gần 1 tỷ lần đẩy mã; 4,3 triệu dự án AI
@@ -552,7 +642,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 22 – Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi)
+## Slide 24 – Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi)
 
 **Chữ trên slide:** dòng thời gian ngang, 5 thẻ; thẻ ① phóng to
 
@@ -582,7 +672,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 23 – Phụ lục C: Nguồn tham khảo (không trình bày)
+## Slide 25 – Phụ lục C: Nguồn tham khảo (không trình bày)
 
 **Chữ trên slide:** danh mục nguồn theo Mục 11 của kế hoạch – 5 công bố ví dụ ở Phụ lục B (kèm DOI), số liệu bối cảnh, pháp lý Việt Nam, tiêu chuẩn ISO 9223 / 9224, khoa học mở.
 
@@ -593,7 +683,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 24 – Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày)
+## Slide 26 – Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày)
 
 **Chữ trên slide:** AI4S Open Science · AIPOCH Open Science · K-Dense Scientific Agent Skills · CES Global – kèm URL và lĩnh vực của từng bộ.
 

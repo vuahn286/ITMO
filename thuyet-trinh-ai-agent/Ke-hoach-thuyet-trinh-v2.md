@@ -6,8 +6,10 @@
 **Định hướng:** Nhận thức là chính, lý thuyết vừa đủ, có ví dụ thực tế và demo. Nhấn mạnh năng lực cốt lõi và ưu điểm của AI. Không đi sâu kỹ thuật xây dựng Agent.
 **Tình huống xuyên suốt (đã chốt):** **Phương án A – Ăn mòn khí quyển của kim loại trong môi trường nhiệt đới.**
 **Ngày thuyết trình:** ____ / ____ / ______
-**Phiên bản:** 2.2 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
+**Phiên bản:** 2.3 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
 
+> **Bản v2.3 (21/10/2026):** thêm 2 slide vào Phần II – "Claude là gì? Mô hình, gói dịch vụ và công cụ cho nhà khoa học" (Slide 7) và "Dùng Claude cơ bản: 6 bước đầu tiên" (Slide 8). Từ Slide 7 trở đi, **số slide ở bảng đối chiếu dưới đây cộng thêm 2** (ví dụ: v2.2 số 7 → v2.3 số 9). Thời lượng: Phần I 18′, II 37′, III 38′, IV 17′, thảo luận 10′. Chi tiết: `DANH-SACH-SLIDE.md`.
+>
 > **Bản v2.2 (21/10/2026) – bố cục slide mới, xem `DANH-SACH-SLIDE.md` (tệp này là bố cục chính thức):**
 > - **Bỏ Slide 2** (ví dụ Google) khỏi phần trình bày; nội dung chuyển xuống **Phụ lục B** để dùng khi được hỏi. Hai ví dụ AI co-scientist và ERA vẫn được nêu tại slide tài liệu (mới 11) và slide Demo 2 (mới 14).
 > - **Tách Slide 17** (năm quyết định): 5 quyết định gộp vào slide tự động hóa (mới 17) như 5 điểm phê duyệt; căn cứ pháp lý gộp vào slide giao việc (mới 7); thông điệp Phần III chuyển sang slide bài báo (mới 15).
@@ -63,6 +65,7 @@
 | 7 | Mục 7 chuyển từ "danh mục cần xác minh" thành **bảng căn cứ đã xác minh**, có nguồn gốc cho từng số liệu | Căn cứ đầy đủ |
 | 8 | **v2.1:** Viết lại Slide 1 bằng lời thường (câu "53% dân số" sửa theo nguyên văn nguồn); thêm phần "giải thích dễ hiểu" cho 5 ví dụ Slide 2; Slide 3 bỏ thuật ngữ (embedding, VLA…); sửa "hàm mũ" → "hàm lũy thừa"; nêu rõ ERA là đánh giá hồi cứu; sửa trích dẫn Penadés; thêm ô "Kết quả với dữ liệu thật" ở Slide 15; thêm Mục 12 – Giải nghĩa thuật ngữ | Rà soát ngày 21/10/2026 |
 | 9 | **v2.2:** Bỏ slide ví dụ Google (chuyển Phụ lục B); tách slide "Năm quyết định" vào 3 slide phù hợp; chia lại thời lượng; bố cục chính thức chuyển sang `DANH-SACH-SLIDE.md` | Theo ý kiến duyệt ngày 21/10/2026 |
+| 10 | **v2.3:** Thêm 2 slide giới thiệu Claude và cách dùng cơ bản vào Phần II; chia lại thời lượng; thêm căn cứ N20–N23 | Theo ý kiến ngày 21/10/2026 |
 
 ---
 
@@ -85,22 +88,24 @@
 - **Mọi số liệu có nguồn ở chân slide** (mã nguồn theo Mục 7, ví dụ "[N3]").
 - **Nói đúng mức:** "kiểm chứng trong phòng thí nghiệm" ≠ "đã chữa được bệnh"; "trùng với kết quả chưa công bố" ≠ "phát hiện mới". Cách nói chuẩn ghi ở từng ví dụ.
 - **Biểu mẫu (01A, 07, 08, 21, 22) là sản phẩm đầu ra**, không phải trục chính.
-- **Trung lập về công cụ:** Claude là ví dụ minh họa, luôn kèm công cụ tương đương.
+- **Trung lập về công cụ:** Claude là ví dụ minh họa chính (có 2 slide giới thiệu riêng theo yêu cầu), luôn kèm công cụ tương đương.
 - Ghi thời điểm số liệu ("cập nhật 10/2026").
 
 ---
 
 ## 2. PHÂN BỔ THỜI GIAN
 
-| Phần | Nội dung | Slide (v2.2) | Thời lượng |
+| Phần | Nội dung | Slide (v2.3) | Thời lượng |
 |---|---|---|---|
 | I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp | 5–9 | 31 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (2 demo) | 10–15 | 41 phút |
-| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 16–19 | 18 phút |
-| – | Trao đổi, thảo luận | 20 | 12 phút |
-| – | Phụ lục (không trình bày) | 21–24 | – |
-| | **Tổng cộng** | **20 slide + 4 phụ lục** | **120 phút** |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 37 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học (2 demo) | 12–17 | 38 phút |
+| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 18–21 | 17 phút |
+| – | Trao đổi, thảo luận | 22 | 10 phút |
+| – | Phụ lục (không trình bày) | 23–26 | – |
+| | **Tổng cộng** | **22 slide + 4 phụ lục** | **120 phút** |
+
+*v2.3: thêm 12′ cho 2 slide Claude; bù bằng cách rút: slide chatbot/Agent −1′, công cụ −1′, không gian dự án −2′, Skill/Subagent −2′, slide tài liệu −1′, mỗi demo −1′, slide tự động hóa −1′, thảo luận −2′.*
 
 *v2.2: 11 phút có được khi bỏ slide ví dụ Google (7′) và slide năm quyết định (4′) được chia lại: +2′ cho mỗi demo, +1′ slide tài liệu, +1′ slide giao việc (thêm căn cứ pháp lý), +3′ slide tự động hóa (thêm năm quyết định), +2′ thảo luận.*
 
@@ -555,118 +560,7 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N17 | URL, số lượng Skill của AI4S, AIPOCH, K-Dense, CES Global | 18, 25 | Trang chính thức / GitHub | ☐ |
 | N18 | Bài báo arXiv 2609.00065 | 24 | Kiểm tra lại mã số | ☐ |
 | N19 | Nguyên tắc FAIR; Khuyến nghị Khoa học mở UNESCO | 18 | *Scientific Data* (2016); UNESCO (2021) | ✅ (nguồn kinh điển) |
-
-> **Lưu ý về cách xác minh:** các số liệu ✅ được đối chiếu với trang của nguồn gốc (tạp chí, arXiv, trang tổ chức) qua công cụ tìm kiếm. Trước khi in slide, người trình bày nên mở trực tiếp các DOI ở Mục 7.1 một lần nữa – đặc biệt G1 (mới công bố 08/10/2026).
-
----
-
-## 8. KẾ HOẠCH THỰC HIỆN THEO GIAI ĐOẠN
-
-| Giai đoạn | Công việc | Sản phẩm | Trạng thái |
-|---|---|---|---|
-| 1. Nghiên cứu | Xác minh số liệu (Mục 7) | Bảng căn cứ | ✅ phần lớn; còn N14, N16 (đồng/nhôm), N17, N18 |
-| 2. Tình huống & dữ liệu | Chốt tình huống A; dữ liệu demo | `du-lieu-demo/` | ✅ |
-| 2a. Chạy thử phân tích | Chạy mã, lấy kết quả mẫu | `ket-qua-mau/` | ✅ |
-| 2b. Skill & quy trình | Khảo sát Skill mở; dựng thử QT-01 | Bản tin mẫu | ☐ |
-| 3. Xây dựng slide | 25 slide theo Mục 3 | Slide v1 | ☐ |
-| 4. Chuẩn bị demo | Chạy trên Claude 2 lần (Mục 4.4); chụp màn hình; quay video | Ảnh, video | ☐ |
-| 5. Rà soát | Lãnh đạo/chuyên môn; bộ phận bảo mật duyệt Mục 6 | Slide v2 | ☐ |
-| 6. Lời thoại & tập dượt | Lời thoại theo "Gợi ý nói"; bấm giờ 2 lần | Bản cuối | ☐ |
-| 7. Tài liệu đi kèm | Phiếu khảo sát; tài liệu phát tay | Bản in | ☐ |
-
-### Danh sách kiểm tra trước ngày thuyết trình
-- ☐ Mở lại các DOI Mục 7.1; điền N14 (chính sách dữ liệu)
-- ☐ Quy tắc xanh / vàng / đỏ đã được xác nhận
-- ☐ Demo chạy trên Claude thành công ≥ 2 lần; kết quả khớp `ket-qua-mau/`
-- ☐ Video demo dự phòng
-- ☐ Kiểm tra mạng, máy chiếu, tài khoản AI tại phòng thuyết trình
-- ☐ Tập dượt bấm giờ: kế hoạch có 108′ trình bày + 12′ thảo luận; khi tập, nói trong 100′ để còn 10′ dự phòng cho demo
-- ☐ Phiếu khảo sát đã gửi và tổng hợp; tài liệu phát tay đã in
-
----
-
-## 9. TÀI LIỆU ĐI KÈM
-
-### 9.1. Phiếu khảo sát trước buổi học
-Giữ như v1 (6 câu hỏi).
-
-### 9.2. Tài liệu phát tay (1 trang, 2 mặt)
-- **Mặt 1:** Quy trình giao việc 5 bước; quy tắc xanh/vàng/đỏ; năm quyết định của nhà khoa học; bảng chọn công cụ.
-- **Mặt 2:** **5 câu lệnh mẫu dùng ngay** (1.2 ma trận bằng chứng; 2.2 kiểm tra logic thuyết minh; 3.1 kiểm tra tiến độ; 4.2 rà soát dữ liệu; 5.2 phản biện bài báo) + mã QR tới thư mục tài liệu demo.
-
----
-
-## 10. PHƯƠNG ÁN DỰ PHÒNG
-
-| Rủi ro | Phương án |
-|---|---|
-| Mất mạng / công cụ AI không phản hồi | Video demo quay sẵn |
-| Demo chậm, vượt giờ | Dừng, chuyển ảnh chụp từ `ket-qua-mau/` |
-| Kết quả AI khi chạy trực tiếp khác kết quả mẫu | Biến thành điểm nói: "đây là lý do cần kiểm tra – so với kết quả tái lập bằng mã đã lưu" |
-| AI lại chọn sai phương pháp ngoại lệ | Tận dụng làm minh họa sống cho bài học ở Slide 15 |
-| Phần trước quá giờ | Rút gọn Slide 14, 16 (chỉ ảnh); Slide 2 chỉ nói kỹ thẻ ① và ②. Không cắt Slide 20–21 |
-| Bị hỏi sâu về các ví dụ Google | Trả lời theo "cách nói đúng mức" ở Slide 2; dẫn DOI Mục 7.1 |
-| Câu hỏi bảo mật, pháp lý vượt phạm vi | Ghi nhận, trả lời sau khi tham vấn bộ phận chuyên trách |
-
----
-
-## 11. NGUỒN THAM KHẢO
-
-### 11.1. Các ví dụ AI trong khoa học (Slide 2)
-- Tsoukalas G. et al. (2026). Advancing mathematics research with AI-driven formal proof search. *Science* 394(6820), 234–239. https://doi.org/10.1126/science.aej2213 — preprint: https://arxiv.org/abs/2605.22763
-- Penadés J.R., Gottweis J., … Costa T.R.D. (2025). AI mirrors experimental science to uncover a mechanism of gene transfer crucial to bacterial evolution. *Cell* 188(23), 6654–6665. https://doi.org/10.1016/j.cell.2025.08.018
-- He L. et al. (2025). Chimeric infective particles expand species boundaries in phage-inducible chromosomal island mobilization. *Cell*. https://doi.org/10.1016/j.cell.2025.08.019
-- Gottweis J. et al. (2026). Accelerating scientific discovery with Co-Scientist. *Nature*. https://doi.org/10.1038/s41586-026-10644-y — preprint "Towards an AI co-scientist": https://arxiv.org/abs/2502.18864
-- Imperial College London (2025). Google's AI co-scientist could enhance research, say Imperial researchers. https://www.imperial.ac.uk/news/261293/googles-ai-co-scientist-could-enhance-research/
-- Rizvi S.A. et al. (2025). Scaling Large Language Models for Next-Generation Single-Cell Analysis. bioRxiv. https://doi.org/10.1101/2025.04.14.648850
-- Google (2025). How a Gemma model helped discover a new potential cancer therapy pathway. https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/
-- Novikov A. et al. (2025). AlphaEvolve: A coding agent for scientific and algorithmic discovery. https://arxiv.org/abs/2506.13131 — blog: https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/
-- Aygün E. et al. (2026). An AI system to help scientists write expert-level empirical software. *Nature* 654, 909–916. https://doi.org/10.1038/s41586-026-10658-6 — preprint: https://arxiv.org/abs/2509.06503 — blog: https://research.google/blog/accelerating-scientific-discovery-with-ai-powered-empirical-software/
-
-### 11.2. Bối cảnh và số liệu chung
-- Stanford HAI – AI Index Report 2026: https://hai.stanford.edu/ai-index/2026-ai-index-report
-- METR (2025). Measuring AI Ability to Complete Long Tasks: https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/
-- GitHub Octoverse 2025: https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/
-- Stack Overflow Developer Survey 2025 – AI: https://survey.stackoverflow.co/2025/ai
-- Prithvi-EO-2.0: https://arxiv.org/abs/2412.02732
-- AlphaEarth Foundations: https://arxiv.org/abs/2507.22291
-- ECMWF – AI forecasts become operational: https://www.ecmwf.int/node/29308
-- Gemini Robotics: https://arxiv.org/abs/2503.20020
-- GNoME & A-Lab – Berkeley Lab: https://newscenter.lbl.gov/2023/11/29/google-deepmind-new-compounds-materials-project/
-
-### 11.3. Pháp lý Việt Nam
-- Luật Trí tuệ nhân tạo số 134/2025/QH15: https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm
-- Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15: https://vanban.chinhphu.vn/?pageid=27160&docid=214590&classid=1&typegroupid=3
-
-### 11.4. Chuyên môn tình huống A
-- ISO 9223:2012 – Corrosion of metals and alloys — Corrosivity of atmospheres — Classification, determination and estimation.
-- ISO 9224:2012 – Guiding values for the corrosivity categories (mô hình dài hạn).
-
-### 11.5. Khoa học mở và Skill (giữ từ v1, cần bổ sung URL – N17)
-- AI4S Open Science; AIPOCH Open Science; K-Dense Scientific Agent Skills; CES Global.
-- Wilkinson M.D. et al. (2016). The FAIR Guiding Principles. *Scientific Data*. https://www.nature.com/articles/sdata201618
-- UNESCO (2021). Recommendation on Open Science. https://www.unesco.org/en/open-science
-
----
-
-## 12. GIẢI NGHĨA THUẬT NGỮ (CHO NGƯỜI TRÌNH BÀY)
-
-Nguyên tắc: **trên slide dùng lời thường**; thuật ngữ chỉ xuất hiện khi cần, và lần đầu nói phải kèm câu giải nghĩa dưới đây.
-
-| Thuật ngữ | Nói bằng lời thường |
-|---|---|
-| AI tạo sinh | AI tạo ra nội dung mới – văn bản, hình ảnh, mã – như ChatGPT, Gemini, Claude |
-| AI Agent | AI được giao một nhiệm vụ, tự lập kế hoạch, dùng công cụ (tìm kiếm, chạy mã, đọc – ghi tệp) và tự kiểm tra cho đến khi xong |
-| Chatbot | AI hỏi – đáp trong một cuộc trò chuyện |
-| Skill | Một "quy trình mẫu" đóng gói sẵn (hướng dẫn + biểu mẫu + mã), AI tự dùng lại khi gặp việc tương tự |
-| Subagent / Multi-agent | Một trợ lý con được giao việc chuyên biệt / nhiều trợ lý phối hợp như một nhóm |
-| Prompt / câu lệnh | Đoạn văn bản người dùng viết để giao việc cho AI |
-| Mã nguồn mở | Phần mềm hoặc mô hình công bố công khai, ai cũng tải về, dùng và kiểm tra được |
-| Đánh giá hồi cứu | Chạy lại mô hình trên dữ liệu quá khứ để so sánh công bằng với các mô hình khác |
-| Kiểm chứng hình thức (Lean) | Máy kiểm tra từng bước của một chứng minh toán học; bước sai không thể qua |
-| TOW (thời gian ẩm ướt) | Số giờ trong năm bề mặt kim loại bị ẩm (theo ISO 9223: RH > 80% và T > 0 °C) |
-| Cấp ăn mòn C1–CX | Thang 6 mức độ ăn mòn của khí quyển theo ISO 9223 – C1 rất thấp, CX cực cao |
-| C = A·tⁿ | A: lượng kim loại mất trong năm đầu; n: tốc độ có chậm lại theo thời gian không (n < 1 → lớp gỉ che chắn dần) |
-| Ngoại lệ | Giá trị lệch bất thường so với các giá trị cùng điều kiện – có thể do lỗi đo, lỗi ghi, hoặc hiện tượng thật |
-| Mẫu lặp | Các mẫu giống hệt nhau, phơi cùng điều kiện, để kiểm tra độ lặp lại của phép đo |
-| Dữ liệu giả lập | Dữ liệu tạo ra có chủ đích để minh họa – không phải số đo thật |
+| N20 | Gói Claude (Free, Pro ~20 USD/tháng, Max 5×/20×, Team, Enterprise) và tính năng (dự án – Free tối đa 5; Research từ Pro; tìm kiếm web, viết – chạy mã, tạo tệp ở mọi gói) | 7, 8 | claude.com/pricing; support.claude.com (Pro, Max, Team, Enterprise plan; Projects) | ✅ – kiểm tra lại giá trước buổi thuyết trình |
+| N21 | Mô hình hiện hành: Haiku 5.5, Sonnet 5.5, Opus 5.5, Fable 5.1; Free có Haiku và Sonnet, Pro/Max thêm Opus và Fable | 7 | Anthropic Transparency Hub; Claude Academy – "Choosing the right Claude model" | ◐ – phân quyền theo gói từ Claude Academy |
+| N22 | Gói cá nhân: người dùng chọn có cho dùng hội thoại để cải thiện mô hình; Team, Enterprise, API: không dùng để huấn luyện theo mặc định | 7, 8 | support.claude.com; anthropic.com/product/enterprise; code.claude.com/docs/en/data-usage | ✅ – văn bản ràng buộc là Điều khoản thương mại |
+| N23 | Claude Science (beta, 06/2026): macOS, Linux; Windows chưa có bản riêng (chạy qua WSL 2); hơn 60 Skill và kết nối; gói Team cho nhà khoa học | 7 | anthropic.com/news/claude-science-ai-workbench; claude.com/docs/claude-science; support.claude.com – Claude Team plan for scientists | ◐ – tài liệu Anthropic chưa thống nhất về Windows |
