@@ -2,12 +2,12 @@
 __pycache__/
 *.pyc
 
-# Mô hình nhị phân sinh lại được khi chạy ma-nguon/nghien-cuu-an-mon/02_mo_hinh.py
-ket-qua/nghien-cuu-an-mon/mo_hinh.pkl
+# Mô hình nhị phân – sinh lại khi chạy du-an-nghien-cuu/04-ma-nguon/02_mo_hinh.py
+du-an-nghien-cuu/05-ket-qua/mo-hinh/mo_hinh.pkl
 
 # Biểu mẫu ĐÃ ĐIỀN nội dung thật = dữ liệu nhóm VÀNG – không bao giờ đưa lên GitHub
-du-lieu/3-bieu-mau-trung-tam/da-dien/*
-!du-lieu/3-bieu-mau-trung-tam/da-dien/.gitkeep
+du-an-nghien-cuu/02-de-xuat-thuyet-minh/bieu-mau-trung-tam/da-dien/*
+!du-an-nghien-cuu/02-de-xuat-thuyet-minh/bieu-mau-trung-tam/da-dien/.gitkeep
 
 # Tệp tạm của Office, hệ điều hành
 ~$*
