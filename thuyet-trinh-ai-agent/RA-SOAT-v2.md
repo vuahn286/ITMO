@@ -31,7 +31,7 @@
 | # | Vị trí | Câu cũ | Vấn đề | Câu mới |
 |---|---|---|---|---|
 | 1 | Slide 1 | "AI tạo sinh đạt 53% dân số chỉ sau 3 năm – nhanh hơn máy tính cá nhân và Internet" | (a) "đạt 53% dân số" sai ngữ pháp và không rõ là dân số nào; (b) "3 năm" không rõ tính từ mốc nào; (c) "nhanh hơn" – nhanh hơn ở điểm gì; (d) người nghe có thể không biết "AI tạo sinh" là gì | "Chỉ 3 năm sau khi ra mắt đại chúng, **khoảng một nửa dân số** đã dùng AI tạo sinh – nhanh hơn tốc độ phổ cập của máy tính cá nhân và Internet." Lời nói kèm theo giải thích AI tạo sinh, mốc ChatGPT cuối 2022, và nói rõ tỷ lệ khác nhau giữa các nước. Nguyên văn nguồn: *"gần 53% mức phổ cập trong dân số trong vòng 3 năm kể từ khi ra mắt đại chúng"* (AI Index 2026, Chương 4) |
-| 2 | Slide 1 | "độ dài công việc AI tự hoàn thành (đo bằng thời gian chuyên gia cần) tăng gấp đôi khoảng mỗi 7 tháng" | Câu trừu tượng, người nghe không hình dung được | "Năm 2019, AI chỉ tự làm được việc mà chuyên gia mất **vài giây**; đầu 2025, việc mà chuyên gia mất **gần 1 giờ**. Cứ khoảng 7 tháng, độ dài đó lại tăng gấp đôi." (METR: GPT-2 ≈ 2 giây; Claude 3.7 Sonnet ≈ 50–59 phút) |
+| 2 | Slide 1 | "độ dài công việc AI tự hoàn thành (đo bằng thời gian chuyên gia cần) tăng gấp đôi khoảng mỗi 7 tháng" | Câu trừu tượng, người nghe không hình dung được | "AI tự làm được những việc mà chuyên gia cần: **vài giây** (2019) → **gần 1 giờ** (đầu 2025) → **khoảng 12 giờ** (đầu 2026) → **hơn 16 giờ** (giữa 2026). Từ 2024, cứ khoảng **3–4 tháng** độ dài này lại tăng gấp đôi." (METR: GPT-2 ≈ 2 giây; Claude 3.7 Sonnet ≈ 50–59 phút; mô hình công khai mạnh nhất 02–03/2026 ≈ 12 giờ; Claude Mythos Preview 05/2026 ≥ 16 giờ; gấp đôi mỗi 105 ngày cho mô hình từ 2024) |
 | 3 | Slide 1 | "đạt chuẩn huy chương vàng IMO 2025" | "IMO" không phải ai cũng biết | "AI giải được 5/6 bài thi Olympic Toán quốc tế 2025 – đạt mức huy chương vàng" |
 | 4 | Slide 2 ① | "9/353 bài toán Erdős… 44/492 giả thuyết OEIS… kiểm chứng hình thức bằng Lean" | Ba thuật ngữ toán học/tin học liền nhau | Thêm giải thích: bài toán mở do Paul Erdős để lại; "bách khoa toàn thư dãy số"; "trọng tài máy" kiểm tra từng bước |
 | 5 | Slide 2 ② | "cơ chế cf-PICI 'mượn đuôi phage'" | Thuật ngữ vi sinh hẹp | "Một loại đoạn gen di động tự tạo 'vỏ' nhưng 'mượn đuôi' của nhiều loại virus để xâm nhập nhiều loài vi khuẩn – giải thích vì sao gen kháng kháng sinh lan giữa các loài" |
@@ -52,6 +52,7 @@
 | 5 | Slide 1 | Chỉ nêu Google đạt IMO – chưa trung lập công cụ (OpenAI cũng công bố kết quả tương tự) | Ghi cả hai |
 | 6 | Slide 3 | AlphaFold chưa có mã nguồn trong bảng căn cứ | Thêm N4 |
 | 7 | Mục 6 | "Luật Bảo vệ bí mật nhà nước 2018" thiếu số hiệu | "số 29/2018/QH14" |
+| 8 | Slide 1 | Số liệu METR dừng ở đầu 2025 – đã cũ so với thời điểm thuyết trình (10/2026); bản v2.0 còn ghi nhầm câu "4 tháng từ 2023" của v1 là sai | Cập nhật đến 05/2026 (≈ 12 giờ → ≥ 16 giờ; gấp đôi mỗi 3–4 tháng từ 2024); đính chính nhận định về v1 |
 
 ### 2.3. Phù hợp đối tượng và thời lượng
 

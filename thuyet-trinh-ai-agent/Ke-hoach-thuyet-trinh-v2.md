@@ -50,7 +50,7 @@
 | 3 | Ý "nhà khoa học dùng AI viết và chạy mã để xử lý dữ liệu" được đặt ở **Slide 15**, mở đầu bằng ví dụ thật của Google (Nature, 05/2026) rồi vào Demo 2 | Giữ ý chính, đặt đúng chỗ |
 | 4 | Slide 12–16 trình bày theo khung: **ví dụ thực tế → câu lệnh → dữ liệu → kết quả mong đợi → gợi ý lời nói → điểm xác nhận** | Theo yêu cầu: có câu lệnh, dữ liệu, gợi ý nói |
 | 5 | Chốt tình huống A; **đã dựng dữ liệu, đã chạy thử, có kết quả mẫu** | Demo chạy được ngay trên Claude |
-| 6 | Sửa số liệu METR (v1 ghi "~4 tháng từ 2023" – **không đúng nguồn**); SWE-bench ghi đúng theo AI Index | Căn cứ phải chính xác |
+| 6 | Cập nhật số liệu METR đến 2026 (v2.1: đính chính – câu "~4 tháng từ 2023" của v1 **có căn cứ**: METR Time Horizon 1.1 cho 131 ngày ≈ 4,3 tháng kể từ 2023); SWE-bench ghi đúng theo AI Index | Căn cứ phải chính xác |
 | 7 | Mục 7 chuyển từ "danh mục cần xác minh" thành **bảng căn cứ đã xác minh**, có nguồn gốc cho từng số liệu | Căn cứ đầy đủ |
 | 8 | **v2.1:** Viết lại Slide 1 bằng lời thường (câu "53% dân số" sửa theo nguyên văn nguồn); thêm phần "giải thích dễ hiểu" cho 5 ví dụ Slide 2; Slide 3 bỏ thuật ngữ (embedding, VLA…); sửa "hàm mũ" → "hàm lũy thừa"; nêu rõ ERA là đánh giá hồi cứu; sửa trích dẫn Penadés; thêm ô "Kết quả với dữ liệu thật" ở Slide 15; thêm Mục 12 – Giải nghĩa thuật ngữ | Rà soát ngày 21/10/2026 |
 
@@ -110,15 +110,17 @@ Phần I chi tiết: Slide 1 (4′) – **Slide 2 (7′)** – Slide 3 (5′) �
 |---|---|---|
 | **≈ 1/2** | "Chỉ 3 năm sau khi ra mắt đại chúng, **khoảng một nửa dân số** đã dùng AI tạo sinh – nhanh hơn tốc độ phổ cập của máy tính cá nhân và Internet." [N1] | "AI tạo sinh là loại AI viết được văn bản, vẽ hình… như ChatGPT, Gemini, Claude. ChatGPT ra mắt cuối 2022; đến năm 2025, theo ước tính của Đại học Stanford, khoảng 53% dân số đã dùng. Máy tính cá nhân và Internet mất nhiều năm hơn để phổ biến đến mức đó. Tỷ lệ này chênh lệch lớn giữa các nước." |
 | **5/6 bài** | "AI giải được **5/6 bài thi Olympic Toán quốc tế 2025** – đạt mức huy chương vàng." [N2] | "Đây là kỳ thi dành cho học sinh giỏi toán nhất thế giới; AI viết lời giải bằng ngôn ngữ tự nhiên, được chấm như thí sinh (35/42 điểm). Cả Google và OpenAI đều công bố kết quả này." |
-| **×2 mỗi 7 tháng** | "Năm 2019, AI chỉ tự làm được việc mà chuyên gia mất **vài giây**; đầu 2025, việc mà chuyên gia mất **gần 1 giờ**. Cứ khoảng **7 tháng**, độ dài đó lại **tăng gấp đôi**." [N3] | "Độ dài công việc được đo bằng thời gian một chuyên gia cần để làm xong; AI được tính là 'làm được' nếu thành công ít nhất một nửa số lần." |
+| **Vài giây → hơn 16 giờ** | "AI tự làm được những việc mà chuyên gia cần: **vài giây** (2019) → **gần 1 giờ** (đầu 2025) → **khoảng 12 giờ** (đầu 2026) → **hơn 16 giờ** (giữa 2026). Từ 2024, cứ khoảng **3–4 tháng** độ dài này lại **tăng gấp đôi**." [N3] | "Độ dài công việc được đo bằng thời gian một chuyên gia cần để làm xong; AI được tính là 'làm được' nếu thành công ít nhất một nửa số lần. Giai đoạn 2019–2025, cứ 7 tháng tăng gấp đôi; từ 2024 tốc độ nhanh gấp đôi. Đến giữa 2026, mô hình mạnh nhất đã vượt quá khả năng đo của bộ bài kiểm tra (16 giờ)." |
 
 > ⚠ Không viết "53% dân số thế giới" – nguồn gốc dùng cách nói "mức phổ cập trong dân số", và tỷ lệ khác nhau nhiều giữa các nước.
+>
+> ⚠ Về ô "16 giờ": METR ghi rõ các số đo trên 16 giờ **không còn tin cậy** với bộ bài kiểm tra hiện tại, nên nói "**hơn 16 giờ**", không nói một con số cụ thể lớn hơn. Số "12 giờ" có khoảng tin cậy rộng (5–61 giờ). Trước ngày thuyết trình, xem lại trang https://metr.org/time-horizons/ – nếu METR đã công bố bộ bài kiểm tra mới, cập nhật số mới nhất. METR cũng lưu ý: "làm được 50% số lần" không có nghĩa là giao hẳn việc dài 16 giờ cho AI.
 
 **Hình ảnh:** Biểu đồ METR (trục tung logarit) + 3 ô số liệu lớn.
 
 **Câu chốt:** "Chỉ trong vài năm, AI đi từ trả lời câu hỏi đến tự thực hiện những công việc kéo dài nhiều giờ."
 
-> ⚠ Không dùng câu "rút còn 4 tháng từ 2023" của v1. Con số ~4 tháng là **trung vị trên 9 bộ đánh giá khác** trong phân tích bổ sung của METR (07/2025), không phải xu hướng từ 2023 [N3].
+> **Đính chính (v2.1):** bản v2.0 ghi câu "rút còn 4 tháng từ 2023" của v1 là sai nguồn – nhận định đó chưa đúng. Theo METR Time Horizon 1.1 (01/2026), thời gian tăng gấp đôi kể từ 2023 là 131 ngày (≈ 4,3 tháng); kể từ 2024 là 89–105 ngày (≈ 3–3,5 tháng). Trên slide dùng cách nói "từ 2024, cứ khoảng 3–4 tháng" [N3].
 
 ---
 
@@ -524,7 +526,7 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N1 | Nguyên văn: "gần **53% mức phổ cập trong dân số** trong vòng **3 năm kể từ khi ra mắt đại chúng**, nhanh hơn máy tính cá nhân hay Internet"; tỷ lệ khác nhau nhiều giữa các nước. SWE-bench Verified 60% → gần 100% trong 1 năm | 1, 23 | Stanford HAI, *AI Index Report 2026*, Chương 4 – Kinh tế (13/04/2026) | ✅ (53%) / ◐ (SWE-bench) |
 | N1b | 88% tổ chức dùng AI cho ít nhất một chức năng | (tùy chọn) | Báo chí tóm tắt AI Index 2026 | ◐ – kiểm tra bản gốc trước khi dùng |
 | N2 | Gemini Deep Think đạt chuẩn vàng IMO 2025, 5/6 bài, 35/42 điểm; OpenAI công bố kết quả tương tự | 1 | Google DeepMind (07/2025); xác nhận của Ban tổ chức IMO | ◐ |
-| N3 | Độ dài tác vụ (thành công 50%) tăng gấp đôi ~7 tháng (2019 – đầu 2025): GPT-2 (2019) ≈ 2 giây → Claude 3.7 Sonnet (02/2025) ≈ 50–59 phút; ~4 tháng là trung vị 9 bộ đánh giá khác (07/2025) | 1 | METR, "Measuring AI Ability to Complete Long Tasks" (19/03/2025, arXiv:2503.14499) và phân tích bổ sung 07/2025 | ✅ |
+| N3 | Độ dài tác vụ (thành công 50%): GPT-2 (2019) ≈ 2 giây → Claude 3.7 Sonnet (02/2025) ≈ 50–59 phút → mô hình công khai mạnh nhất (02–03/2026) ≈ 12 giờ [5–61 giờ] → Claude Mythos Preview (05/2026) ≥ 16 giờ (giới hạn đo). Thời gian tăng gấp đôi: ~7 tháng (2019–2025, dài hạn); **105 ngày ≈ 3,5 tháng** cho mô hình ra mắt từ 01/2024 (R² = 0,98) | 1 | METR: "Measuring AI Ability to Complete Long Tasks" (19/03/2025, arXiv:2503.14499); "Time Horizon 1.1" (29/01/2026); "Frontier Risk Report (Feb–Mar 2026)" (19/05/2026); trang metr.org/time-horizons (cập nhật 08/05/2026) | ✅ – xem lại trang METR ngay trước buổi thuyết trình |
 | N4 | AlphaFold – Giải Nobel Hóa học 2024 (Hassabis, Jumper; cùng David Baker) | 3 | nobelprize.org | ✅ (nguồn kinh điển) |
 | N5 | Prithvi-EO-2.0: 300M/600M tham số, 4,2 triệu mẫu HLS, mã nguồn mở | 3 | arXiv:2412.02732 | ✅ |
 | N6 | AlphaEarth Foundations: embedding 10 m, hằng năm 2017–2024 | 3 | arXiv:2507.22291; Google Earth Engine catalog | ✅ |
