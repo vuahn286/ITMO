@@ -9,6 +9,7 @@
 | `Ke-hoach-thuyet-trinh-v2.md` | Kế hoạch đầy đủ; **Mục 7 – bảng căn cứ** (nguồn mọi số liệu trên slide) |
 | `DE-XUAT-BO-SUNG-v2.4.md` (+ `.docx`) | Đề xuất theo góp ý gần nhất |
 | `RA-SOAT-v2.md` | Rà soát ngôn ngữ, độ chính xác |
+| `ke-hoach-hoi-thao/` | **Phụ lục định hướng trình bày** kèm Kế hoạch tổ chức hội thảo (.docx) |
 | `TAI-LIEU-PHAT-TAY.md` (+ `.docx`) | Tài liệu phát tay: phần chi tiết không chiếu trên slide, giải nghĩa thuật ngữ |
 | `DANH-GIA-REVIEWER.md` (+ `.docx`) | Đánh giá của người phản biện: mức khả quan, mức tiếp thu theo phần, rủi ro demo, đề xuất điều chỉnh |
 | `luu-tru/` | Kế hoạch v1 (bản gốc) |
