@@ -22,28 +22,28 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | # | Tên slide | Phần | Thời lượng | Duyệt |
 |---|---|---|---|---|
 | – | Trang bìa | – | – | [ ] |
-| 1 | AI đang phát triển nhanh đến mức nào? | I | 4′ | [ ] |
-| 2 | AI trong các lĩnh vực khoa học: quốc tế và Việt Nam | I | 5′ | [ ] |
-| 3 | Năng lực cốt lõi của AI: từ trả lời đến thực hiện | I | 6′ | [ ] |
-| 4 | Phương thức nghiên cứu đang thay đổi | I | 4′ | [ ] |
-| 5 | Công việc nào cần chatbot, công việc nào cần AI Agent? | II | 5′ | [ ] |
-| 6 | Các công cụ AI và vai trò khác nhau | II | 4′ | [ ] |
-| 7 | Claude là gì? Các tính năng nổi bật | II | 7′ | [ ] |
-| 8 | Dùng Claude cơ bản: 6 bước đầu tiên | II | 7′ | [ ] |
-| 9 | Một cách giao việc chung cho các công cụ AI Agent | II | 6′ | [ ] |
-| 10 | Tổ chức một không gian làm việc nghiên cứu | II | 3′ | [ ] |
+| 1 | AI phát triển nhanh đến mức nào: những con số mới nhất | I | 4′ | [ ] |
+| 2 | AI trong khoa học: ví dụ quốc tế và Việt Nam | I | 5′ | [ ] |
+| 3 | Năng lực cốt lõi và tính năng mới của AI Agent | I | 6′ | [ ] |
+| 4 | Phương thức nghiên cứu đang thay đổi: từ thao tác thủ công đến quy trình liên tục | I | 4′ | [ ] |
+| 5 | Chọn đúng công cụ: việc nào dùng chatbot, việc nào cần AI Agent | II | 5′ | [ ] |
+| 6 | Các công cụ AI phổ biến và vai trò của từng loại | II | 4′ | [ ] |
+| 7 | Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows | II | 7′ | [ ] |
+| 8 | Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn | II | 7′ | [ ] |
+| 9 | Giao việc cho AI Agent: cách viết yêu cầu 5 bước | II | 6′ | [ ] |
+| 10 | Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án | II | 3′ | [ ] |
 | 11 | Skill, Subagent và hệ thống nhiều Agent | II | 3′ | [ ] |
-| 12 | Từ tài liệu đến khoảng trống nghiên cứu | III | 7′ | [ ] |
-| 13 | Từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 với biểu mẫu thật của Trung tâm | III | 7′ | [ ] |
-| 14 | Thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm | III | 5′ | [ ] |
-| 15 | Xử lý dữ liệu bằng mã Python – DEMO 2 | III | 8′ | [ ] |
-| 16 | 🆕 Dựng mô hình 3D mô tả quá trình ăn mòn | III | 3′ | [ ] |
-| 17 | 🆕 Đề tài có dữ liệu mật: AI viết công cụ, máy không Internet xử lý dữ liệu – DEMO 3 | III | 5′ | [ ] |
-| 18 | Xây dựng bài báo và báo cáo tổng hợp kết quả | III | 5′ | [ ] |
+| 12 | Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu | III | 7′ | [ ] |
+| 13 | Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 7′ | [ ] |
+| 14 | Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm | III | 5′ | [ ] |
+| 15 | Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 | III | 8′ | [ ] |
+| 16 | Mô hình 3D: mô phỏng quá trình ăn mòn vật liệu theo thời gian | III | 3′ | [ ] |
+| 17 | Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet – DEMO 3 | III | 5′ | [ ] |
+| 18 | Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng | III | 5′ | [ ] |
 | 19 | Toàn cảnh: một nhiệm vụ khoa học đi qua AI Agent | III | 2′ | [ ] |
 | 20 | Skill và khoa học mở: nền móng của tự động hóa | IV | 6′ | [ ] |
-| 21 | Ứng dụng khoa học mở và tự động hóa từng bước đến toàn trình | IV | 5′ | [ ] |
-| 22 | Bản đồ quy trình tự động của Trung tâm và năm quyết định của nhà khoa học | IV | 4′ | [ ] |
+| 21 | Tự động hóa từng bước: từ một công việc đến toàn quy trình | IV | 5′ | [ ] |
+| 22 | Quy trình tự động của Trung tâm và năm quyết định của nhà khoa học | IV | 4′ | [ ] |
 | 23 | Trao đổi và thảo luận | IV | 9′ | [ ] |
 | 24 | Phụ lục A: AI lập trình (không trình bày) | IV | – | [ ] |
 | 25 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | IV | – | [ ] |
@@ -69,7 +69,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-## Slide 1 – AI đang phát triển nhanh đến mức nào? (4′)
+## Slide 1 – AI phát triển nhanh đến mức nào: những con số mới nhất (4′)
 
 **Chữ trên slide:** 3 ô số liệu lớn
 
@@ -92,7 +92,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-## Slide 2 – AI trong các lĩnh vực khoa học: quốc tế và Việt Nam (5′)
+## Slide 2 – AI trong khoa học: ví dụ quốc tế và Việt Nam (5′)
 
 **Chữ trên slide:**
 
@@ -113,7 +113,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-## Slide 3 – Năng lực cốt lõi của AI: từ trả lời đến thực hiện (6′)
+## Slide 3 – Năng lực cốt lõi và tính năng mới của AI Agent (6′)
 
 **Chữ trên slide:**
 
@@ -154,7 +154,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 4 – Phương thức nghiên cứu đang thay đổi (4′)
+## Slide 4 – Phương thức nghiên cứu đang thay đổi: từ thao tác thủ công đến quy trình liên tục (4′)
 
 **Chữ trên slide:**
 
@@ -177,7 +177,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 5 – Công việc nào cần chatbot, công việc nào cần AI Agent? (5′)
+## Slide 5 – Chọn đúng công cụ: việc nào dùng chatbot, việc nào cần AI Agent (5′)
 
 **Chữ trên slide:** bản đồ công việc nghiên cứu theo 5 bậc – càng lên cao càng phức tạp, tốn thời gian và chi phí *(🆕 v2.4: mở rộng từ 5 lên 20 công việc)*
 
@@ -196,7 +196,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 6 – Các công cụ AI và vai trò khác nhau (4′)
+## Slide 6 – Các công cụ AI phổ biến và vai trò của từng loại (4′)
 
 **Chữ trên slide:** *(cập nhật 10/2026)*
 
@@ -216,7 +216,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 7 – Claude là gì? Các tính năng nổi bật (7′)
+## Slide 7 – Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows (7′)
 
 **Chữ trên slide:**
 - **Claude** – trợ lý AI của công ty Anthropic (Mỹ). Trên máy tính Windows có hai cách dùng: **trình duyệt web (claude.ai)** hoặc **ứng dụng Claude cho Windows**; hội thoại và dự án đồng bộ giữa hai cách.
@@ -251,7 +251,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 8 – Dùng Claude cơ bản: 6 bước đầu tiên (7′)
+## Slide 8 – Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn (7′)
 
 **Chữ trên slide:**
 
@@ -305,7 +305,7 @@ AI cần phát hiện: tệp 1 ghi đơn vị chưa rõ/sai (giá trị thực l
 
 ---
 
-## Slide 9 – Một cách giao việc chung cho các công cụ AI Agent (6′)
+## Slide 9 – Giao việc cho AI Agent: cách viết yêu cầu 5 bước (6′)
 
 **Chữ trên slide:** quy trình 5 bước
 
@@ -337,7 +337,7 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 
 ---
 
-## Slide 10 – Tổ chức một không gian làm việc nghiên cứu (3′)
+## Slide 10 – Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án (3′)
 
 **Chữ trên slide:** *Mỗi nhiệm vụ khoa học – một dự án* (cách tạo dự án: xem Slide 8)
 
@@ -394,7 +394,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 12 – Từ tài liệu đến khoảng trống nghiên cứu (7′)
+## Slide 12 – Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu (7′)
 
 **Chữ trên slide:**
 - **Tình huống:** ăn mòn khí quyển của kim loại trong khí hậu nhiệt đới Việt Nam
@@ -431,7 +431,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 13 – Từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 với biểu mẫu thật của Trung tâm (7′)
+## Slide 13 – Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 (7′)
 
 **Chữ trên slide:**
 - Khoảng trống → tính cấp thiết, mục tiêu, nội dung, phương pháp, sản phẩm
@@ -458,7 +458,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 14 – Thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm (5′)
+## Slide 14 – Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm (5′)
 
 **Chữ trên slide:**
 - 🆕 **Demo:** đưa biểu mẫu thuyết minh – tiến độ – dự toán của Trung tâm vào dự án
@@ -484,7 +484,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 15 – Xử lý dữ liệu bằng mã Python – DEMO 2 (8′)
+## Slide 15 – Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 (8′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** ERA (Google, *Nature* 2026) – AI tự viết, chạy, chấm điểm, cải tiến mã
@@ -506,7 +506,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 16 – Dựng mô hình 3D mô tả quá trình ăn mòn (3′) 🆕
+## Slide 16 – Mô hình 3D: mô phỏng quá trình ăn mòn vật liệu theo thời gian (3′)
 
 **Chữ trên slide:**
 - **Từ con số đến hình ảnh:** AI viết mã dựng mô hình 3D tương tác – mở bằng trình duyệt, xoay, phóng to, bấm ▶ để xem ăn mòn diễn ra theo từng năm
@@ -534,7 +534,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 17 – Đề tài có dữ liệu mật: AI viết công cụ, máy không Internet xử lý dữ liệu – DEMO 3 (5′) 🆕
+## Slide 17 – Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet – DEMO 3 (5′)
 
 **Chữ trên slide:**
 - **Nguyên tắc: AI viết công cụ – AI không bao giờ thấy dữ liệu thật**
@@ -563,7 +563,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 18 – Xây dựng bài báo và báo cáo tổng hợp kết quả (5′)
+## Slide 18 – Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng (5′)
 
 **Chữ trên slide:**
 - 🆕 **Một kết quả – nhiều định dạng công bố:**
@@ -639,7 +639,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 21 – Ứng dụng khoa học mở và tự động hóa từng bước đến toàn trình (5′)
+## Slide 21 – Tự động hóa từng bước: từ một công việc đến toàn quy trình (5′)
 
 **Chữ trên slide:**
 
@@ -668,7 +668,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 22 – Bản đồ quy trình tự động của Trung tâm và năm quyết định của nhà khoa học (4′)
+## Slide 22 – Quy trình tự động của Trung tâm và năm quyết định của nhà khoa học (4′)
 
 **Chữ trên slide:**
 

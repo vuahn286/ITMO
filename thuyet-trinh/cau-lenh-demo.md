@@ -270,7 +270,7 @@ huấn luyện – kiểm định (cột tap) có độc lập không. Báo cáo
 
 # BỔ SUNG – MÔ HÌNH 3D VÀ CÔNG CỤ CHO MÁY KHÔNG INTERNET
 
-## 12. Slide 16 – Dựng mô hình 3D mô tả quá trình ăn mòn
+## 12. Slide 16 – Mô hình 3D: mô phỏng quá trình ăn mòn vật liệu theo thời gian
 
 **Chuẩn bị:** dự án trên Claude có tệp `du-an-nghien-cuu/05-ket-qua/bang/du_doan_hieu_chinh_VN_RU.csv`.
 
@@ -297,7 +297,7 @@ Cấp C3, sau 30 năm (tốc độ giữa khoảng C3): thép ≈ 218 µm · k�
 
 **Gợi ý:** nếu AI không tự ghi phần "minh họa – tham số giả định" → hỏi lại: *"Phần nào trong hình có căn cứ đo đạc, phần nào là giả định?"* – đây là điểm nhấn của slide.
 
-## 13. Slide 17 – Đề tài có dữ liệu mật: AI viết công cụ, máy không Internet xử lý (DEMO 3)
+## 13. Slide 17 – Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet (DEMO 3)
 
 **Nguyên tắc:** chỉ mô tả **cấu trúc** dữ liệu. Không đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
 
