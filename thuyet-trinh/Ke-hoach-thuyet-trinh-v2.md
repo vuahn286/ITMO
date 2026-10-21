@@ -102,10 +102,10 @@
 
 | Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
-| I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 19 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 35 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (3 demo, mô hình 3D) | 12–19 | 42 phút |
-| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 20–22 | 15 phút |
+| I | Tổng quan về trí tuệ nhân tạo và xu thế chuyển đổi phương thức nghiên cứu khoa học | 1–4 | 19 phút |
+| II | Lựa chọn, khai thác và sử dụng công cụ trí tuệ nhân tạo | 5–11 | 35 phút |
+| III | Ứng dụng tác tử trí tuệ nhân tạo trong chu trình thực hiện nhiệm vụ khoa học và công nghệ (3 minh họa thực nghiệm, mô hình 3D) | 12–19 | 42 phút |
+| IV | Kỹ năng, khoa học mở và tự động hóa quy trình nghiên cứu | 20–22 | 15 phút |
 | – | Trao đổi, thảo luận | 23 | 9 phút |
 | – | Phụ lục (không trình bày) | 24–27 | – |
 | | **Tổng cộng** | **23 slide + 4 phụ lục** | **120 phút** |
