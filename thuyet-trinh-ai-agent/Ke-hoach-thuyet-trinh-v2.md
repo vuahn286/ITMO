@@ -8,7 +8,7 @@
 **Ngày thuyết trình:** ____ / ____ / ______
 **Phiên bản:** 2.3 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
 
-> **Bản v2.3 (21/10/2026):** thêm 2 slide vào Phần II – "Claude là gì? Mô hình, gói dịch vụ và công cụ cho nhà khoa học" (Slide 7) và "Dùng Claude cơ bản: 6 bước đầu tiên" (Slide 8). Từ Slide 7 trở đi, **số slide ở bảng đối chiếu dưới đây cộng thêm 2** (ví dụ: v2.2 số 7 → v2.3 số 9). Thời lượng: Phần I 18′, II 37′, III 38′, IV 17′, thảo luận 10′. Chi tiết: `DANH-SACH-SLIDE.md`.
+> **Bản v2.3 (21/10/2026):** thêm 2 slide vào Phần II – "Claude là gì? Mô hình và gói dịch vụ" (Slide 7) – chỉ giới thiệu cách dùng trên Windows (trình duyệt, ứng dụng Claude cho Windows) và "Dùng Claude cơ bản: 6 bước đầu tiên" (Slide 8). Từ Slide 7 trở đi, **số slide ở bảng đối chiếu dưới đây cộng thêm 2** (ví dụ: v2.2 số 7 → v2.3 số 9). Thời lượng: Phần I 18′, II 37′, III 38′, IV 17′, thảo luận 10′. Chi tiết: `DANH-SACH-SLIDE.md`.
 >
 > **Bản v2.2 (21/10/2026) – bố cục slide mới, xem `DANH-SACH-SLIDE.md` (tệp này là bố cục chính thức):**
 > - **Bỏ Slide 2** (ví dụ Google) khỏi phần trình bày; nội dung chuyển xuống **Phụ lục B** để dùng khi được hỏi. Hai ví dụ AI co-scientist và ERA vẫn được nêu tại slide tài liệu (mới 11) và slide Demo 2 (mới 14).
@@ -563,4 +563,4 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N20 | Gói Claude (Free, Pro ~20 USD/tháng, Max 5×/20×, Team, Enterprise) và tính năng (dự án – Free tối đa 5; Research từ Pro; tìm kiếm web, viết – chạy mã, tạo tệp ở mọi gói) | 7, 8 | claude.com/pricing; support.claude.com (Pro, Max, Team, Enterprise plan; Projects) | ✅ – kiểm tra lại giá trước buổi thuyết trình |
 | N21 | Mô hình hiện hành: Haiku 5.5, Sonnet 5.5, Opus 5.5, Fable 5.1; Free có Haiku và Sonnet, Pro/Max thêm Opus và Fable | 7 | Anthropic Transparency Hub; Claude Academy – "Choosing the right Claude model" | ◐ – phân quyền theo gói từ Claude Academy |
 | N22 | Gói cá nhân: người dùng chọn có cho dùng hội thoại để cải thiện mô hình; Team, Enterprise, API: không dùng để huấn luyện theo mặc định | 7, 8 | support.claude.com; anthropic.com/product/enterprise; code.claude.com/docs/en/data-usage | ✅ – văn bản ràng buộc là Điều khoản thương mại |
-| N23 | Claude Science (beta, 06/2026): macOS, Linux; Windows chưa có bản riêng (chạy qua WSL 2); hơn 60 Skill và kết nối; gói Team cho nhà khoa học | 7 | anthropic.com/news/claude-science-ai-workbench; claude.com/docs/claude-science; support.claude.com – Claude Team plan for scientists | ◐ – tài liệu Anthropic chưa thống nhất về Windows |
+| N23 | Gói Team cho nhà khoa học: ưu đãi cho nhóm nghiên cứu của trường đại học, viện nghiên cứu phi lợi nhuận (chủ nhiệm nhóm đăng ký). *Claude Science không đưa vào bài vì chưa có bản Windows.* | 7 | support.claude.com – Claude Team plan for scientists | ✅ – kiểm tra điều kiện áp dụng với Trung tâm |

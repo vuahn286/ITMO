@@ -2,7 +2,7 @@
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
 **Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 22 slide trình bày + 4 phụ lục + trang bìa
-**Căn cứ:** Kế hoạch v2.1 (`Ke-hoach-thuyet-trinh-v2.md`) · **Bản v2.3 (21/10/2026):** thêm 2 slide giới thiệu Claude và cách dùng cơ bản (Slide 7, 8). Bản v2.2: bỏ slide ví dụ Google (chuyển Phụ lục B); 5 quyết định của nhà khoa học gộp vào Slide 19, căn cứ pháp lý gộp vào Slide 9, thông điệp Phần III ở Slide 17. **Tệp này là bố cục slide chính thức.**
+**Căn cứ:** Kế hoạch v2.1 (`Ke-hoach-thuyet-trinh-v2.md`) · **Bản v2.3 (21/10/2026):** thêm 2 slide giới thiệu Claude và cách dùng cơ bản trên Windows (Slide 7, 8). Bản v2.2: bỏ slide ví dụ Google (chuyển Phụ lục B); 5 quyết định của nhà khoa học gộp vào Slide 19, căn cứ pháp lý gộp vào Slide 9, thông điệp Phần III ở Slide 17. **Tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -30,7 +30,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | 4 | Phương thức nghiên cứu đang thay đổi | I | 4′ | [ ] |
 | 5 | Công việc nào cần chatbot, công việc nào cần AI Agent? | II | 4′ | [ ] |
 | 6 | Các công cụ AI và vai trò khác nhau | II | 5′ | [ ] |
-| 7 | Claude là gì? Mô hình, gói dịch vụ và công cụ cho nhà khoa học | II | 5′ | [ ] |
+| 7 | Claude là gì? Mô hình và gói dịch vụ | II | 5′ | [ ] |
 | 8 | Dùng Claude cơ bản: 6 bước đầu tiên | II | 7′ | [ ] |
 | 9 | Một cách giao việc chung cho các công cụ AI | II | 6′ | [ ] |
 | 10 | Tổ chức một không gian làm việc nghiên cứu | II | 5′ | [ ] |
@@ -227,10 +227,10 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 7 – Claude là gì? Mô hình, gói dịch vụ và công cụ cho nhà khoa học (5′)
+## Slide 7 – Claude là gì? Mô hình và gói dịch vụ (5′)
 
 **Chữ trên slide:**
-- **Claude** – trợ lý AI của công ty Anthropic (Mỹ). Dùng trên **trình duyệt (claude.ai)**, **ứng dụng máy tính** (Windows, macOS) và **điện thoại**; hội thoại, dự án đồng bộ giữa các thiết bị.
+- **Claude** – trợ lý AI của công ty Anthropic (Mỹ). Trên máy tính Windows có hai cách dùng: **trình duyệt web (claude.ai)** hoặc **ứng dụng Claude cho Windows**; hội thoại và dự án đồng bộ giữa hai cách.
 - **Bốn mô hình** *(cập nhật 10/2026)*:
 
 | Mô hình | Dùng khi | Gói |
@@ -249,25 +249,21 @@ Sáu năng lực cốt lõi:
 | Max | Hạn mức sử dụng gấp 5 hoặc 20 lần Pro |
 | Team / Enterprise | Cho tổ chức: chia sẻ dự án, quản trị tập trung; **dữ liệu không dùng để huấn luyện mô hình theo mặc định** |
 
-- **Dành riêng cho nhà khoa học:**
-  - **Claude Science** (bản thử nghiệm, từ 06/2026; gói trả phí): ứng dụng máy tính cho nghiên cứu, chạy trên **macOS và Linux** – máy Windows chưa có bản riêng, chạy bản Linux qua WSL 2 – hơn 60 Skill và kết nối sẵn (gen, protein, hóa tin…); tự viết và chạy mã Python/R; mỗi kết quả lưu kèm mã, môi trường và lịch sử để tái lập; có "trợ lý phản biện" tự kiểm tra trích dẫn sai, số liệu không truy được nguồn.
-  - **Gói Team cho nhà khoa học:** ưu đãi cho nhóm nghiên cứu của trường đại học và viện nghiên cứu phi lợi nhuận (chủ nhiệm nhóm đăng ký).
+- **Gói Team cho nhà khoa học:** ưu đãi cho nhóm nghiên cứu của trường đại học và viện nghiên cứu phi lợi nhuận (chủ nhiệm nhóm đăng ký).
 
 > *Công cụ tương đương:* ChatGPT (OpenAI), Gemini (Google) – đều có mô hình nhiều mức, gói miễn phí – trả phí – tổ chức.
 
-**Hình ảnh:** ảnh chụp giao diện claude.ai (màn hình chính, nút chọn mô hình); ảnh giao diện Claude Science.
+**Hình ảnh:** ảnh chụp giao diện claude.ai và ứng dụng Claude cho Windows (màn hình chính, nút chọn mô hình).
 
 **Lời nói:**
 - "Chọn mô hình như chọn người làm việc: việc nhanh giao Haiku, việc hằng ngày dùng Sonnet, việc khó dùng Opus hoặc Fable."
 - "Với dữ liệu: gói cá nhân (Free, Pro, Max) – người dùng tự chọn có cho dùng hội thoại để cải thiện mô hình hay không, trong phần cài đặt quyền riêng tư; gói tổ chức (Team, Enterprise) – mặc định không dùng để huấn luyện. Dù gói nào, **dữ liệu đỏ vẫn không đưa lên**."
-- Claude Science: "Đây đúng là hướng 'AI làm khoa học' – nhưng Anthropic cũng ghi rõ: công cụ giảm sai sót chứ không loại bỏ hết, kết quả phải được kiểm tra; không dùng cho chẩn đoán lâm sàng."
 
 **Lưu ý trước khi trình bày:**
 - Kiểm tra lại giá, tên mô hình và gói tại claude.com/pricing (thay đổi thường xuyên).
-- Claude Science trên Windows: hiện chưa có bản riêng (đã kiểm tra thực tế); tài liệu của Anthropic chưa thống nhất – kiểm tra lại claude.com/product/claude-science trước buổi thuyết trình.
 - Gói Team cho nhà khoa học: kiểm tra điều kiện áp dụng với Trung tâm (đơn vị thuộc Bộ Quốc phòng) trước khi giới thiệu như một lựa chọn.
 
-**Nguồn:** N20 (gói, tính năng), N21 (mô hình), N22 (chính sách dữ liệu), N23 (Claude Science, gói cho nhà khoa học)
+**Nguồn:** N20 (gói, tính năng, ứng dụng Windows), N21 (mô hình), N22 (chính sách dữ liệu), N23 (gói Team cho nhà khoa học)
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -280,7 +276,7 @@ Sáu năng lực cốt lõi:
 
 | Bước | Làm gì | Ở đâu |
 |---|---|---|
-| 1. Tạo tài khoản | Đăng nhập bằng email; cài ứng dụng máy tính hoặc điện thoại nếu cần | claude.ai · claude.com/download |
+| 1. Tạo tài khoản | Đăng nhập bằng email trên trình duyệt; nếu muốn, cài ứng dụng Claude cho Windows | claude.ai · claude.com/download |
 | 2. Cài đặt quyền riêng tư **trước tiên** | Chọn có cho dùng hội thoại để cải thiện mô hình hay không; xem và sửa "bộ nhớ" Claude lưu về bạn | Settings → Privacy · Settings → Capabilities |
 | 3. Hỏi đáp và tải tệp | Gõ câu hỏi; kéo thả PDF, Word, Excel, ảnh vào khung chat; chọn mô hình | Màn hình chính |
 | 4. Bật công cụ | Tìm kiếm web; viết và chạy mã, tạo tệp; Research (gói Pro trở lên) | Settings → Capabilities, hoặc nút công cụ trong khung chat |
