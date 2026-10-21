@@ -37,7 +37,7 @@ Tài liệu gồm các nội dung chi tiết không chiếu trên slide. Câu l�
 | **Skill – chuẩn mở** | Quy trình mẫu đóng gói một lần, dùng được trên nhiều công cụ AI khác nhau | Chuẩn mở 12/2025 (agentskills.io) |
 | **Chạy nền, theo lịch** | Tự chạy định kỳ (ví dụ: bản tin công bố mới mỗi sáng thứ Hai) – không cần ngồi canh | Tác vụ theo lịch trong Cowork (Claude cho Windows, 04/2026) |
 
-## 4. Claude trên Windows – đầy đủ tính năng (Slide 7)
+## 4. Claude trên Windows – đầy đủ tính năng (Slide 8)
 
 | Tính năng | Làm được gì | Gói |
 |---|---|---|
@@ -52,7 +52,7 @@ Tài liệu gồm các nội dung chi tiết không chiếu trên slide. Câu l�
 | **Plugin** | Gói gồm nhiều Skill + kết nối + trợ lý con, cài một lần dùng cho cả nhóm | Gói trả phí |
 | **Claude Code** | AI Agent lập trình – viết, chạy, sửa mã trong thư mục dự án | Từ Pro |
 
-## 5. Bắt đầu với Claude – 6 bước (Slide 8)
+## 5. Bắt đầu với Claude – 6 bước (Slide 9)
 
 | Bước | Làm gì | Ở đâu |
 |---|---|---|
@@ -65,7 +65,7 @@ Tài liệu gồm các nội dung chi tiết không chiếu trên slide. Câu l�
 
 **3 thói quen tốt:** nói rõ việc cần làm và dạng kết quả · yêu cầu dẫn nguồn · luôn kiểm tra lại trước khi dùng.
 
-## 6. Giao việc cho AI Agent – mẫu 5 bước (Slide 9)
+## 6. Giao việc cho AI Agent – mẫu 5 bước (Slide 10)
 
 1. **Xác định nhiệm vụ** – làm gì, để làm gì
 2. **Cung cấp dữ liệu** – theo quy tắc xanh / vàng / đỏ
@@ -85,7 +85,7 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 [5. Kiểm tra] Tách "kết quả tính toán" và "diễn giải đề xuất"; nêu rõ hạn chế.
 ```
 
-## 7. Bộ tài liệu thật dùng trong ví dụ ăn mòn khí quyển (Slide 12)
+## 7. Bộ tài liệu thật dùng trong ví dụ ăn mòn khí quyển (Slide 13)
 
 | # | Tài liệu | Ghi chú |
 |---|---|---|
@@ -100,7 +100,7 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 
 Danh mục đầy đủ 13 tài liệu đã xác minh: `du-an-nghien-cuu/01-tong-quan-tai-lieu/DANH-MUC-TAI-LIEU.csv`.
 
-## 8. Thí nghiệm: không dùng và có dùng Skill (Slide 20)
+## 8. Thí nghiệm: không dùng và có dùng Skill (Slide 21)
 
 | Câu hỏi kiểm tra | Không dùng Skill (phân tích ban đầu) | Có dùng Skill |
 |---|---|---|
@@ -110,7 +110,7 @@ Danh mục đầy đủ 13 tài liệu đã xác minh: `du-an-nghien-cuu/01-tong
 | Dữ liệu thiếu theo nhóm, theo tập? | Kiểm tra thủ công | Bảng tự động theo từng nhóm, từng tập |
 | Quy tắc an toàn | Tùy người làm | Không tự xóa, không tự điền, không tự biến đổi dữ liệu; không kết luận nhân quả |
 
-## 9. Dữ liệu mật: AI viết công cụ, máy không kết nối Internet xử lý (Slide 19)
+## 9. Dữ liệu mật: AI viết công cụ, máy không kết nối Internet xử lý (Slide 20)
 
 1. Chỉ mô tả **cấu trúc** dữ liệu cho AI (tên cột, đơn vị) – không đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
 2. AI viết công cụ, tự sinh dữ liệu giả, chạy thử.
@@ -120,6 +120,27 @@ Danh mục đầy đủ 13 tài liệu đã xác minh: `du-an-nghien-cuu/01-tong
 6. Kết quả ở lại máy đó. Khi công cụ lỗi: tái tạo lỗi bằng dữ liệu giả để hỏi AI.
 
 Mã mẫu: `ma-nguon-demo/may-cach-ly/` (hướng dẫn trong `README.md`).
+
+## 11. Tìm và đọc tài liệu khoa học (Slide 7)
+
+| Công cụ | Là gì | Cách dùng | Lưu ý |
+|---|---|---|---|
+| **Sci-Hub** | Thư viện "bóng tối": cung cấp toàn văn bài báo, sách không qua nhà xuất bản (~88 triệu tài liệu) | – | **Vi phạm bản quyền** theo phán quyết của tòa án Mỹ, Nga (Moscow, 2018), Ấn Độ (Delhi, 08/2025 – lệnh tạm thời); bị chặn ở nhiều nước; nhiều trang giả mạo có thể chứa mã độc. Không khuyến nghị dùng, nhất là trên máy, mạng của đơn vị |
+| **Sci-Bot** | Trợ lý AI do Sci-Hub ra mắt 04/2026, trả lời câu hỏi dựa trên kho Sci-Hub, kèm liên kết toàn văn | – | Cùng vấn đề pháp lý như Sci-Hub; bản thử nghiệm: chỉ trả lời từng câu, thiếu nhiều bài mới (sau ~2021–2022) |
+| **Unpaywall** | Tiện ích trình duyệt, cơ sở dữ liệu bản mở hợp pháp | Cài vào Chrome/Edge/Firefox → nút xanh hiện khi bài báo có bản mở | Tìm được bản mở cho khoảng một nửa số yêu cầu |
+| **CORE** | Kho tổng hợp bài báo truy cập mở từ các kho lưu trữ của trường, viện | core.ac.uk – tìm theo từ khóa, DOI | Hơn 100 triệu bài (con số thay đổi – xem trang) |
+| **arXiv · PubMed Central · DOAJ** | Bản thảo trước công bố (vật lý, toán, tin học…) · bài y sinh toàn văn · danh mục tạp chí truy cập mở | Tìm trực tiếp trên trang | Bản arXiv có thể chưa qua phản biện |
+| **Google Scholar Labs** | Chế độ tìm kiếm có AI của Google Scholar (11/2025): phân tích câu hỏi chi tiết, giải thích vì sao mỗi bài liên quan, cho hỏi tiếp | scholar.google.com → Scholar Labs; cần đăng nhập | Thử nghiệm; câu hỏi tiếng Anh |
+| **Semantic Scholar** | Công cụ tìm kiếm bài báo miễn phí, có tóm tắt một dòng (TLDR), bản đồ trích dẫn | semanticscholar.org | Miễn phí |
+| **Elicit · Consensus** | Tìm và trích xuất bảng từ bài báo; trả lời có dẫn chứng | Đặt câu hỏi nghiên cứu → bảng bài báo, trích dẫn | Bản miễn phí có giới hạn |
+| **SciSpace** | Tìm bài, đọc và giải thích bài báo bằng AI | Tải PDF hoặc tìm theo câu hỏi | Kiểm tra giải thích với bản gốc |
+| **Undermind** | Tác tử tìm kiếm chuyên sâu: tìm tuần tự, tổng hợp kỹ | Mô tả nhu cầu chi tiết → chờ vài phút | Chậm hơn nhưng đầy đủ hơn |
+| **Scopus AI · Web of Science Research Assistant** | AI trên cơ sở dữ liệu Scopus, Web of Science | Qua tài khoản thư viện, tổ chức | Chỉ tìm trong tạp chí được hai cơ sở dữ liệu này chỉ mục |
+| **VJOL** | Cơ sở dữ liệu tạp chí khoa học Việt Nam, do Cục Thông tin, Thống kê KH&CN quốc gia quản lý | Tìm bài tiếng Việt, xem miễn phí | Kiểm tra tên miền hiện hành |
+| **CyberLeninka** | Thư viện khoa học truy cập mở của Nga | Tìm bài tiếng Nga, đọc toàn văn | Phù hợp tài liệu Nga về ăn mòn, nhiệt đới hóa |
+| **eLIBRARY.ru** | Thư viện điện tử khoa học Nga, nền của chỉ số trích dẫn РИНЦ | Đăng ký miễn phí; một phần toàn văn mở | Kiểm tra tạp chí trong danh mục ВАК |
+
+**Khi không có bản mở:** gửi thư cho tác giả liên hệ (đa số tác giả sẵn lòng gửi PDF) · nhờ thư viện của đơn vị · tìm bản tác giả trên trang cá nhân, kho của trường.
 
 ## 10. Giải nghĩa thuật ngữ
 

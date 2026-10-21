@@ -1,4 +1,4 @@
-"""Vẽ sơ đồ Gantt từ ke_hoach_cong_viec.csv (minh họa Slide 14)."""
+"""Vẽ sơ đồ Gantt từ ke_hoach_cong_viec.csv (minh họa Slide 15)."""
 from pathlib import Path
 import pandas as pd
 import matplotlib

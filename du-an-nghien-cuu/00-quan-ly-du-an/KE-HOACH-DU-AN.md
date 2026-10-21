@@ -14,18 +14,18 @@
 | 4 | Phân tích, mô hình | `04-ma-nguon/`, `05-ket-qua/` | Mô hình, kiểm định độc lập, hiệu chỉnh vùng, mô hình 3D, kiểm tra bằng Skill | ✅ | ☐ Phương pháp · ☐ Diễn giải |
 | 5 | Bài báo | `06-bai-bao/` | Bản thảo tiếng Việt, tóm tắt Việt – Anh | ✅ Bản thảo | ☐ Nội dung · ☐ Tác giả |
 | 6 | Báo cáo tổng hợp | `07-bao-cao/` | Báo cáo tổng hợp kết quả | ✅ Bản đầu; 🟡 chờ biểu mẫu Trung tâm | ☐ |
-| 7 | Mở rộng dữ liệu | `03-du-lieu/3-bo-sung/` | Số liệu trạm của Trung tâm, bảng gốc Lê Thị Hồng Liên 2007, Chico 2017 | ⏳ | ☐ Phân loại dữ liệu |
+| 8 | Mở rộng dữ liệu | `03-du-lieu/3-bo-sung/` | Số liệu trạm của Trung tâm, bảng gốc Lê Thị Hồng Liên 2007, Chico 2017 | ⏳ | ☐ Phân loại dữ liệu |
 
 ## Liên hệ với bài thuyết trình
 
 | Slide | Giai đoạn dự án | Mở thư mục / tệp khi trình bày |
 |---|---|---|
-| 9 | Giao việc 5 bước với dữ liệu thật | `05-ket-qua/README.md` |
-| 10 | Tổ chức dự án | Cây thư mục `du-an-nghien-cuu/` |
-| 12 | Tài liệu → khoảng trống | `01-tong-quan-tai-lieu/MA-TRAN-BANG-CHUNG.md`, `KHOANG-TRONG-NGHIEN-CUU.md` |
-| 13–14 | Đề xuất, thuyết minh | `02-de-xuat-thuyet-minh/DE-XUAT-NHIEM-VU-ban-nhap.md` |
-| 15 | Xử lý dữ liệu bằng Python | `03-du-lieu/README.md`, `04-ma-nguon/`, `05-ket-qua/mo-hinh-3d/*.html` |
-| 16 | Mô hình 3D quá trình ăn mòn | `05-ket-qua/mo-hinh-3d/3D_4_qua_trinh_an_mon_dong.html`, `3D_5_so_sanh_vat_lieu.html` |
-| 17 | Bài báo, báo cáo | `06-bai-bao/BAN-THAO-bai-bao.md`, `07-bao-cao/` |
-| 20 | Skill | `05-ket-qua/kiem-tra-bang-skill/README.md` |
-| 21 | Khoa học mở | `03-du-lieu/1-du-lieu-tho/c-olr/NGUON.md` (dữ liệu mở → phát hiện lỗi → tri thức mới) |
+| 10 | Giao việc 5 bước với dữ liệu thật | `05-ket-qua/README.md` |
+| 11 | Tổ chức dự án | Cây thư mục `du-an-nghien-cuu/` |
+| 13 | Tài liệu → khoảng trống | `01-tong-quan-tai-lieu/MA-TRAN-BANG-CHUNG.md`, `KHOANG-TRONG-NGHIEN-CUU.md` |
+| 14–15 | Đề xuất, thuyết minh | `02-de-xuat-thuyet-minh/DE-XUAT-NHIEM-VU-ban-nhap.md` |
+| 16 | Xử lý dữ liệu bằng Python | `03-du-lieu/README.md`, `04-ma-nguon/`, `05-ket-qua/mo-hinh-3d/*.html` |
+| 17 | Mô hình 3D quá trình ăn mòn | `05-ket-qua/mo-hinh-3d/3D_4_qua_trinh_an_mon_dong.html`, `3D_5_so_sanh_vat_lieu.html` |
+| 18 | Bài báo, báo cáo | `06-bai-bao/BAN-THAO-bai-bao.md`, `07-bao-cao/` |
+| 21 | Skill | `05-ket-qua/kiem-tra-bang-skill/README.md` |
+| 22 | Khoa học mở | `03-du-lieu/1-du-lieu-tho/c-olr/NGUON.md` (dữ liệu mở → phát hiện lỗi → tri thức mới) |
