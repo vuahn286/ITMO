@@ -6,7 +6,7 @@
 **Định hướng:** Nhận thức là chính, lý thuyết vừa đủ, có ví dụ thực tế và demo. Nhấn mạnh năng lực cốt lõi và ưu điểm của AI. Không đi sâu kỹ thuật xây dựng Agent.
 **Tình huống xuyên suốt (đã chốt):** **Phương án A – Ăn mòn khí quyển của kim loại trong môi trường nhiệt đới.**
 **Ngày thuyết trình:** ____ / ____ / ______
-**Phiên bản:** 2.0 – 20/10/2026 (thay thế v1.0)
+**Phiên bản:** 2.1 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
 
 **Tài liệu đi kèm trong cùng thư mục:**
 
@@ -37,6 +37,7 @@
 9. [Tài liệu đi kèm](#9-tài-liệu-đi-kèm)
 10. [Phương án dự phòng](#10-phương-án-dự-phòng)
 11. [Nguồn tham khảo](#11-nguồn-tham-khảo)
+12. [Giải nghĩa thuật ngữ](#12-giải-nghĩa-thuật-ngữ-cho-người-trình-bày)
 
 ---
 
@@ -51,6 +52,7 @@
 | 5 | Chốt tình huống A; **đã dựng dữ liệu, đã chạy thử, có kết quả mẫu** | Demo chạy được ngay trên Claude |
 | 6 | Sửa số liệu METR (v1 ghi "~4 tháng từ 2023" – **không đúng nguồn**); SWE-bench ghi đúng theo AI Index | Căn cứ phải chính xác |
 | 7 | Mục 7 chuyển từ "danh mục cần xác minh" thành **bảng căn cứ đã xác minh**, có nguồn gốc cho từng số liệu | Căn cứ đầy đủ |
+| 8 | **v2.1:** Viết lại Slide 1 bằng lời thường (câu "53% dân số" sửa theo nguyên văn nguồn); thêm phần "giải thích dễ hiểu" cho 5 ví dụ Slide 2; Slide 3 bỏ thuật ngữ (embedding, VLA…); sửa "hàm mũ" → "hàm lũy thừa"; nêu rõ ERA là đánh giá hồi cứu; sửa trích dẫn Penadés; thêm ô "Kết quả với dữ liệu thật" ở Slide 15; thêm Mục 12 – Giải nghĩa thuật ngữ | Rà soát ngày 21/10/2026 |
 
 ---
 
@@ -102,10 +104,15 @@ Phần I chi tiết: Slide 1 (4′) – **Slide 2 (7′)** – Slide 3 (5′) �
 
 #### Slide 1 – AI đang phát triển nhanh đến mức nào? (4 phút)
 
-**Nội dung chính:**
-- **Tốc độ phổ cập:** AI tạo sinh đạt **53%** dân số chỉ sau 3 năm – nhanh hơn máy tính cá nhân và Internet [N1].
-- **Năng lực đạt mức chuyên gia:** Gemini Deep Think đạt chuẩn **huy chương vàng IMO 2025** (giải 5/6 bài, 35/42 điểm) [N2].
-- **Năng lực làm việc dài hơi:** độ dài công việc AI tự hoàn thành (đo bằng thời gian chuyên gia cần) **tăng gấp đôi khoảng mỗi 7 tháng** trong giai đoạn 2019 – đầu 2025 [N3].
+**Nội dung chính (viết trên slide đúng như dưới đây – ngắn, không thuật ngữ):**
+
+| Ô số liệu | Chữ trên slide | Lời nói giải thích |
+|---|---|---|
+| **≈ 1/2** | "Chỉ 3 năm sau khi ra mắt đại chúng, **khoảng một nửa dân số** đã dùng AI tạo sinh – nhanh hơn tốc độ phổ cập của máy tính cá nhân và Internet." [N1] | "AI tạo sinh là loại AI viết được văn bản, vẽ hình… như ChatGPT, Gemini, Claude. ChatGPT ra mắt cuối 2022; đến năm 2025, theo ước tính của Đại học Stanford, khoảng 53% dân số đã dùng. Máy tính cá nhân và Internet mất nhiều năm hơn để phổ biến đến mức đó. Tỷ lệ này chênh lệch lớn giữa các nước." |
+| **5/6 bài** | "AI giải được **5/6 bài thi Olympic Toán quốc tế 2025** – đạt mức huy chương vàng." [N2] | "Đây là kỳ thi dành cho học sinh giỏi toán nhất thế giới; AI viết lời giải bằng ngôn ngữ tự nhiên, được chấm như thí sinh (35/42 điểm). Cả Google và OpenAI đều công bố kết quả này." |
+| **×2 mỗi 7 tháng** | "Năm 2019, AI chỉ tự làm được việc mà chuyên gia mất **vài giây**; đầu 2025, việc mà chuyên gia mất **gần 1 giờ**. Cứ khoảng **7 tháng**, độ dài đó lại **tăng gấp đôi**." [N3] | "Độ dài công việc được đo bằng thời gian một chuyên gia cần để làm xong; AI được tính là 'làm được' nếu thành công ít nhất một nửa số lần." |
+
+> ⚠ Không viết "53% dân số thế giới" – nguồn gốc dùng cách nói "mức phổ cập trong dân số", và tỷ lệ khác nhau nhiều giữa các nước.
 
 **Hình ảnh:** Biểu đồ METR (trục tung logarit) + 3 ô số liệu lớn.
 
@@ -115,7 +122,10 @@ Phần I chi tiết: Slide 1 (4′) – **Slide 2 (7′)** – Slide 3 (5′) �
 
 ---
 
-#### Slide 2 – MỚI: Các nhà khoa học Google dùng AI giải bài toán khoa học thật (7 phút)
+#### Slide 2 – MỚI: Google và các nhà khoa học dùng AI giải bài toán khoa học thật (7 phút)
+
+> Tiêu đề không ghi "các nhà khoa học Google" vì ví dụ ② và ③ do nhà khoa học của Imperial College và Đại học Yale chủ trì, Google cung cấp hệ thống AI.
+> **Phân bổ thời gian:** nói kỹ ② (giả thuyết khoa học) và ⑤ (viết – chạy mã xử lý dữ liệu), vì gần với công việc của Trung tâm nhất; ①, ③, ④ mỗi thẻ ≤ 40 giây.
 
 **Mục tiêu:** Cho thấy AI đã tham gia tạo ra kết quả khoa học được công bố trên tạp chí hàng đầu, với nhà khoa học giữ vai trò đặt bài toán và kiểm chứng.
 
@@ -126,14 +136,21 @@ Phần I chi tiết: Slide 1 (4′) – **Slide 2 (7′)** – Slide 3 (5′) �
 | ① | **08/10/2026** – *Science* | **AlphaProof Nexus** giải các bài toán mở trong toán học | **9/353** bài toán Erdős, trong đó **2 bài tồn tại 56 năm**; **44/492** giả thuyết OEIS | Mọi chứng minh được **máy kiểm chứng hình thức bằng Lean**; chuyên gia xác nhận phát biểu đúng bài toán gốc | [G1] |
 | ② | 02/2025 → *Cell* 2025, *Nature* 05/2026 | **AI co-scientist** cùng Imperial College London (GS. José Penadés) | Trong khoảng **2 ngày**, giả thuyết xếp hạng 1 của AI **trùng với cơ chế** mà nhóm mất **nhiều năm** thí nghiệm mới tìm ra – khi kết quả **chưa công bố** | Nhóm đặt câu hỏi, đã có sẵn bằng chứng thí nghiệm để đối chiếu | [G2] |
 | ③ | 10/2025 – bioRxiv | **C2S-Scale 27B** (Google DeepMind + Đại học Yale) | Sàng lọc ảo **hơn 4.000** thuốc → dự đoán **silmitasertib** chỉ khuếch đại trình diện kháng nguyên khi có interferon | **Kiểm chứng bằng thí nghiệm** trên mô hình tế bào người; chưa thử lâm sàng | [G3] |
-| ④ | 05/2025 | **AlphaEvolve** – agent viết và tiến hóa mã | Nhân ma trận phức 4×4 bằng **48** phép nhân (phương pháp Strassen 1969: 49); giải pháp lập lịch trung tâm dữ liệu tiết kiệm trung bình **0,7%** tài nguyên tính toán toàn cầu của Google | Kết quả được kiểm tra tự động; giải pháp lập lịch chạy thực tế hơn 1 năm | [G4] |
-| ⑤ | 09/2025 → *Nature* 05/2026 | **Hệ thống AI viết phần mềm khoa học** (ERA) | **14** mô hình dự báo nhập viện COVID-19 tốt hơn mô hình tổng hợp chính thức của CDC; **40** phương pháp phân tích tế bào đơn mới vượt phương pháp tốt nhất do người phát triển | Nhà khoa học định nghĩa bài toán và thước đo chất lượng | [G5] |
+| ④ | 05/2025 | **AlphaEvolve** – agent viết và tiến hóa mã | Nhân ma trận phức 4×4 bằng **48** phép nhân (phương pháp Strassen 1969: 49); thuật toán phân bổ máy chủ giúp Google thu hồi trung bình **0,7%** năng lực tính toán trước đó bị bỏ phí | Kết quả được kiểm tra tự động; thuật toán phân bổ máy chủ chạy thực tế hơn 1 năm | [G4] |
+| ⑤ | 09/2025 → *Nature* 05/2026 | **Hệ thống AI viết phần mềm khoa học** (ERA) | Trong **đánh giá hồi cứu**, **14** mô hình dự báo số ca nhập viện COVID-19 tốt hơn mô hình tổng hợp mà CDC Mỹ dùng làm chuẩn; **40** phương pháp phân tích dữ liệu tế bào đơn vượt phương pháp tốt nhất do người phát triển trên một bảng xếp hạng công khai | Nhà khoa học định nghĩa bài toán và thước đo chất lượng | [G5] |
+
+**Giải thích dễ hiểu cho người nghe (thuật ngữ → lời thường):**
+- ① *Bài toán Erdős:* hàng trăm bài toán mở do nhà toán học Paul Erdős để lại. *OEIS:* "bách khoa toàn thư" các dãy số, kèm nhiều giả thuyết chưa ai chứng minh. *Lean:* phần mềm kiểm tra chứng minh từng bước, như một "trọng tài máy" – lập luận sai không qua được.
+- ② Nhóm Imperial nghiên cứu vì sao gen kháng kháng sinh lan được **giữa các loài vi khuẩn khác nhau**. Họ phát hiện một loại đoạn gen di động (cf-PICI) tự tạo "vỏ" nhưng **"mượn đuôi" của nhiều loại virus** để xâm nhập nhiều loài. Trước khi công bố, họ đặt cùng câu hỏi cho AI – giả thuyết số 1 của AI trùng với kết quả của họ.
+- ③ Nhiều khối u là khối u "lạnh": hệ miễn dịch không nhận ra. AI dự đoán thuốc silmitasertib (đã có sẵn) dùng cùng interferon liều thấp giúp tế bào ung thư **"lộ diện"** rõ hơn trước hệ miễn dịch. Thí nghiệm trên tế bào xác nhận; **chưa thử trên người**.
+- ④ Phép nhân ma trận là phép tính nền tảng của phần mềm khoa học và AI, được lặp lại hàng tỷ lần – bớt 1 phép nhân (49 → 48) là phá kỷ lục **56 năm**.
+- ⑤ AI tự viết **nhiều phiên bản chương trình, chạy thử, chấm điểm, giữ bản tốt nhất** rồi cải tiến tiếp. *Đánh giá hồi cứu:* chạy lại trên dữ liệu các tuần đã qua để so sánh công bằng với các mô hình khác.
 
 **Cách nói đúng mức (ghi vào lời thoại):**
 - ①: "AI giải được, và **máy kiểm chứng từng bước logic**. Tỷ lệ thành công khoảng 2,5% số bài đã thử – còn khiêm tốn, nhưng là bài toán mở thật."
-- ②: "AI **không phát hiện điều mới** ở đây – nó **đi đến cùng kết luận** với nhóm thí nghiệm, trong vài ngày thay vì nhiều năm. GS. Penadés nói nếu có giả thuyết này từ đầu, nhóm đã tiết kiệm được nhiều năm."
+- ②: "AI **không phát hiện điều mới** ở đây – nó **đi đến cùng kết luận** với nhóm thí nghiệm, trong vài ngày thay vì nhiều năm. Nhóm nghiên cứu cho biết nếu có giả thuyết này từ đầu, họ đã tiết kiệm được nhiều năm thí nghiệm."
 - ③: "Đây là **giả thuyết đã được kiểm chứng trên tế bào**, chưa phải thuốc điều trị."
-- ⑤: "Ví dụ này mình sẽ quay lại ở Slide 15 – nhà khoa học **giao bài toán, AI viết và chạy mã**."
+- ⑤: "Đây là đánh giá hồi cứu, không phải dự báo trực tiếp trong mùa dịch. Ví dụ này mình sẽ quay lại ở Slide 15 – nhà khoa học **giao bài toán, AI viết và chạy mã**."
 
 **Câu chốt:** "Điểm chung của cả 5 ví dụ: **nhà khoa học đặt bài toán, AI đề xuất và thực hiện, kết quả được kiểm chứng độc lập** – bằng máy, bằng thí nghiệm hoặc bằng dữ liệu thật."
 
@@ -143,11 +160,11 @@ Phần I chi tiết: Slide 1 (4′) – **Slide 2 (7′)** – Slide 3 (5′) �
 
 | Lĩnh vực | Ví dụ tiêu biểu (đã xác minh) | Liên hệ với Trung tâm |
 |---|---|---|
-| Viễn thám | **Prithvi-EO-2.0** (NASA/IBM, mã nguồn mở, bản 300M và 600M tham số, huấn luyện trên 4,2 triệu chuỗi thời gian Landsat – Sentinel-2) [N5]; **AlphaEarth Foundations** (Google DeepMind) – bộ embedding toàn cầu độ phân giải 10 m, theo năm 2017–2024 [N6] | Giám sát rừng, sử dụng đất, sinh thái nhiệt đới |
-| Khí tượng | **AIFS** của ECMWF chạy nghiệp vụ từ **25/02/2025**; ECMWF công bố cải thiện tới ~20% với đường đi bão nhiệt đới so với mô hình vật lý [N7] | Môi trường nhiệt đới, khí hậu |
-| Robotics | **Gemini Robotics** – học tác vụ ngắn mới từ khoảng **100** lần trình diễn [N8] | Tự động hóa thí nghiệm |
-| Sinh học | **AlphaFold** – Giải Nobel Hóa học 2024 | Y sinh nhiệt đới |
-| Vật liệu | **GNoME** – 2,2 triệu cấu trúc tinh thể, trong đó ~**380.000** dự đoán bền; **A-Lab** tự tổng hợp **41/58** hợp chất mới trong **17 ngày** [N9] | Vật liệu, ăn mòn, độ bền nhiệt đới |
+| Viễn thám | **Prithvi-EO-2.0** (NASA và IBM, **mã nguồn mở – ai cũng tải về dùng được**): mô hình AI học từ 4,2 triệu chuỗi ảnh vệ tinh Landsat – Sentinel-2, dùng để nhận dạng lũ, cháy rừng, cây trồng [N5]. **AlphaEarth Foundations** (Google DeepMind): mỗi ô 10 m × 10 m trên toàn Trái Đất được AI tóm tắt thành một "dấu vân tay số", có cho từng năm 2017–2024, giúp lập bản đồ với rất ít mẫu thực địa [N6] | Giám sát rừng, sử dụng đất, sinh thái nhiệt đới |
+| Khí tượng | **AIFS** – mô hình dự báo thời tiết bằng AI của Trung tâm Dự báo Thời tiết Hạn vừa châu Âu (ECMWF), **chạy nghiệp vụ từ 25/02/2025**; ECMWF công bố dự báo đường đi bão nhiệt đới **chính xác hơn tới khoảng 20%** so với mô hình vật lý truyền thống [N7] | Môi trường nhiệt đới, khí hậu |
+| Robotics | **Gemini Robotics** – robot học một thao tác mới sau khoảng **100 lần người làm mẫu** [N8] | Tự động hóa thí nghiệm |
+| Sinh học | **AlphaFold** – dự đoán cấu trúc 3D của protein; tác giả nhận **Giải Nobel Hóa học 2024** [N4] | Y sinh nhiệt đới |
+| Vật liệu | **GNoME** – AI đề xuất 2,2 triệu cấu trúc tinh thể mới, trong đó khoảng **380.000** được dự đoán là bền; **A-Lab** – phòng thí nghiệm robot tự tổng hợp được **41/58** hợp chất mới trong **17 ngày** [N9] | Vật liệu, ăn mòn, độ bền nhiệt đới |
 
 **Việt Nam:** **Luật Trí tuệ nhân tạo số 134/2025/QH15**, ban hành 10/12/2025, **hiệu lực 01/3/2026** [N10].
 
@@ -226,6 +243,8 @@ Giữ cấu trúc v1 (Slide 6–10). Bổ sung:
 **Tình huống A (giới thiệu một lần, dùng xuyên suốt):**
 > *"Đánh giá ăn mòn khí quyển của thép CT3, kẽm, đồng, nhôm tại 3 trạm thử nghiệm (ven biển, đô thị, nội địa); xây dựng mô hình dự báo C = A·tⁿ và phân cấp ăn mòn theo ISO 9223."*
 > Quy mô: 3 trạm × 4 kim loại × 7 mốc thu mẫu (1–36 tháng) × 3 mẫu lặp = **252 mẫu**; số liệu khí tượng 36 tháng.
+>
+> *Giải nghĩa mô hình C = A·tⁿ (nói một lần ở đây):* C là lượng kim loại mất đi sau t năm; **A** là lượng mất trong **năm đầu tiên** (A càng lớn, môi trường càng ăn mòn mạnh); **n** cho biết tốc độ có chậm lại theo thời gian không – n < 1 nghĩa là lớp gỉ hình thành dần và che chắn một phần cho kim loại bên dưới.
 
 **Hình chính:** Sơ đồ vòng đời: Tài liệu (S12) → Khoảng trống (S12) → Thuyết minh (S13) → Tiến độ – kinh phí (S14) → Dữ liệu – kết quả (S15) → Bài báo – báo cáo (S16), mỗi bước có biểu tượng ✅ điểm xác nhận.
 
@@ -336,12 +355,19 @@ kiểm tra logic trình tự và độ phủ dữ liệu; liệt kê bất hợp
 *c) Biểu đồ:* `ket-qua-mau/bieu_do_dong_hoc_an_mon.png`, `ket-qua-mau/bieu_do_thep_theo_tram.png`.
 
 **🗣 Gợi ý nói – bài học thật từ lúc chạy thử (điểm nhấn của slide):**
-> "Lần chạy đầu, mã dùng phương pháp z-score/MAD để tìm ngoại lệ. Kết quả: **đánh dấu nhầm 20 giá trị hoàn toàn bình thường**, trong khi **bỏ sót đúng lỗi gõ nhầm** cần tìm. Lý do: mỗi nhóm chỉ có **3 mẫu lặp** – quá ít cho phương pháp đó. Tôi yêu cầu đổi sang quy tắc 'lệch > 30% so với hai mẫu lặp còn lại' thì kết quả mới đúng.
+> "Lần chạy đầu, mã dùng phương pháp z-score/MAD – một cách thống kê đo xem một giá trị lệch bao xa so với số đông, vốn cần nhiều số liệu mới đáng tin – để tìm ngoại lệ. Kết quả: **đánh dấu nhầm 20 giá trị hoàn toàn bình thường**, trong khi **bỏ sót đúng lỗi gõ nhầm** cần tìm. Lý do: mỗi nhóm chỉ có **3 mẫu lặp** – quá ít cho phương pháp đó. Tôi yêu cầu đổi sang quy tắc 'lệch > 30% so với hai mẫu lặp còn lại' thì kết quả mới đúng.
 > **AI viết mã rất nhanh – nhưng chọn phương pháp phù hợp với thiết kế thí nghiệm là việc của người làm chuyên môn.**"
 
 **Phân biệt kết quả – diễn giải (Câu lệnh 4.5):** AI ghép số liệu môi trường và chỉ ra trạm ven biển có Cl⁻ ≈ 181 mg/m²·ngày và TOW ≈ 5.730 h/năm cao nhất. AI phải tự nêu được: *"chỉ có 3 trạm – không đủ để kết luận thống kê về tương quan"*. Diễn giải "n < 1 phù hợp với cơ chế lớp gỉ bảo vệ" là **đề xuất để nhà khoa học xác nhận**.
 
 **✅ Xác nhận:** phương pháp xử lý ngoại lệ; diễn giải cơ chế; độ tin cậy của dự báo 10 năm khi chỉ có số liệu 3 năm.
+
+**📌 Ô "Kết quả với dữ liệu thật" (30–60 giây, cuối slide)** – dùng kết quả của thư mục `nghien-cuu-an-mon/` (Báo cáo nghiên cứu, 10/2026):
+> Cùng cách làm này, áp dụng cho **387 số đo thực địa đã công bố** về ăn mòn thép cacbon (ISOCORRAG, MICAT, **12 trạm Việt Nam**, 18 trạm Nga):
+> - AI phát hiện **lỗi đơn vị trong bộ dữ liệu công bố**: cột ghi "g/m²" nhưng thực chất là µm/năm.
+> - Mô hình học từ dữ liệu quốc tế **dự đoán thấp hơn thực đo ở Việt Nam khoảng 31%** → cần hệ số hiệu chỉnh riêng cho khí hậu nhiệt đới. Đây là lý do số liệu trạm của Trung tâm có giá trị lớn.
+>
+> Dữ liệu thật dùng cho ô này là dữ liệu đã công bố – thuộc nhóm xanh.
 
 ---
 
@@ -410,7 +436,7 @@ Giữ nguyên nội dung Slide 18–21 của v1. Bổ sung:
 | Câu hỏi nghiên cứu | Tốc độ và động học ăn mòn khí quyển của 4 kim loại ở 3 kiểu môi trường nhiệt đới; yếu tố môi trường chi phối |
 | Thiết kế | 3 trạm × 4 kim loại × 7 mốc (1, 3, 6, 12, 18, 24, 36 tháng) × 3 mẫu lặp = 252 mẫu; mẫu 100×150 mm (300 cm² hai mặt) |
 | Dữ liệu | Khối lượng trước/sau tẩy gỉ; khí tượng – môi trường theo tháng |
-| Mô hình | C = A·tⁿ (dạng hàm mũ của ISO 9224); phân cấp theo ISO 9223:2012 |
+| Mô hình | C = A·tⁿ (dạng hàm lũy thừa, như ISO 9224); phân cấp theo ISO 9223:2012 |
 | Sản phẩm | Ma trận bằng chứng, thuyết minh, Gantt, mô hình, biểu đồ, dàn ý bài báo |
 
 **Cách dữ liệu giả lập được tạo (để trả lời nếu bị hỏi):** chọn trước giá trị A, n "đúng" cho từng trạm – kim loại (thép: 560 / 310 / 160 g/m²; n = 0,72), thêm nhiễu ngẫu nhiên ~6%, rồi cài 14 lỗi có chủ đích. Mô hình AI khôi phục lại A = 567 / 305 / 160 – **khớp với giá trị gốc**, chứng tỏ quy trình phân tích đúng.
@@ -440,7 +466,7 @@ Giữ nguyên nội dung Slide 18–21 của v1. Bổ sung:
 Tổng thời gian trực tiếp: ~3 phút. Kết quả chạy lại trên Claude có thể lệch nhẹ (cách làm sạch khác chút); **sai khác lớn là tín hiệu cần xem lại**.
 
 ### 4.4. Hướng dẫn tự chạy trên Claude (cho người trình bày)
-1. claude.ai → Settings → Capabilities → bật **Code execution and file creation** (và **Web search** cho Slide 12).
+1. claude.ai → Settings → Capabilities → bật **Code execution and file creation** (tên mục có thể khác tùy phiên bản) (và **Web search** cho Slide 12).
 2. Tạo Project, dán *Project instructions* trong `cau-lenh-demo.md` (Mục 0).
 3. Tải tệp từ `du-lieu-demo/`.
 4. Lần lượt dán câu lệnh theo thứ tự; so kết quả với `ket-qua-mau/`.
@@ -471,7 +497,7 @@ Giữ nguyên Mục 5 của v1 (cấu trúc chung, thư viện Skill SK-01 → S
 Giữ nguyên Mục 6 của v1. Cập nhật căn cứ pháp lý (đã xác minh):
 - Luật Trí tuệ nhân tạo số **134/2025/QH15** – ban hành 10/12/2025, hiệu lực 01/3/2026 [N10].
 - Luật Bảo vệ dữ liệu cá nhân số **91/2025/QH15** – ban hành 26/6/2025, hiệu lực 01/01/2026 [N12].
-- Luật Bảo vệ bí mật nhà nước 2018; quy định nội bộ của Trung tâm và Bộ Quốc phòng.
+- Luật Bảo vệ bí mật nhà nước số 29/2018/QH14; quy định nội bộ của Trung tâm và Bộ Quốc phòng.
 
 > Nội dung chính thức do bộ phận phụ trách bảo mật của Trung tâm xác nhận trước khi trình bày.
 
@@ -495,10 +521,11 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 
 | Mã | Số liệu | Slide | Nguồn | Trạng thái |
 |---|---|---|---|---|
-| N1 | AI tạo sinh 53% dân số sau 3 năm; SWE-bench Verified 60% → gần 100% trong 1 năm | 1, 23 | Stanford HAI, *AI Index Report 2026* | ✅ (53%) / ◐ (SWE-bench) |
+| N1 | Nguyên văn: "gần **53% mức phổ cập trong dân số** trong vòng **3 năm kể từ khi ra mắt đại chúng**, nhanh hơn máy tính cá nhân hay Internet"; tỷ lệ khác nhau nhiều giữa các nước. SWE-bench Verified 60% → gần 100% trong 1 năm | 1, 23 | Stanford HAI, *AI Index Report 2026*, Chương 4 – Kinh tế (13/04/2026) | ✅ (53%) / ◐ (SWE-bench) |
 | N1b | 88% tổ chức dùng AI cho ít nhất một chức năng | (tùy chọn) | Báo chí tóm tắt AI Index 2026 | ◐ – kiểm tra bản gốc trước khi dùng |
-| N2 | Gemini Deep Think đạt chuẩn vàng IMO 2025, 35/42 điểm | 1 | Google DeepMind (07/2025); xác nhận của Ban tổ chức IMO | ◐ |
-| N3 | Độ dài tác vụ tăng gấp đôi ~7 tháng (2019 – đầu 2025); ~4 tháng là trung vị 9 bộ đánh giá khác (07/2025) | 1 | METR, "Measuring AI Ability to Complete Long Tasks" (19/03/2025) và phân tích bổ sung 07/2025 | ✅ |
+| N2 | Gemini Deep Think đạt chuẩn vàng IMO 2025, 5/6 bài, 35/42 điểm; OpenAI công bố kết quả tương tự | 1 | Google DeepMind (07/2025); xác nhận của Ban tổ chức IMO | ◐ |
+| N3 | Độ dài tác vụ (thành công 50%) tăng gấp đôi ~7 tháng (2019 – đầu 2025): GPT-2 (2019) ≈ 2 giây → Claude 3.7 Sonnet (02/2025) ≈ 50–59 phút; ~4 tháng là trung vị 9 bộ đánh giá khác (07/2025) | 1 | METR, "Measuring AI Ability to Complete Long Tasks" (19/03/2025, arXiv:2503.14499) và phân tích bổ sung 07/2025 | ✅ |
+| N4 | AlphaFold – Giải Nobel Hóa học 2024 (Hassabis, Jumper; cùng David Baker) | 3 | nobelprize.org | ✅ (nguồn kinh điển) |
 | N5 | Prithvi-EO-2.0: 300M/600M tham số, 4,2 triệu mẫu HLS, mã nguồn mở | 3 | arXiv:2412.02732 | ✅ |
 | N6 | AlphaEarth Foundations: embedding 10 m, hằng năm 2017–2024 | 3 | arXiv:2507.22291; Google Earth Engine catalog | ✅ |
 | N7 | ECMWF AIFS vận hành từ 25/02/2025; cải thiện tới ~20% với đường đi bão | 3 | ECMWF, "ECMWF's AI forecasts become operational" | ✅ |
@@ -605,3 +632,27 @@ Giữ như v1 (6 câu hỏi).
 - AI4S Open Science; AIPOCH Open Science; K-Dense Scientific Agent Skills; CES Global.
 - Wilkinson M.D. et al. (2016). The FAIR Guiding Principles. *Scientific Data*. https://www.nature.com/articles/sdata201618
 - UNESCO (2021). Recommendation on Open Science. https://www.unesco.org/en/open-science
+
+---
+
+## 12. GIẢI NGHĨA THUẬT NGỮ (CHO NGƯỜI TRÌNH BÀY)
+
+Nguyên tắc: **trên slide dùng lời thường**; thuật ngữ chỉ xuất hiện khi cần, và lần đầu nói phải kèm câu giải nghĩa dưới đây.
+
+| Thuật ngữ | Nói bằng lời thường |
+|---|---|
+| AI tạo sinh | AI tạo ra nội dung mới – văn bản, hình ảnh, mã – như ChatGPT, Gemini, Claude |
+| AI Agent | AI được giao một nhiệm vụ, tự lập kế hoạch, dùng công cụ (tìm kiếm, chạy mã, đọc – ghi tệp) và tự kiểm tra cho đến khi xong |
+| Chatbot | AI hỏi – đáp trong một cuộc trò chuyện |
+| Skill | Một "quy trình mẫu" đóng gói sẵn (hướng dẫn + biểu mẫu + mã), AI tự dùng lại khi gặp việc tương tự |
+| Subagent / Multi-agent | Một trợ lý con được giao việc chuyên biệt / nhiều trợ lý phối hợp như một nhóm |
+| Prompt / câu lệnh | Đoạn văn bản người dùng viết để giao việc cho AI |
+| Mã nguồn mở | Phần mềm hoặc mô hình công bố công khai, ai cũng tải về, dùng và kiểm tra được |
+| Đánh giá hồi cứu | Chạy lại mô hình trên dữ liệu quá khứ để so sánh công bằng với các mô hình khác |
+| Kiểm chứng hình thức (Lean) | Máy kiểm tra từng bước của một chứng minh toán học; bước sai không thể qua |
+| TOW (thời gian ẩm ướt) | Số giờ trong năm bề mặt kim loại bị ẩm (theo ISO 9223: RH > 80% và T > 0 °C) |
+| Cấp ăn mòn C1–CX | Thang 6 mức độ ăn mòn của khí quyển theo ISO 9223 – C1 rất thấp, CX cực cao |
+| C = A·tⁿ | A: lượng kim loại mất trong năm đầu; n: tốc độ có chậm lại theo thời gian không (n < 1 → lớp gỉ che chắn dần) |
+| Ngoại lệ | Giá trị lệch bất thường so với các giá trị cùng điều kiện – có thể do lỗi đo, lỗi ghi, hoặc hiện tượng thật |
+| Mẫu lặp | Các mẫu giống hệt nhau, phơi cùng điều kiện, để kiểm tra độ lặp lại của phép đo |
+| Dữ liệu giả lập | Dữ liệu tạo ra có chủ đích để minh họa – không phải số đo thật |

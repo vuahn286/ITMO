@@ -7,7 +7,7 @@
 
 ## 0. Chuẩn bị (làm một lần, trước buổi thuyết trình)
 
-1. Đăng nhập claude.ai. Vào **Settings → Capabilities**, bật **Code execution and file creation** (để Claude tự viết và chạy mã Python). Nếu dùng tìm tài liệu, bật thêm **Web search**.
+1. Đăng nhập claude.ai. Vào **Settings → Capabilities**, bật **Code execution and file creation** (để Claude tự viết và chạy mã Python; tên mục có thể khác đôi chút tùy phiên bản giao diện). Nếu dùng tìm tài liệu, bật thêm **Web search**.
 2. Tạo **Project** tên `Demo – Ăn mòn khí quyển nhiệt đới`.
 3. Trong *Project instructions*, dán:
 

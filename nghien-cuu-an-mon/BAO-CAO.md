@@ -1,10 +1,33 @@
 # BÁO CÁO NGHIÊN CỨU: ĂN MÒN KHÍ QUYỂN CỦA THÉP CACBON – PHÂN TÍCH DỮ LIỆU ĐO THỰC ĐỊA, MÔ HÌNH DỰ BÁO VÀ MÔ HÌNH 3D
 
-**Phiên bản:** 1.0 – 20/10/2026
+**Phiên bản:** 1.1 – 21/10/2026 (thêm tóm tắt dễ hiểu và giải nghĩa thuật ngữ)
 **Phạm vi:** thép cacbon, tốc độ ăn mòn năm đầu, 387 quan sát đo thực địa từ các chương trình quốc tế và các công bố độc lập, trong đó có 12 trạm ở Việt Nam và 18 trạm ở Nga.
 **Tính chất dữ liệu:** 100% là **số đo thực địa đã công bố**. Không có số liệu giả lập trong phân tích định lượng. Riêng phần độ nhám bề mặt ở mô hình 3D-3 là minh họa có tham số giả định, được ghi rõ.
 
 > **Lưu ý về quy mô:** yêu cầu ban đầu là "vài nghìn mẫu". Môi trường làm việc hiện chỉ truy cập được GitHub, còn Zenodo, Mendeley Data, Figshare, Kaggle, các tạp chí… đều bị chặn. Trên GitHub, nguồn dữ liệu đo thực địa về ăn mòn khí quyển duy nhất tìm được là bộ C-OLR (387 quan sát). Các kho khác là dữ liệu ăn mòn trong nước biển, ống dẫn, phòng thí nghiệm hoặc dữ liệu giả lập, nên **không được trộn vào**. Mục 7 nêu cách mở rộng lên hàng nghìn mẫu; chuỗi xử lý đã sẵn sàng nhận thêm dữ liệu.
+
+## Tóm tắt dễ hiểu (đọc trong 1 phút)
+
+1. Tổng hợp **387 lần đo thật** về mức gỉ của thép cacbon sau 1 năm để ngoài trời, ở nhiều nước, trong đó có 12 trạm ở Việt Nam và 18 trạm ở Nga.
+2. Phát hiện **một lỗi trong bộ dữ liệu đã công bố**: đơn vị được ghi là g/m², nhưng thực chất là µm/năm (micromet chiều dày mất đi mỗi năm).
+3. Xây dựng mô hình dự đoán mức gỉ từ 4 yếu tố môi trường: **muối biển (clorua)**, **khí SO₂**, **số giờ bề mặt bị ẩm** và **nhiệt độ**. Muối biển và SO₂ ảnh hưởng mạnh nhất.
+4. **Kết quả quan trọng nhất:** mô hình học từ dữ liệu quốc tế **dự đoán thấp hơn thực tế khoảng 31% ở Việt Nam**, và cao hơn thực tế khoảng 80% ở vùng lạnh của Nga. Muốn dự báo đúng cho Việt Nam phải hiệu chỉnh bằng số liệu trong nước; sau hiệu chỉnh, mô hình xếp đúng cấp ăn mòn ở 9/12 trạm Việt Nam (trước đó là 2/12).
+5. Mô hình 3D cho thấy: tấm thép cacbon không sơn ở Nha Trang mất trung bình khoảng **0,14 mm sau 10 năm** và **0,19 mm sau 20 năm**; ở Hà Nội khoảng 0,11 mm và 0,15 mm.
+
+**Giải nghĩa thuật ngữ dùng trong báo cáo:**
+
+| Thuật ngữ | Ý nghĩa |
+|---|---|
+| r_corr, tốc độ ăn mòn năm đầu | Chiều dày kim loại mất đi trong năm đầu tiên để ngoài trời (µm/năm) |
+| TOW | Thời gian ẩm ướt – số giờ trong năm bề mặt kim loại bị ẩm |
+| Cl⁻, SO₂ | Lượng muối (clorua) và khí lưu huỳnh đioxit lắng đọng lên bề mặt mỗi ngày |
+| C1–CX | Cấp ăn mòn theo ISO 9223, từ rất thấp (C1) đến cực cao (CX) |
+| DRF (hàm liều – đáp ứng) | Công thức tính mức gỉ từ các yếu tố môi trường, dạng giống công thức của ISO 9223 |
+| GBM (gradient boosting) | Một mô hình học máy; ở đây bị ràng buộc để mức gỉ chỉ tăng khi muối, SO₂, độ ẩm tăng |
+| R² | Mô hình giải thích được bao nhiêu phần sự khác nhau giữa các trạm (1 = hoàn toàn, 0 = không) |
+| Kiểm định chéo / kiểm định độc lập | Thử mô hình trên dữ liệu nó chưa từng thấy khi học |
+| Bỏ-một-trạm (LOO) | Dự đoán từng trạm mà không dùng số đo của chính trạm đó, để đánh giá trung thực |
+| Hệ số hiệu chỉnh vùng k | Hệ số nhân để đưa mô hình quốc tế về đúng mức của một vùng khí hậu |
 
 ---
 
