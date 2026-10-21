@@ -102,14 +102,14 @@
 
 | Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
-| I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 19 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 35 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (Demo 1, 2; mô hình 3D) | 12–18 | 37 phút |
+| I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 33 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học (Demo 1, 2; mô hình 3D) | 12–18 | 34 phút |
 | IV | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (Demo 3) | 19 | 5 phút |
 | V | Skill, khoa học mở và tự động hóa | 20–22 | 15 phút |
-| VI | Trao đổi, thảo luận | 23 | 9 phút |
-| – | Phụ lục (không trình bày) | 24–27 | – |
-| **Tổng cộng** | **23 slide + 4 phụ lục** | **120 phút** |
+| VI | Trao đổi, thảo luận | 23 | 15 phút |
+| – | Phụ lục (không trình bày) | 24–28 | – |
+| **Tổng cộng** | **23 slide + 5 phụ lục** | **120 phút** |
 
 *v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận. Slide 3 thêm 6 tính năng mới của AI Agent và ô "AI vẫn có thể sai" (+1′). Thêm Slide 16 – mô hình 3D quá trình ăn mòn (3′) và Slide 19 – Demo 3 (thành Phần IV riêng): công cụ cho máy không Internet với đề tài có dữ liệu mật (5′); bù bằng: thảo luận −3′, Slide 10, 12, 13, 14, 18 mỗi slide −1′. Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
 

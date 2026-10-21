@@ -66,7 +66,7 @@ ax3 = dict(xaxis=dict(title="log₁₀ Cl⁻ (mg/m²·ngày)"), yaxis=dict(title
 fig.update_layout(title="3D-1. Tốc độ ăn mòn năm đầu của thép cacbon theo clorua và thời gian ẩm ướt "
                         "(DRF hiệu chỉnh vùng; điểm = số đo thật)",
                   scene=ax3, scene2=ax3, height=650, margin=dict(l=0, r=0, t=60, b=0))
-fig.write_html(MO_HINH_3D / "3D_1_mat_dap_ung.html", include_plotlyjs="cdn")
+fig.write_html(MO_HINH_3D / "3D_1_mat_dap_ung.html", include_plotlyjs="directory")
 
 # ================================================================ 3D-2 diễn tiến theo thời gian (Việt Nam)
 t_ax = np.linspace(0, 50, 51)
@@ -84,7 +84,7 @@ fig2.update_layout(title="3D-2. Chiều dày thép cacbon bị ăn mòn theo th�
                          "(T 25 °C, TOW 5500 h, SO₂ 5; ISO 9224 b = 0,523)",
                    scene=dict(xaxis_title="Thời gian (năm)", yaxis_title="log₁₀ Cl⁻", zaxis_title="D (µm)"),
                    height=650, margin=dict(l=0, r=0, t=60, b=0))
-fig2.write_html(MO_HINH_3D / "3D_2_dien_tien_theo_thoi_gian.html", include_plotlyjs="cdn")
+fig2.write_html(MO_HINH_3D / "3D_2_dien_tien_theo_thoi_gian.html", include_plotlyjs="directory")
 
 # ================================================================ 3D-3 bề mặt tấm thép theo thời gian
 TRAM = {"Nha Trang": hc[(hc.tram == "Nhatrang")].iloc[0], "Hà Nội": hc[(hc.tram == "Hanoi")].iloc[0]}
@@ -130,7 +130,7 @@ fig3.update_layout(sliders=[dict(steps=steps, currentvalue=dict(prefix=""), pad=
                    annotations=[dict(text="Độ sâu trung bình: định lượng (số đo năm đầu + ISO 9224). "
                                           "Độ nhám/hố: minh họa với tham số giả định.",
                                      x=0, y=0, xref="paper", yref="paper", showarrow=False, font=dict(size=11))])
-fig3.write_html(MO_HINH_3D / "3D_3_be_mat_tam_thep.html", include_plotlyjs="cdn")
+fig3.write_html(MO_HINH_3D / "3D_3_be_mat_tam_thep.html", include_plotlyjs="directory")
 pd.DataFrame(ket_qua_3).to_csv(BANG / "be_mat_theo_thoi_gian.csv", index=False, encoding="utf-8-sig")
 
 # ================================================================ Ảnh tĩnh cho slide
