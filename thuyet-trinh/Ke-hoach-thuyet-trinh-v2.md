@@ -103,13 +103,13 @@
 | Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
 | I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 33 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (Demo 1, 2; mô hình 3D) | 12–18 | 34 phút |
-| IV | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (Demo 3) | 19 | 5 phút |
-| V | Skill, khoa học mở và tự động hóa | 20–22 | 15 phút |
-| VI | Trao đổi, thảo luận | 23 | 15 phút |
-| – | Phụ lục (không trình bày) | 24–28 | – |
-| **Tổng cộng** | **23 slide + 5 phụ lục** | **120 phút** |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude và cách dùng cơ bản | 5–12 | 36 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học (Demo 1, 2; mô hình 3D) | 13–19 | 34 phút |
+| IV | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (Demo 3) | 20 | 5 phút |
+| V | Skill, khoa học mở và tự động hóa | 21–23 | 15 phút |
+| VI | Trao đổi, thảo luận | 24 | 12 phút |
+| – | Phụ lục (không trình bày) | 25–29 | – |
+| **Tổng cộng** | **24 slide + 5 phụ lục** | **120 phút** |
 
 *v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận. Slide 3 thêm 6 tính năng mới của AI Agent và ô "AI vẫn có thể sai" (+1′). Thêm Slide 16 – mô hình 3D quá trình ăn mòn (3′) và Slide 19 – Demo 3 (thành Phần IV riêng): công cụ cho máy không Internet với đề tài có dữ liệu mật (5′); bù bằng: thảo luận −3′, Slide 10, 12, 13, 14, 18 mỗi slide −1′. Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
 
@@ -581,3 +581,8 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N30 | Sử dụng máy tính (computer use): thử nghiệm công khai 22/10/2024 cùng Claude 3.5 Sonnet nâng cấp – AI nhìn màn hình, di chuột, bấm, gõ phím | 3 | anthropic.com/news/3-5-models-and-computer-use | ◐ – mở trang gốc trước khi dùng |
 | N31 | Agent Skills công bố thành chuẩn mở giữa 12/2025 (đặc tả và SDK tại agentskills.io; tệp SKILL.md) | 3 | agentskills.io; The New Stack, AI Business (12/2025) | ◐ – ngày chính xác (16–19/12) chưa thống nhất giữa các nguồn, chỉ ghi "12/2025" |
 | N32 | Deep Research: Google Gemini 11/12/2024 · OpenAI 02/02/2025 · Claude Research 15/04/2025 | 3 | Thông báo của từng hãng; Ars Technica (05/2025) | ◐ – Claude ✅ (thông báo Anthropic); Google, OpenAI theo báo chí |
+| N33 | Sci-Hub: ~88 triệu tài liệu; Sci-Bot – trợ lý AI trên kho Sci-Hub, ra mắt 04/2026 (sci-bot.ru), bản thử nghiệm, thiếu bài sau ~2021–2022 | 7 | C&EN (04/2026) "Sci-Hub has created a new AI chatbot"; Xataka; Wikipedia "Sci-Hub" | ◐ – nguồn báo chí |
+| N34 | Pháp lý Sci-Hub: Tòa Moscow 2018 (chặn Sci-Hub, LibGen); Tòa cấp cao Delhi 19/08/2025 (lệnh tạm thời chặn Sci-Hub, Sci-Net); các phán quyết bồi thường ở Mỹ (Elsevier 2017, ACS 2017) | 7 | World IP Review; The Bookseller (2018); MediaNama, Storyboard18 (08/2025); EU IP Helpdesk (10/2025) | ◐ – kiểm tra diễn biến sau phiên 01/12/2025 |
+| N35 | Google Scholar Labs ra mắt 18/11/2025: tìm kiếm có AI, cần đăng nhập, câu hỏi tiếng Anh | 7 | scholar.googleblog.com; The Verge (11/2025) | ✅ |
+| N36 | Unpaywall (tiện ích, ~½ yêu cầu tìm được bản mở); CORE (> 100 triệu bài); Open Access Button đã ngừng 18/11/2025 – không đưa vào slide | 7 | Hướng dẫn thư viện UCSD, Sheffield; trang Unpaywall, CORE | ◐ – xem số liệu trên trang chính thức |
+| N37 | VJOL – CSDL tạp chí Việt Nam (Cục Thông tin, Thống kê KH&CN quốc gia, ra mắt 2007, INASP hỗ trợ); CyberLeninka – thư viện mở Nga; Scopus AI, WoS Research Assistant, Undermind (đánh giá của thư viện SMU, 2025) | 7 | vjol.info.vn; cyberleninka.ru; library.smu.edu.sg | ◐ |

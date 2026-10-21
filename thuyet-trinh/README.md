@@ -1,6 +1,6 @@
 # THUYẾT TRÌNH: AI AGENT VÀ SỰ CHUYỂN ĐỔI PHƯƠNG THỨC NGHIÊN CỨU KHOA HỌC
 
-120 phút · Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · Bố cục **v2.5**: 23 slide, 6 phần + 5 phụ lục; demo chạy trước, chỉ trình chiếu kết quả.
+120 phút · Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · Bố cục **v2.5**: 24 slide, 6 phần + 5 phụ lục; demo chạy trước, chỉ trình chiếu kết quả.
 
 | Tệp / thư mục | Nội dung |
 |---|---|

@@ -7,4 +7,4 @@
 | `bieu-mau-trung-tam/da-dien/` | Biểu mẫu đã điền nội dung thật (🟡 vàng) | Không lên GitHub (`.gitignore`) |
 
 Quy trình khi có biểu mẫu: đưa bản nháp + biểu mẫu trống vào dự án trên Claude → câu lệnh mục 9 trong `thuyet-trinh/cau-lenh-demo.md` → lưu kết quả vào `da-dien/`.
-Liên hệ bài thuyết trình: Slide 13, 14.
+Liên hệ bài thuyết trình: Slide 14, 15.

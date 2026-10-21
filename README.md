@@ -19,7 +19,7 @@ du-an-nghien-cuu/
 ├── 07-bao-cao/              báo cáo tổng hợp
 └── chay_tat_ca.sh
 thuyet-trinh/
-├── DANH-SACH-SLIDE.md (+ .docx)   bố cục slide chính thức v2.5 (23 slide, 3 demo)
+├── DANH-SACH-SLIDE.md (+ .docx)   bố cục slide chính thức v2.5 (24 slide, 3 demo)
 ├── cau-lenh-demo.md · Ke-hoach-thuyet-trinh-v2.md · DE-XUAT-BO-SUNG-v2.4 · RA-SOAT-v2 · luu-tru/
 ├── du-lieu-demo/ (nhieu-nguon/ thật · gia-lap/ · may-cach-ly/) · ma-nguon-demo/ · ket-qua-demo/
 └── chay_demo.sh

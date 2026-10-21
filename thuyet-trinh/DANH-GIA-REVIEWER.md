@@ -1,5 +1,7 @@
 # ĐÁNH GIÁ BÀI THUYẾT TRÌNH – GÓC NHÌN NGƯỜI PHẢN BIỆN
 
+> *Số slide trong bản đánh giá này theo bố cục **trước khi thêm Slide 7** (công cụ tìm tài liệu) – từ Slide 7 trở đi, số slide hiện hành cộng 1.*
+>
 > **Trạng thái xử lý (21/10/2026):**
 > - ✅ Demo: chạy trước, chỉ trình chiếu video – ảnh (Slide 8, 13, 14, 15, 16, 19); mô hình 3D mở được không cần Internet.
 > - ✅ Giảm chữ: Slide 3 (bỏ bảng chatbot – Agent, bảng tính năng còn 4 dòng), Slide 7 (mô hình 1 dòng, tính năng còn 5), Slide 12 (bỏ bảng 8 tài liệu), Slide 20 (3 số lớn) – chi tiết chuyển sang `TAI-LIEU-PHAT-TAY.md`.
