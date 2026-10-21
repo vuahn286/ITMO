@@ -1,0 +1,12 @@
+﻿mo_hinh,tap,n,R2_log,RMSE_log,sai_so_tuong_doi_trung_vi_pct,dung_cap_ISO_pct,lech_toi_da_1_cap_pct
+M1_DRF,CV 10-lần (huấn luyện),320,0.608,0.479,27.1,63.1,97.5
+M2_GBM,CV 10-lần (huấn luyện),320,0.707,0.414,23.1,67.5,98.1
+M1_DRF,Kiểm định độc lập – tất cả,67,0.442,0.571,34.4,55.2,98.5
+M1_DRF,Kiểm định độc lập – Việt Nam,12,-17.376,0.615,37.0,16.7,100.0
+M1_DRF,Kiểm định độc lập – Nga,18,-0.085,0.708,73.0,72.2,100.0
+M2_GBM,Kiểm định độc lập – tất cả,67,0.391,0.597,30.6,59.7,97.0
+M2_GBM,Kiểm định độc lập – Việt Nam,12,-5.906,0.377,15.1,66.7,100.0
+M2_GBM,Kiểm định độc lập – Nga,18,-0.45,0.818,97.2,55.6,100.0
+"TB(M1,M2)",Kiểm định độc lập – tất cả,67,0.456,0.564,32.0,56.7,100.0
+"TB(M1,M2)",Kiểm định độc lập – Việt Nam,12,-10.242,0.481,26.8,16.7,100.0
+"TB(M1,M2)",Kiểm định độc lập – Nga,18,-0.199,0.744,85.9,77.8,100.0

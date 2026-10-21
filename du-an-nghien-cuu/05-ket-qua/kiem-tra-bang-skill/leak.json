@@ -1,0 +1,863 @@
+{
+  "analysis": {
+    "audit_type": "missingness_group_and_split_leakage",
+    "automatic_imputation_or_deletion": false,
+    "leakage_audit": {
+      "entity_tokens_in_multiple_splits": 0,
+      "group_tokens_in_multiple_splits": 0,
+      "identical_row_hashes_in_multiple_splits": 0,
+      "overlapping_split_time_interval_pairs": 0,
+      "rows_with_missing_split": 0,
+      "scope_warning": "No finding is not proof of no leakage, especially for truncated scans or unprovided entity/group/time roles.",
+      "status": "not_detected_in_scanned_rows",
+      "tracking_truncated": false,
+      "unparseable_nonmissing_time_values": 0
+    },
+    "maximum_group_missingness_gaps": [
+      {
+        "column_id": "nguon",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "tram",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "loai_khi_quyen",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "T_C",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "TOW_h_nam",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "Cl_mg_m2_ngay",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "SO2_mg_m2_ngay",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "r_corr_um_nam",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "cap_goc",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "tai_lieu",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "tap",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "quoc_gia",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "r_corr_g_m2_nam",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "cap_tinh_lai",
+        "maximum_group_missingness_gap": 0.0
+      }
+    ],
+    "missing_code_policy": {
+      "additional_token_count": 0,
+      "empty_or_whitespace_is_missing": true,
+      "tokens_are_not_emitted": true
+    },
+    "missingness_by_group": [
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_072c9e40dcba2652",
+        "row_count": 190
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_2680ef71dee9a42f",
+        "row_count": 130
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_5b2568c82ce54d03",
+        "row_count": 5
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_90a594c1e5ea7d82",
+        "row_count": 18
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_93b3461c9d3ad80b",
+        "row_count": 11
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_b4302f9cc29f2ff9",
+        "row_count": 21
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_bd32fa76db486b88",
+        "row_count": 12
+      }
+    ],
+    "missingness_by_split": [
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "row_count": 320,
+        "split_token": "split_003cf8544d12c20f"
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "nguon",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tram",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "loai_khi_quyen",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "T_C",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "TOW_h_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Cl_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "SO2_mg_m2_ngay",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_um_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_goc",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tai_lieu",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "tap",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "quoc_gia",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "r_corr_g_m2_nam",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "cap_tinh_lai",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "row_count": 67,
+        "split_token": "split_e4d786978c495e44"
+      }
+    ],
+    "overall_missingness": [
+      {
+        "column_id": "nguon",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "tram",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "loai_khi_quyen",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "T_C",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "TOW_h_nam",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "Cl_mg_m2_ngay",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "SO2_mg_m2_ngay",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "r_corr_um_nam",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "cap_goc",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "tai_lieu",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "tap",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "quoc_gia",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "r_corr_g_m2_nam",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "cap_tinh_lai",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      }
+    ],
+    "raw_values_emitted": false,
+    "row_limit_reached": false,
+    "rows_scanned": 387
+  },
+  "capability": {
+    "dependency": "Python standard library",
+    "depth": "bounded schema, aggregate profile, missingness, and sensitivity audit",
+    "format": "CSV",
+    "reference": "references/general_scientific_formats.md",
+    "suffix": ".csv",
+    "tier": "automated_core"
+  },
+  "interpretation": {
+    "domain_design_review_required": true,
+    "no_overlap_found_is_not_proof_of_independence": true,
+    "potential_overlap_is_not_proof_of_model_leakage": true
+  },
+  "schema_version": "1.1",
+  "security": {
+    "embedded_instructions_followed": false,
+    "file_text_is_untrusted_data": true,
+    "local_only": true,
+    "raw_values_paths_and_entity_ids_emitted": false
+  }
+}

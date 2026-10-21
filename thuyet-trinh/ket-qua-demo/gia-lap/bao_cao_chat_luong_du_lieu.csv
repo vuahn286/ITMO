@@ -1,0 +1,15 @@
+﻿loai_loi,ma_mau,mo_ta,xu_ly
+Trùng dòng,DO-TH-06-2,Dòng lặp lại hoàn toàn,Xóa bản trùng
+Tên trạm không thống nhất,NO-NH-01-2,'tram_noidia ',Chuẩn hóa thành TRAM_NOIDIA
+Tên trạm không thống nhất,BI-DO-03-3,'Tram bien',Chuẩn hóa thành TRAM_BIEN
+Thiếu số liệu,DO-KE-24-3,khoi_luong_sau_g trống,"Loại khỏi phân tích, giữ trong dữ liệu gốc"
+Sai định dạng số,BI-KE-06-2,"khoi_luong_sau_g = '107,1491'",Chuyển thành 107.1491
+Thiếu số liệu,NO-DO-06-1,khoi_luong_sau_g trống,"Loại khỏi phân tích, giữ trong dữ liệu gốc"
+Thiếu số liệu,BI-TH-12-2,khoi_luong_sau_g trống,"Loại khỏi phân tích, giữ trong dữ liệu gốc"
+Sai định dạng số,DO-TH-03-1,khoi_luong_sau_g = '114.2493 g',Chuyển thành 114.2493
+Sai định dạng ngày,NO-KE-36-1,ngay_thu_mau = '2026/01/13',Chuyển về YYYY-MM-DD
+Sai định dạng ngày,DO-NH-12-2,ngay_thu_mau = '14/01/2024',Chuyển về YYYY-MM-DD
+Ghi chú thực nghiệm,DO-DO-18-1,tẩy gỉ lần 2,"Giữ lại, đánh dấu để nhà khoa học xem xét"
+Ghi chú thực nghiệm,BI-TH-36-2,"mẫu bị rơi khi thu, mất một phần gỉ","Giữ lại, đánh dấu để nhà khoa học xem xét"
+Giá trị phi vật lý,NO-TH-18-3,Khối lượng sau > trước (tổn thất âm),Loại – đề nghị kiểm tra sổ cân
+Ngoại lệ thống kê,BI-TH-24-1,"1603.2 g/m², lệch +69% so với 2 mẫu lặp (950.9)",Loại khỏi mô hình – đề nghị kiểm tra sổ cân
