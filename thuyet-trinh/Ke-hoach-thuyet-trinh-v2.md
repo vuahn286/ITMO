@@ -6,8 +6,10 @@
 **Định hướng:** Nhận thức là chính, lý thuyết vừa đủ, có ví dụ thực tế và demo. Nhấn mạnh năng lực cốt lõi và ưu điểm của AI. Không đi sâu kỹ thuật xây dựng Agent.
 **Tình huống xuyên suốt (đã chốt):** **Phương án A – Ăn mòn khí quyển của kim loại trong môi trường nhiệt đới.**
 **Ngày thuyết trình:** ____ / ____ / ______
-**Phiên bản:** 2.4 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
+**Phiên bản:** 2.5 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
 
+> **Bản v2.5 (21/10/2026):** bố cục chính thức ở `DANH-SACH-SLIDE.md` – 21 slide trình bày + 4 phụ lục. Giữ đúng các phần người trình bày đã xóa trong tệp Word; bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận" (thời lượng chuyển sang thảo luận: 13′). Các mục "Lời nói", "Gợi ý nói" trong kế hoạch này chỉ còn giá trị tham khảo.
+>
 > **Bản v2.4 (21/10/2026):** cập nhật theo góp ý trong tệp Word (phần tô vàng) – xem `DE-XUAT-BO-SUNG-v2.4.md` và `DANH-SACH-SLIDE.md` (bố cục chính thức, 22 slide + 4 phụ lục). Thay đổi chính: mở rộng bản đồ công việc; thêm tính năng nổi bật của Claude (Skill, Cowork, tác vụ theo lịch, Plugin); demo dữ liệu thật nhiều nguồn; Phần III bắt đầu bằng tìm khoảng trống; demo với biểu mẫu thật của Trung tâm; bài báo theo Scopus / ВАК / Ei / trong nước; thí nghiệm có – không dùng Skill; ứng dụng khoa học mở.
 >
 > **Bản v2.3 (21/10/2026):** thêm 2 slide vào Phần II – "Claude là gì? Mô hình và gói dịch vụ" (Slide 7) – chỉ giới thiệu cách dùng trên Windows (trình duyệt, ứng dụng Claude cho Windows) và "Dùng Claude cơ bản: 6 bước đầu tiên" (Slide 8). Từ Slide 7 trở đi, **số slide ở bảng đối chiếu dưới đây cộng thêm 2** (ví dụ: v2.2 số 7 → v2.3 số 9). Thời lượng: Phần I 18′, II 37′, III 38′, IV 17′, thảo luận 10′. Chi tiết: `DANH-SACH-SLIDE.md`.
@@ -98,15 +100,17 @@
 
 ## 2. PHÂN BỔ THỜI GIAN
 
-| Phần | Nội dung | Slide (v2.3) | Thời lượng |
+| Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
 | I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 37 phút |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 36 phút |
 | III | AI Agent trong vòng đời nhiệm vụ khoa học (2 demo) | 12–17 | 38 phút |
-| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 18–21 | 17 phút |
-| – | Trao đổi, thảo luận | 22 | 10 phút |
-| – | Phụ lục (không trình bày) | 23–26 | – |
-| | **Tổng cộng** | **22 slide + 4 phụ lục** | **120 phút** |
+| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 18–20 | 15 phút |
+| – | Trao đổi, thảo luận | 21 | 13 phút |
+| – | Phụ lục (không trình bày) | 22–25 | – |
+| | **Tổng cộng** | **21 slide + 4 phụ lục** | **120 phút** |
+
+*v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận (13′). Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
 
 *v2.3: thêm 12′ cho 2 slide Claude; bù bằng cách rút: slide chatbot/Agent −1′, công cụ −1′, không gian dự án −2′, Skill/Subagent −2′, slide tài liệu −1′, mỗi demo −1′, slide tự động hóa −1′, thảo luận −2′.*
 

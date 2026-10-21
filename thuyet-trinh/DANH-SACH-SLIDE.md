@@ -1,8 +1,8 @@
 # DANH SÁCH SLIDE ĐỂ CHỈNH SỬA VÀ DUYỆT
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
-**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 22 slide trình bày + 4 phụ lục + trang bìa
-**Căn cứ:** Kế hoạch v2.1 (`Ke-hoach-thuyet-trinh-v2.md`) · **Bản v2.4 (21/10/2026):** cập nhật theo góp ý trong tệp Word (các phần tô vàng) – xem `DE-XUAT-BO-SUNG-v2.4.md`; mục mới đánh dấu 🆕. **Tệp này là bố cục slide chính thức.**
+**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 21 slide trình bày + 4 phụ lục + trang bìa
+**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận". **Tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -11,9 +11,7 @@
 Mỗi slide gồm các phần:
 - **Chữ trên slide** – nội dung xuất hiện trên màn hình. Sửa trực tiếp vào đây.
 - **Hình ảnh** – hình hoặc biểu đồ cần chuẩn bị.
-- **Lời nói** – nội dung người trình bày nói, không hiện trên slide.
 - **Nguồn** – mã căn cứ, tra ở Mục 7 của kế hoạch.
-- **Duyệt** – đánh dấu `[x]` vào một ô, ghi ý kiến vào dòng "Ghi chú".
 
 Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
@@ -44,13 +42,12 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | 18 | Skill và khoa học mở: nền móng của tự động hóa | IV | 6′ | [ ] |
 | 19 | Ứng dụng khoa học mở và tự động hóa từng bước đến toàn trình | IV | 5′ | [ ] |
 | 20 | Bản đồ quy trình tự động của Trung tâm và năm quyết định của nhà khoa học | IV | 4′ | [ ] |
-| 21 | Lộ trình triển khai và kết luận | IV | 3′ | [ ] |
-| 22 | Trao đổi và thảo luận | – | 10′ | [ ] |
-| 23 | Phụ lục A: AI lập trình (không trình bày) | – | – | [ ] |
-| 24 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | – | – | [ ] |
-| 25 | Phụ lục C: Nguồn tham khảo (không trình bày) | – | – | [ ] |
-| 26 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | – | – | [ ] |
-| | **Tổng** | | **120′** = 110′ trình bày + 10′ thảo luận. Khi tập dượt, nói trong khoảng 100′ để còn dự phòng cho demo. | |
+| 21 | Trao đổi và thảo luận | IV | 13′ | [ ] |
+| 22 | Phụ lục A: AI lập trình (không trình bày) | IV | – | [ ] |
+| 23 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | IV | – | [ ] |
+| 24 | Phụ lục C: Nguồn tham khảo (không trình bày) | IV | – | [ ] |
+| 25 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | IV | – | [ ] |
+| | **Tổng** | | **120′** = 107′ trình bày + 13′ thảo luận | |
 
 ---
 
@@ -84,11 +81,6 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 **Hình ảnh:** biểu đồ METR (trục tung logarit, từ giây đến giờ) – hình chính của slide.
 
-**Lời nói:**
-- AI tạo sinh là loại AI viết được văn bản, vẽ hình… như ChatGPT, Gemini, Claude. ChatGPT ra mắt cuối 2022; khoảng 3 năm sau, theo Đại học Stanford, mức phổ cập đạt khoảng 53% dân số. Tỷ lệ chênh lệch lớn giữa các nước.
-- Olympic Toán quốc tế là kỳ thi cho học sinh giỏi toán nhất thế giới; AI viết lời giải bằng ngôn ngữ tự nhiên, được chấm như thí sinh (35/42 điểm). Cả Google và OpenAI đều công bố kết quả này.
-- Độ dài công việc đo bằng thời gian một chuyên gia cần để làm xong; AI được tính là "làm được" nếu thành công ít nhất một nửa số lần. "Làm được một nửa số lần" không có nghĩa là giao hẳn việc 16 giờ cho AI. 16 giờ cũng là giới hạn đo của bộ bài kiểm tra hiện tại.
-
 **Lưu ý:** không viết "53% dân số thế giới"; không nêu con số lớn hơn 16 giờ. Xem lại metr.org/time-horizons ngay trước ngày thuyết trình.
 
 **Nguồn:** N1 (AI Index 2026), N2 (IMO 2025), N3 (METR)
@@ -110,14 +102,9 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | Sinh học | **AlphaFold**: dự đoán cấu trúc 3D của protein – Nobel Hóa học 2024 | Y sinh nhiệt đới |
 | Vật liệu | **GNoME**: đề xuất 2,2 triệu cấu trúc tinh thể mới · **A-Lab**: phòng thí nghiệm robot tự tổng hợp 41 hợp chất mới trong 17 ngày | Vật liệu, ăn mòn, độ bền |
 
-> **Việt Nam:** Luật Trí tuệ nhân tạo số 134/2025/QH15, hiệu lực từ 01/3/2026.
 > *Câu chốt:* AI đang trở thành một thành phần của hạ tầng nghiên cứu.
 
 **Hình ảnh:** mỗi lĩnh vực một hình nhỏ (ảnh vệ tinh, bản đồ bão, robot, protein, tinh thể).
-
-**Lời nói:** hỏi người nghe: "Lĩnh vực nào gần với công việc của anh chị nhất?"; nhấn mạnh Prithvi là mã nguồn mở – Trung tâm có thể dùng ngay.
-
-**Nguồn:** N4–N10
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -145,13 +132,6 @@ Sáu năng lực cốt lõi:
 | Chi phí – thời gian | Thấp | Cao hơn |
 
 > *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 16.
-> *Câu chốt:* Không phải công việc nào cũng cần Agent.
-
-**Hình ảnh:** sơ đồ tiến hóa: AI phân tích → AI tạo sinh → AI dùng công cụ → AI Agent.
-
-**Lời nói:** năng lực 5 là lợi thế riêng của Trung tâm Việt – Nga. Phần AI lập trình nói không quá 1 phút.
-
-**Nguồn:** N11
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -164,17 +144,13 @@ Sáu năng lực cốt lõi:
 
 | Trước đây | Hiện nay | Ví dụ |
 |---|---|---|
-| Tìm kiếm thủ công | Tổng hợp bằng chứng có hệ thống | AI co-scientist (Google) đọc tài liệu, đề xuất giả thuyết – kể kỹ ở Phần III |
-| Thao tác riêng lẻ | Quy trình liên tục | ERA (Google): AI viết mã → chạy → chấm điểm → cải tiến – kể kỹ ở Phần III |
+| Tìm kiếm thủ công | Tổng hợp bằng chứng có hệ thống | AI co-scientist (Google) đọc tài liệu, đề xuất giả thuyết |
+| Thao tác riêng lẻ | Quy trình liên tục | ERA (Google): AI viết mã → chạy → chấm điểm → cải tiến |
 | Câu lệnh dùng một lần | Quy trình mẫu (Skill) dùng lại | Thư viện Skill khoa học mở |
 | Một chatbot | Nhiều trợ lý phối hợp | Co-scientist: các trợ lý đề xuất, phản biện, xếp hạng giả thuyết |
 
 > **Nhà khoa học dẫn dắt:** câu hỏi, phương pháp, diễn giải và công bố.
-> **Thông điệp Phần I:** AI không thay thế nhà khoa học; AI đang thay đổi cách nhà khoa học đặt giả thuyết, xử lý dữ liệu và kiểm chứng kết quả.
-
-**Hình ảnh:** mũi tên "trước → nay" cho 4 dòng.
-
-**Nguồn:** G2, G5
+> AI không thay thế nhà khoa học; AI đang thay đổi cách nhà khoa học đặt giả thuyết, xử lý dữ liệu và kiểm chứng kết quả.
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -199,10 +175,6 @@ Sáu năng lực cốt lõi:
 
 > *Câu chốt:* Chọn đúng bậc – không dùng "dao mổ trâu giết gà".
 
-**Hình ảnh:** bậc thang 5 bậc, mỗi bậc 4 biểu tượng công việc.
-
-**Lời nói:** mời người nghe tự xếp 1–2 công việc của mình vào bậc thang (liên hệ với phiếu khảo sát trước buổi học).
-
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
@@ -222,10 +194,6 @@ Sáu năng lực cốt lõi:
 | *Công cụ chuyên cho tài liệu khoa học* | Elicit, Consensus, Semantic Scholar, Scite, ResearchRabbit | Tìm, sàng lọc, trích xuất bài báo (xem Slide 12) | **☐ cần điền** |
 
 > *Câu chốt:* Hệ sinh thái AI rất nhiều, nhưng chọn đúng công cụ cho đúng việc mới giúp tối ưu thời gian, chi phí và nâng cao chất lượng công việc.
-
-**Lời nói:** chính sách dữ liệu thay đổi thường xuyên, phân biệt theo gói miễn phí và gói trả phí.
-
-**Việc phải làm:** điền cột cuối từ điều khoản chính thức của từng công cụ trong tuần thuyết trình (N14).
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -262,15 +230,6 @@ Sáu năng lực cốt lõi:
 
 **Hình ảnh:** ảnh chụp ứng dụng Claude cho Windows: màn hình chính, nút chọn mô hình, thẻ Cowork, trang Scheduled (tác vụ theo lịch), trang Skills.
 
-**Lời nói:**
-- "Chọn mô hình như chọn người làm việc: việc nhanh giao Haiku, việc hằng ngày dùng Sonnet, việc khó dùng Opus hoặc Fable."
-- "Ba tính năng làm thay đổi cách làm việc: **Skill** – đóng gói kinh nghiệm; **Cowork** – AI làm việc trực tiếp với thư mục trên máy; **tác vụ theo lịch** – AI tự chạy định kỳ. Phần IV sẽ quay lại cả ba."
-- "Với dữ liệu: gói cá nhân – người dùng tự chọn có cho dùng hội thoại để cải thiện mô hình hay không; gói tổ chức (Team, Enterprise) – mặc định không dùng để huấn luyện."
-
-**Lưu ý trước khi trình bày:** kiểm tra lại gói áp dụng cho Skill, Cowork, tác vụ theo lịch tại claude.com/pricing; tính năng Cowork đang được gộp vào giao diện chung từ 09/2026 – chụp ảnh màn hình mới nhất.
-
-**Nguồn:** N20, N21, N22, N24 (Cowork, tác vụ theo lịch, Skill, Plugin)
-
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
@@ -290,6 +249,8 @@ Sáu năng lực cốt lõi:
 | 6. Nhận sản phẩm | Văn bản, bảng, biểu đồ hiện ngay bên cạnh; tải về Word, Excel, PowerPoint, PDF | Khung kết quả bên phải |
 
 > **3 thói quen tốt:** nói rõ việc cần làm và dạng kết quả · yêu cầu dẫn nguồn · luôn kiểm tra lại trước khi dùng.
+
+**Hình ảnh:** 6 ảnh chụp màn hình nhỏ theo 6 bước (dùng tài khoản demo, dữ liệu xanh).
 
 **🆕 Demo: tổng hợp dữ liệu từ nhiều nguồn → bảng tổng hợp → báo cáo hoàn chỉnh (3 phút, dữ liệu THẬT)**
 
@@ -323,12 +284,6 @@ Ghi nguồn cho mọi số liệu.
 
 AI cần phát hiện: tệp 1 ghi đơn vị chưa rõ/sai (giá trị thực là µm/năm – đối chiếu với cột cấp ăn mòn) – đây là lỗi thật trong dữ liệu công bố.
 
-**Lời nói:** "Ba nguồn, ba ngôn ngữ cột, một lỗi đơn vị – việc gộp này trước đây mất nửa ngày; AI làm trong vài phút, và **chỉ ra lỗi** để mình kiểm tra."
-
-**Lưu ý:** tên mục cài đặt có thể khác đôi chút tùy phiên bản giao diện – chụp ảnh màn hình mới nhất trước buổi thuyết trình.
-
-**Nguồn:** N20, N22 · dữ liệu: kho C-OLR (MIT), Lien và cs. (2007), Chico và cs. (2017), Pintos và cs. (2000)
-
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
@@ -343,13 +298,6 @@ AI cần phát hiện: tệp 1 ghi đơn vị chưa rõ/sai (giá trị thực l
 3. **Quy định đầu ra** – dạng bảng, văn bản, biểu đồ, độ dài
 4. **Yêu cầu dẫn nguồn, lưu mã** – để kiểm tra và tái lập
 5. **Kiểm tra và xác nhận** – nhà khoa học duyệt
-
-**Khung nhỏ – quy tắc dữ liệu:**
-🟢 **Xanh:** đã công bố, công khai, giả lập → dùng được với AI trực tuyến
-🟡 **Vàng:** nội bộ chưa công bố → chỉ gói có cam kết không huấn luyện, đã loại thông tin định danh, có phê duyệt
-🔴 **Đỏ:** bí mật nhà nước, quân sự, dữ liệu cá nhân nhạy cảm → không đưa lên AI trực tuyến
-
-> *Căn cứ pháp lý (dòng chân slide):* Luật Trí tuệ nhân tạo 134/2025/QH15 · Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 · Luật Bảo vệ bí mật nhà nước 29/2018/QH14 · quy định của Trung tâm và Bộ Quốc phòng
 
 **🆕 Ví dụ với dữ liệu thật – câu lệnh đủ 5 bước** (387 số đo thực địa đã công bố):
 ```
@@ -367,12 +315,6 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 - AI phát hiện **lỗi đơn vị trong bộ dữ liệu công bố** (ghi g/m², thực tế µm/năm – 99,5% khớp cột cấp ăn mòn)
 - Mô hình quốc tế **dự đoán thấp hơn thực đo ở Việt Nam khoảng 31%**, cao hơn ở Nga khoảng 80%
 - Sau hiệu chỉnh theo vùng: đúng cấp ăn mòn ở **9/12 trạm Việt Nam** (trước là 2/12)
-
-**Lời nói:** "Quyết định dữ liệu nào được đưa lên AI là của nhà khoa học và người có thẩm quyền – không phải của AI." Lồng ghép liêm chính khoa học, sở hữu trí tuệ, trách nhiệm giải trình.
-
-**Lưu ý:** quy tắc xanh / vàng / đỏ phải được bộ phận bảo mật xác nhận trước khi trình bày.
-
-**Nguồn:** N10, N12 · `du-an-nghien-cuu/07-bao-cao/BAO-CAO-TONG-HOP.md`
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -405,12 +347,6 @@ du-an-nghien-cuu/
 ```
 → Mỗi thư mục là một giai đoạn của vòng đời nhiệm vụ; thêm dữ liệu mới vào `03-du-lieu/3-bo-sung/`, chạy lại `chay_tat_ca.sh`: **toàn bộ kết quả tự cập nhật**.
 
-> *Công cụ tương đương:* Claude Projects ↔ ChatGPT Projects ↔ Gemini Gems ↔ NotebookLM
-
-**Hình ảnh:** ảnh chụp dự án mẫu trên Claude + sơ đồ cây thư mục ở trên (mở trực tiếp thư mục `du-an-nghien-cuu/` khi trình bày).
-
-**Lời nói:** "Dự án này sẽ được dùng xuyên suốt Phần III." Nhấn mạnh: dữ liệu gốc không bao giờ bị sửa; mọi kết quả sinh lại được từ mã.
-
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
@@ -427,8 +363,6 @@ du-an-nghien-cuu/
 > **Thông điệp Phần II:** Công cụ tốt nhất là công cụ phù hợp với nhiệm vụ, dữ liệu, chi phí và mức độ kiểm soát cần thiết.
 
 **Hình ảnh:** sơ đồ "nhóm nghiên cứu ảo": nhà khoa học ở vị trí chủ nhiệm; các trợ lý tìm tài liệu → phân tích dữ liệu → kiểm tra biểu mẫu → rà soát báo cáo.
-
-**Lời nói:** chỉ nêu khái niệm; ví dụ cụ thể về Skill ở Slide 18.
 
 **Nguồn:** G2
 
@@ -474,8 +408,6 @@ du-an-nghien-cuu/
 
 **Hình ảnh:** ảnh chụp ma trận bằng chứng và 3 khoảng trống có điểm phản biện.
 
-**Lời nói:** "Câu lệnh 1.3 cho AI đóng vai 3 phản biện độc lập – phiên bản thu nhỏ của AI co-scientist." "Mỗi DOI tôi đều bấm thử – kiểm tra nguồn là việc của nhà khoa học." "Khoảng trống số 1 không phải AI tự nghĩ ra – nó đến từ **số liệu thật** mà AI giúp phân tích ở Slide 9."
-
 **Nguồn:** G2 · N25 (công cụ tài liệu) · tài liệu 1–8 · Câu lệnh 1.1–1.3
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
@@ -501,7 +433,7 @@ du-an-nghien-cuu/
 
 **⚠ Dữ liệu khi demo:** biểu mẫu trống = nhóm xanh; **nội dung đề xuất thật = nhóm vàng** → chỉ dùng tài khoản gói tổ chức (không huấn luyện mô hình) hoặc dùng nội dung đề xuất giả định khi trình diễn trước đông người.
 
-**Lời nói:** "Hội đồng thường bắt lỗi đúng ở những chỗ này. Để AI rà trước giúp ta sửa sớm – nhưng chọn mục tiêu nào là quyết định của chủ nhiệm."
+**Hình ảnh:** ảnh chụp bảng đối chiếu có dấu ⚠.
 
 **Việc phải làm:** người trình bày gửi biểu mẫu của Trung tâm → chạy thử 2 lần trước buổi thuyết trình.
 
@@ -527,8 +459,6 @@ du-an-nghien-cuu/
 
 **Hình ảnh:** biểu mẫu đã điền; `thuyet-trinh/ket-qua-demo/gia-lap/so_do_gantt.png`.
 
-**Lời nói:** "AI giỏi cộng trừ, đối chiếu, phát hiện chỗ lệch – nhưng **đơn giá và định mức là do người cung cấp**, AI không được tự đặt."
-
 **Việc phải làm:** người trình bày gửi biểu mẫu thuyết minh – tiến độ – dự toán; xác nhận văn bản định mức áp dụng trong Bộ Quốc phòng.
 
 **Nguồn:** N26 (Thông tư 03/2023/TT-BTC)
@@ -550,8 +480,6 @@ du-an-nghien-cuu/
 - 💡 **Bài học:** AI viết mã rất nhanh – nhưng chọn phương pháp phù hợp với thiết kế thí nghiệm là việc của người làm chuyên môn
 
 **Hình ảnh:** `thuyet-trinh/ket-qua-demo/gia-lap/bieu_do_dong_hoc_an_mon.png`; `du-an-nghien-cuu/05-ket-qua/hinh/do_vs_du_doan.png`; `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/3D_3_be_mat_tam_thep.png`.
-
-**Lời nói – bài học thật:** "Lần chạy đầu, mã dùng phương pháp thống kê z-score/MAD – vốn cần nhiều số liệu – để tìm ngoại lệ. Kết quả: đánh dấu nhầm 20 giá trị bình thường, bỏ sót đúng lỗi cần tìm, vì mỗi nhóm chỉ có 3 mẫu lặp. Đổi sang quy tắc 'lệch quá 30% so với 2 mẫu còn lại' thì mới đúng."
 
 **Demo:** trực tiếp ~3 phút (Câu lệnh 4.2 → 4.3 → 4.4); mở mô hình 3D tương tác (tệp HTML) nếu còn thời gian.
 
@@ -582,15 +510,8 @@ du-an-nghien-cuu/
   và từ khóa tiếng Nga – Anh, tài liệu tham khảo theo ГОСТ Р 7.0.5-2008.
   Sau đó đóng vai phản biện khó tính: 5 nhược điểm lớn nhất và cách trả lời.
   ```
-- ✅ **Xác nhận:** nội dung khoa học, trích dẫn, quyền tác giả, **khai báo việc sử dụng AI** (AI không được đứng tên tác giả)
-
-> **Thông điệp Phần III:** AI Agent nối tài liệu, dữ liệu, biểu mẫu và sản phẩm thành một quá trình liên tục; các quyết định khoa học thuộc về nhà nghiên cứu.
-
-**Lời nói:** "Lợi thế của Trung tâm Việt – Nga: cùng một kết quả, AI giúp chuyển thành bản tiếng Anh cho Scopus, bản tiếng Nga cho ВАК và bản tiếng Việt cho tạp chí trong nước – nhưng **mỗi bản phải được tác giả đọc lại**."
 
 **Việc phải làm:** kiểm tra danh mục ВАК hiện hành và nhóm К1–К3 của từng tạp chí; xác nhận "EeiE" trong bản góp ý là Ei Compendex hay danh mục khác.
-
-**Nguồn:** N15, N27 (yêu cầu ВАК, ГОСТ), N28 (Tạp chí KH&CN nhiệt đới)
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -605,14 +526,12 @@ du-an-nghien-cuu/
 
 > Cùng một dự án, cùng một bộ tài liệu – AI nối các công đoạn; nhà khoa học duyệt ở mỗi bước.
 
-**Lời nói:** nhắc lại nhanh 5 bước vừa xem; chuyển sang Phần IV: "làm sao để lần sau nhanh hơn và cả Trung tâm cùng dùng được?"
-
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-# PHẦN IV. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (18 phút)
+# PHẦN IV. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (15 phút)
 
 ---
 
@@ -637,10 +556,6 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 | Quy tắc an toàn | Tùy người làm | Không tự xóa, không tự điền, không tự biến đổi dữ liệu; không kết luận nhân quả |
 
 > **Kết luận:** Skill **không thay** nhà khoa học – Skill bảo đảm **không bỏ sót bước kiểm tra**, và ai chạy cũng theo cùng một chuẩn.
-
-**Hình ảnh:** trang GitHub K-Dense Scientific Agent Skills; bảng so sánh ở trên.
-
-**Lời nói:** "Skill này do cộng đồng khoa học mở viết, kiểm tra và chia sẻ miễn phí. Tải về, đọc kỹ (vì đây là mã của người khác), chạy thử trên dữ liệu xanh, rồi mới dùng."
 
 **Lưu ý:** "Không dùng Skill" là phân tích ban đầu của chính bộ mã nghiên cứu; nên chạy lại thí nghiệm trực tiếp trên Claude (tải Skill dạng ZIP) trước buổi thuyết trình.
 
@@ -673,10 +588,6 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 | 2 – Bán tự động | Chuỗi Skill chạy liên tiếp, dừng ở điểm xác nhận | Dự án + Skill: tài liệu → ma trận bằng chứng → khoảng trống |
 | 3 – Tự động toàn trình | Tự chạy theo lịch hoặc khi có dữ liệu mới | **Tác vụ theo lịch** (Cowork): sáng thứ Hai tự gửi bản tin công bố mới |
 
-> *Câu chốt:* Tự động hóa không bỏ qua nhà khoa học – nó đưa nhà khoa học lên vị trí đặt mục tiêu và phê duyệt.
-
-**Lời nói:** "Chúng ta vừa là người hưởng lợi từ khoa học mở – và có thể là người đóng góp: dữ liệu trạm thử nghiệm của Trung tâm (phần được phép công bố) chính là thứ mà cộng đồng quốc tế đang thiếu cho vùng nhiệt đới."
-
 **Nguồn:** N19 (FAIR, UNESCO) · N24 · kho C-OLR
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
@@ -700,8 +611,6 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 **Hình ảnh (chính):** sơ đồ dòng chảy QT-01 → QT-02 → QT-03 → QT-04 → QT-06, QT-05 chạy song song, tất cả đi qua QT-00; mỗi mũi tên có điểm dừng chờ nhà khoa học duyệt; ảnh chụp bản tin QT-01 chạy thật bằng tác vụ theo lịch.
 
-**Lời nói:** nhắc lại từng khoảnh khắc trong demo Phần III ứng với 5 quyết định.
-
 **Việc phải làm:** chạy thử QT-01 bằng tác vụ theo lịch để có ảnh bản tin thật.
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
@@ -709,32 +618,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 21 – Lộ trình triển khai và kết luận (3′)
-
-**Chữ trên slide:**
-
-| Giai đoạn | Thời gian | Nội dung |
-|---|---|---|
-| 1. Thí điểm | Tháng 1–3 | Thư viện Skill nền (kế thừa K-Dense, bản địa hóa); QT-00, QT-01, QT-04 tại 1–2 phòng, dữ liệu xanh |
-| 2. Đánh giá – mở rộng | Tháng 4–6 | QT-02, QT-03, QT-06 bán tự động với biểu mẫu Trung tâm; đo thời gian tiết kiệm |
-| 3. Nhân rộng – liên thông | Tháng 7–12 | Nối chuỗi toàn trình; QT-05; mô hình chạy cục bộ cho dữ liệu vàng / đỏ; công bố mở phần dữ liệu được phép |
-
-> **Đề nghị:** mỗi phòng đề xuất **một quy trình lặp lại** để tự động hóa trong giai đoạn thí điểm.
-> **Kết luận:** chọn đúng nhiệm vụ → đóng gói thành Skill → tổ chức thành quy trình → giữ trách nhiệm khoa học.
-> **Thông điệp Phần IV:** Đóng gói kinh nghiệm thành Skill, kế thừa khoa học mở, nối thành quy trình tự động; nhà khoa học đặt mục tiêu và phê duyệt.
-
-**Lời nói:** tổ chức thực hiện – nhóm triển khai; nhà khoa học đầu mối mỗi phòng; bộ phận bảo mật phê duyệt quy tắc dữ liệu.
-
-**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
-**Ghi chú:**
-
----
-
-# TRAO ĐỔI VÀ PHỤ LỤC
-
----
-
-## Slide 22 – Trao đổi và thảo luận (10′)
+## Slide 21 – Trao đổi và thảo luận (13′)
 
 **Chữ trên slide:**
 - Kết quả phiếu khảo sát trước buổi học (biểu đồ)
@@ -747,7 +631,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 23 – Phụ lục A: AI lập trình (không trình bày)
+## Slide 22 – Phụ lục A: AI lập trình (không trình bày)
 
 **Chữ trên slide:**
 - GitHub Octoverse 2025: hơn 180 triệu lập trình viên; hơn 36 triệu người mới trong một năm; 630 triệu kho mã; gần 1 tỷ lần đẩy mã; 4,3 triệu dự án AI
@@ -762,7 +646,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 24 – Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi)
+## Slide 23 – Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi)
 
 **Chữ trên slide:** dòng thời gian ngang, 5 thẻ; thẻ ① phóng to
 
@@ -792,7 +676,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 25 – Phụ lục C: Nguồn tham khảo (không trình bày)
+## Slide 24 – Phụ lục C: Nguồn tham khảo (không trình bày)
 
 **Chữ trên slide:** danh mục nguồn theo Mục 11 của kế hoạch – 5 công bố ví dụ ở Phụ lục B (kèm DOI), số liệu bối cảnh, pháp lý Việt Nam, tiêu chuẩn ISO 9223 / 9224, khoa học mở.
 
@@ -803,7 +687,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 26 – Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày)
+## Slide 25 – Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày)
 
 **Chữ trên slide:** K-Dense Scientific Agent Skills – https://github.com/K-Dense-AI/claude-scientific-skills (177 Skill, MIT; sinh học, hóa học, vật liệu, thống kê, viết khoa học…) · AI4S Open Science · AIPOCH Open Science · CES Global – kèm URL và lĩnh vực của từng bộ.
 
