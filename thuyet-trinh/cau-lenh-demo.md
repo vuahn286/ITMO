@@ -23,7 +23,7 @@ Bạn là trợ lý nghiên cứu cho nhóm nghiên cứu độ bền nhiệt đ
 
 ---
 
-## 1. Slide 12 – Tổng quan tài liệu và xác định khoảng trống nghiên cứu
+## 1. Slide 12 – Tài liệu → khoảng trống nghiên cứu
 
 ### Câu lệnh 1.1 – Lập bản đồ chủ đề (bật Web search hoặc dùng Research)
 ```
@@ -51,7 +51,7 @@ Sau bảng, chỉ ra: (a) các điểm các nghiên cứu KHÔNG thống nhất;
 
 ---
 
-## 2. Slide 13 – Xây dựng phiếu đề xuất và thuyết minh nhiệm vụ (Minh họa thực nghiệm 1, trình diễn trực tiếp câu lệnh 2.2)
+## 2. Slide 13 – Khoảng trống → thuyết minh (DEMO 1, trình diễn trực tiếp câu lệnh 2.2)
 
 ### Câu lệnh 2.1 – Soạn các mục thuyết minh
 ```
@@ -74,7 +74,7 @@ Lập bảng đối chiếu: Mục tiêu cụ thể → Nội dung → Phương 
 
 ---
 
-## 3. Slide 14 – Lập kế hoạch tiến độ và dự toán kinh phí theo biểu mẫu của Trung tâm
+## 3. Slide 14 – Tiến độ và kinh phí
 
 ### Câu lệnh 3.1 (tệp `ke_hoach_cong_viec.csv`)
 ```
@@ -89,7 +89,7 @@ Lập bảng đối chiếu: Mục tiêu cụ thể → Nội dung → Phương 
 
 ---
 
-## 4. Slide 15 – Xử lý, phân tích số liệu thực nghiệm bằng mã nguồn Python (Minh họa thực nghiệm 2, trình diễn trực tiếp 4.2 – 4.4)
+## 4. Slide 15 – Dữ liệu thô → kết quả (DEMO 2, trình diễn trực tiếp 4.2 – 4.4)
 
 ### Câu lệnh 4.1 – Từ điển dữ liệu
 ```
@@ -154,7 +154,7 @@ Trình bày thành 2 phần tách biệt: "Kết quả tính toán" và "Diễn 
 
 ---
 
-## 5. Slide 18 – Công bố kết quả nghiên cứu và lập báo cáo tổng hợp
+## 5. Slide 17 – Kết quả → bài báo, báo cáo
 
 ### Câu lệnh 5.1 – Dàn ý bài báo
 ```
@@ -236,7 +236,7 @@ tôi cung cấp, không tự đặt đơn giá; (4) kiểm tra logic trình tự
 liệt kê bất hợp lý và đề xuất điều chỉnh. Xuất Word và Excel.
 ```
 
-## 10. Slide 18 – Bài báo theo nhiều định dạng công bố
+## 10. Slide 17 – Bài báo theo nhiều định dạng công bố
 
 ```
 Từ kết quả trong dự án, soạn bản thảo cho tạp chí [tên]. Đọc "Hướng dẫn tác giả" tôi tải
@@ -270,7 +270,7 @@ huấn luyện – kiểm định (cột tap) có độc lập không. Báo cáo
 
 # BỔ SUNG – MÔ HÌNH 3D VÀ CÔNG CỤ CHO MÁY KHÔNG INTERNET
 
-## 12. Slide 16 – Mô hình hóa 3D quá trình ăn mòn khí quyển của vật liệu kim loại
+## 12. Slide 16 – Mô hình 3D: mô phỏng quá trình ăn mòn vật liệu theo thời gian
 
 **Chuẩn bị:** dự án trên Claude có tệp `du-an-nghien-cuu/05-ket-qua/bang/du_doan_hieu_chinh_VN_RU.csv`.
 
@@ -297,7 +297,7 @@ Cấp C3, sau 30 năm (tốc độ giữa khoảng C3): thép ≈ 218 µm · k�
 
 **Gợi ý:** nếu AI không tự ghi phần "minh họa – tham số giả định" → hỏi lại: *"Phần nào trong hình có căn cứ đo đạc, phần nào là giả định?"* – đây là điểm nhấn của slide.
 
-## 13. Slide 17 – Xây dựng công cụ xử lý dữ liệu trên máy tính không kết nối Internet đối với nhiệm vụ có nội dung bí mật (Minh họa thực nghiệm 3)
+## 13. Slide 19 – Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet (DEMO 3)
 
 **Nguyên tắc:** chỉ mô tả **cấu trúc** dữ liệu. Không đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
 
