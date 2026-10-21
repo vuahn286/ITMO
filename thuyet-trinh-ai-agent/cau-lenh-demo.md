@@ -1,6 +1,6 @@
 # BỘ CÂU LỆNH DEMO – SAO CHÉP VÀ DÁN TRỰC TIẾP VÀO CLAUDE
 
-> Dùng kèm **Kế hoạch thuyết trình** và **DANH-SACH-SLIDE.md** (số slide theo bản v2.3). Mỗi câu lệnh ghi rõ: dán vào đâu, cần tải tệp nào và kết quả mong đợi (để đối chiếu với thư mục `ket-qua-mau/`).
+> Dùng kèm **Kế hoạch thuyết trình** và **DANH-SACH-SLIDE.md** (số slide theo bản v2.4). Mỗi câu lệnh ghi rõ: dán vào đâu, cần tải tệp nào và kết quả mong đợi (để đối chiếu với thư mục `ket-qua-mau/`).
 > Tình huống xuyên suốt: **Đánh giá ăn mòn khí quyển của kim loại tại ba trạm thử nghiệm nhiệt đới** (Phương án A). Toàn bộ dữ liệu là **giả lập, thuộc nhóm xanh**.
 
 ---
@@ -23,7 +23,7 @@ Bạn là trợ lý nghiên cứu cho nhóm nghiên cứu độ bền nhiệt đ
 
 ---
 
-## 1. Slide 13 – Tài liệu → khoảng trống nghiên cứu
+## 1. Slide 12 – Tài liệu → khoảng trống nghiên cứu
 
 ### Câu lệnh 1.1 – Lập bản đồ chủ đề (bật Web search hoặc dùng Research)
 ```
@@ -51,7 +51,7 @@ Sau bảng, chỉ ra: (a) các điểm các nghiên cứu KHÔNG thống nhất;
 
 ---
 
-## 2. Slide 14 – Khoảng trống → thuyết minh (DEMO 1, trình diễn trực tiếp câu lệnh 2.2)
+## 2. Slide 13 – Khoảng trống → thuyết minh (DEMO 1, trình diễn trực tiếp câu lệnh 2.2)
 
 ### Câu lệnh 2.1 – Soạn các mục thuyết minh
 ```
@@ -74,7 +74,7 @@ Lập bảng đối chiếu: Mục tiêu cụ thể → Nội dung → Phương 
 
 ---
 
-## 3. Slide 15 – Tiến độ và kinh phí
+## 3. Slide 14 – Tiến độ và kinh phí
 
 ### Câu lệnh 3.1 (tệp `ke_hoach_cong_viec.csv`)
 ```
@@ -89,7 +89,7 @@ Lập bảng đối chiếu: Mục tiêu cụ thể → Nội dung → Phương 
 
 ---
 
-## 4. Slide 16 – Dữ liệu thô → kết quả (DEMO 2, trình diễn trực tiếp 4.2 – 4.4)
+## 4. Slide 15 – Dữ liệu thô → kết quả (DEMO 2, trình diễn trực tiếp 4.2 – 4.4)
 
 ### Câu lệnh 4.1 – Từ điển dữ liệu
 ```
@@ -154,7 +154,7 @@ Trình bày thành 2 phần tách biệt: "Kết quả tính toán" và "Diễn 
 
 ---
 
-## 5. Slide 17 – Kết quả → bài báo, báo cáo
+## 5. Slide 16 – Kết quả → bài báo, báo cáo
 
 ### Câu lệnh 5.1 – Dàn ý bài báo
 ```
@@ -182,3 +182,86 @@ Với mỗi bài: tiêu đề, tác giả, tạp chí, DOI, tóm tắt tiếng V
 Sắp xếp theo mức độ liên quan, tối đa 10 bài.
 ```
 (Trên Claude: dùng tính năng tác vụ định kỳ/Routine hoặc chạy thủ công rồi chụp màn hình cho Slide 20.)
+
+
+---
+
+# BỔ SUNG v2.4 – CÂU LỆNH CHO CÁC DEMO MỚI
+
+## 7. Slide 8 – Tổng hợp dữ liệu từ nhiều nguồn → bảng tổng hợp → báo cáo (dữ liệu THẬT)
+
+Tải 4 tệp trong `du-lieu-demo-that/` vào cuộc trò chuyện (hoặc dự án):
+```
+Tôi tải lên 4 tệp từ các nguồn khác nhau về tốc độ ăn mòn năm đầu của thép cacbon.
+1. Đọc cả 4 tệp, đối chiếu tên cột và đơn vị; nêu mọi điểm không thống nhất.
+2. Gộp thành một bảng chung; xếp cấp ăn mòn theo ngưỡng ISO 9223 trong tệp 4.
+3. Lập bảng tổng hợp so sánh Quốc tế – Việt Nam – Nga: số trạm, trung bình, trung vị,
+   nhỏ nhất, lớn nhất, số trạm mỗi cấp. Vẽ 1 biểu đồ so sánh.
+4. Viết báo cáo 2 trang (Word): mục đích, dữ liệu và nguồn, kết quả, nhận xét, hạn chế.
+Ghi nguồn cho mọi số liệu.
+```
+**Đối chiếu:** `du-lieu-demo-that/ket_qua_mong_doi_bang_tong_hop.csv`. Trung vị: Quốc tế 28,6 · Việt Nam 31,6 · Nga 14,1 µm/năm; Việt Nam 11/12 trạm C3; Nga 13/18 trạm C2. AI phải chỉ ra: cột `WL` của tệp 1 không ghi rõ đơn vị – đối chiếu cột `CAT` cho thấy là µm/năm.
+
+## 8. Slide 9 – Giao việc 5 bước với dữ liệu thật
+
+Tải `nghien-cuu-an-mon/ket-qua/du_lieu_hop_nhat.csv` (đổi tên `an_mon_387.csv`):
+```
+[1. Nhiệm vụ] Đánh giá mô hình quốc tế dự báo tốc độ ăn mòn năm đầu của thép cacbon có
+áp dụng được cho Việt Nam không.
+[2. Dữ liệu – nhóm xanh, đã công bố] Tệp an_mon_387.csv: cột tap = "huan_luyen" (320 trạm
+ISOCORRAG + MICAT) để học mô hình; "kiem_dinh_doc_lap" (67 trạm, có 12 trạm Việt Nam,
+18 trạm Nga) để kiểm định.
+[3. Đầu ra] (a) báo cáo chất lượng dữ liệu; (b) mô hình dạng hàm liều – đáp ứng ISO 9223
+(dùng TOW thay độ ẩm); (c) bảng sai số theo vùng; (d) biểu đồ đo – dự đoán; (e) báo cáo Word 3 trang.
+[4. Dẫn nguồn, tái lập] Ghi nguồn mọi số liệu; lưu toàn bộ mã Python; không xóa dữ liệu gốc.
+[5. Kiểm tra] Tách "kết quả tính toán" và "diễn giải đề xuất"; nêu rõ hạn chế.
+```
+**Đối chiếu:** `nghien-cuu-an-mon/BAO-CAO.md` – mô hình quốc tế thấp hơn thực đo ở Việt Nam khoảng 31%, cao hơn ở Nga khoảng 80%.
+
+## 9. Slide 13–14 – Biểu mẫu thật của Trung tâm
+
+> ⚠ Biểu mẫu trống: nhóm xanh. Nội dung đề xuất thật: **nhóm vàng** – chỉ dùng tài khoản gói tổ chức, hoặc dùng nội dung giả định khi trình diễn.
+
+```
+Đọc biểu mẫu [tên biểu mẫu] trong dự án. Liệt kê toàn bộ mục và yêu cầu của từng mục.
+Điền nội dung cho khoảng trống số [1]: giữ nguyên số mục, tiêu đề, định dạng của mẫu;
+mục nào thiếu thông tin ghi [CẦN BỔ SUNG: ...]; không tự đặt số liệu.
+Sau đó lập bảng đối chiếu Mục tiêu → Nội dung → Phương pháp → Sản phẩm → Chỉ tiêu,
+đánh dấu ⚠ chỗ không khớp. Xuất tệp .docx.
+```
+```
+Từ thuyết minh đã duyệt, lập: (1) bảng nội dung công việc – sản phẩm – thời gian – người
+thực hiện; (2) sơ đồ Gantt; (3) dự toán theo biểu mẫu [tên], dùng ĐÚNG đơn giá và định mức
+tôi cung cấp, không tự đặt đơn giá; (4) kiểm tra logic trình tự và tổng kinh phí;
+liệt kê bất hợp lý và đề xuất điều chỉnh. Xuất Word và Excel.
+```
+
+## 10. Slide 16 – Bài báo theo nhiều định dạng công bố
+
+```
+Từ kết quả trong dự án, soạn bản thảo cho tạp chí [tên]. Đọc "Hướng dẫn tác giả" tôi tải
+lên; lập bảng kiểm tra từng yêu cầu (đạt / chưa đạt).
+```
+Bổ sung cho tạp chí trong danh mục ВАК (Nga):
+```
+Chuẩn bị bản tiếng Nga theo yêu cầu của tạp chí [tên]: mã УДК phù hợp; tóm tắt (аннотация)
+và từ khóa (ключевые слова) bằng tiếng Nga và tiếng Anh; danh mục tài liệu tham khảo theo
+ГОСТ Р 7.0.5-2008 (hoặc quy định riêng của tạp chí). Giữ nguyên số liệu, không thêm kết quả mới.
+```
+Phản biện nội bộ:
+```
+Đóng vai phản biện khó tính của tạp chí [tên]: 5 nhược điểm lớn nhất và cách trả lời.
+```
+
+## 11. Slide 18 – Thí nghiệm có / không dùng Skill
+
+1. Tải Skill `exploratory-data-analysis` từ https://github.com/K-Dense-AI/claude-scientific-skills (thư mục `skills/exploratory-data-analysis`), nén thành ZIP (thư mục Skill ở cấp ngoài cùng của ZIP).
+2. **Lần 1 – không tải Skill** – cuộc trò chuyện mới, tải `an_mon_387.csv`:
+```
+Phân tích khám phá bộ dữ liệu này: phân bố, ngoại lệ, dữ liệu thiếu, và kiểm tra tập
+huấn luyện – kiểm định (cột tap) có độc lập không. Báo cáo ngắn gọn.
+```
+3. **Lần 2 – có Skill:** Customize → Skills → tải ZIP; cuộc trò chuyện mới, cùng tệp, cùng câu lệnh.
+4. So sánh theo bảng kiểm: độ lệch phân bố, độ nhạy ngoại lệ (không xóa), rò rỉ giữa hai tập, dữ liệu thiếu theo nhóm, có tự ý sửa dữ liệu không.
+
+**Đối chiếu:** `nghien-cuu-an-mon/ket-qua/skill-eda/README.md` – độ lệch 4,66 → −0,02 sau log; 31/387 ngoài ngưỡng IQR; không có trạm trùng giữa hai tập.

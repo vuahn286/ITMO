@@ -1,0 +1,610 @@
+{
+  "analysis": {
+    "column_count": 14,
+    "columns": [
+      {
+        "column_id": "nguon",
+        "column_index": 0,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 3,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 190,
+            "value_token": "value_a335c28fa76166b1"
+          },
+          {
+            "count": 130,
+            "value_token": "value_e76330322f09ccca"
+          },
+          {
+            "count": 67,
+            "value_token": "value_26249d968cbfc0f2"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 387,
+          "maximum_character_count": 20,
+          "mean_character_count": 9.560723514211887
+        },
+        "text_parse_count": 387
+      },
+      {
+        "column_id": "tram",
+        "column_index": 1,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 234,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 6,
+            "value_token": "value_177bdadb21ef792d"
+          },
+          {
+            "count": 6,
+            "value_token": "value_1c8bd011da360153"
+          },
+          {
+            "count": 6,
+            "value_token": "value_23eb8dc19e91d0ad"
+          },
+          {
+            "count": 6,
+            "value_token": "value_2bcda5f1ebb49ec6"
+          },
+          {
+            "count": 6,
+            "value_token": "value_3060f80ba82676b9"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 387,
+          "maximum_character_count": 17,
+          "mean_character_count": 4.426356589147287
+        },
+        "text_parse_count": 387
+      },
+      {
+        "column_id": "loai_khi_quyen",
+        "column_index": 2,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 4,
+        "inferred_kind": "integer",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 127,
+            "value_token": "value_4b2dd5566bf1eea4"
+          },
+          {
+            "count": 114,
+            "value_token": "value_d11015b966c44696"
+          },
+          {
+            "count": 104,
+            "value_token": "value_a0e95fe33f7fbd67"
+          },
+          {
+            "count": 42,
+            "value_token": "value_a9065080f34dc675"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_aggregates": {
+          "count": 387,
+          "maximum": 4.0,
+          "mean": 2.3514211886304914,
+          "median": 2.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 4.0,
+          "quantile_sample_count": 387,
+          "quantiles_from_bounded_sample": false,
+          "sample_standard_deviation": 1.165353376931224
+        },
+        "numeric_parse_count": 387,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "T_C",
+        "column_index": 3,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 188,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 10,
+            "value_token": "value_9830a65ac96b8bba"
+          },
+          {
+            "count": 7,
+            "value_token": "value_014d8b3a43d66e05"
+          },
+          {
+            "count": 7,
+            "value_token": "value_7e84b0a74eac688f"
+          },
+          {
+            "count": 7,
+            "value_token": "value_a85c78ee022ceb25"
+          },
+          {
+            "count": 7,
+            "value_token": "value_d233e4a90e029b4a"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_aggregates": {
+          "count": 387,
+          "maximum": 29.3,
+          "mean": 14.468217054263576,
+          "median": 14.2,
+          "minimum": -13.0,
+          "q1": 8.5,
+          "q3": 20.25,
+          "quantile_sample_count": 387,
+          "quantiles_from_bounded_sample": false,
+          "sample_standard_deviation": 7.981997079855217
+        },
+        "numeric_parse_count": 387,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "TOW_h_nam",
+        "column_index": 4,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 288,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 7,
+            "value_token": "value_b5c321cebc6a371c"
+          },
+          {
+            "count": 5,
+            "value_token": "value_56d585dc548c4e00"
+          },
+          {
+            "count": 4,
+            "value_token": "value_c2d820772345d347"
+          },
+          {
+            "count": 4,
+            "value_token": "value_dc7e699a4b40fb5f"
+          },
+          {
+            "count": 4,
+            "value_token": "value_f30d28449f15ac6b"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_aggregates": {
+          "count": 387,
+          "maximum": 8549.76,
+          "mean": 3919.621705426357,
+          "median": 3915.72,
+          "minimum": 26.280000000000005,
+          "q1": 2847.0000000000005,
+          "q3": 4931.88,
+          "quantile_sample_count": 387,
+          "quantiles_from_bounded_sample": false,
+          "sample_standard_deviation": 1495.9460440742976
+        },
+        "numeric_parse_count": 387,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "Cl_mg_m2_ngay",
+        "column_index": 5,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 245,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 66,
+            "value_token": "value_f3c757570d23034f"
+          },
+          {
+            "count": 12,
+            "value_token": "value_a8d6ca7fa05a63fc"
+          },
+          {
+            "count": 5,
+            "value_token": "value_d022ff4d338225db"
+          },
+          {
+            "count": 4,
+            "value_token": "value_1ddd8bc1e9fdabac"
+          },
+          {
+            "count": 4,
+            "value_token": "value_3fbff0803202618f"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_aggregates": {
+          "count": 387,
+          "maximum": 359.8,
+          "mean": 22.538999999999984,
+          "median": 6.68,
+          "minimum": 0.0,
+          "q1": 1.5,
+          "q3": 22.45,
+          "quantile_sample_count": 387,
+          "quantiles_from_bounded_sample": false,
+          "sample_standard_deviation": 43.881335527460585
+        },
+        "numeric_parse_count": 387,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "SO2_mg_m2_ngay",
+        "column_index": 6,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 263,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 23,
+            "value_token": "value_8e5c9ef55ab792fd"
+          },
+          {
+            "count": 8,
+            "value_token": "value_60cacb4bd773cb9c"
+          },
+          {
+            "count": 7,
+            "value_token": "value_536a87009b3c07a8"
+          },
+          {
+            "count": 4,
+            "value_token": "value_0736bb4585e725ae"
+          },
+          {
+            "count": 4,
+            "value_token": "value_3675f526c8be6068"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_aggregates": {
+          "count": 387,
+          "maximum": 171.68,
+          "mean": 17.1428992248062,
+          "median": 9.1,
+          "minimum": 0.0,
+          "q1": 4.71,
+          "q3": 20.4,
+          "quantile_sample_count": 387,
+          "quantiles_from_bounded_sample": false,
+          "sample_standard_deviation": 21.832035471923625
+        },
+        "numeric_parse_count": 387,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "r_corr_um_nam",
+        "column_index": 7,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 301,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 4,
+            "value_token": "value_842ec11b7cdad0bc"
+          },
+          {
+            "count": 4,
+            "value_token": "value_b2bb58ed000e49a4"
+          },
+          {
+            "count": 3,
+            "value_token": "value_2cbded454d3a1f82"
+          },
+          {
+            "count": 3,
+            "value_token": "value_3c7e21a4d74de004"
+          },
+          {
+            "count": 3,
+            "value_token": "value_4307bfcff637cf45"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_aggregates": {
+          "count": 387,
+          "maximum": 373.0,
+          "mean": 37.71682170542635,
+          "median": 28.1,
+          "minimum": 1.0,
+          "q1": 19.35,
+          "q3": 41.3,
+          "quantile_sample_count": 387,
+          "quantiles_from_bounded_sample": false,
+          "sample_standard_deviation": 38.74298989209543
+        },
+        "numeric_parse_count": 387,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "cap_goc",
+        "column_index": 8,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 6,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 160,
+            "value_token": "value_d9511dd7bd04e333"
+          },
+          {
+            "count": 156,
+            "value_token": "value_50af674ec7b7fa11"
+          },
+          {
+            "count": 41,
+            "value_token": "value_31a7e1c9e0f17690"
+          },
+          {
+            "count": 27,
+            "value_token": "value_d73eea6544f0ce3c"
+          },
+          {
+            "count": 2,
+            "value_token": "value_5cd244981056c0f4"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 387,
+          "maximum_character_count": 2,
+          "mean_character_count": 2.0
+        },
+        "text_parse_count": 387
+      },
+      {
+        "column_id": "tai_lieu",
+        "column_index": 9,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 8,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 190,
+            "value_token": "value_216272d767d05f5d"
+          },
+          {
+            "count": 130,
+            "value_token": "value_98b07831a8e32858"
+          },
+          {
+            "count": 21,
+            "value_token": "value_aeac61f4596bc175"
+          },
+          {
+            "count": 18,
+            "value_token": "value_3aa6c609bdcbdb88"
+          },
+          {
+            "count": 12,
+            "value_token": "value_0d9e347f60a2c349"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 387,
+          "maximum_character_count": 19,
+          "mean_character_count": 12.720930232558139
+        },
+        "text_parse_count": 387
+      },
+      {
+        "column_id": "tap",
+        "column_index": 10,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 2,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 320,
+            "value_token": "value_2ff992c23cb99ddc"
+          },
+          {
+            "count": 67,
+            "value_token": "value_c8b40bf240a932ca"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 387,
+          "maximum_character_count": 17,
+          "mean_character_count": 11.21188630490956
+        },
+        "text_parse_count": 387
+      },
+      {
+        "column_id": "quoc_gia",
+        "column_index": 11,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 7,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 190,
+            "value_token": "value_cf39c8692409fea6"
+          },
+          {
+            "count": 130,
+            "value_token": "value_e903f6e0b9d2ddd8"
+          },
+          {
+            "count": 21,
+            "value_token": "value_44229478c4d29215"
+          },
+          {
+            "count": 18,
+            "value_token": "value_5e2768f2b4d8d2c0"
+          },
+          {
+            "count": 12,
+            "value_token": "value_faec30af0de04dbb"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 387,
+          "maximum_character_count": 22,
+          "mean_character_count": 18.689922480620154
+        },
+        "text_parse_count": 387
+      },
+      {
+        "column_id": "r_corr_g_m2_nam",
+        "column_index": 12,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 301,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 4,
+            "value_token": "value_aac653266ea7a443"
+          },
+          {
+            "count": 4,
+            "value_token": "value_e7800738fa60fdfc"
+          },
+          {
+            "count": 3,
+            "value_token": "value_07225c03db8c36cc"
+          },
+          {
+            "count": 3,
+            "value_token": "value_0c3736eb396dd6e2"
+          },
+          {
+            "count": 3,
+            "value_token": "value_39a4e1057aa8ad97"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_aggregates": {
+          "count": 387,
+          "maximum": 2931.8,
+          "mean": 296.4547803617569,
+          "median": 220.9,
+          "minimum": 7.9,
+          "q1": 152.1,
+          "q3": 324.6,
+          "quantile_sample_count": 387,
+          "quantiles_from_bounded_sample": false,
+          "sample_standard_deviation": 304.5209715616829
+        },
+        "numeric_parse_count": 387,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "cap_tinh_lai",
+        "column_index": 13,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 6,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 161,
+            "value_token": "value_d9511dd7bd04e333"
+          },
+          {
+            "count": 156,
+            "value_token": "value_50af674ec7b7fa11"
+          },
+          {
+            "count": 40,
+            "value_token": "value_31a7e1c9e0f17690"
+          },
+          {
+            "count": 26,
+            "value_token": "value_d73eea6544f0ce3c"
+          },
+          {
+            "count": 3,
+            "value_token": "value_5cd244981056c0f4"
+          }
+        ],
+        "non_missing_count": 387,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 387,
+          "maximum_character_count": 2,
+          "mean_character_count": 2.0
+        },
+        "text_parse_count": 387
+      }
+    ],
+    "duplicate_row_count_in_scanned_rows": 0,
+    "duplicate_tracking_truncated": false,
+    "identifier_redaction": "sanitized opt-in",
+    "limitations": [
+      "Dtypes are inferred from scanned text and are not a data dictionary.",
+      "Quantiles use a deterministic bounded sample when numeric counts exceed the sample limit.",
+      "Duplicate counts use exact hashes only until the documented tracking cap."
+    ],
+    "missing_code_policy": {
+      "additional_token_count": 0,
+      "empty_or_whitespace_is_missing": true,
+      "tokens_are_not_emitted": true
+    },
+    "profile_type": "tabular_schema_and_aggregate_profile",
+    "raw_values_emitted": false,
+    "row_limit_reached": false,
+    "rows_scanned": 387
+  },
+  "capability": {
+    "dependency": "Python standard library",
+    "depth": "bounded schema, aggregate profile, missingness, and sensitivity audit",
+    "format": "CSV",
+    "reference": "references/general_scientific_formats.md",
+    "suffix": ".csv",
+    "tier": "automated_core"
+  },
+  "schema_version": "1.1",
+  "security": {
+    "embedded_instructions_followed": false,
+    "file_text_is_untrusted_data": true,
+    "local_only": true,
+    "raw_values_and_full_paths_emitted": false
+  }
+}

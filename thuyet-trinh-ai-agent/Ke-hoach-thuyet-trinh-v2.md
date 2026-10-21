@@ -6,8 +6,10 @@
 **Định hướng:** Nhận thức là chính, lý thuyết vừa đủ, có ví dụ thực tế và demo. Nhấn mạnh năng lực cốt lõi và ưu điểm của AI. Không đi sâu kỹ thuật xây dựng Agent.
 **Tình huống xuyên suốt (đã chốt):** **Phương án A – Ăn mòn khí quyển của kim loại trong môi trường nhiệt đới.**
 **Ngày thuyết trình:** ____ / ____ / ______
-**Phiên bản:** 2.3 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
+**Phiên bản:** 2.4 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
 
+> **Bản v2.4 (21/10/2026):** cập nhật theo góp ý trong tệp Word (phần tô vàng) – xem `DE-XUAT-BO-SUNG-v2.4.md` và `DANH-SACH-SLIDE.md` (bố cục chính thức, 22 slide + 4 phụ lục). Thay đổi chính: mở rộng bản đồ công việc; thêm tính năng nổi bật của Claude (Skill, Cowork, tác vụ theo lịch, Plugin); demo dữ liệu thật nhiều nguồn; Phần III bắt đầu bằng tìm khoảng trống; demo với biểu mẫu thật của Trung tâm; bài báo theo Scopus / ВАК / Ei / trong nước; thí nghiệm có – không dùng Skill; ứng dụng khoa học mở.
+>
 > **Bản v2.3 (21/10/2026):** thêm 2 slide vào Phần II – "Claude là gì? Mô hình và gói dịch vụ" (Slide 7) – chỉ giới thiệu cách dùng trên Windows (trình duyệt, ứng dụng Claude cho Windows) và "Dùng Claude cơ bản: 6 bước đầu tiên" (Slide 8). Từ Slide 7 trở đi, **số slide ở bảng đối chiếu dưới đây cộng thêm 2** (ví dụ: v2.2 số 7 → v2.3 số 9). Thời lượng: Phần I 18′, II 37′, III 38′, IV 17′, thảo luận 10′. Chi tiết: `DANH-SACH-SLIDE.md`.
 >
 > **Bản v2.2 (21/10/2026) – bố cục slide mới, xem `DANH-SACH-SLIDE.md` (tệp này là bố cục chính thức):**
@@ -66,6 +68,7 @@
 | 8 | **v2.1:** Viết lại Slide 1 bằng lời thường (câu "53% dân số" sửa theo nguyên văn nguồn); thêm phần "giải thích dễ hiểu" cho 5 ví dụ Slide 2; Slide 3 bỏ thuật ngữ (embedding, VLA…); sửa "hàm mũ" → "hàm lũy thừa"; nêu rõ ERA là đánh giá hồi cứu; sửa trích dẫn Penadés; thêm ô "Kết quả với dữ liệu thật" ở Slide 15; thêm Mục 12 – Giải nghĩa thuật ngữ | Rà soát ngày 21/10/2026 |
 | 9 | **v2.2:** Bỏ slide ví dụ Google (chuyển Phụ lục B); tách slide "Năm quyết định" vào 3 slide phù hợp; chia lại thời lượng; bố cục chính thức chuyển sang `DANH-SACH-SLIDE.md` | Theo ý kiến duyệt ngày 21/10/2026 |
 | 10 | **v2.3:** Thêm 2 slide giới thiệu Claude và cách dùng cơ bản vào Phần II; chia lại thời lượng; thêm căn cứ N20–N23 | Theo ý kiến ngày 21/10/2026 |
+| 11 | **v2.4:** Cập nhật theo các phần tô vàng trong góp ý (xem `DE-XUAT-BO-SUNG-v2.4.md`); thêm căn cứ N24–N28; xác minh N18 | Theo góp ý ngày 21/10/2026 |
 
 ---
 
@@ -558,9 +561,14 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N15 | *Nature*: AI không đủ điều kiện tác giả, phải khai báo việc sử dụng | 16 | Chính sách biên tập Nature Portfolio về AI | ◐ – trích nguyên văn trước khi dùng |
 | N16 | Ngưỡng ISO 9223:2012 Bảng 2 (g/m²·năm) | 15 | ISO 9223:2012 | ✅ thép, kẽm (6 cấp); đồng, nhôm (C1–C3) · ☐ đồng, nhôm từ C4 |
 | N17 | URL, số lượng Skill của AI4S, AIPOCH, K-Dense, CES Global | 18, 25 | Trang chính thức / GitHub | ☐ |
-| N18 | Bài báo arXiv 2609.00065 | 24 | Kiểm tra lại mã số | ☐ |
+| N18 | arXiv 2609.00065 = Kassis T., Agarwal V., He Y., Patel D., Brueckner A.M. (2026). *Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents* | 18, PL | Trích dẫn chính thức trong Skill của K-Dense (github.com/K-Dense-AI/claude-scientific-skills) | ✅ |
 | N19 | Nguyên tắc FAIR; Khuyến nghị Khoa học mở UNESCO | 18 | *Scientific Data* (2016); UNESCO (2021) | ✅ (nguồn kinh điển) |
 | N20 | Gói Claude (Free, Pro ~20 USD/tháng, Max 5×/20×, Team, Enterprise) và tính năng (dự án – Free tối đa 5; Research từ Pro; tìm kiếm web, viết – chạy mã, tạo tệp ở mọi gói) | 7, 8 | claude.com/pricing; support.claude.com (Pro, Max, Team, Enterprise plan; Projects) | ✅ – kiểm tra lại giá trước buổi thuyết trình |
 | N21 | Mô hình hiện hành: Haiku 5.5, Sonnet 5.5, Opus 5.5, Fable 5.1; Free có Haiku và Sonnet, Pro/Max thêm Opus và Fable | 7 | Anthropic Transparency Hub; Claude Academy – "Choosing the right Claude model" | ◐ – phân quyền theo gói từ Claude Academy |
 | N22 | Gói cá nhân: người dùng chọn có cho dùng hội thoại để cải thiện mô hình; Team, Enterprise, API: không dùng để huấn luyện theo mặc định | 7, 8 | support.claude.com; anthropic.com/product/enterprise; code.claude.com/docs/en/data-usage | ✅ – văn bản ràng buộc là Điều khoản thương mại |
 | N23 | Gói Team cho nhà khoa học: ưu đãi cho nhóm nghiên cứu của trường đại học, viện nghiên cứu phi lợi nhuận (chủ nhiệm nhóm đăng ký). *Claude Science không đưa vào bài vì chưa có bản Windows.* | 7 | support.claude.com – Claude Team plan for scientists | ✅ – kiểm tra điều kiện áp dụng với Trung tâm |
+| N24 | Cowork: chính thức trên Windows (ứng dụng Claude Desktop) từ 09/04/2026, gói trả phí; tác vụ theo lịch chạy trên đám mây; Plugin = Skill + kết nối + trợ lý con; Skill tải lên dạng ZIP, cần bật chạy mã | 7, 19 | support.claude.com – Get started with Claude Cowork; Use Claude Cowork on web, desktop, and mobile; Use skills in Claude | ✅ – gói áp dụng cho Skill chưa thống nhất giữa các trang |
+| N25 | Công cụ AI cho tổng quan tài liệu: Elicit, Consensus, Semantic Scholar, Scite, ResearchRabbit | 6, 12 | Trang chính thức từng công cụ (các bài tổng hợp 2026 chỉ để tham khảo) | ◐ – kiểm tra gói, giá |
+| N26 | Thông tư 03/2023/TT-BTC (ban hành 10/01/2023, hiệu lực 26/02/2023) – lập dự toán, quản lý, quyết toán kinh phí NSNN cho nhiệm vụ KH&CN | 14 | thuvienphapluat.vn; luatvietnam.vn | ◐ – kiểm tra điều khoản thay thế TTLT 55/2015 và quy định riêng của Bộ Quốc phòng |
+| N27 | Yêu cầu bài báo ВАК: УДК, tóm tắt – từ khóa Nga/Anh, tài liệu tham khảo theo ГОСТ Р 7.0.5-2008; danh mục chia К1–К3 | 16 | Quy định của từng tạp chí; danh mục tại vak.minobrnauki.gov.ru | ◐ – nguồn hiện có là trang hướng dẫn tác giả, chưa phải văn bản ВАК |
+| N28 | Tạp chí Khoa học và Công nghệ nhiệt đới (Journal of Tropical Science and Engineering), Trung tâm Nhiệt đới Việt – Nga, ISSN 0866-7535 (in), 3126-3607 (điện tử) | 16 | tapchikhcnnd.mod.gov.vn | ✅ |
