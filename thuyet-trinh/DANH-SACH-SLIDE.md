@@ -2,7 +2,7 @@
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
 **Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 21 slide trình bày + 4 phụ lục + trang bìa
-**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận". **Tệp này là bố cục slide chính thức.**
+**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận"; Slide 3 thêm tính năng mới của AI Agent và ô giới hạn (6′, thảo luận còn 12′). **Tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -24,7 +24,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | – | Trang bìa | – | – | [ ] |
 | 1 | AI đang phát triển nhanh đến mức nào? | I | 4′ | [ ] |
 | 2 | AI trong các lĩnh vực khoa học: quốc tế và Việt Nam | I | 5′ | [ ] |
-| 3 | Năng lực cốt lõi của AI: từ trả lời đến thực hiện | I | 5′ | [ ] |
+| 3 | Năng lực cốt lõi của AI: từ trả lời đến thực hiện | I | 6′ | [ ] |
 | 4 | Phương thức nghiên cứu đang thay đổi | I | 4′ | [ ] |
 | 5 | Công việc nào cần chatbot, công việc nào cần AI Agent? | II | 5′ | [ ] |
 | 6 | Các công cụ AI và vai trò khác nhau | II | 4′ | [ ] |
@@ -42,12 +42,12 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | 18 | Skill và khoa học mở: nền móng của tự động hóa | IV | 6′ | [ ] |
 | 19 | Ứng dụng khoa học mở và tự động hóa từng bước đến toàn trình | IV | 5′ | [ ] |
 | 20 | Bản đồ quy trình tự động của Trung tâm và năm quyết định của nhà khoa học | IV | 4′ | [ ] |
-| 21 | Trao đổi và thảo luận | IV | 13′ | [ ] |
+| 21 | Trao đổi và thảo luận | IV | 12′ | [ ] |
 | 22 | Phụ lục A: AI lập trình (không trình bày) | IV | – | [ ] |
 | 23 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | IV | – | [ ] |
 | 24 | Phụ lục C: Nguồn tham khảo (không trình bày) | IV | – | [ ] |
 | 25 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | IV | – | [ ] |
-| | **Tổng** | | **120′** = 107′ trình bày + 13′ thảo luận | |
+| | **Tổng** | | **120′** = 108′ trình bày + 12′ thảo luận | |
 
 ---
 
@@ -63,7 +63,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-# PHẦN I. TỔNG QUAN (18 phút)
+# PHẦN I. TỔNG QUAN (19 phút)
 
 ---
 
@@ -111,7 +111,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-## Slide 3 – Năng lực cốt lõi của AI: từ trả lời đến thực hiện (5′)
+## Slide 3 – Năng lực cốt lõi của AI: từ trả lời đến thực hiện (6′)
 
 **Chữ trên slide:**
 
@@ -128,10 +128,24 @@ Sáu năng lực cốt lõi:
 | Đầu vào | Một câu hỏi | Một nhiệm vụ có mục tiêu |
 | Lập kế hoạch | Hạn chế | Tự lập và điều chỉnh |
 | Công cụ | Ít | Tìm kiếm, chạy mã, làm việc với tệp |
-| Kiểm tra kết quả | Người dùng tự làm | Tự kiểm tra từng bước |
+| Kiểm tra kết quả | Người dùng tự làm | Tự kiểm tra từng bước – vẫn cần người xác nhận |
 | Chi phí – thời gian | Thấp | Cao hơn |
 
-> *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 16.
+🆕 **Tính năng mới của AI Agent (2024–2026):**
+
+| Tính năng | Làm được gì cho nhà khoa học | Mốc |
+|---|---|---|
+| **Làm việc tự chủ nhiều giờ** | Giao cả chuỗi việc (đọc dữ liệu → phân tích → vẽ biểu đồ → viết báo cáo); AI tự làm, tự sửa lỗi | Độ dài việc AI làm được: ~1 giờ (02/2025) → ≥ 16 giờ (05/2026) |
+| **Nghiên cứu chuyên sâu (Deep Research)** | Tự tìm, đọc hàng chục – hàng trăm nguồn, viết báo cáo có trích dẫn | Google 12/2024 · OpenAI 02/2025 · Claude 04/2025 |
+| **Sử dụng máy tính** | Tự nhìn màn hình, bấm chuột, gõ phím – thao tác trên trang web, phần mềm như người dùng | Anthropic thử nghiệm công khai 10/2024 |
+| **Kết nối chuẩn mở MCP** | Một "ổ cắm chung" để AI kết nối cơ sở dữ liệu, kho tài liệu, phần mềm | Ra mắt 11/2024; > 10.000 máy chủ kết nối công khai; chuyển cho Linux Foundation 12/2025 |
+| **Skill – chuẩn mở** | Quy trình mẫu đóng gói một lần, dùng được trên nhiều công cụ AI khác nhau | Chuẩn mở 12/2025 (agentskills.io) |
+| **Chạy nền, theo lịch** | Tự chạy định kỳ (ví dụ: bản tin công bố mới mỗi sáng thứ Hai) – không cần ngồi canh | Tác vụ theo lịch trong Cowork (Claude cho Windows, 04/2026) |
+
+> *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 15.
+
+> ⚠ **AI vẫn có thể sai:** bịa tài liệu tham khảo, tính nhầm, chọn sai phương pháp mà vẫn trả lời rất tự tin → nhà khoa học kiểm tra lại mọi kết quả.
+> *Ví dụ từ dự án ăn mòn của bài này:* AI **phát hiện** lỗi đơn vị trong bộ dữ liệu đã công bố (ghi g/m², thực tế µm/năm) – nhưng cách tìm số đo bất thường AI chọn lần đầu lại **đánh dấu nhầm** 20 giá trị bình thường và bỏ sót lỗi gõ nhầm.
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -618,7 +632,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 21 – Trao đổi và thảo luận (13′)
+## Slide 21 – Trao đổi và thảo luận (12′)
 
 **Chữ trên slide:**
 - Kết quả phiếu khảo sát trước buổi học (biểu đồ)

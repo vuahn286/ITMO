@@ -8,7 +8,7 @@
 **Ngày thuyết trình:** ____ / ____ / ______
 **Phiên bản:** 2.5 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
 
-> **Bản v2.5 (21/10/2026):** bố cục chính thức ở `DANH-SACH-SLIDE.md` – 21 slide trình bày + 4 phụ lục. Giữ đúng các phần người trình bày đã xóa trong tệp Word; bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận" (thời lượng chuyển sang thảo luận: 13′). Các mục "Lời nói", "Gợi ý nói" trong kế hoạch này chỉ còn giá trị tham khảo.
+> **Bản v2.5 (21/10/2026):** bố cục chính thức ở `DANH-SACH-SLIDE.md` – 21 slide trình bày + 4 phụ lục. Giữ đúng các phần người trình bày đã xóa trong tệp Word; bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận" (thời lượng chuyển sang thảo luận). Slide 3 thêm tính năng mới của AI Agent (N29–N32) và ô giới hạn; thảo luận 12′. Các mục "Lời nói", "Gợi ý nói" trong kế hoạch này chỉ còn giá trị tham khảo.
 >
 > **Bản v2.4 (21/10/2026):** cập nhật theo góp ý trong tệp Word (phần tô vàng) – xem `DE-XUAT-BO-SUNG-v2.4.md` và `DANH-SACH-SLIDE.md` (bố cục chính thức, 22 slide + 4 phụ lục). Thay đổi chính: mở rộng bản đồ công việc; thêm tính năng nổi bật của Claude (Skill, Cowork, tác vụ theo lịch, Plugin); demo dữ liệu thật nhiều nguồn; Phần III bắt đầu bằng tìm khoảng trống; demo với biểu mẫu thật của Trung tâm; bài báo theo Scopus / ВАК / Ei / trong nước; thí nghiệm có – không dùng Skill; ứng dụng khoa học mở.
 >
@@ -102,15 +102,15 @@
 
 | Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
-| I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
+| I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 19 phút |
 | II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 36 phút |
 | III | AI Agent trong vòng đời nhiệm vụ khoa học (2 demo) | 12–17 | 38 phút |
 | IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 18–20 | 15 phút |
-| – | Trao đổi, thảo luận | 21 | 13 phút |
+| – | Trao đổi, thảo luận | 21 | 12 phút |
 | – | Phụ lục (không trình bày) | 22–25 | – |
 | | **Tổng cộng** | **21 slide + 4 phụ lục** | **120 phút** |
 
-*v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận (13′). Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
+*v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận. Slide 3 thêm 6 tính năng mới của AI Agent và ô "AI vẫn có thể sai" (+1′, thảo luận còn 12′). Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
 
 *v2.3: thêm 12′ cho 2 slide Claude; bù bằng cách rút: slide chatbot/Agent −1′, công cụ −1′, không gian dự án −2′, Skill/Subagent −2′, slide tài liệu −1′, mỗi demo −1′, slide tự động hóa −1′, thảo luận −2′.*
 
@@ -576,3 +576,7 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N26 | Thông tư 03/2023/TT-BTC (ban hành 10/01/2023, hiệu lực 26/02/2023) – lập dự toán, quản lý, quyết toán kinh phí NSNN cho nhiệm vụ KH&CN | 14 | thuvienphapluat.vn; luatvietnam.vn | ◐ – kiểm tra điều khoản thay thế TTLT 55/2015 và quy định riêng của Bộ Quốc phòng |
 | N27 | Yêu cầu bài báo ВАК: УДК, tóm tắt – từ khóa Nga/Anh, tài liệu tham khảo theo ГОСТ Р 7.0.5-2008; danh mục chia К1–К3 | 16 | Quy định của từng tạp chí; danh mục tại vak.minobrnauki.gov.ru | ◐ – nguồn hiện có là trang hướng dẫn tác giả, chưa phải văn bản ВАК |
 | N28 | Tạp chí Khoa học và Công nghệ nhiệt đới (Journal of Tropical Science and Engineering), Trung tâm Nhiệt đới Việt – Nga, ISSN 0866-7535 (in), 3126-3607 (điện tử) | 16 | tapchikhcnnd.mod.gov.vn | ✅ |
+| N29 | Giao thức MCP (Anthropic, 11/2024) được tặng cho Agentic AI Foundation thuộc Linux Foundation ngày 09/12/2025 (đồng sáng lập: Anthropic, Block, OpenAI); > 10.000 máy chủ MCP công khai; được ChatGPT, Gemini, Microsoft Copilot, VS Code hỗ trợ | 3 | anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation; linuxfoundation.org (thông cáo thành lập AAIF) | ✅ |
+| N30 | Sử dụng máy tính (computer use): thử nghiệm công khai 22/10/2024 cùng Claude 3.5 Sonnet nâng cấp – AI nhìn màn hình, di chuột, bấm, gõ phím | 3 | anthropic.com/news/3-5-models-and-computer-use | ◐ – mở trang gốc trước khi dùng |
+| N31 | Agent Skills công bố thành chuẩn mở giữa 12/2025 (đặc tả và SDK tại agentskills.io; tệp SKILL.md) | 3 | agentskills.io; The New Stack, AI Business (12/2025) | ◐ – ngày chính xác (16–19/12) chưa thống nhất giữa các nguồn, chỉ ghi "12/2025" |
+| N32 | Deep Research: Google Gemini 11/12/2024 · OpenAI 02/02/2025 · Claude Research 15/04/2025 | 3 | Thông báo của từng hãng; Ars Technica (05/2025) | ◐ – Claude ✅ (thông báo Anthropic); Google, OpenAI theo báo chí |
