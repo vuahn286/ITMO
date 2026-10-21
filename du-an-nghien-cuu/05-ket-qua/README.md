@@ -30,5 +30,7 @@ Toàn bộ thư mục **sinh lại được** bằng `../chay_tat_ca.sh` (trừ 
 | Nga (18 trạm) | mô hình quốc tế **cao hơn thực đo ~80%**; sai số trung vị 85,9% → 32,0% sau hiệu chỉnh |
 | Dự báo 10 năm, khí hậu Việt Nam (ISO 9224, b = 0,523) | Hà Nội ~94 µm · Đồ Sơn ~149 µm |
 
+Các tệp HTML 3D dùng `mo-hinh-3d/plotly.min.js` cùng thư mục → **mở được không cần Internet** (chép cả thư mục khi mang đi trình chiếu).
+
 ⚠ **3D-3:** độ sâu trung bình là định lượng (số đo năm đầu + ISO 9224); độ nhám, hố cục bộ là **minh họa với tham số giả định** – không dùng để kết luận.
 ⚠ **3D-4:** tương tự 3D-3 – lớp gỉ dày 3 × thép đã mất và hố sâu 3 × trung bình là **giả định** (`mo-hinh-3d/tham_so_3D_4.json`). **3D-5:** tốc độ theo khoảng cấp C3 của ISO 9223 Bảng 2 (đã đối chiếu C1–C3), số mũ b theo ISO 9224 – so sánh xu hướng, không phải số đo cùng trạm; nhôm ăn mòn chủ yếu cục bộ nên chiều dày trung bình đánh giá thấp mức hư hại.

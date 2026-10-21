@@ -5,6 +5,10 @@
 
 ---
 
+> **Cách dùng (theo đánh giá phản biện):** mọi demo được **chạy trước buổi thuyết trình**; trên hội trường chỉ trình chiếu **video ghi màn hình** và **ảnh chụp kết quả**. Các mục dưới đây là câu lệnh để chạy trước và kết quả mong đợi để đối chiếu.
+>
+> **Ghi hình:** Windows – phím `Win + Alt + R` (Xbox Game Bar) hoặc Snipping Tool (chế độ quay video). Mỗi demo 1–2 phút: cắt bỏ đoạn chờ AI xử lý, giữ lại câu lệnh và kết quả. Lưu video, ảnh vào máy trình chiếu – không phụ thuộc Internet tại hội trường.
+
 ## 0. Chuẩn bị (làm một lần, trước buổi thuyết trình)
 
 1. Đăng nhập claude.ai. Vào **Settings → Capabilities**, bật **Code execution and file creation** (để Claude tự viết và chạy mã Python; tên mục có thể khác đôi chút tùy phiên bản giao diện). Nếu dùng tìm tài liệu, bật thêm **Web search**.

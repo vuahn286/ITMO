@@ -90,7 +90,7 @@ fig.update_layout(
     annotations=[dict(text="Xám: kim loại · Nâu (trong suốt): lớp gỉ · D(t) theo ISO 9224, r = 40,6 µm/năm (đo thực địa). "
                            "Hình dạng gỉ và hố: minh họa, tham số giả định.", showarrow=False, x=0, y=1.02,
                       xref="paper", yref="paper", xanchor="left", font=dict(size=11))])
-fig.write_html(MO_HINH_3D / "3D_4_qua_trinh_an_mon_dong.html", include_plotlyjs="cdn")
+fig.write_html(MO_HINH_3D / "3D_4_qua_trinh_an_mon_dong.html", include_plotlyjs="directory")
 pd.DataFrame(bang).to_csv(BANG / "qua_trinh_an_mon_Nha_Trang.csv", index=False, encoding="utf-8-sig")
 
 # PNG 4 thời điểm cho slide: hàng trên – bề mặt kim loại 3D (đã bóc gỉ); hàng dưới – mặt cắt qua hố sâu nhất
@@ -140,7 +140,7 @@ fig5.update_layout(title="3D-5. Chiều dày kim loại bị ăn mòn theo thờ
                               yaxis=dict(title="", tickvals=list(range(4)), ticktext=list(VL)),
                               zaxis=dict(title="log₁₀ D (µm)")),
                    height=650, margin=dict(l=0, r=0, t=60, b=0))
-fig5.write_html(MO_HINH_3D / "3D_5_so_sanh_vat_lieu.html", include_plotlyjs="cdn")
+fig5.write_html(MO_HINH_3D / "3D_5_so_sanh_vat_lieu.html", include_plotlyjs="directory")
 pd.DataFrame(bang5).to_csv(BANG / "so_sanh_vat_lieu_C3.csv", index=False, encoding="utf-8-sig")
 
 json.dump(dict(gia_dinh=dict(K_GI=K_GI, PF=PF, so_ho=SO_HO), r_Nha_Trang_um_nam=R_NT),

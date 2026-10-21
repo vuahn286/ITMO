@@ -1,8 +1,8 @@
 # DANH SÁCH SLIDE ĐỂ CHỈNH SỬA VÀ DUYỆT
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
-**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 23 slide trình bày + 4 phụ lục + trang bìa
-**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận"; Slide 3 thêm tính năng mới của AI Agent và ô giới hạn (6′, thảo luận còn 12′). **Cập nhật:** thêm Slide 16 (mô hình 3D quá trình ăn mòn) và Slide 19 (Demo 3 – công cụ cho máy không Internet); từ slide cũ 16 trở đi số slide cộng 2; thảo luận còn 9′. **Tệp này là bố cục slide chính thức.**
+**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 23 slide trình bày + 5 phụ lục + trang bìa
+**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận"; Slide 3 thêm tính năng mới của AI Agent và ô giới hạn (6′, thảo luận còn 12′). **Cập nhật:** thêm Slide 16 (mô hình 3D quá trình ăn mòn) và Slide 19 (Demo 3 – công cụ cho máy không Internet); từ slide cũ 16 trở đi số slide cộng 2; thảo luận còn 9′. **Điều chỉnh theo đánh giá phản biện:** mọi demo **chạy trước, chỉ trình chiếu kết quả** (ảnh chụp, video); giảm chữ trên slide – phần chi tiết chuyển sang `TAI-LIEU-PHAT-TAY.md`; thảo luận 15′; thêm Phụ lục E (câu hỏi thường gặp). **Tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -15,6 +15,23 @@ Mỗi slide gồm các phần:
 
 Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
+Nguyên tắc trình bày: **mỗi slide một ý chính, tối đa một bảng hoặc một hình**. Mục *"Không chiếu"* là tư liệu cho người trình bày, không đưa lên màn hình.
+
+---
+
+## CHUẨN BỊ TRƯỚC BUỔI THUYẾT TRÌNH
+
+| Việc | Slide | Xong |
+|---|---|---|
+| Chạy trước và **ghi hình màn hình** (1–2 phút/demo) + **chụp ảnh kết quả**: tổng hợp nhiều nguồn; điền biểu mẫu (Demo 1); tiến độ – kinh phí; xử lý dữ liệu (Demo 2); mô hình 3D; công cụ máy không Internet (Demo 3) | 8, 13, 14, 15, 16, 19 | [ ] |
+| Chép video, ảnh, thư mục `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/` vào máy trình chiếu – **mở được không cần Internet** (tệp HTML 3D dùng `plotly.min.js` cùng thư mục) | 15, 16 | [ ] |
+| Gửi biểu mẫu thật của Trung tâm; chạy thử 2 lần | 13, 14 | [ ] |
+| Hỏi bộ phận chức năng về **quy định sử dụng dịch vụ AI** của Bộ Quốc phòng, Trung tâm → điền Phụ lục E | 28 | [ ] |
+| Điền 5 ô chính sách dữ liệu của các công cụ AI (N14) | 6 | [ ] |
+| Xác nhận các căn cứ ◐: N1b, N2, N15, N21, N25–N27, N30–N32; xem lại số liệu METR | 1, 3, 7 | [ ] |
+| Xác nhận "EeiE", danh mục ВАК hiện hành; URL AI4S, AIPOCH, CES Global | 17, 27 | [ ] |
+| In tài liệu phát tay `TAI-LIEU-PHAT-TAY.md`; phiếu khảo sát trước – sau | – | [ ] |
+
 ---
 
 ## TỔNG QUAN
@@ -22,24 +39,24 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | # | Tên slide | Phần | Thời lượng | Duyệt |
 |---|---|---|---|---|
 | – | Trang bìa | – | – | [ ] |
-| | **PHẦN I. TỔNG QUAN – 19′** | | | |
+| | **PHẦN I. TỔNG QUAN – 18′** | | | |
 | 1 | AI phát triển nhanh đến mức nào: những con số mới nhất | I | 4′ | [ ] |
 | 2 | AI trong khoa học: ví dụ quốc tế và Việt Nam | I | 5′ | [ ] |
-| 3 | Năng lực cốt lõi và tính năng mới của AI Agent | I | 6′ | [ ] |
+| 3 | Năng lực cốt lõi và tính năng mới của AI Agent | I | 5′ | [ ] |
 | 4 | Phương thức nghiên cứu đang thay đổi: từ thao tác thủ công đến quy trình liên tục | I | 4′ | [ ] |
-| | **PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP – 35′** | | | |
+| | **PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP – 33′** | | | |
 | 5 | Chọn đúng công cụ: việc nào dùng chatbot, việc nào cần AI Agent | II | 5′ | [ ] |
 | 6 | Các công cụ AI phổ biến và vai trò của từng loại | II | 4′ | [ ] |
-| 7 | Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows | II | 7′ | [ ] |
-| 8 | Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn | II | 7′ | [ ] |
+| 7 | Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows | II | 6′ | [ ] |
+| 8 | Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn | II | 6′ | [ ] |
 | 9 | Giao việc cho AI Agent: cách viết yêu cầu 5 bước | II | 6′ | [ ] |
 | 10 | Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án | II | 3′ | [ ] |
 | 11 | Skill, Subagent và hệ thống nhiều Agent | II | 3′ | [ ] |
-| | **PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC – 37′** | | | |
+| | **PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC – 34′** | | | |
 | 12 | Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu | III | 7′ | [ ] |
-| 13 | Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 7′ | [ ] |
-| 14 | Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm | III | 5′ | [ ] |
-| 15 | Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 | III | 8′ | [ ] |
+| 13 | Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 6′ | [ ] |
+| 14 | Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm | III | 4′ | [ ] |
+| 15 | Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 | III | 7′ | [ ] |
 | 16 | Mô hình 3D: mô phỏng quá trình ăn mòn vật liệu theo thời gian | III | 3′ | [ ] |
 | 17 | Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng | III | 5′ | [ ] |
 | 18 | Toàn cảnh: một nhiệm vụ khoa học đi qua AI Agent | III | 2′ | [ ] |
@@ -49,14 +66,15 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 | 20 | Skill và khoa học mở: nền móng của tự động hóa | V | 6′ | [ ] |
 | 21 | Tự động hóa từng bước: từ một công việc đến toàn quy trình | V | 5′ | [ ] |
 | 22 | Quy trình tự động của Trung tâm và năm quyết định của nhà khoa học | V | 4′ | [ ] |
-| | **PHẦN VI. TRAO ĐỔI VÀ THẢO LUẬN – 9′** | | | |
-| 23 | Trao đổi và thảo luận | VI | 9′ | [ ] |
+| | **PHẦN VI. TRAO ĐỔI VÀ THẢO LUẬN – 15′** | | | |
+| 23 | Trao đổi và thảo luận | VI | 15′ | [ ] |
 | | **PHỤ LỤC (không trình bày)** | | | |
 | 24 | Phụ lục A: AI lập trình (không trình bày) | PL | – | [ ] |
 | 25 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | PL | – | [ ] |
 | 26 | Phụ lục C: Nguồn tham khảo (không trình bày) | PL | – | [ ] |
 | 27 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | PL | – | [ ] |
-| | **Tổng** | | **120′** = 111′ trình bày + 9′ thảo luận | |
+| 28 | 🆕 Phụ lục E: Câu hỏi thường gặp (dự phòng khi được hỏi) | PL | – | [ ] |
+| | **Tổng** | | **120′** = 105′ trình bày + 15′ thảo luận | |
 
 ---
 
@@ -72,7 +90,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-# PHẦN I. TỔNG QUAN (19 phút)
+# PHẦN I. TỔNG QUAN (18 phút)
 
 **Trang chuyển phần:** tên Phần I · Slide 1–4
 
@@ -122,7 +140,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-## Slide 3 – Năng lực cốt lõi và tính năng mới của AI Agent (6′)
+## Slide 3 – Năng lực cốt lõi và tính năng mới của AI Agent (5′)
 
 **Chữ trên slide:**
 
@@ -134,29 +152,20 @@ Sáu năng lực cốt lõi:
 5. Thành thạo tiếng Việt, tiếng Nga, tiếng Anh
 6. Đóng gói quy trình thành Skill để dùng lại; nhiều trợ lý phối hợp
 
-| | Chatbot AI | AI Agent |
-|---|---|---|
-| Đầu vào | Một câu hỏi | Một nhiệm vụ có mục tiêu |
-| Lập kế hoạch | Hạn chế | Tự lập và điều chỉnh |
-| Công cụ | Ít | Tìm kiếm, chạy mã, làm việc với tệp |
-| Kiểm tra kết quả | Người dùng tự làm | Tự kiểm tra từng bước – vẫn cần người xác nhận |
-| Chi phí – thời gian | Thấp | Cao hơn |
+🆕 **Tính năng mới (2024–2026):**
 
-🆕 **Tính năng mới của AI Agent (2024–2026):**
-
-| Tính năng | Làm được gì cho nhà khoa học | Mốc |
-|---|---|---|
-| **Làm việc tự chủ nhiều giờ** | Giao cả chuỗi việc (đọc dữ liệu → phân tích → vẽ biểu đồ → viết báo cáo); AI tự làm, tự sửa lỗi | Độ dài việc AI làm được: ~1 giờ (02/2025) → ≥ 16 giờ (05/2026) |
-| **Nghiên cứu chuyên sâu (Deep Research)** | Tự tìm, đọc hàng chục – hàng trăm nguồn, viết báo cáo có trích dẫn | Google 12/2024 · OpenAI 02/2025 · Claude 04/2025 |
-| **Sử dụng máy tính** | Tự nhìn màn hình, bấm chuột, gõ phím – thao tác trên trang web, phần mềm như người dùng | Anthropic thử nghiệm công khai 10/2024 |
-| **Kết nối chuẩn mở MCP** | Một "ổ cắm chung" để AI kết nối cơ sở dữ liệu, kho tài liệu, phần mềm | Ra mắt 11/2024; > 10.000 máy chủ kết nối công khai; chuyển cho Linux Foundation 12/2025 |
-| **Skill – chuẩn mở** | Quy trình mẫu đóng gói một lần, dùng được trên nhiều công cụ AI khác nhau | Chuẩn mở 12/2025 (agentskills.io) |
-| **Chạy nền, theo lịch** | Tự chạy định kỳ (ví dụ: bản tin công bố mới mỗi sáng thứ Hai) – không cần ngồi canh | Tác vụ theo lịch trong Cowork (Claude cho Windows, 04/2026) |
-
-> *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 15.
+| Tính năng | Làm được gì cho nhà khoa học |
+|---|---|
+| **Làm việc tự chủ nhiều giờ** | Giao cả chuỗi việc, AI tự làm, tự sửa lỗi – từ ~1 giờ (02/2025) lên ≥ 16 giờ (05/2026) |
+| **Nghiên cứu chuyên sâu** | Tự tìm, đọc hàng chục – hàng trăm nguồn, viết báo cáo có trích dẫn |
+| **Sử dụng máy tính** | Tự nhìn màn hình, bấm chuột, gõ phím trên trang web, phần mềm |
+| **Kết nối chuẩn mở MCP** | "Ổ cắm chung" để AI kết nối cơ sở dữ liệu, kho tài liệu, phần mềm |
 
 > ⚠ **AI vẫn có thể sai:** bịa tài liệu tham khảo, tính nhầm, chọn sai phương pháp mà vẫn trả lời rất tự tin → nhà khoa học kiểm tra lại mọi kết quả.
-> *Ví dụ từ dự án ăn mòn của bài này:* AI **phát hiện** lỗi đơn vị trong bộ dữ liệu đã công bố (ghi g/m², thực tế µm/năm) – nhưng cách tìm số đo bất thường AI chọn lần đầu lại **đánh dấu nhầm** 20 giá trị bình thường và bỏ sót lỗi gõ nhầm.
+
+**Không chiếu (tài liệu phát tay):** bảng đầy đủ 6 tính năng mới kèm mốc thời gian; bảng so sánh chatbot – AI Agent; ví dụ trong dự án ăn mòn: AI phát hiện lỗi đơn vị (Slide 9) nhưng cũng chọn sai cách tìm số đo bất thường (Slide 15).
+
+**Nguồn:** N3, N29–N32
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -182,7 +191,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (35 phút)
+# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (33 phút)
 
 **Trang chuyển phần:** tên Phần II · Slide 5–11
 
@@ -190,7 +199,9 @@ Sáu năng lực cốt lõi:
 
 ## Slide 5 – Chọn đúng công cụ: việc nào dùng chatbot, việc nào cần AI Agent (5′)
 
-**Chữ trên slide:** bản đồ công việc nghiên cứu theo 5 bậc – càng lên cao càng phức tạp, tốn thời gian và chi phí *(🆕 v2.4: mở rộng từ 5 lên 20 công việc)*
+**Chữ trên slide:**
+- **Chatbot:** một câu hỏi → một câu trả lời · **AI Agent:** một nhiệm vụ → tự lập kế hoạch, dùng công cụ, kiểm tra từng bước (vẫn cần người xác nhận)
+- Bản đồ công việc nghiên cứu theo 5 bậc – càng lên cao càng phức tạp, tốn thời gian và chi phí *(🆕 v2.4: mở rộng từ 5 lên 20 công việc)*
 
 | Bậc | Loại việc | Công việc thường gặp của nhà khoa học | Công cụ phù hợp |
 |---|---|---|---|
@@ -227,42 +238,33 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 7 – Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows (7′)
+## Slide 7 – Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows (6′)
 
 **Chữ trên slide:**
-- **Claude** – trợ lý AI của công ty Anthropic (Mỹ). Trên máy tính Windows có hai cách dùng: **trình duyệt web (claude.ai)** hoặc **ứng dụng Claude cho Windows**; hội thoại và dự án đồng bộ giữa hai cách.
-- **Bốn mô hình** *(cập nhật 10/2026)*:
-
-| Mô hình | Dùng khi | Gói |
-|---|---|---|
-| Haiku 5.5 | Câu hỏi nhanh, việc đơn giản | Mọi gói |
-| Sonnet 5.5 | Công việc hằng ngày – cân bằng tốc độ và chất lượng | Mọi gói |
-| Opus 5.5 | Phân tích phức tạp, chuỗi nhiệm vụ dài | Từ Pro |
-| Fable 5.1 | Dự án lớn, AI Agent làm việc dài hơi | Từ Pro |
-
-- 🆕 **Tính năng nổi bật** (đều dùng được trên Windows):
+- **Claude** – trợ lý AI của công ty Anthropic (Mỹ). Trên Windows: **trình duyệt (claude.ai)** hoặc **ứng dụng Claude cho Windows**; hội thoại, dự án đồng bộ giữa hai cách.
+- **Bốn mô hình** *(10/2026)*: Haiku 5.5 – nhanh, việc đơn giản · Sonnet 5.5 – công việc hằng ngày · Opus 5.5 – phân tích phức tạp (từ gói Pro) · Fable 5.1 – dự án lớn, làm việc dài hơi (từ gói Pro)
+- **Năm tính năng dùng ngay:**
 
 | Tính năng | Làm được gì | Gói |
 |---|---|---|
 | **Dự án (Projects)** | Gom tài liệu + hướng dẫn chung cho một nhiệm vụ | Mọi gói (Free tối đa 5 dự án) |
 | **Tạo tệp, chạy mã** | Viết – chạy Python; xuất Word, Excel, PowerPoint, PDF | Mọi gói |
-| **Research** | Nghiên cứu chuyên sâu: tự tìm hàng chục nguồn, tổng hợp có trích dẫn | Từ Pro |
-| **Kết nối (Connectors)** | Đọc tệp trên Google Drive, Gmail… với quyền của chính người dùng | Tùy kết nối |
-| **Bộ nhớ (Memory)** | Nhớ bối cảnh làm việc giữa các cuộc trò chuyện; xem và sửa được | Mọi gói |
-| **Skill** | "Quy trình mẫu" đóng gói (hướng dẫn + biểu mẫu + mã); tự tạo hoặc tải về (tệp ZIP) | Cần bật chạy mã; kiểm tra theo gói |
-| **Cowork** | Trợ lý làm việc trực tiếp với **thư mục trên máy tính**: đọc nhiều tệp, sắp xếp, tạo báo cáo – trong ứng dụng Claude cho Windows (chính thức từ 04/2026) | Gói trả phí |
-| **Tác vụ theo lịch (tự động hóa)** | Đặt việc chạy định kỳ – ví dụ sáng thứ Hai tự tổng hợp công bố mới; chạy trên đám mây, không cần bật máy | Gói trả phí (trong Cowork) |
-| **Plugin** | Gói gồm nhiều Skill + kết nối + trợ lý con, cài một lần dùng cho cả nhóm | Gói trả phí |
-| **Claude Code** | AI Agent lập trình – viết, chạy, sửa mã trong thư mục dự án | Từ Pro |
+| **Research** | Nghiên cứu chuyên sâu, tổng hợp có trích dẫn | Từ Pro |
+| **Cowork** | Làm việc trực tiếp với **thư mục trên máy tính** (chính thức trên Windows từ 04/2026) | Gói trả phí |
+| **Tác vụ theo lịch** | Việc chạy định kỳ, ví dụ sáng thứ Hai tổng hợp công bố mới | Gói trả phí (trong Cowork) |
 
-**Hình ảnh:** ảnh chụp ứng dụng Claude cho Windows: màn hình chính, nút chọn mô hình, thẻ Cowork, trang Scheduled (tác vụ theo lịch), trang Skills.
+**Hình ảnh:** ảnh chụp ứng dụng Claude cho Windows: màn hình chính, nút chọn mô hình, thẻ Cowork, trang Scheduled.
+
+**Không chiếu (tài liệu phát tay):** Kết nối (Connectors), Bộ nhớ (Memory), Skill, Plugin, Claude Code – xem `TAI-LIEU-PHAT-TAY.md` mục 4.
+
+**Nguồn:** N20, N21, N24
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-## Slide 8 – Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn (7′)
+## Slide 8 – Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn (6′)
 
 **Chữ trên slide:**
 
@@ -279,7 +281,9 @@ Sáu năng lực cốt lõi:
 
 **Hình ảnh:** 6 ảnh chụp màn hình nhỏ theo 6 bước (dùng tài khoản demo, dữ liệu xanh).
 
-**🆕 Demo: tổng hợp dữ liệu từ nhiều nguồn → bảng tổng hợp → báo cáo hoàn chỉnh (3 phút, dữ liệu THẬT)**
+**🎬 Trình chiếu kết quả demo đã chạy trước (~1 phút):** 4 tệp từ 3 nguồn công bố → bảng tổng hợp → báo cáo Word; AI phát hiện nhãn đơn vị sai trong nguồn. Ảnh: bảng tổng hợp + đoạn AI cảnh báo đơn vị.
+
+**Không chiếu – tư liệu chạy trước demo:**
 
 📂 Thư mục `thuyet-trinh/du-lieu-demo/nhieu-nguon/` – 4 tệp, 4 định dạng, 3 nguồn công bố khác nhau:
 
@@ -398,7 +402,7 @@ du-an-nghien-cuu/
 
 ---
 
-# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (37 phút)
+# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (34 phút)
 
 **Trang chuyển phần:** tên Phần III · Slide 12–18
 
@@ -417,25 +421,14 @@ du-an-nghien-cuu/
   > Từ các bài báo trong dự án, lập ma trận bằng chứng (tác giả – năm, địa điểm, kim loại, thời gian phơi mẫu, biến môi trường, mô hình, kết luận, hạn chế). Chỉ ra điểm chưa thống nhất và 3 khoảng trống cho điều kiện Việt Nam, mỗi khoảng trống dẫn chứng ít nhất 2 bài.
 - ✅ **Nhà khoa học xác nhận:** nguồn có thật; khoảng trống có giá trị
 
-**🆕 📂 Bộ tài liệu thật để demo** (đã xác minh tồn tại – tải bản đầy đủ trước buổi thuyết trình):
-
-| # | Tài liệu | Ghi chú |
-|---|---|---|
-| 1 | Lê Thị Hồng Liên, Phạm Thy San, Hoàng Lâm Hồng (2007). Results of studying atmospheric corrosion in Vietnam 1995–2005. *Sci. Technol. Adv. Mater.* 8:552–558 | Tổng kết 10 năm, 6–8 trạm |
-| 2 | Lê Thị Hồng Liên (2013). Summarize the results of study on atmospheric corrosion in Vietnam. *Vietnam J. Sci. Technol.* | Mở rộng sang đồng |
-| 3 | Tran T.N.L. và cs. (2006). Atmospheric corrosion of carbon steel under field exposure in the southern part of Vietnam. *Corrosion Science* 48(1):179–192 | Nam Bộ, có/không mái che |
-| 4 | Karpov V.A., Lapiga A.G., Kalinina E.V. và cs. (2017). Modeling of atmospheric corrosion in the tropical climate of Vietnam. *Protection of Metals and Physical Chemistry of Surfaces* 53(7):1205 | Nhóm tác giả Nga – Việt |
-| 5 | Cole I., Nguyễn Việt Huệ. Steel corrosion map of Vietnam. *Vietnam J. Sci. Technol.* | Bản đồ ăn mòn thép |
-| 6 | Chico B. và cs. (2017). Annual atmospheric corrosion of carbon steel worldwide… *Materials* 10(6):601 | Dữ liệu quốc tế ISOCORRAG, ICP, MICAT |
-| 7 | Panchenko Yu.M., Marshakov A.I. (2017). Prediction of first-year corrosion losses of carbon steel and zinc in continental regions. *Materials* 10(4):422 | Mô hình Nga |
-| 8 | ISO 9223:2012; ISO 9224:2012 | Tiêu chuẩn |
-
 **🆕 Khoảng trống gợi ý – có căn cứ từ phân tích dữ liệu thật** *(đề xuất, nhà khoa học quyết định)*:
 1. Mô hình quốc tế **đánh giá thấp ~31%** ăn mòn thép ở Việt Nam → cần hàm liều – đáp ứng hiệu chỉnh cho khí hậu nhiệt đới (thêm độ ẩm, mưa, chu kỳ khô – ướt).
 2. Huế, Nha Trang ăn mòn cao dù clorua thấp → yếu tố chưa được giải thích.
 3. Số liệu Việt Nam chủ yếu 1995–2005, chủ yếu thép cacbon năm đầu → thiếu dữ liệu dài hạn và cập nhật theo biến đổi khí hậu.
 
-**Hình ảnh:** ảnh chụp ma trận bằng chứng và 3 khoảng trống có điểm phản biện.
+**Hình ảnh (thay bảng tài liệu):** ảnh chụp ma trận bằng chứng do AI lập và 3 khoảng trống có điểm phản biện.
+
+**Không chiếu (tài liệu phát tay):** danh mục 8 tài liệu thật dùng cho demo – `TAI-LIEU-PHAT-TAY.md` mục 7; danh mục đầy đủ 13 tài liệu: `du-an-nghien-cuu/01-tong-quan-tai-lieu/DANH-MUC-TAI-LIEU.csv`.
 
 **Nguồn:** G2 · N25 (công cụ tài liệu) · tài liệu 1–8 · Câu lệnh 1.1–1.3
 
@@ -444,11 +437,11 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 13 – Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 (7′)
+## Slide 13 – Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 (6′)
 
 **Chữ trên slide:**
 - Khoảng trống → tính cấp thiết, mục tiêu, nội dung, phương pháp, sản phẩm
-- 🆕 **Demo trực tiếp:** đưa **biểu mẫu thật của Trung tâm** (phiếu đề xuất, thuyết minh) vào dự án → AI điền theo khoảng trống đã chọn
+- 🎬 **Kết quả demo đã chạy trước:** đưa **biểu mẫu thật của Trung tâm** (phiếu đề xuất, thuyết minh) vào dự án → AI điền theo khoảng trống đã chọn – trình chiếu ảnh biểu mẫu đã điền và bảng đối chiếu
 - ⌨ **Câu lệnh:**
   ```
   Đọc biểu mẫu [tên biểu mẫu] trong dự án. Liệt kê toàn bộ mục và yêu cầu của từng mục.
@@ -460,21 +453,21 @@ du-an-nghien-cuu/
 - 📊 **Kết quả mong đợi:** biểu mẫu đã điền đúng cấu trúc; danh sách [CẦN BỔ SUNG]; bảng đối chiếu có dấu ⚠
 - ✅ **Nhà khoa học xác nhận:** tính mới, tính khả thi, chỉ tiêu
 
-**⚠ Dữ liệu khi demo:** biểu mẫu trống = nhóm xanh; **nội dung đề xuất thật = nhóm vàng** → chỉ dùng tài khoản gói tổ chức (không huấn luyện mô hình) hoặc dùng nội dung đề xuất giả định khi trình diễn trước đông người.
+**⚠ Dữ liệu khi chạy trước demo:** biểu mẫu trống = nhóm xanh; **nội dung đề xuất thật = nhóm vàng** → chỉ dùng tài khoản gói tổ chức (không huấn luyện mô hình), hoặc dùng nội dung đề xuất giả định cho ảnh trình chiếu.
 
 **Hình ảnh:** ảnh chụp bảng đối chiếu có dấu ⚠.
 
-**Việc phải làm:** người trình bày gửi biểu mẫu của Trung tâm → chạy thử 2 lần trước buổi thuyết trình.
+**Việc phải làm:** người trình bày gửi biểu mẫu của Trung tâm → chạy thử 2 lần, ghi hình lần chạy tốt nhất.
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-## Slide 14 – Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm (5′)
+## Slide 14 – Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm (4′)
 
 **Chữ trên slide:**
-- 🆕 **Demo:** đưa biểu mẫu thuyết minh – tiến độ – dự toán của Trung tâm vào dự án
+- 🎬 **Kết quả demo đã chạy trước:** biểu mẫu thuyết minh – tiến độ – dự toán của Trung tâm được AI lập từ thuyết minh đã duyệt
 - ⌨ **Câu lệnh:**
   ```
   Từ thuyết minh đã duyệt, lập: (1) bảng nội dung công việc – sản phẩm – thời gian – người
@@ -497,20 +490,20 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 15 – Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 (8′)
+## Slide 15 – Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 (7′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** ERA (Google, *Nature* 2026) – AI tự viết, chạy, chấm điểm, cải tiến mã
 - **Nhà khoa học không cần biết lập trình:** mô tả việc cần làm → AI viết mã Python → chạy → trả bảng, biểu đồ, **kèm mã để tái lập**
-- ⌨ **Câu lệnh (trình diễn trực tiếp):** rà soát dữ liệu → tính toán và lập mô hình → vẽ biểu đồ
+- ⌨ **Câu lệnh đã dùng:** rà soát dữ liệu → tính toán và lập mô hình → vẽ biểu đồ
 - 📊 **Kết quả:**
   - Dữ liệu giả lập: phát hiện đủ **14/14 lỗi** cài sẵn; thép CT3 ven biển C4 · đô thị C3 · nội địa C2
-  - Dữ liệu thật (387 số đo): lỗi đơn vị trong dữ liệu công bố; mô hình quốc tế thấp hơn thực đo ở Việt Nam ~31%; mô hình 3D diễn tiến ăn mòn theo thời gian
-- 💡 **Bài học:** AI viết mã rất nhanh – nhưng chọn phương pháp phù hợp với thiết kế thí nghiệm là việc của người làm chuyên môn
+  - Dữ liệu thật (387 số đo): kết quả chính đã nêu ở Slide 9; mô hình 3D ở Slide 16
+- 💡 **Bài học:** AI viết mã rất nhanh – nhưng cách tìm số đo bất thường AI chọn lần đầu đánh dấu nhầm 20 giá trị bình thường và bỏ sót lỗi gõ nhầm; chọn phương pháp phù hợp với thiết kế thí nghiệm (3 mẫu lặp) là việc của người làm chuyên môn
 
 **Hình ảnh:** `thuyet-trinh/ket-qua-demo/gia-lap/bieu_do_dong_hoc_an_mon.png`; `du-an-nghien-cuu/05-ket-qua/hinh/do_vs_du_doan.png`; `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/3D_3_be_mat_tam_thep.png`.
 
-**Demo:** trực tiếp ~3 phút (Câu lệnh 4.2 → 4.3 → 4.4); mở mô hình 3D tương tác (tệp HTML) nếu còn thời gian.
+**🎬 Trình chiếu:** video ghi sẵn ~2 phút (câu lệnh 4.2 → 4.3 → 4.4 tua nhanh) + ảnh báo cáo chất lượng dữ liệu.
 
 **Nguồn:** G5 · `du-an-nghien-cuu/07-bao-cao/BAO-CAO-TONG-HOP.md`
 
@@ -534,11 +527,11 @@ du-an-nghien-cuu/
 - 📊 **Kết quả:**
   - Nha Trang: thép mất trung bình **41 µm** sau 1 năm → **135 µm** sau 10 năm → **245 µm** sau 30 năm (≈ 1.926 g/m²)
   - Cấp C3, sau 30 năm: thép ≈ 218 µm · kẽm ≈ 20 µm · đồng ≈ 9 µm · nhôm ≈ 5 µm
-- ⚠ **Ghi rõ trên hình:** phần **định lượng** (số đo, tiêu chuẩn) và phần **minh họa** (tham số giả định: lớp gỉ, hố)
+- ⚠ **Ghi rõ trên hình:** phần **định lượng** (số đo, tiêu chuẩn) và phần **minh họa** (tham số giả định: lớp gỉ, hố) – AI dựng hình nhanh, **chuyên gia ăn mòn hiệu chỉnh** bằng số đo thực tế
 
 **Hình ảnh:** `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/3D_4_qua_trinh_an_mon.png` (4 thời điểm + mặt cắt); mở `3D_4_qua_trinh_an_mon_dong.html`, bấm **▶ Chạy**; `3D_5_so_sanh_vat_lieu.html`.
 
-**Demo:** mở tệp HTML, chạy hoạt hình ~1 phút (câu lệnh: `cau-lenh-demo.md` mục 12).
+**🎬 Trình chiếu:** mở `3D_4_qua_trinh_an_mon_dong.html` (chạy được không cần Internet), bấm ▶ ~1 phút; dự phòng: video ghi màn hình hoặc ảnh PNG. Câu lệnh đã dùng: `cau-lenh-demo.md` mục 12.
 
 **Nguồn:** N16 · ISO 9223:2012, ISO 9224:2012 (T10, T11) · `du-an-nghien-cuu/04-ma-nguon/05_mo_hinh_3d_qua_trinh.py`
 
@@ -612,11 +605,12 @@ du-an-nghien-cuu/
   - Đường thẳng cắt qua **8 ô cấm bay** → lộ trình vòng qua đèo: 14,5 km, 240 Wh
   - Chiều về ngược gió mùa: **422 Wh – gấp 1,8 lần chiều đi** → không đủ pin, phải đổi phương án
   - Công cụ chạy trong ~3 giây trên máy tính thường, không cần mạng
+- 🎯 **Trọng tâm là quy trình** – mô hình bay trong ví dụ đã đơn giản hóa; đơn vị thay bằng mô hình và thông số của mình.
 - ⚠ Chuyển tệp giữa hai máy theo **quy định bảo vệ bí mật nhà nước và quy chế của đơn vị**. Khi công cụ lỗi: tái tạo lỗi bằng dữ liệu giả để hỏi AI – không mang dữ liệu thật ra ngoài.
 
 **Hình ảnh:** sơ đồ hai máy; `thuyet-trinh/ket-qua-demo/may-cach-ly/ban_do_lo_trinh.png`.
 
-**Demo:** ~2 phút – chạy công cụ trên dữ liệu giả, mở báo cáo (câu lệnh: `cau-lenh-demo.md` mục 13; mã: `thuyet-trinh/ma-nguon-demo/may-cach-ly/`).
+**🎬 Trình chiếu:** ảnh bản đồ lộ trình + báo cáo đã chạy; ảnh màn hình chương trình quét mã báo "không phát hiện kết nối mạng" và báo **chặn** khi thử chèn `import requests` (câu lệnh: `cau-lenh-demo.md` mục 13; mã: `thuyet-trinh/ma-nguon-demo/may-cach-ly/`).
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
@@ -641,15 +635,17 @@ du-an-nghien-cuu/
 
 Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – kho C-OLR, MIT). Skill: `exploratory-data-analysis` của K-Dense (tải từ GitHub, chạy cục bộ, không cần mạng).
 
-| Câu hỏi kiểm tra | Không dùng Skill (phân tích ban đầu) | Có dùng Skill |
-|---|---|---|
-| Phân bố số liệu có lệch không? | Không kiểm tra – dùng thang log theo kinh nghiệm | **Có:** độ lệch 4,66 → sau log còn −0,02 → căn cứ định lượng cho thang log |
-| Ngoại lệ ảnh hưởng thế nào? | Không báo cáo | **31/387** giá trị ngoài ngưỡng IQR; trung bình 37,7 → 29,2 µm/năm nếu bỏ chúng – **chỉ đánh dấu, không xóa** |
-| Tập huấn luyện và kiểm định có trùng trạm không (rò rỉ dữ liệu)? | Không kiểm tra | **Không trùng** – xác nhận kiểm định độc lập là hợp lệ |
-| Dữ liệu thiếu theo nhóm, theo tập? | Kiểm tra thủ công | Bảng tự động theo từng nhóm, từng tập |
-| Quy tắc an toàn | Tùy người làm | Không tự xóa, không tự điền, không tự biến đổi dữ liệu; không kết luận nhân quả |
+3 ô số liệu lớn (chỉ Skill phát hiện, phân tích ban đầu bỏ qua):
+
+| Số lớn | Ý nghĩa |
+|---|---|
+| **4,66 → −0,02** | Độ lệch phân bố trước – sau lấy log → căn cứ định lượng cho thang log |
+| **31 / 387** | Giá trị ngoại lệ – **chỉ đánh dấu, không xóa** |
+| **0 trạm trùng** | Không rò rỉ giữa tập huấn luyện và kiểm định → kiểm định độc lập hợp lệ |
 
 > **Kết luận:** Skill **không thay** nhà khoa học – Skill bảo đảm **không bỏ sót bước kiểm tra**, và ai chạy cũng theo cùng một chuẩn.
+
+**Không chiếu (tài liệu phát tay):** bảng so sánh đầy đủ 5 tiêu chí không dùng / có dùng Skill – `TAI-LIEU-PHAT-TAY.md` mục 8.
 
 **Lưu ý:** "Không dùng Skill" là phân tích ban đầu của chính bộ mã nghiên cứu; nên chạy lại thí nghiệm trực tiếp trên Claude (tải Skill dạng ZIP) trước buổi thuyết trình.
 
@@ -712,11 +708,11 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-# PHẦN VI. TRAO ĐỔI VÀ THẢO LUẬN (9 phút)
+# PHẦN VI. TRAO ĐỔI VÀ THẢO LUẬN (15 phút)
 
 ---
 
-## Slide 23 – Trao đổi và thảo luận (9′)
+## Slide 23 – Trao đổi và thảo luận (15′)
 
 **Chữ trên slide:**
 - Kết quả phiếu khảo sát trước buổi học (biểu đồ)
@@ -794,6 +790,26 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 **Chữ trên slide:** K-Dense Scientific Agent Skills – https://github.com/K-Dense-AI/claude-scientific-skills (177 Skill, MIT; sinh học, hóa học, vật liệu, thống kê, viết khoa học…) · AI4S Open Science · AIPOCH Open Science · CES Global – kèm URL và lĩnh vực của từng bộ.
 
 **Việc phải làm:** bổ sung URL của AI4S, AIPOCH, CES Global (N17).
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
+
+---
+
+## Slide 28 – Phụ lục E: Câu hỏi thường gặp (dự phòng khi được hỏi) 🆕
+
+**Chữ trên slide:**
+
+| Câu hỏi | Trả lời |
+|---|---|
+| Đơn vị có được dùng dịch vụ AI nước ngoài không? | **[CẦN ĐIỀN theo quy định hiện hành của Bộ Quốc phòng và Trung tâm – xác nhận với cơ quan chức năng]** |
+| Dữ liệu nào được đưa lên AI? | Chỉ dữ liệu đã công bố hoặc giả lập; dữ liệu mật xử lý theo Phần IV (máy không kết nối Internet) |
+| Chi phí bao nhiêu? | Gói cá nhân Pro ~20 USD/tháng; gói Team, Enterprise theo báo giá – **[CẦN ĐIỀN phương án của Trung tâm]** |
+| AI sai thì ai chịu trách nhiệm? | Nhà khoa học – AI là công cụ; mọi kết quả phải được kiểm tra, xác nhận |
+| Có cần biết lập trình không? | Không – mô tả việc cần làm, AI viết và chạy mã; nhưng phải đọc hiểu kết quả và kiểm tra phương pháp |
+| Bài báo dùng AI có được chấp nhận không? | Được, nếu khai báo việc sử dụng theo quy định của tạp chí; AI không đứng tên tác giả |
+
+**Nguồn:** N15, N20, N22
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**

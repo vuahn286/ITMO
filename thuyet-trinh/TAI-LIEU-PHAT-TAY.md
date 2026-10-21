@@ -1,0 +1,149 @@
+# TÀI LIỆU PHÁT TAY
+
+**AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học** · Trung tâm Nhiệt đới Việt – Nga · 2026
+
+Tài liệu gồm các nội dung chi tiết không chiếu trên slide. Câu lệnh mẫu đầy đủ kèm kết quả mong đợi: `cau-lenh-demo.md`.
+
+---
+
+## 1. Chọn công cụ theo 5 bậc công việc (Slide 5)
+
+| Bậc | Loại việc | Công việc thường gặp của nhà khoa học | Công cụ phù hợp |
+|---|---|---|---|
+| 1 | Hỏi – đáp, tra cứu nhanh | Giải thích khái niệm, tiêu chuẩn (ISO 9223 cấp C4 là gì?) · Dịch thuật ngữ Việt – Nga – Anh · Gợi ý từ khóa tìm tài liệu · Kiểm tra công thức, đơn vị | Chatbot |
+| 2 | Làm việc với một tài liệu | Tóm tắt bài báo · Dịch bài báo tiếng Nga/Anh · Trích bảng số liệu từ PDF · Sửa văn phong, rút gọn tóm tắt · Soạn công văn, thư mời hội thảo | Chatbot |
+| 3 | Tổng hợp nhiều nguồn | Tổng quan tài liệu, ma trận bằng chứng · Tìm khoảng trống nghiên cứu · So sánh tiêu chuẩn Việt Nam – Nga (ГОСТ) – quốc tế · Bản tin công bố mới theo chủ đề | Chatbot có dự án / Research |
+| 4 | Xử lý nhiều tệp, dữ liệu | Làm sạch, gộp số liệu từ nhiều trạm · Thống kê, hồi quy, vẽ biểu đồ · Điền biểu mẫu thuyết minh từ bộ hồ sơ · Lập dự toán, sơ đồ tiến độ | AI Agent |
+| 5 | Chuỗi nhiệm vụ, tự động hóa | Dữ liệu → mô hình → biểu đồ → bản thảo bài báo · Bộ hồ sơ nghiệm thu (Mẫu 21, 22) · Theo dõi tiến độ hằng tháng · Bản tin tự động hằng tuần | AI Agent + Skill + lịch tự động |
+
+## 2. Chatbot và AI Agent khác nhau thế nào (Slide 3, 5)
+
+| | Chatbot AI | AI Agent |
+|---|---|---|
+| Đầu vào | Một câu hỏi | Một nhiệm vụ có mục tiêu |
+| Lập kế hoạch | Hạn chế | Tự lập và điều chỉnh |
+| Công cụ | Ít | Tìm kiếm, chạy mã, làm việc với tệp |
+| Kiểm tra kết quả | Người dùng tự làm | Tự kiểm tra từng bước – vẫn cần người xác nhận |
+| Chi phí – thời gian | Thấp | Cao hơn |
+
+## 3. Tính năng mới của AI Agent 2024–2026 (Slide 3)
+
+| Tính năng | Làm được gì cho nhà khoa học | Mốc |
+|---|---|---|
+| **Làm việc tự chủ nhiều giờ** | Giao cả chuỗi việc (đọc dữ liệu → phân tích → vẽ biểu đồ → viết báo cáo); AI tự làm, tự sửa lỗi | Độ dài việc AI làm được: ~1 giờ (02/2025) → ≥ 16 giờ (05/2026) |
+| **Nghiên cứu chuyên sâu (Deep Research)** | Tự tìm, đọc hàng chục – hàng trăm nguồn, viết báo cáo có trích dẫn | Google 12/2024 · OpenAI 02/2025 · Claude 04/2025 |
+| **Sử dụng máy tính** | Tự nhìn màn hình, bấm chuột, gõ phím – thao tác trên trang web, phần mềm như người dùng | Anthropic thử nghiệm công khai 10/2024 |
+| **Kết nối chuẩn mở MCP** | Một "ổ cắm chung" để AI kết nối cơ sở dữ liệu, kho tài liệu, phần mềm | Ra mắt 11/2024; > 10.000 máy chủ kết nối công khai; chuyển cho Linux Foundation 12/2025 |
+| **Skill – chuẩn mở** | Quy trình mẫu đóng gói một lần, dùng được trên nhiều công cụ AI khác nhau | Chuẩn mở 12/2025 (agentskills.io) |
+| **Chạy nền, theo lịch** | Tự chạy định kỳ (ví dụ: bản tin công bố mới mỗi sáng thứ Hai) – không cần ngồi canh | Tác vụ theo lịch trong Cowork (Claude cho Windows, 04/2026) |
+
+## 4. Claude trên Windows – đầy đủ tính năng (Slide 7)
+
+| Tính năng | Làm được gì | Gói |
+|---|---|---|
+| **Dự án (Projects)** | Gom tài liệu + hướng dẫn chung cho một nhiệm vụ | Mọi gói (Free tối đa 5 dự án) |
+| **Tạo tệp, chạy mã** | Viết – chạy Python; xuất Word, Excel, PowerPoint, PDF | Mọi gói |
+| **Research** | Nghiên cứu chuyên sâu: tự tìm hàng chục nguồn, tổng hợp có trích dẫn | Từ Pro |
+| **Kết nối (Connectors)** | Đọc tệp trên Google Drive, Gmail… với quyền của chính người dùng | Tùy kết nối |
+| **Bộ nhớ (Memory)** | Nhớ bối cảnh làm việc giữa các cuộc trò chuyện; xem và sửa được | Mọi gói |
+| **Skill** | "Quy trình mẫu" đóng gói (hướng dẫn + biểu mẫu + mã); tự tạo hoặc tải về (tệp ZIP) | Cần bật chạy mã; kiểm tra theo gói |
+| **Cowork** | Trợ lý làm việc trực tiếp với **thư mục trên máy tính**: đọc nhiều tệp, sắp xếp, tạo báo cáo – trong ứng dụng Claude cho Windows (chính thức từ 04/2026) | Gói trả phí |
+| **Tác vụ theo lịch (tự động hóa)** | Đặt việc chạy định kỳ – ví dụ sáng thứ Hai tự tổng hợp công bố mới; chạy trên đám mây, không cần bật máy | Gói trả phí (trong Cowork) |
+| **Plugin** | Gói gồm nhiều Skill + kết nối + trợ lý con, cài một lần dùng cho cả nhóm | Gói trả phí |
+| **Claude Code** | AI Agent lập trình – viết, chạy, sửa mã trong thư mục dự án | Từ Pro |
+
+## 5. Bắt đầu với Claude – 6 bước (Slide 8)
+
+| Bước | Làm gì | Ở đâu |
+|---|---|---|
+| 1. Tạo tài khoản | Đăng nhập bằng email trên trình duyệt; nếu muốn, cài ứng dụng Claude cho Windows | claude.ai · claude.com/download |
+| 2. Cài đặt quyền riêng tư **trước tiên** | Chọn có cho dùng hội thoại để cải thiện mô hình hay không; xem và sửa "bộ nhớ" Claude lưu về bạn | Settings → Privacy · Settings → Capabilities |
+| 3. Hỏi đáp và tải tệp | Gõ câu hỏi; kéo thả PDF, Word, Excel, ảnh vào khung chat; chọn mô hình | Màn hình chính |
+| 4. Bật công cụ | Tìm kiếm web; viết và chạy mã, tạo tệp; Research (gói Pro trở lên) | Settings → Capabilities, hoặc nút công cụ trong khung chat |
+| 5. Tạo Dự án (Project) | Viết hướng dẫn chung một lần + tải bộ tài liệu dùng chung cho mọi cuộc trò chuyện trong dự án | Mục Projects |
+| 6. Nhận sản phẩm | Văn bản, bảng, biểu đồ hiện ngay bên cạnh; tải về Word, Excel, PowerPoint, PDF | Khung kết quả bên phải |
+
+**3 thói quen tốt:** nói rõ việc cần làm và dạng kết quả · yêu cầu dẫn nguồn · luôn kiểm tra lại trước khi dùng.
+
+## 6. Giao việc cho AI Agent – mẫu 5 bước (Slide 9)
+
+1. **Xác định nhiệm vụ** – làm gì, để làm gì
+2. **Cung cấp dữ liệu** – theo quy tắc xanh / vàng / đỏ
+3. **Quy định đầu ra** – dạng bảng, văn bản, biểu đồ, độ dài
+4. **Yêu cầu dẫn nguồn, lưu mã** – để kiểm tra và tái lập
+5. **Kiểm tra và xác nhận** – nhà khoa học duyệt
+
+Ví dụ đủ 5 bước:
+```
+[1. Nhiệm vụ] Đánh giá mô hình quốc tế dự báo tốc độ ăn mòn năm đầu của thép cacbon có
+áp dụng được cho Việt Nam không.
+[2. Dữ liệu – nhóm xanh, đã công bố] Tệp an_mon_387.csv: 320 trạm ISOCORRAG + MICAT để
+học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga) để kiểm định.
+[3. Đầu ra] (a) báo cáo chất lượng dữ liệu; (b) mô hình dạng hàm liều – đáp ứng ISO 9223;
+(c) bảng sai số theo vùng; (d) biểu đồ đo – dự đoán; (e) báo cáo Word 3 trang.
+[4. Dẫn nguồn, tái lập] Ghi nguồn mọi số liệu; lưu toàn bộ mã Python; không xóa dữ liệu gốc.
+[5. Kiểm tra] Tách "kết quả tính toán" và "diễn giải đề xuất"; nêu rõ hạn chế.
+```
+
+## 7. Bộ tài liệu thật dùng trong ví dụ ăn mòn khí quyển (Slide 12)
+
+| # | Tài liệu | Ghi chú |
+|---|---|---|
+| 1 | Lê Thị Hồng Liên, Phạm Thy San, Hoàng Lâm Hồng (2007). Results of studying atmospheric corrosion in Vietnam 1995–2005. *Sci. Technol. Adv. Mater.* 8:552–558 | Tổng kết 10 năm, 6–8 trạm |
+| 2 | Lê Thị Hồng Liên (2013). Summarize the results of study on atmospheric corrosion in Vietnam. *Vietnam J. Sci. Technol.* | Mở rộng sang đồng |
+| 3 | Tran T.N.L. và cs. (2006). Atmospheric corrosion of carbon steel under field exposure in the southern part of Vietnam. *Corrosion Science* 48(1):179–192 | Nam Bộ, có/không mái che |
+| 4 | Karpov V.A., Lapiga A.G., Kalinina E.V. và cs. (2017). Modeling of atmospheric corrosion in the tropical climate of Vietnam. *Protection of Metals and Physical Chemistry of Surfaces* 53(7):1205 | Nhóm tác giả Nga – Việt |
+| 5 | Cole I., Nguyễn Việt Huệ. Steel corrosion map of Vietnam. *Vietnam J. Sci. Technol.* | Bản đồ ăn mòn thép |
+| 6 | Chico B. và cs. (2017). Annual atmospheric corrosion of carbon steel worldwide… *Materials* 10(6):601 | Dữ liệu quốc tế ISOCORRAG, ICP, MICAT |
+| 7 | Panchenko Yu.M., Marshakov A.I. (2017). Prediction of first-year corrosion losses of carbon steel and zinc in continental regions. *Materials* 10(4):422 | Mô hình Nga |
+| 8 | ISO 9223:2012; ISO 9224:2012 | Tiêu chuẩn |
+
+Danh mục đầy đủ 13 tài liệu đã xác minh: `du-an-nghien-cuu/01-tong-quan-tai-lieu/DANH-MUC-TAI-LIEU.csv`.
+
+## 8. Thí nghiệm: không dùng và có dùng Skill (Slide 20)
+
+| Câu hỏi kiểm tra | Không dùng Skill (phân tích ban đầu) | Có dùng Skill |
+|---|---|---|
+| Phân bố số liệu có lệch không? | Không kiểm tra – dùng thang log theo kinh nghiệm | **Có:** độ lệch 4,66 → sau log còn −0,02 → căn cứ định lượng cho thang log |
+| Ngoại lệ ảnh hưởng thế nào? | Không báo cáo | **31/387** giá trị ngoài ngưỡng IQR; trung bình 37,7 → 29,2 µm/năm nếu bỏ chúng – **chỉ đánh dấu, không xóa** |
+| Tập huấn luyện và kiểm định có trùng trạm không (rò rỉ dữ liệu)? | Không kiểm tra | **Không trùng** – xác nhận kiểm định độc lập là hợp lệ |
+| Dữ liệu thiếu theo nhóm, theo tập? | Kiểm tra thủ công | Bảng tự động theo từng nhóm, từng tập |
+| Quy tắc an toàn | Tùy người làm | Không tự xóa, không tự điền, không tự biến đổi dữ liệu; không kết luận nhân quả |
+
+## 9. Dữ liệu mật: AI viết công cụ, máy không kết nối Internet xử lý (Slide 19)
+
+1. Chỉ mô tả **cấu trúc** dữ liệu cho AI (tên cột, đơn vị) – không đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
+2. AI viết công cụ, tự sinh dữ liệu giả, chạy thử.
+3. Nhà khoa học đọc mã; chạy chương trình quét mã (không có kết nối mạng, lệnh hệ thống).
+4. Đóng gói kèm mã băm SHA-256.
+5. Chuyển sang máy không kết nối Internet **theo quy định của đơn vị**; đối chiếu mã băm; chạy với dữ liệu thật.
+6. Kết quả ở lại máy đó. Khi công cụ lỗi: tái tạo lỗi bằng dữ liệu giả để hỏi AI.
+
+Mã mẫu: `ma-nguon-demo/may-cach-ly/` (hướng dẫn trong `README.md`).
+
+## 10. Giải nghĩa thuật ngữ
+
+| Thuật ngữ | Nghĩa |
+|---|---|
+| AI tạo sinh | AI tạo ra văn bản, hình ảnh, mã… từ yêu cầu bằng lời |
+| Chatbot | Trợ lý AI hỏi – đáp: một câu hỏi, một câu trả lời |
+| AI Agent (tác tử AI) | AI nhận một nhiệm vụ, tự lập kế hoạch, dùng công cụ (tìm kiếm, chạy mã, đọc – ghi tệp), kiểm tra từng bước |
+| Mô hình (Haiku, Sonnet, Opus, Fable) | "Bộ não" của Claude; mô hình lớn hơn suy luận tốt hơn nhưng chậm, tốn hơn |
+| Dự án (Project) | Không gian làm việc gom tài liệu + hướng dẫn chung cho một nhiệm vụ |
+| Research / Deep Research | Chế độ nghiên cứu chuyên sâu: AI tự tìm, đọc nhiều nguồn, viết báo cáo có trích dẫn |
+| Kết nối (Connectors) | Cho AI đọc dữ liệu ở dịch vụ khác (Google Drive, Gmail…) với quyền của người dùng |
+| MCP | Chuẩn mở để AI kết nối với cơ sở dữ liệu, phần mềm – "ổ cắm chung" |
+| Bộ nhớ (Memory) | AI nhớ bối cảnh làm việc giữa các cuộc trò chuyện; người dùng xem, sửa được |
+| Skill (kỹ năng) | Quy trình mẫu đóng gói (hướng dẫn + biểu mẫu + mã) để AI dùng lại, cho kết quả nhất quán |
+| Subagent (tác tử con) | Trợ lý con được giao một việc chuyên biệt trong nhiệm vụ lớn |
+| Hệ nhiều Agent | Nhiều trợ lý phối hợp như một nhóm: đề xuất, phản biện, tổng hợp |
+| Cowork | Chế độ của ứng dụng Claude cho Windows làm việc trực tiếp với thư mục trên máy |
+| Tác vụ theo lịch | Việc AI tự chạy định kỳ, không cần người ngồi canh |
+| Plugin | Gói nhiều Skill + kết nối + tác tử con, cài một lần dùng cho cả nhóm |
+| Hàm liều – đáp ứng | Công thức tính tốc độ ăn mòn từ các yếu tố môi trường (ISO 9223) |
+| Mã băm SHA-256 | "Dấu vân tay" của tệp – chỉ cần sửa một ký tự là mã băm thay đổi |
+| FAIR | Nguyên tắc dữ liệu khoa học: dễ tìm, dễ truy cập, tương thích, tái sử dụng được |
+
+---
+
+*Ghi chú phiếu khảo sát:* trước buổi – đã dùng AI chưa, dùng làm gì, lo ngại gì; sau buổi – 3 câu kiểm tra (chatbot hay Agent? dữ liệu nào được đưa lên AI? ai chịu trách nhiệm kết quả?) và "Tuần tới tôi sẽ thử…".

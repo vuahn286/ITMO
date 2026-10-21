@@ -1,5 +1,15 @@
 # ĐÁNH GIÁ BÀI THUYẾT TRÌNH – GÓC NHÌN NGƯỜI PHẢN BIỆN
 
+> **Trạng thái xử lý (21/10/2026):**
+> - ✅ Demo: chạy trước, chỉ trình chiếu video – ảnh (Slide 8, 13, 14, 15, 16, 19); mô hình 3D mở được không cần Internet.
+> - ✅ Giảm chữ: Slide 3 (bỏ bảng chatbot – Agent, bảng tính năng còn 4 dòng), Slide 7 (mô hình 1 dòng, tính năng còn 5), Slide 12 (bỏ bảng 8 tài liệu), Slide 20 (3 số lớn) – chi tiết chuyển sang `TAI-LIEU-PHAT-TAY.md`.
+> - ✅ Lặp ý: Slide 15 không nhắc lại kết quả dữ liệu thật (đã ở Slide 9); ví dụ AI chọn sai phương pháp đặt ở Slide 15.
+> - ✅ Thảo luận 15′ (Slide 3, 7, 8, 13, 14, 15 mỗi slide −1′).
+> - ✅ Rủi ro chất vấn: Slide 16 ghi "chuyên gia hiệu chỉnh"; Slide 19 ghi "trọng tâm là quy trình".
+> - ✅ Câu hỏi về quy định, chi phí: Phụ lục E (câu hỏi thường gặp) – **còn 2 ô [CẦN ĐIỀN]**.
+> - ✅ Danh sách việc trước buổi thuyết trình: mục "Chuẩn bị" đầu `DANH-SACH-SLIDE.md`.
+> - ☐ Căn cứ còn mở (mục 3.4) – người trình bày xác nhận.
+
 **Đối tượng đánh giá:** `DANH-SACH-SLIDE.md` bản v2.5 (23 slide, 6 phần, 120 phút) · **Ngày:** 21/10/2026
 **Người nghe giả định:** cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga (Bộ Quốc phòng) – mạnh chuyên môn (vật liệu, ăn mòn, sinh thái, khí hậu), không chuyên công nghệ thông tin; một số người đã dùng chatbot, ít người đã dùng AI Agent.
 
