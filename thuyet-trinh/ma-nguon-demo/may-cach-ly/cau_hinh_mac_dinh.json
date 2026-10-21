@@ -1,0 +1,13 @@
+{
+ "_ghi_chu": "THÔNG SỐ GIẢ ĐỊNH cho thiết bị nhiều cánh quạt loại ~6 kg – đơn vị thay bằng thông số thật trên máy không Internet",
+ "khoi_luong_kg": 6.0,
+ "toc_do_bay_ms": 15.0,
+ "cong_suat_bay_W": 1000.0,
+ "dung_luong_pin_Wh": 480.0,
+ "du_tru_pin_pct": 20,
+ "hieu_suat_leo": 0.6,
+ "he_so_mua_moi_mm_h": 0.03,
+ "mua_cam_bay_mm_h": 8.0,
+ "gio_cam_bay_ms": 12.0,
+ "tran_bay_m": 900.0
+}

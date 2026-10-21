@@ -25,6 +25,7 @@
 | 12 | Tài liệu → khoảng trống | `01-tong-quan-tai-lieu/MA-TRAN-BANG-CHUNG.md`, `KHOANG-TRONG-NGHIEN-CUU.md` |
 | 13–14 | Đề xuất, thuyết minh | `02-de-xuat-thuyet-minh/DE-XUAT-NHIEM-VU-ban-nhap.md` |
 | 15 | Xử lý dữ liệu bằng Python | `03-du-lieu/README.md`, `04-ma-nguon/`, `05-ket-qua/mo-hinh-3d/*.html` |
-| 16 | Bài báo, báo cáo | `06-bai-bao/BAN-THAO-bai-bao.md`, `07-bao-cao/` |
-| 18 | Skill | `05-ket-qua/kiem-tra-bang-skill/README.md` |
-| 19 | Khoa học mở | `03-du-lieu/1-du-lieu-tho/c-olr/NGUON.md` (dữ liệu mở → phát hiện lỗi → tri thức mới) |
+| 16 | Mô hình 3D quá trình ăn mòn | `05-ket-qua/mo-hinh-3d/3D_4_qua_trinh_an_mon_dong.html`, `3D_5_so_sanh_vat_lieu.html` |
+| 18 | Bài báo, báo cáo | `06-bai-bao/BAN-THAO-bai-bao.md`, `07-bao-cao/` |
+| 20 | Skill | `05-ket-qua/kiem-tra-bang-skill/README.md` |
+| 21 | Khoa học mở | `03-du-lieu/1-du-lieu-tho/c-olr/NGUON.md` (dữ liệu mở → phát hiện lỗi → tri thức mới) |

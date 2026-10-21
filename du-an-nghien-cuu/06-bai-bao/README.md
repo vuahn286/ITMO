@@ -14,4 +14,4 @@
 - [ ] Công bố mã và dữ liệu đã xử lý có DOI (Zenodo) – điền [14]
 - [ ] Bản tiếng Anh (Scopus) / tiếng Nga (ВАК: УДК, аннотация, ГОСТ Р 7.0.5-2008) nếu cần – câu lệnh mục 10
 
-Liên hệ bài thuyết trình: Slide 16.
+Liên hệ bài thuyết trình: Slide 18.

@@ -8,7 +8,7 @@
 **Ngày thuyết trình:** ____ / ____ / ______
 **Phiên bản:** 2.5 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
 
-> **Bản v2.5 (21/10/2026):** bố cục chính thức ở `DANH-SACH-SLIDE.md` – 21 slide trình bày + 4 phụ lục. Giữ đúng các phần người trình bày đã xóa trong tệp Word; bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận" (thời lượng chuyển sang thảo luận). Slide 3 thêm tính năng mới của AI Agent (N29–N32) và ô giới hạn; thảo luận 12′. Các mục "Lời nói", "Gợi ý nói" trong kế hoạch này chỉ còn giá trị tham khảo.
+> **Bản v2.5 (21/10/2026):** bố cục chính thức ở `DANH-SACH-SLIDE.md` – 23 slide trình bày + 4 phụ lục. Giữ đúng các phần người trình bày đã xóa trong tệp Word; bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận" (thời lượng chuyển sang thảo luận). Slide 3 thêm tính năng mới của AI Agent (N29–N32) và ô giới hạn. Thêm Slide 16 (mô hình 3D) và Slide 17 (Demo 3 – máy không Internet); từ slide cũ 16 trở đi số slide cộng 2; thảo luận 9′. Số slide trong các mục chi tiết của kế hoạch này vẫn theo bản cũ – đối chiếu `DANH-SACH-SLIDE.md`. Các mục "Lời nói", "Gợi ý nói" trong kế hoạch này chỉ còn giá trị tham khảo.
 >
 > **Bản v2.4 (21/10/2026):** cập nhật theo góp ý trong tệp Word (phần tô vàng) – xem `DE-XUAT-BO-SUNG-v2.4.md` và `DANH-SACH-SLIDE.md` (bố cục chính thức, 22 slide + 4 phụ lục). Thay đổi chính: mở rộng bản đồ công việc; thêm tính năng nổi bật của Claude (Skill, Cowork, tác vụ theo lịch, Plugin); demo dữ liệu thật nhiều nguồn; Phần III bắt đầu bằng tìm khoảng trống; demo với biểu mẫu thật của Trung tâm; bài báo theo Scopus / ВАК / Ei / trong nước; thí nghiệm có – không dùng Skill; ứng dụng khoa học mở.
 >
@@ -103,14 +103,14 @@
 | Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
 | I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 19 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 36 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (2 demo) | 12–17 | 38 phút |
-| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 18–20 | 15 phút |
-| – | Trao đổi, thảo luận | 21 | 12 phút |
-| – | Phụ lục (không trình bày) | 22–25 | – |
-| | **Tổng cộng** | **21 slide + 4 phụ lục** | **120 phút** |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 35 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học (3 demo, mô hình 3D) | 12–19 | 42 phút |
+| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 20–22 | 15 phút |
+| – | Trao đổi, thảo luận | 23 | 9 phút |
+| – | Phụ lục (không trình bày) | 24–27 | – |
+| | **Tổng cộng** | **23 slide + 4 phụ lục** | **120 phút** |
 
-*v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận. Slide 3 thêm 6 tính năng mới của AI Agent và ô "AI vẫn có thể sai" (+1′, thảo luận còn 12′). Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
+*v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận. Slide 3 thêm 6 tính năng mới của AI Agent và ô "AI vẫn có thể sai" (+1′). Thêm Slide 16 – mô hình 3D quá trình ăn mòn (3′) và Slide 17 – Demo 3: công cụ cho máy không Internet với đề tài có dữ liệu mật (5′); bù bằng: thảo luận −3′, Slide 10, 12, 13, 14, 18 mỗi slide −1′. Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
 
 *v2.3: thêm 12′ cho 2 slide Claude; bù bằng cách rút: slide chatbot/Agent −1′, công cụ −1′, không gian dự án −2′, Skill/Subagent −2′, slide tài liệu −1′, mỗi demo −1′, slide tự động hóa −1′, thảo luận −2′.*
 

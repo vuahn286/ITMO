@@ -154,7 +154,7 @@ Trình bày thành 2 phần tách biệt: "Kết quả tính toán" và "Diễn 
 
 ---
 
-## 5. Slide 16 – Kết quả → bài báo, báo cáo
+## 5. Slide 18 – Kết quả → bài báo, báo cáo
 
 ### Câu lệnh 5.1 – Dàn ý bài báo
 ```
@@ -174,14 +174,14 @@ Lập bảng: Mục tiêu (theo thuyết minh đã duyệt) | Sản phẩm cam k
 
 ---
 
-## 6. Slide 20 – Quy trình tự động QT-01 (bản tin công bố hằng tuần)
+## 6. Slide 22 – Quy trình tự động QT-01 (bản tin công bố hằng tuần)
 
 ```
 Mỗi sáng thứ Hai: tìm các công bố mới trong 7 ngày qua về "atmospheric corrosion" AND (tropical OR marine OR chloride) trên Crossref, arXiv, ScienceDirect.
 Với mỗi bài: tiêu đề, tác giả, tạp chí, DOI, tóm tắt tiếng Việt 3 câu, mức độ liên quan với hướng "ăn mòn khí quyển nhiệt đới" (cao / trung bình / thấp) và lý do.
 Sắp xếp theo mức độ liên quan, tối đa 10 bài.
 ```
-(Trên Claude: dùng tính năng tác vụ định kỳ/Routine hoặc chạy thủ công rồi chụp màn hình cho Slide 20.)
+(Trên Claude: dùng tính năng tác vụ định kỳ/Routine hoặc chạy thủ công rồi chụp màn hình cho Slide 22.)
 
 
 ---
@@ -236,7 +236,7 @@ tôi cung cấp, không tự đặt đơn giá; (4) kiểm tra logic trình tự
 liệt kê bất hợp lý và đề xuất điều chỉnh. Xuất Word và Excel.
 ```
 
-## 10. Slide 16 – Bài báo theo nhiều định dạng công bố
+## 10. Slide 18 – Bài báo theo nhiều định dạng công bố
 
 ```
 Từ kết quả trong dự án, soạn bản thảo cho tạp chí [tên]. Đọc "Hướng dẫn tác giả" tôi tải
@@ -253,7 +253,7 @@ Phản biện nội bộ:
 Đóng vai phản biện khó tính của tạp chí [tên]: 5 nhược điểm lớn nhất và cách trả lời.
 ```
 
-## 11. Slide 18 – Thí nghiệm có / không dùng Skill
+## 11. Slide 20 – Thí nghiệm có / không dùng Skill
 
 1. Tải Skill `exploratory-data-analysis` từ https://github.com/K-Dense-AI/claude-scientific-skills (thư mục `skills/exploratory-data-analysis`), nén thành ZIP (thư mục Skill ở cấp ngoài cùng của ZIP).
 2. **Lần 1 – không tải Skill** – cuộc trò chuyện mới, tải `an_mon_387.csv`:
@@ -265,3 +265,84 @@ huấn luyện – kiểm định (cột tap) có độc lập không. Báo cáo
 4. So sánh theo bảng kiểm: độ lệch phân bố, độ nhạy ngoại lệ (không xóa), rò rỉ giữa hai tập, dữ liệu thiếu theo nhóm, có tự ý sửa dữ liệu không.
 
 **Đối chiếu:** `du-an-nghien-cuu/05-ket-qua/kiem-tra-bang-skill/README.md` – độ lệch 4,66 → −0,02 sau log; 31/387 ngoài ngưỡng IQR; không có trạm trùng giữa hai tập.
+
+---
+
+# BỔ SUNG – MÔ HÌNH 3D VÀ CÔNG CỤ CHO MÁY KHÔNG INTERNET
+
+## 12. Slide 16 – Dựng mô hình 3D mô tả quá trình ăn mòn
+
+**Chuẩn bị:** dự án trên Claude có tệp `du-an-nghien-cuu/05-ket-qua/bang/du_doan_hieu_chinh_VN_RU.csv`.
+
+**Câu lệnh 12.1**
+```
+Từ bảng du_doan_hieu_chinh_VN_RU.csv, dựng mô hình 3D tương tác (Plotly, tệp HTML) mô tả
+quá trình ăn mòn của một mẫu thép cacbon tại Nha Trang từ 0 đến 30 năm:
+- chiều dày mất trung bình theo ISO 9224: D = r·t^0,523, r = số đo năm đầu của trạm;
+- thể hiện bề mặt kim loại, lớp gỉ phía trên và hố ăn mòn; có nút Chạy và thanh trượt theo năm;
+- ghi rõ ngay trên hình phần nào là định lượng (có căn cứ), phần nào là minh họa (tham số giả định).
+Thêm một hình 3D so sánh thép, kẽm, đồng, nhôm trong cùng cấp ăn mòn C3 (ISO 9223 Bảng 2,
+số mũ b theo ISO 9224). Xuất thêm ảnh PNG 4 thời điểm (1, 5, 10, 30 năm) kèm mặt cắt để đưa vào slide.
+```
+
+**Kết quả mong đợi** (đối chiếu `du-an-nghien-cuu/05-ket-qua/bang/qua_trinh_an_mon_Nha_Trang.csv`, `so_sanh_vat_lieu_C3.csv`):
+
+| Năm | Thép mất trung bình (µm) | Tổn thất (g/m²) |
+|---|---|---|
+| 1 | 40,5 | 319 |
+| 10 | 135,2 | 1.063 |
+| 30 | 245,1 | 1.926 |
+
+Cấp C3, sau 30 năm (tốc độ giữa khoảng C3): thép ≈ 218 µm · kẽm ≈ 20 µm · đồng ≈ 9 µm · nhôm ≈ 5 µm.
+
+**Gợi ý:** nếu AI không tự ghi phần "minh họa – tham số giả định" → hỏi lại: *"Phần nào trong hình có căn cứ đo đạc, phần nào là giả định?"* – đây là điểm nhấn của slide.
+
+## 13. Slide 17 – Đề tài có dữ liệu mật: AI viết công cụ, máy không Internet xử lý (DEMO 3)
+
+**Nguyên tắc:** chỉ mô tả **cấu trúc** dữ liệu. Không đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
+
+**Câu lệnh 13.1 – viết công cụ**
+```
+Tôi cần một công cụ Python chạy trên máy KHÔNG có Internet để ước lượng lộ trình bay của
+thiết bị bay không người lái theo địa hình và khí hậu nhiệt đới. Tôi KHÔNG cung cấp dữ liệu
+thật, chỉ mô tả cấu trúc:
+- Tệp lưới CSV: i, j, do_cao_m, gio_u_ms, gio_v_ms, mua_mm_h, nhiet_do_C, do_am_pct (mỗi ô 100 m)
+- Tệp nhiệm vụ JSON: điểm xuất phát, điểm đến, độ cao bay trên mặt đất
+- Tệp cấu hình JSON: khối lượng, tốc độ, công suất bay, dung lượng pin, ngưỡng mưa, gió, trần bay
+Yêu cầu:
+1. Chỉ dùng numpy, matplotlib; tuyệt đối không dùng thư viện mạng, không gọi chương trình ngoài.
+2. Tìm lộ trình tốn ít năng lượng nhất, tránh vùng cấm bay; tính ảnh hưởng của mật độ không khí
+   (nóng, ẩm, độ cao), gió, mưa, leo cao; kiểm tra pin cho chiều đi, chiều về, khứ hồi.
+3. Xuất bản đồ, mặt cắt dọc, báo cáo; báo cáo ghi mã băm SHA-256 của tệp đầu vào.
+4. Viết thêm: chương trình sinh dữ liệu GIẢ để thử; chương trình quét mã tìm kết nối mạng và
+   lập mã băm; hướng dẫn cài đặt ngoại tuyến trên Windows.
+5. Chạy thử với dữ liệu giả, giải thích mọi giả định vật lý.
+```
+
+**Câu lệnh 13.2 – kiểm tra an ninh mã**
+```
+Đóng vai người kiểm tra an ninh thông tin: rà soát toàn bộ mã vừa viết, liệt kê mọi chỗ có thể
+làm lộ dữ liệu (kết nối mạng, ghi tệp ra ngoài thư mục kết quả, gọi chương trình khác, thư viện
+lạ). Mỗi chỗ: dòng mã, rủi ro, cách sửa.
+```
+
+**Câu lệnh 13.3 – khi công cụ lỗi trên máy không Internet** (chỉ mô tả bằng lời, không dán dữ liệu thật)
+```
+Công cụ báo lỗi "Lưới không đủ ô" với dữ liệu của tôi. Hãy tạo một tệp dữ liệu GIẢ tái hiện
+đúng tình huống này (ví dụ thiếu vài ô ở mép lưới) và sửa công cụ để xử lý được.
+```
+
+**Kết quả mong đợi** (mã mẫu: `thuyet-trinh/ma-nguon-demo/may-cach-ly/`; kết quả: `thuyet-trinh/ket-qua-demo/may-cach-ly/`):
+
+| Chỉ tiêu | Chiều đi – tối ưu | Chiều đi – đường thẳng | Chiều về – tối ưu |
+|---|---|---|---|
+| Quãng đường | 14,5 km | 13,6 km | 14,5 km |
+| Năng lượng | 240 Wh | 250 Wh | 422 Wh |
+| Ô cấm bay đi qua | 0 | **8** | 0 |
+
+- Pin dùng được 384 Wh: chiều đi đủ; chiều về **thiếu 38 Wh**; khứ hồi thiếu 278 Wh.
+- Gió mùa: chiều đi giảm 64 Wh, chiều về tăng 118 Wh. Nóng – ẩm – độ cao: +4%; leo qua đèo: +9%.
+- `python kiem_tra_an_toan.py` → "Không phát hiện kết nối mạng…"; thử thêm `import requests` vào công cụ → bị chặn.
+
+**Gợi ý trình bày:** mở `ban_do_lo_trinh.png` – chỉ đường thẳng đen cắt qua núi và ổ mưa dông; sau đó chỉ bảng chiều về: *"khí hậu nhiệt đới quyết định phương án bay – và toàn bộ việc tính này chạy trên máy không có Internet."*
+
