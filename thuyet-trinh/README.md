@@ -1,6 +1,6 @@
 # THUYẾT TRÌNH: AI AGENT VÀ SỰ CHUYỂN ĐỔI PHƯƠNG THỨC NGHIÊN CỨU KHOA HỌC
 
-120 phút · Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · Bố cục **v2.5**: 21 slide + 4 phụ lục.
+120 phút · Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · Bố cục **v2.5**: 23 slide + 4 phụ lục (3 demo).
 
 | Tệp / thư mục | Nội dung |
 |---|---|
@@ -11,6 +11,7 @@
 | `RA-SOAT-v2.md` | Rà soát ngôn ngữ, độ chính xác |
 | `luu-tru/` | Kế hoạch v1 (bản gốc) |
 | `du-lieu-demo/`, `ma-nguon-demo/`, `ket-qua-demo/` | Dữ liệu, mã, kết quả mẫu cho các demo – xem `du-lieu-demo/README.md` |
+| `ma-nguon-demo/may-cach-ly/` | **Demo 3:** công cụ chạy trên máy không Internet cho đề tài có dữ liệu mật (ví dụ lộ trình UAV, dữ liệu giả lập) – xem README trong thư mục |
 | `chay_demo.sh` | Sinh lại toàn bộ dữ liệu và kết quả demo |
 
 **Ví dụ xuyên suốt là dự án nghiên cứu thật:** `../du-an-nghien-cuu/` – bảng ánh xạ slide ↔ thư mục ở `../du-an-nghien-cuu/00-quan-ly-du-an/KE-HOACH-DU-AN.md`.

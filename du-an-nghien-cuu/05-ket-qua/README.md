@@ -15,6 +15,7 @@ Toàn bộ thư mục **sinh lại được** bằng `../chay_tat_ca.sh` (trừ 
 | **mo-hinh/** `he_so_DRF.json` | Hệ số hàm liều – đáp ứng | 02 |
 | **mo-hinh/** `mo_hinh.pkl` | Mô hình đã huấn luyện (không lên GitHub – sinh lại khi chạy) | 02 |
 | **mo-hinh-3d/** | 3D-1 mặt đáp ứng; 3D-2 diễn tiến theo thời gian; 3D-3 bề mặt tấm thép (HTML tương tác + PNG cho slide) | 04 |
+| **mo-hinh-3d/** (tiếp) | **3D-4 quá trình ăn mòn hoạt hình** (`3D_4_qua_trinh_an_mon_dong.html`, nút ▶ Chạy; PNG 4 thời điểm + mặt cắt); **3D-5 so sánh 4 kim loại** cấp C3; bảng `bang/qua_trinh_an_mon_Nha_Trang.csv`, `bang/so_sanh_vat_lieu_C3.csv` | 05 |
 | **kiem-tra-bang-skill/** | Kiểm tra dữ liệu bằng Skill `exploratory-data-analysis` (K-Dense) | Skill bên ngoài |
 
 ## Kết quả chính
@@ -30,3 +31,4 @@ Toàn bộ thư mục **sinh lại được** bằng `../chay_tat_ca.sh` (trừ 
 | Dự báo 10 năm, khí hậu Việt Nam (ISO 9224, b = 0,523) | Hà Nội ~94 µm · Đồ Sơn ~149 µm |
 
 ⚠ **3D-3:** độ sâu trung bình là định lượng (số đo năm đầu + ISO 9224); độ nhám, hố cục bộ là **minh họa với tham số giả định** – không dùng để kết luận.
+⚠ **3D-4:** tương tự 3D-3 – lớp gỉ dày 3 × thép đã mất và hố sâu 3 × trung bình là **giả định** (`mo-hinh-3d/tham_so_3D_4.json`). **3D-5:** tốc độ theo khoảng cấp C3 của ISO 9223 Bảng 2 (đã đối chiếu C1–C3), số mũ b theo ISO 9224 – so sánh xu hướng, không phải số đo cùng trạm; nhôm ăn mòn chủ yếu cục bộ nên chiều dày trung bình đánh giá thấp mức hư hại.

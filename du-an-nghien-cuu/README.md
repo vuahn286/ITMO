@@ -27,7 +27,7 @@
 pip install -r ../requirements.txt
 ./chay_tat_ca.sh
 ```
-Windows: Git Bash hoặc WSL; hoặc trong thư mục `04-ma-nguon/` chạy lần lượt `python 01_hop_nhat_kiem_tra.py`, `02_mo_hinh.py`, `03_hieu_chinh_dia_phuong.py`, `04_mo_hinh_3d.py`.
+Windows: Git Bash hoặc WSL; hoặc trong thư mục `04-ma-nguon/` chạy lần lượt `python 01_hop_nhat_kiem_tra.py`, `02_mo_hinh.py`, `03_hieu_chinh_dia_phuong.py`, `04_mo_hinh_3d.py`, `05_mo_hinh_3d_qua_trinh.py`.
 
 ## Dữ liệu – phân loại
 

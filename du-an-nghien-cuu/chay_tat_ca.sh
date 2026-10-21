@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Chạy lại toàn bộ chuỗi phân tích của dự án: hợp nhất – kiểm tra → mô hình → hiệu chỉnh vùng → mô hình 3D.
-# Dùng:  ./chay_tat_ca.sh   (Windows: Git Bash hoặc WSL, hoặc gọi lần lượt 4 lệnh python bên dưới)
+# Chạy lại toàn bộ chuỗi phân tích của dự án: hợp nhất – kiểm tra → mô hình → hiệu chỉnh vùng → mô hình 3D → 3D quá trình ăn mòn.
+# Dùng:  ./chay_tat_ca.sh   (Windows: Git Bash hoặc WSL, hoặc gọi lần lượt 5 lệnh python bên dưới)
 set -euo pipefail
 cd "$(dirname "$0")/04-ma-nguon"
 PY=${PYTHON:-python3}
@@ -12,4 +12,6 @@ echo "== 3. Hiệu chỉnh vùng – kiểm định bỏ-một-trạm"
 $PY 03_hieu_chinh_dia_phuong.py
 echo "== 4. Mô hình 3D (→ 05-ket-qua/mo-hinh-3d)"
 $PY 04_mo_hinh_3d.py > /dev/null
+echo "== 5. Mô hình 3D quá trình ăn mòn và so sánh vật liệu"
+$PY 05_mo_hinh_3d_qua_trinh.py > /dev/null
 echo "== Xong."
