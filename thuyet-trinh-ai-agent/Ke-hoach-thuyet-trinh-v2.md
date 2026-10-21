@@ -568,7 +568,7 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 - ☐ Demo chạy trên Claude thành công ≥ 2 lần; kết quả khớp `ket-qua-mau/`
 - ☐ Video demo dự phòng
 - ☐ Kiểm tra mạng, máy chiếu, tài khoản AI tại phòng thuyết trình
-- ☐ Tập dượt bấm giờ (100′ trình bày + 10′ thảo luận + 10′ dự phòng)
+- ☐ Tập dượt bấm giờ: kế hoạch có 110′ trình bày + 10′ thảo luận; khi tập, nói trong 100′ để còn 10′ dự phòng cho demo
 - ☐ Phiếu khảo sát đã gửi và tổng hợp; tài liệu phát tay đã in
 
 ---
