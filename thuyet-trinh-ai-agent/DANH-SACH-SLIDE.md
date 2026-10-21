@@ -1,8 +1,8 @@
 # DANH SÁCH SLIDE ĐỂ CHỈNH SỬA VÀ DUYỆT
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
-**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 25 + trang bìa
-**Căn cứ:** Kế hoạch v2.1 (`Ke-hoach-thuyet-trinh-v2.md`), cập nhật 21/10/2026
+**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 20 slide trình bày + 4 phụ lục + trang bìa
+**Căn cứ:** Kế hoạch v2.1 (`Ke-hoach-thuyet-trinh-v2.md`), cập nhật 21/10/2026 · **Bản v2.2:** bỏ slide ví dụ Google (chuyển xuống Phụ lục B); tách slide "Năm quyết định" – 5 quyết định gộp vào Slide 17, căn cứ pháp lý gộp vào Slide 7, thông điệp Phần III chuyển sang Slide 15. **Từ v2.2, tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -25,31 +25,30 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 |---|---|---|---|---|
 | – | Trang bìa | – | – | [ ] |
 | 1 | AI đang phát triển nhanh đến mức nào? | I | 4′ | [ ] |
-| 2 | Google và các nhà khoa học dùng AI giải bài toán khoa học thật | I | 7′ | [ ] |
-| 3 | AI trong các lĩnh vực khoa học: quốc tế và Việt Nam | I | 5′ | [ ] |
-| 4 | Năng lực cốt lõi của AI: từ trả lời đến thực hiện | I | 5′ | [ ] |
-| 5 | Phương thức nghiên cứu đang thay đổi | I | 4′ | [ ] |
-| 6 | Công việc nào cần chatbot, công việc nào cần AI Agent? | II | 5′ | [ ] |
-| 7 | Các công cụ AI và vai trò khác nhau | II | 6′ | [ ] |
-| 8 | Một cách giao việc chung cho các công cụ AI | II | 5′ | [ ] |
-| 9 | Tổ chức một không gian làm việc nghiên cứu | II | 7′ | [ ] |
-| 10 | Skill, Subagent và hệ thống nhiều Agent | II | 7′ | [ ] |
-| 11 | Một nhiệm vụ khoa học đi qua AI Agent như thế nào? | III | 3′ | [ ] |
-| 12 | Từ tài liệu đến khoảng trống nghiên cứu | III | 6′ | [ ] |
-| 13 | Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 | III | 8′ | [ ] |
-| 14 | Tổ chức công việc, tiến độ và kinh phí | III | 5′ | [ ] |
-| 15 | Từ dữ liệu thô đến kết quả – DEMO 2 | III | 8′ | [ ] |
-| 16 | Từ kết quả đến bài báo và báo cáo | III | 6′ | [ ] |
-| 17 | Năm quyết định thuộc về nhà khoa học | III | 4′ | [ ] |
-| 18 | Skill và khoa học mở: nền móng của tự động hóa | IV | 4′ | [ ] |
-| 19 | Từ hỗ trợ từng bước đến tự động hóa toàn trình | IV | 3′ | [ ] |
-| 20 | Bản đồ quy trình tự động của Trung tâm | IV | 5′ | [ ] |
-| 21 | Lộ trình triển khai và kết luận | IV | 3′ | [ ] |
-| 22 | Trao đổi và thảo luận | – | 10′ | [ ] |
-| 23 | Phụ lục A – AI lập trình (không trình bày) | – | – | [ ] |
-| 24 | Phụ lục B – Nguồn tham khảo (không trình bày) | – | – | [ ] |
-| 25 | Phụ lục C – Dự án và bộ Skill khoa học mở (không trình bày) | – | – | [ ] |
-| | **Tổng** | | **120′** = 110′ trình bày + 10′ thảo luận. Khi tập dượt, đặt mục tiêu nói trong 100′ để còn 10′ dự phòng cho demo. | |
+| 2 | AI trong các lĩnh vực khoa học: quốc tế và Việt Nam | I | 5′ | [ ] |
+| 3 | Năng lực cốt lõi của AI: từ trả lời đến thực hiện | I | 5′ | [ ] |
+| 4 | Phương thức nghiên cứu đang thay đổi | I | 4′ | [ ] |
+| 5 | Công việc nào cần chatbot, công việc nào cần AI Agent? | II | 5′ | [ ] |
+| 6 | Các công cụ AI và vai trò khác nhau | II | 6′ | [ ] |
+| 7 | Một cách giao việc chung cho các công cụ AI | II | 6′ | [ ] |
+| 8 | Tổ chức một không gian làm việc nghiên cứu | II | 7′ | [ ] |
+| 9 | Skill, Subagent và hệ thống nhiều Agent | II | 7′ | [ ] |
+| 10 | Một nhiệm vụ khoa học đi qua AI Agent như thế nào? | III | 3′ | [ ] |
+| 11 | Từ tài liệu đến khoảng trống nghiên cứu | III | 7′ | [ ] |
+| 12 | Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 | III | 10′ | [ ] |
+| 13 | Tổ chức công việc, tiến độ và kinh phí | III | 5′ | [ ] |
+| 14 | Từ dữ liệu thô đến kết quả: nhà khoa học dùng AI viết và chạy mã – DEMO 2 | III | 10′ | [ ] |
+| 15 | Từ kết quả đến bài báo và báo cáo tổng hợp | III | 6′ | [ ] |
+| 16 | Skill và khoa học mở: nền móng của tự động hóa | IV | 4′ | [ ] |
+| 17 | Từ hỗ trợ từng bước đến tự động hóa toàn trình, và năm quyết định của nhà khoa học | IV | 6′ | [ ] |
+| 18 | Bản đồ quy trình tự động của Trung tâm | IV | 5′ | [ ] |
+| 19 | Lộ trình triển khai và kết luận | IV | 3′ | [ ] |
+| 20 | Trao đổi và thảo luận | – | 12′ | [ ] |
+| 21 | Phụ lục A: AI lập trình (không trình bày) | – | – | [ ] |
+| 22 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | – | – | [ ] |
+| 23 | Phụ lục C: Nguồn tham khảo (không trình bày) | – | – | [ ] |
+| 24 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | – | – | [ ] |
+| | **Tổng** | | **120′** = 108′ trình bày + 12′ thảo luận. Khi tập dượt, nói trong khoảng 100′ để còn dự phòng cho demo. | |
 
 ---
 
@@ -65,7 +64,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-# PHẦN I. TỔNG QUAN (25 phút)
+# PHẦN I. TỔNG QUAN (18 phút)
 
 ---
 
@@ -97,37 +96,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-## Slide 2 – Google và các nhà khoa học dùng AI giải bài toán khoa học thật (7′)
-
-**Chữ trên slide:** dòng thời gian ngang, 5 thẻ; thẻ ① phóng to
-
-| # | Thời điểm | Tên | Một dòng kết quả |
-|---|---|---|---|
-| ① | 10/2026 · *Science* | **AlphaProof Nexus** | Giải 9 bài toán mở của Erdős, trong đó 2 bài tồn tại 56 năm; máy kiểm chứng từng bước chứng minh |
-| ② | 2025 · *Cell*, *Nature* | **AI co-scientist** + Imperial College London | Trong khoảng 2 ngày, AI đưa ra đúng giả thuyết mà nhóm nghiên cứu mất nhiều năm thí nghiệm mới chứng minh (khi chưa công bố) |
-| ③ | 10/2025 · bioRxiv | **C2S-Scale** + Đại học Yale | Sàng lọc hơn 4.000 thuốc, tìm ra một tổ hợp giúp tế bào ung thư "lộ diện" trước hệ miễn dịch – đã kiểm chứng trên tế bào |
-| ④ | 05/2025 | **AlphaEvolve** | Phá kỷ lục 56 năm về phép nhân ma trận (49 → 48 phép nhân); thu hồi 0,7% năng lực tính toán bị bỏ phí của Google |
-| ⑤ | 2025 · *Nature* 2026 | **ERA** – AI viết phần mềm khoa học | AI tự viết – chạy – chấm điểm mã; 14 mô hình dự báo nhập viện COVID-19 tốt hơn mô hình chuẩn của CDC Mỹ (đánh giá hồi cứu) |
-
-> *Câu chốt:* Nhà khoa học đặt bài toán – AI đề xuất và thực hiện – kết quả được kiểm chứng độc lập.
-
-**Hình ảnh:** logo hoặc hình minh họa nhỏ cho mỗi thẻ; ảnh bìa bài báo *Science*, *Cell*, *Nature*.
-
-**Lời nói (nói kỹ ② và ⑤; ①, ③, ④ mỗi thẻ ≤ 40 giây):**
-- ① Bài toán Erdős: hàng trăm bài toán mở do nhà toán học Paul Erdős để lại. Lean là phần mềm kiểm tra chứng minh từng bước, như "trọng tài máy". AI giải được khoảng 2,5% số bài đã thử – còn khiêm tốn, nhưng là bài toán mở thật.
-- ② Nhóm Imperial nghiên cứu vì sao gen kháng kháng sinh lan được giữa các loài vi khuẩn. Họ phát hiện một loại đoạn gen tự tạo "vỏ" nhưng "mượn đuôi" của nhiều loại virus để xâm nhập nhiều loài. Trước khi công bố, họ hỏi AI cùng câu hỏi – giả thuyết số 1 của AI trùng với kết quả của họ. AI không phát hiện điều mới ở đây, nhưng đi đến cùng kết luận trong vài ngày. Nhóm cho biết nếu có giả thuyết này từ đầu, họ đã tiết kiệm được nhiều năm.
-- ③ Thuốc silmitasertib (đã có sẵn) dùng cùng interferon liều thấp. Mới thử trên tế bào, **chưa thử trên người**.
-- ④ Phép nhân ma trận là phép tính nền tảng của phần mềm khoa học, lặp lại hàng tỷ lần.
-- ⑤ Đánh giá hồi cứu: chạy lại trên dữ liệu các tuần đã qua để so sánh công bằng. Ví dụ này sẽ quay lại ở Slide 15.
-
-**Nguồn:** G1–G5
-
-**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
-**Ghi chú:**
-
----
-
-## Slide 3 – AI trong các lĩnh vực khoa học: quốc tế và Việt Nam (5′)
+## Slide 2 – AI trong các lĩnh vực khoa học: quốc tế và Việt Nam (5′)
 
 **Chữ trên slide:**
 
@@ -153,7 +122,7 @@ Trạng thái: `[ ] Duyệt` · `[ ] Sửa theo ghi chú` · `[ ] Bỏ`
 
 ---
 
-## Slide 4 – Năng lực cốt lõi của AI: từ trả lời đến thực hiện (5′)
+## Slide 3 – Năng lực cốt lõi của AI: từ trả lời đến thực hiện (5′)
 
 **Chữ trên slide:**
 
@@ -173,7 +142,7 @@ Sáu năng lực cốt lõi:
 | Kiểm tra kết quả | Người dùng tự làm | Tự kiểm tra từng bước |
 | Chi phí – thời gian | Thấp | Cao hơn |
 
-> *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 15.
+> *Ô nhỏ:* Lập trình là lĩnh vực AI Agent phát triển sớm nhất – 84% lập trình viên đang dùng hoặc dự định dùng AI. Nhà khoa học không cần giỏi lập trình vẫn có thể yêu cầu AI viết và chạy mã xử lý dữ liệu → Slide 14.
 > *Câu chốt:* Không phải công việc nào cũng cần Agent.
 
 **Hình ảnh:** sơ đồ tiến hóa: AI phân tích → AI tạo sinh → AI dùng công cụ → AI Agent.
@@ -187,14 +156,14 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 5 – Phương thức nghiên cứu đang thay đổi (4′)
+## Slide 4 – Phương thức nghiên cứu đang thay đổi (4′)
 
 **Chữ trên slide:**
 
 | Trước đây | Hiện nay | Ví dụ |
 |---|---|---|
-| Tìm kiếm thủ công | Tổng hợp bằng chứng có hệ thống | AI co-scientist đọc tài liệu, đề xuất giả thuyết |
-| Thao tác riêng lẻ | Quy trình liên tục | ERA: viết mã → chạy → chấm điểm → cải tiến |
+| Tìm kiếm thủ công | Tổng hợp bằng chứng có hệ thống | AI co-scientist (Google) đọc tài liệu, đề xuất giả thuyết – kể kỹ ở Phần III |
+| Thao tác riêng lẻ | Quy trình liên tục | ERA (Google): AI viết mã → chạy → chấm điểm → cải tiến – kể kỹ ở Phần III |
 | Câu lệnh dùng một lần | Quy trình mẫu (Skill) dùng lại | Thư viện Skill khoa học mở |
 | Một chatbot | Nhiều trợ lý phối hợp | Co-scientist: các trợ lý đề xuất, phản biện, xếp hạng giả thuyết |
 
@@ -210,11 +179,11 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (30 phút)
+# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (31 phút)
 
 ---
 
-## Slide 6 – Công việc nào cần chatbot, công việc nào cần AI Agent? (5′)
+## Slide 5 – Công việc nào cần chatbot, công việc nào cần AI Agent? (5′)
 
 **Chữ trên slide:** bậc thang 5 bậc – càng lên cao càng phức tạp, tốn thời gian và chi phí
 
@@ -235,7 +204,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 7 – Các công cụ AI và vai trò khác nhau (6′)
+## Slide 6 – Các công cụ AI và vai trò khác nhau (6′)
 
 **Chữ trên slide:** *(cập nhật 10/2026)*
 
@@ -256,7 +225,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 8 – Một cách giao việc chung cho các công cụ AI (5′)
+## Slide 7 – Một cách giao việc chung cho các công cụ AI (6′)
 
 **Chữ trên slide:** quy trình 5 bước
 
@@ -271,16 +240,22 @@ Sáu năng lực cốt lõi:
 🟡 **Vàng:** nội bộ chưa công bố → chỉ gói có cam kết không huấn luyện, đã loại thông tin định danh, có phê duyệt
 🔴 **Đỏ:** bí mật nhà nước, quân sự, dữ liệu cá nhân nhạy cảm → không đưa lên AI trực tuyến
 
+> *Căn cứ pháp lý (dòng chân slide):* Luật Trí tuệ nhân tạo 134/2025/QH15 · Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 · Luật Bảo vệ bí mật nhà nước 29/2018/QH14 · quy định của Trung tâm và Bộ Quốc phòng
+
 **Ví dụ minh họa:** câu lệnh phân tích dữ liệu ăn mòn (Câu lệnh 4.3), đánh dấu từng phần tương ứng với 5 bước.
 
+**Lời nói:** "Quyết định dữ liệu nào được đưa lên AI là của nhà khoa học và người có thẩm quyền – không phải của AI." Lồng ghép liêm chính khoa học, sở hữu trí tuệ, trách nhiệm giải trình.
+
 **Lưu ý:** quy tắc xanh / vàng / đỏ phải được bộ phận bảo mật xác nhận trước khi trình bày.
+
+**Nguồn:** N10, N12
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-## Slide 9 – Tổ chức một không gian làm việc nghiên cứu (7′)
+## Slide 8 – Tổ chức một không gian làm việc nghiên cứu (7′)
 
 **Chữ trên slide:**
 - Đưa tài liệu, biểu mẫu, dữ liệu vào **một không gian dự án**
@@ -299,7 +274,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 10 – Skill, Subagent và hệ thống nhiều Agent (7′)
+## Slide 9 – Skill, Subagent và hệ thống nhiều Agent (7′)
 
 **Chữ trên slide:**
 - **Skill:** quy trình mẫu đóng gói sẵn (hướng dẫn + biểu mẫu + mã), AI tự dùng lại
@@ -318,19 +293,19 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (40 phút)
+# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (41 phút)
 
 > Toàn bộ số liệu demo ở Phần III là **dữ liệu giả lập** – ghi rõ trên mọi slide có số liệu.
 
 ---
 
-## Slide 11 – Một nhiệm vụ khoa học đi qua AI Agent như thế nào? (3′)
+## Slide 10 – Một nhiệm vụ khoa học đi qua AI Agent như thế nào? (3′)
 
 **Chữ trên slide:**
 > **Tình huống:** Đánh giá ăn mòn khí quyển của thép CT3, kẽm, đồng, nhôm tại 3 trạm thử nghiệm (ven biển, đô thị, nội địa); xây dựng mô hình dự báo và phân cấp ăn mòn theo ISO 9223.
 > 3 trạm × 4 kim loại × 7 mốc thu mẫu × 3 mẫu lặp = **252 mẫu** · số liệu khí tượng 36 tháng · *dữ liệu giả lập*
 
-**Hình ảnh (chính):** sơ đồ vòng đời: Tài liệu → Khoảng trống → Thuyết minh → Tiến độ – kinh phí → Dữ liệu – kết quả → Bài báo – báo cáo; mỗi bước có dấu ✅ "nhà khoa học xác nhận" và số slide (12–16).
+**Hình ảnh (chính):** sơ đồ vòng đời: Tài liệu → Khoảng trống → Thuyết minh → Tiến độ – kinh phí → Dữ liệu – kết quả → Bài báo – báo cáo; mỗi bước có dấu ✅ "nhà khoa học xác nhận" và số slide (11–15).
 
 **Lời nói:** "Trong 30 phút tới, chúng ta đi hết vòng đời của một nhiệm vụ giả định – dữ liệu giả lập nhưng câu lệnh và cách làm là thật, anh chị về chạy lại được ngay." Giải nghĩa C = A·tⁿ: A là lượng kim loại mất trong năm đầu; n < 1 nghĩa là lớp gỉ che chắn dần.
 
@@ -339,7 +314,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 12 – Từ tài liệu đến khoảng trống nghiên cứu (6′)
+## Slide 11 – Từ tài liệu đến khoảng trống nghiên cứu (7′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** AI co-scientist – nhiều trợ lý đề xuất, phản biện, xếp hạng giả thuyết
@@ -359,7 +334,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 13 – Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 (8′)
+## Slide 12 – Từ câu hỏi nghiên cứu đến thuyết minh – DEMO 1 (10′)
 
 **Chữ trên slide:**
 - Khoảng trống → tính cấp thiết, mục tiêu, nội dung, phương pháp, sản phẩm
@@ -380,7 +355,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 14 – Tổ chức công việc, tiến độ và kinh phí (5′)
+## Slide 13 – Tổ chức công việc, tiến độ và kinh phí (5′)
 
 **Chữ trên slide:**
 - ⌨ **Câu lệnh:** Đọc kế hoạch công việc, vẽ sơ đồ Gantt, tính tổng kinh phí, kiểm tra logic trình tự; liệt kê bất hợp lý và đề xuất điều chỉnh
@@ -399,7 +374,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 15 – Từ dữ liệu thô đến kết quả: nhà khoa học dùng AI viết và chạy mã – DEMO 2 (8′)
+## Slide 14 – Từ dữ liệu thô đến kết quả: nhà khoa học dùng AI viết và chạy mã – DEMO 2 (10′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** ERA (Google, *Nature* 2026) – AI tự viết, chạy, chấm điểm, cải tiến mã
@@ -423,10 +398,10 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 16 – Từ kết quả đến bài báo và báo cáo tổng hợp (6′)
+## Slide 15 – Từ kết quả đến bài báo và báo cáo tổng hợp (6′)
 
 **Chữ trên slide:**
-- 🌍 Cả 5 công trình ở Slide 2 đều do **nhà khoa học đứng tên và chịu trách nhiệm**; AI không được đứng tên tác giả, việc sử dụng AI phải được khai báo
+- 🌍 Các công trình dùng AI vừa nêu (AI co-scientist, ERA) đều do **nhà khoa học đứng tên và chịu trách nhiệm**; AI không được đứng tên tác giả, việc sử dụng AI phải được khai báo
 - ⌨ **Câu lệnh:**
   1. Lập dàn ý bài báo; đối chiếu hướng dẫn tác giả của tạp chí
   2. Đóng vai phản biện khó tính: 5 nhược điểm lớn nhất và cách trả lời
@@ -434,6 +409,8 @@ Sáu năng lực cốt lõi:
 - ✅ **Xác nhận:** nội dung khoa học, trích dẫn, quyền tác giả, khai báo việc sử dụng AI
 
 **Hình ảnh:** ảnh chụp dàn ý và danh sách câu hỏi phản biện.
+
+> **Thông điệp Phần III:** AI Agent nối tài liệu, dữ liệu, biểu mẫu và sản phẩm thành một quá trình liên tục; các quyết định khoa học thuộc về nhà nghiên cứu.
 
 **Lời nói:** "Để AI phản biện mình trước khi gửi bài – rẻ hơn rất nhiều so với một lần bị từ chối."
 
@@ -444,35 +421,11 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 17 – Năm quyết định thuộc về nhà khoa học (4′)
-
-**Chữ trên slide:**
-
-| Quyết định | Trong demo vừa xem |
-|---|---|
-| 1. Nguồn nào được chấp nhận | Bấm thử từng DOI |
-| 2. Khoảng trống nào có giá trị | Chọn 1 trong 3 khoảng trống |
-| 3. Phương pháp nào phù hợp | Đổi cách tìm ngoại lệ khi chỉ có 3 mẫu lặp |
-| 4. Kết quả được diễn giải thế nào | Tách "kết quả tính toán" và "diễn giải đề xuất" |
-| 5. Dữ liệu nào được đưa lên AI | Chỉ dữ liệu xanh |
-
-> Căn cứ: Luật Trí tuệ nhân tạo 134/2025/QH15 · Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 · Luật Bảo vệ bí mật nhà nước 29/2018/QH14
-> **Thông điệp Phần III:** AI Agent nối tài liệu, dữ liệu, biểu mẫu và sản phẩm thành một quá trình liên tục; các quyết định khoa học thuộc về nhà nghiên cứu.
-
-**Lời nói:** lồng ghép liêm chính khoa học, sở hữu trí tuệ, trách nhiệm giải trình.
-
-**Nguồn:** N10, N12
-
-**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
-**Ghi chú:**
+# PHẦN IV. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (18 phút)
 
 ---
 
-# PHẦN IV. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (15 phút)
-
----
-
-## Slide 18 – Skill và khoa học mở: nền móng của tự động hóa (4′)
+## Slide 16 – Skill và khoa học mở: nền móng của tự động hóa (4′)
 
 **Chữ trên slide:**
 - **Skill** = hướng dẫn quy trình + tri thức chuyên môn + biểu mẫu + mã; AI tự dùng khi cần, cho kết quả nhất quán
@@ -481,7 +434,7 @@ Sáu năng lực cốt lõi:
 - **Phù hợp khoa học mở:** nguyên tắc FAIR (dễ tìm, dễ truy cập, liên thông, tái sử dụng) · tái lập · minh bạch
 - **Chiến lược:** Kế thừa → Bản địa hóa (biểu mẫu, thuật ngữ Việt – Nga – Anh) → Chia sẻ nội bộ
 
-> *Ví dụ:* Skill "Kiểm tra chất lượng dữ liệu cân mẫu ăn mòn" – đóng gói câu lệnh ở Slide 15, đã sửa bài học về 3 mẫu lặp → lần sau ai chạy cũng đúng ngay.
+> *Ví dụ:* Skill "Kiểm tra chất lượng dữ liệu cân mẫu ăn mòn" – đóng gói câu lệnh ở Slide 14, đã sửa bài học về 3 mẫu lặp → lần sau ai chạy cũng đúng ngay.
 
 **Hình ảnh:** sơ đồ "Thư viện Skill mở → Bản địa hóa → Thư viện Skill của Trung tâm".
 
@@ -492,7 +445,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 19 – Từ hỗ trợ từng bước đến tự động hóa toàn trình (3′)
+## Slide 17 – Từ hỗ trợ từng bước đến tự động hóa toàn trình, và năm quyết định của nhà khoa học (6′)
 
 **Chữ trên slide:**
 
@@ -503,14 +456,27 @@ Sáu năng lực cốt lõi:
 | 3 – Tự động toàn trình | Tự kích hoạt theo lịch hoặc khi có dữ liệu mới, gửi sản phẩm để duyệt | Sáng thứ Hai hằng tuần tự gửi bản tin công bố mới |
 
 > Kích hoạt → Kiểm soát dữ liệu → Agent điều phối → Chuỗi Skill → Sản phẩm → **Nhà khoa học xác nhận** → Lưu trữ
+
+**Năm quyết định luôn thuộc về nhà khoa học – năm điểm phê duyệt trong mọi quy trình:**
+
+| Quyết định | Điểm phê duyệt trong quy trình | Đã thấy trong demo |
+|---|---|---|
+| 1. Dữ liệu nào được đưa lên AI | Trước khi dữ liệu vào quy trình | Chỉ dùng dữ liệu xanh |
+| 2. Nguồn nào được chấp nhận | Sau bước tìm và tổng hợp tài liệu | Bấm thử từng DOI |
+| 3. Khoảng trống nào có giá trị | Trước khi soạn đề xuất nhiệm vụ | Chọn 1 trong 3 khoảng trống |
+| 4. Phương pháp nào phù hợp | Trước khi phân tích dữ liệu | Đổi cách tìm ngoại lệ khi chỉ có 3 mẫu lặp |
+| 5. Kết quả được diễn giải thế nào | Trước khi viết bài báo, báo cáo | Tách "kết quả tính toán" và "diễn giải đề xuất" |
+
 > *Câu chốt:* Tự động hóa không bỏ qua nhà khoa học – nó đưa nhà khoa học lên vị trí đặt mục tiêu và phê duyệt.
+
+**Lời nói:** nhắc lại từng khoảnh khắc trong demo Phần III – mỗi quyết định là một chỗ quy trình **dừng lại chờ người duyệt**.
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-## Slide 20 – Bản đồ quy trình tự động của Trung tâm (5′)
+## Slide 18 – Bản đồ quy trình tự động của Trung tâm (5′)
 
 **Chữ trên slide:**
 
@@ -524,7 +490,7 @@ Sáu năng lực cốt lõi:
 | QT-05 | Theo dõi tiến độ – kinh phí | Hằng tháng | Báo cáo, cảnh báo chậm mốc |
 | QT-06 | Bài báo, báo cáo tổng kết | Khi có kết quả | Bản thảo, Mẫu 21, 22 |
 
-**Hình ảnh (chính):** sơ đồ dòng chảy QT-01 → QT-02 → QT-03 → QT-04 → QT-06, QT-05 chạy song song, tất cả đi qua QT-00; ảnh chụp bản tin QT-01 chạy thật với chủ đề ăn mòn khí quyển.
+**Hình ảnh (chính):** sơ đồ dòng chảy, mỗi quy trình gắn điểm phê duyệt tương ứng với năm quyết định ở Slide 17: QT-01 → QT-02 → QT-03 → QT-04 → QT-06, QT-05 chạy song song, tất cả đi qua QT-00; ảnh chụp bản tin QT-01 chạy thật với chủ đề ăn mòn khí quyển.
 
 **Việc phải làm:** chạy thử QT-01 để có ảnh bản tin thật.
 
@@ -533,7 +499,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 21 – Lộ trình triển khai và kết luận (3′)
+## Slide 19 – Lộ trình triển khai và kết luận (3′)
 
 **Chữ trên slide:**
 
@@ -558,7 +524,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 22 – Trao đổi và thảo luận (10′)
+## Slide 20 – Trao đổi và thảo luận (12′)
 
 **Chữ trên slide:**
 - Kết quả phiếu khảo sát trước buổi học (biểu đồ)
@@ -571,7 +537,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 23 – Phụ lục A: AI lập trình (không trình bày)
+## Slide 21 – Phụ lục A: AI lập trình (không trình bày)
 
 **Chữ trên slide:**
 - GitHub Octoverse 2025: hơn 180 triệu lập trình viên; hơn 36 triệu người mới trong một năm; 630 triệu kho mã; gần 1 tỷ lần đẩy mã; 4,3 triệu dự án AI
@@ -586,9 +552,39 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 24 – Phụ lục B: Nguồn tham khảo (không trình bày)
+## Slide 22 – Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi)
 
-**Chữ trên slide:** danh mục nguồn theo Mục 11 của kế hoạch – 5 công bố ví dụ Slide 2 (kèm DOI), số liệu bối cảnh, pháp lý Việt Nam, tiêu chuẩn ISO 9223 / 9224, khoa học mở.
+**Chữ trên slide:** dòng thời gian ngang, 5 thẻ; thẻ ① phóng to
+
+| # | Thời điểm | Tên | Một dòng kết quả |
+|---|---|---|---|
+| ① | 10/2026 · *Science* | **AlphaProof Nexus** | Giải 9 bài toán mở của Erdős, trong đó 2 bài tồn tại 56 năm; máy kiểm chứng từng bước chứng minh |
+| ② | 2025 · *Cell*, *Nature* | **AI co-scientist** + Imperial College London | Trong khoảng 2 ngày, AI đưa ra đúng giả thuyết mà nhóm nghiên cứu mất nhiều năm thí nghiệm mới chứng minh (khi chưa công bố) |
+| ③ | 10/2025 · bioRxiv | **C2S-Scale** + Đại học Yale | Sàng lọc hơn 4.000 thuốc, tìm ra một tổ hợp giúp tế bào ung thư "lộ diện" trước hệ miễn dịch – đã kiểm chứng trên tế bào |
+| ④ | 05/2025 | **AlphaEvolve** | Phá kỷ lục 56 năm về phép nhân ma trận (49 → 48 phép nhân); thu hồi 0,7% năng lực tính toán bị bỏ phí của Google |
+| ⑤ | 2025 · *Nature* 2026 | **ERA** – AI viết phần mềm khoa học | AI tự viết – chạy – chấm điểm mã; 14 mô hình dự báo nhập viện COVID-19 tốt hơn mô hình chuẩn của CDC Mỹ (đánh giá hồi cứu) |
+
+> *Câu chốt:* Nhà khoa học đặt bài toán – AI đề xuất và thực hiện – kết quả được kiểm chứng độc lập.
+
+**Hình ảnh:** logo hoặc hình minh họa nhỏ cho mỗi thẻ; ảnh bìa bài báo *Science*, *Cell*, *Nature*.
+
+**Dùng khi được hỏi – gợi ý trả lời:**
+- ① Bài toán Erdős: hàng trăm bài toán mở do nhà toán học Paul Erdős để lại. Lean là phần mềm kiểm tra chứng minh từng bước, như "trọng tài máy". AI giải được khoảng 2,5% số bài đã thử – còn khiêm tốn, nhưng là bài toán mở thật.
+- ② Nhóm Imperial nghiên cứu vì sao gen kháng kháng sinh lan được giữa các loài vi khuẩn. Họ phát hiện một loại đoạn gen tự tạo "vỏ" nhưng "mượn đuôi" của nhiều loại virus để xâm nhập nhiều loài. Trước khi công bố, họ hỏi AI cùng câu hỏi – giả thuyết số 1 của AI trùng với kết quả của họ. AI không phát hiện điều mới ở đây, nhưng đi đến cùng kết luận trong vài ngày. Nhóm cho biết nếu có giả thuyết này từ đầu, họ đã tiết kiệm được nhiều năm.
+- ③ Thuốc silmitasertib (đã có sẵn) dùng cùng interferon liều thấp. Mới thử trên tế bào, **chưa thử trên người**.
+- ④ Phép nhân ma trận là phép tính nền tảng của phần mềm khoa học, lặp lại hàng tỷ lần.
+- ⑤ Đánh giá hồi cứu: chạy lại trên dữ liệu các tuần đã qua để so sánh công bằng. Ví dụ này đã nêu ở slide Demo 2.
+
+**Nguồn:** G1–G5
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
+
+---
+
+## Slide 23 – Phụ lục C: Nguồn tham khảo (không trình bày)
+
+**Chữ trên slide:** danh mục nguồn theo Mục 11 của kế hoạch – 5 công bố ví dụ ở Phụ lục B (kèm DOI), số liệu bối cảnh, pháp lý Việt Nam, tiêu chuẩn ISO 9223 / 9224, khoa học mở.
 
 **Việc phải làm:** kiểm tra mã số bài arXiv 2609.00065 (N18).
 
@@ -597,7 +593,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 25 – Phụ lục C: Dự án và bộ Skill khoa học mở (không trình bày)
+## Slide 24 – Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày)
 
 **Chữ trên slide:** AI4S Open Science · AIPOCH Open Science · K-Dense Scientific Agent Skills · CES Global – kèm URL và lĩnh vực của từng bộ.
 

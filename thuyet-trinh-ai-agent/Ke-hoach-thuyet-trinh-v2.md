@@ -6,7 +6,16 @@
 **Định hướng:** Nhận thức là chính, lý thuyết vừa đủ, có ví dụ thực tế và demo. Nhấn mạnh năng lực cốt lõi và ưu điểm của AI. Không đi sâu kỹ thuật xây dựng Agent.
 **Tình huống xuyên suốt (đã chốt):** **Phương án A – Ăn mòn khí quyển của kim loại trong môi trường nhiệt đới.**
 **Ngày thuyết trình:** ____ / ____ / ______
-**Phiên bản:** 2.1 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
+**Phiên bản:** 2.2 – 21/10/2026 (rà soát ngôn ngữ và độ chính xác; xem Mục 0 và `RA-SOAT-v2.md`)
+
+> **Bản v2.2 (21/10/2026) – bố cục slide mới, xem `DANH-SACH-SLIDE.md` (tệp này là bố cục chính thức):**
+> - **Bỏ Slide 2** (ví dụ Google) khỏi phần trình bày; nội dung chuyển xuống **Phụ lục B** để dùng khi được hỏi. Hai ví dụ AI co-scientist và ERA vẫn được nêu tại slide tài liệu (mới 11) và slide Demo 2 (mới 14).
+> - **Tách Slide 17** (năm quyết định): 5 quyết định gộp vào slide tự động hóa (mới 17) như 5 điểm phê duyệt; căn cứ pháp lý gộp vào slide giao việc (mới 7); thông điệp Phần III chuyển sang slide bài báo (mới 15).
+> - Còn **20 slide trình bày + 4 phụ lục**. Nội dung chi tiết ở Mục 3 dưới đây vẫn đánh số theo v2.1 – đối chiếu bằng bảng sau:
+>
+> | Số v2.1 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+> |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+> | **Số v2.2** | 1 | PL-B (22) | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | gộp vào 7, 15, 17 | 16 | 17 | 18 | 19 | 20 | PL-A (21) | PL-C (23) | PL-D (24) |
 
 **Tài liệu đi kèm trong cùng thư mục:**
 
@@ -53,6 +62,7 @@
 | 6 | Cập nhật số liệu METR đến 2026 (v2.1: đính chính – câu "~4 tháng từ 2023" của v1 **có căn cứ**: METR Time Horizon 1.1 cho 131 ngày ≈ 4,3 tháng kể từ 2023); SWE-bench ghi đúng theo AI Index | Căn cứ phải chính xác |
 | 7 | Mục 7 chuyển từ "danh mục cần xác minh" thành **bảng căn cứ đã xác minh**, có nguồn gốc cho từng số liệu | Căn cứ đầy đủ |
 | 8 | **v2.1:** Viết lại Slide 1 bằng lời thường (câu "53% dân số" sửa theo nguyên văn nguồn); thêm phần "giải thích dễ hiểu" cho 5 ví dụ Slide 2; Slide 3 bỏ thuật ngữ (embedding, VLA…); sửa "hàm mũ" → "hàm lũy thừa"; nêu rõ ERA là đánh giá hồi cứu; sửa trích dẫn Penadés; thêm ô "Kết quả với dữ liệu thật" ở Slide 15; thêm Mục 12 – Giải nghĩa thuật ngữ | Rà soát ngày 21/10/2026 |
+| 9 | **v2.2:** Bỏ slide ví dụ Google (chuyển Phụ lục B); tách slide "Năm quyết định" vào 3 slide phù hợp; chia lại thời lượng; bố cục chính thức chuyển sang `DANH-SACH-SLIDE.md` | Theo ý kiến duyệt ngày 21/10/2026 |
 
 ---
 
@@ -82,17 +92,19 @@
 
 ## 2. PHÂN BỔ THỜI GIAN
 
-| Phần | Nội dung | Slide | Thời lượng |
+| Phần | Nội dung | Slide (v2.2) | Thời lượng |
 |---|---|---|---|
-| I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–5 | 25 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp | 6–10 | 30 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (2 demo) | 11–17 | 40 phút |
-| IV | Skill, khoa học mở và tự động hóa quy trình tại Trung tâm | 18–21 | 15 phút |
-| – | Trao đổi, thảo luận | 22 | 10 phút |
-| – | Phụ lục (không trình bày) | 23–25 | – |
-| | **Tổng cộng** | **25 slide** | **120 phút** |
+| I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp | 5–9 | 31 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học (2 demo) | 10–15 | 41 phút |
+| IV | Skill, khoa học mở, tự động hóa và năm quyết định của nhà khoa học | 16–19 | 18 phút |
+| – | Trao đổi, thảo luận | 20 | 12 phút |
+| – | Phụ lục (không trình bày) | 21–24 | – |
+| | **Tổng cộng** | **20 slide + 4 phụ lục** | **120 phút** |
 
-Phần I chi tiết: Slide 1 (4′) – **Slide 2 (7′)** – Slide 3 (5′) – Slide 4 (5′) – Slide 5 (4′).
+*v2.2: 11 phút có được khi bỏ slide ví dụ Google (7′) và slide năm quyết định (4′) được chia lại: +2′ cho mỗi demo, +1′ slide tài liệu, +1′ slide giao việc (thêm căn cứ pháp lý), +3′ slide tự động hóa (thêm năm quyết định), +2′ thảo luận.*
+
+Phần I chi tiết (v2.2): Slide 1 (4′) – Slide 2 (5′) – Slide 3 (5′) – Slide 4 (4′).
 
 ---
 
@@ -568,7 +580,7 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 - ☐ Demo chạy trên Claude thành công ≥ 2 lần; kết quả khớp `ket-qua-mau/`
 - ☐ Video demo dự phòng
 - ☐ Kiểm tra mạng, máy chiếu, tài khoản AI tại phòng thuyết trình
-- ☐ Tập dượt bấm giờ: kế hoạch có 110′ trình bày + 10′ thảo luận; khi tập, nói trong 100′ để còn 10′ dự phòng cho demo
+- ☐ Tập dượt bấm giờ: kế hoạch có 108′ trình bày + 12′ thảo luận; khi tập, nói trong 100′ để còn 10′ dự phòng cho demo
 - ☐ Phiếu khảo sát đã gửi và tổng hợp; tài liệu phát tay đã in
 
 ---
