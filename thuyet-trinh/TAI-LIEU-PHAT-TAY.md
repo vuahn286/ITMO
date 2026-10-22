@@ -37,7 +37,7 @@ Tài liệu gồm các nội dung chi tiết không chiếu trên slide. Câu l�
 | **Skill – chuẩn mở** | Quy trình mẫu đóng gói một lần, dùng được trên nhiều công cụ AI khác nhau | Chuẩn mở 12/2025 (agentskills.io) |
 | **Chạy nền, theo lịch** | Tự chạy định kỳ (ví dụ: bản tin công bố mới mỗi sáng thứ Hai) – không cần ngồi canh | Tác vụ theo lịch trong Cowork (Claude cho Windows, 04/2026) |
 
-## 4. Claude trên Windows – đầy đủ tính năng (Slide 8)
+## 4. Claude trên Windows – đầy đủ tính năng (Slide 7)
 
 | Tính năng | Làm được gì | Gói |
 |---|---|---|
@@ -52,7 +52,7 @@ Tài liệu gồm các nội dung chi tiết không chiếu trên slide. Câu l�
 | **Plugin** | Gói gồm nhiều Skill + kết nối + trợ lý con, cài một lần dùng cho cả nhóm | Gói trả phí |
 | **Claude Code** | AI Agent lập trình – viết, chạy, sửa mã trong thư mục dự án | Từ Pro |
 
-## 5. Bắt đầu với Claude – 6 bước (Slide 9)
+## 5. Bắt đầu với Claude – 6 bước (Slide 8)
 
 | Bước | Làm gì | Ở đâu |
 |---|---|---|
@@ -65,7 +65,7 @@ Tài liệu gồm các nội dung chi tiết không chiếu trên slide. Câu l�
 
 **3 thói quen tốt:** nói rõ việc cần làm và dạng kết quả · yêu cầu dẫn nguồn · luôn kiểm tra lại trước khi dùng.
 
-## 6. Giao việc cho AI Agent – mẫu 5 bước (Slide 10)
+## 6. Giao việc cho AI Agent – mẫu 5 bước (Slide 9)
 
 1. **Xác định nhiệm vụ** – làm gì, để làm gì
 2. **Cung cấp dữ liệu** – theo quy tắc xanh / vàng / đỏ
@@ -136,12 +136,27 @@ Danh mục đầy đủ 13 tài liệu đã xác minh: `du-an-nghien-cuu/01-tong
 
 Mã mẫu: `ma-nguon-demo/may-cach-ly/` (hướng dẫn trong `README.md`).
 
-## 11. Tìm và đọc tài liệu khoa học (Slide 7)
+## 11. Tìm và lọc tài liệu bước đầu (Slide 12)
+
+**Quy trình 4 bước:** (1) đặt câu hỏi, tìm bài ứng viên → (2) lọc theo tiêu đề, tóm tắt → (3) lấy toàn văn → (4) đưa vào dự án Claude, lập ma trận bằng chứng.
+
+**Dùng Sci-Bot để tìm bài ứng viên (bước 1):**
+1. Mở Sci-Bot (địa chỉ báo chí đưa tin: sci-bot.ru – kiểm tra địa chỉ chính thức trước khi dùng).
+2. Đặt **một** câu hỏi bằng tiếng Anh, nêu rõ đối tượng – điều kiện – yếu tố cần xét. Ví dụ: *"Which environmental factors control the first-year atmospheric corrosion rate of carbon steel in tropical climates, and how accurate is the ISO 9223 dose-response function there?"*
+3. Đọc câu trả lời; chép danh sách bài báo được trích kèm DOI vào bảng (tác giả, năm, tên bài, DOI).
+4. Hỏi tiếp bằng câu hỏi mới (Sci-Bot không nhớ câu trước) – mỗi khía cạnh một câu: yếu tố môi trường, mô hình dự báo, dữ liệu Việt Nam, dữ liệu Nga…
+5. Bổ sung bài mới (sau ~2021–2022) bằng Google Scholar Labs hoặc Semantic Scholar.
+
+**Dùng Sci-Hub để lấy toàn văn (bước 3):** dán DOI (hoặc tiêu đề) vào ô tìm kiếm → mở hoặc tải PDF; nếu không có, thử Unpaywall, CORE, thư viện của đơn vị hoặc gửi thư xin tác giả.
+
+**Lọc bài bằng Claude (bước 2):** tải danh sách bài (tiêu đề, tóm tắt, DOI) vào dự án → dùng câu lệnh `cau-lenh-demo.md` mục 14.
+
+**Lưu ý:** Sci-Hub, Sci-Bot đang có tranh chấp bản quyền ở nhiều nước (đã bị chặn ở Nga, Ấn Độ…); nhiều trang giả mạo – chỉ dùng địa chỉ chính thức, không tải tệp chạy (.exe); không dùng trên máy có tài liệu mật; tuân thủ quy định truy cập Internet của đơn vị. Luôn kiểm tra DOI của mọi bài AI trích dẫn.
+
+**Các công cụ khác:**
 
 | Công cụ | Là gì | Cách dùng | Lưu ý |
 |---|---|---|---|
-| **Sci-Hub** | Thư viện "bóng tối": cung cấp toàn văn bài báo, sách không qua nhà xuất bản (~88 triệu tài liệu) | – | **Vi phạm bản quyền** theo phán quyết của tòa án Mỹ, Nga (Moscow, 2018), Ấn Độ (Delhi, 08/2025 – lệnh tạm thời); bị chặn ở nhiều nước; nhiều trang giả mạo có thể chứa mã độc. Không khuyến nghị dùng, nhất là trên máy, mạng của đơn vị |
-| **Sci-Bot** | Trợ lý AI do Sci-Hub ra mắt 04/2026, trả lời câu hỏi dựa trên kho Sci-Hub, kèm liên kết toàn văn | – | Cùng vấn đề pháp lý như Sci-Hub; bản thử nghiệm: chỉ trả lời từng câu, thiếu nhiều bài mới (sau ~2021–2022) |
 | **Unpaywall** | Tiện ích trình duyệt, cơ sở dữ liệu bản mở hợp pháp | Cài vào Chrome/Edge/Firefox → nút xanh hiện khi bài báo có bản mở | Tìm được bản mở cho khoảng một nửa số yêu cầu |
 | **CORE** | Kho tổng hợp bài báo truy cập mở từ các kho lưu trữ của trường, viện | core.ac.uk – tìm theo từ khóa, DOI | Hơn 100 triệu bài (con số thay đổi – xem trang) |
 | **arXiv · PubMed Central · DOAJ** | Bản thảo trước công bố (vật lý, toán, tin học…) · bài y sinh toàn văn · danh mục tạp chí truy cập mở | Tìm trực tiếp trên trang | Bản arXiv có thể chưa qua phản biện |

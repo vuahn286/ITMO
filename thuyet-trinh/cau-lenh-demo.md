@@ -192,7 +192,7 @@ Sắp xếp theo mức độ liên quan, tối đa 10 bài.
 
 # BỔ SUNG v2.4 – CÂU LỆNH CHO CÁC DEMO MỚI
 
-## 7. Slide 9 – Tổng hợp dữ liệu từ nhiều nguồn → bảng tổng hợp → báo cáo (dữ liệu THẬT)
+## 7. Slide 8 – Tổng hợp dữ liệu từ nhiều nguồn → bảng tổng hợp → báo cáo (dữ liệu THẬT)
 
 Tải 4 tệp trong `thuyet-trinh/du-lieu-demo/nhieu-nguon/` vào cuộc trò chuyện (hoặc dự án):
 ```
@@ -206,7 +206,7 @@ Ghi nguồn cho mọi số liệu.
 ```
 **Đối chiếu:** `thuyet-trinh/du-lieu-demo/nhieu-nguon/ket_qua_mong_doi_bang_tong_hop.csv`. Trung vị: Quốc tế 28,6 · Việt Nam 31,6 · Nga 14,1 µm/năm; Việt Nam 11/12 trạm C3; Nga 13/18 trạm C2. AI phải chỉ ra: cột `WL` của tệp 1 không ghi rõ đơn vị – đối chiếu cột `CAT` cho thấy là µm/năm.
 
-## 8. Slide 10 – Giao việc 5 bước với dữ liệu thật
+## 8. Slide 9 – Giao việc 5 bước với dữ liệu thật
 
 Tải `du-an-nghien-cuu/03-du-lieu/2-da-xu-ly/du_lieu_hop_nhat.csv` (đổi tên `an_mon_387.csv`):
 ```
@@ -349,4 +349,29 @@ Công cụ báo lỗi "Lưới không đủ ô" với dữ liệu của tôi. H�
 - `python kiem_tra_an_toan.py` → "Không phát hiện kết nối mạng…"; thử thêm `import requests` vào công cụ → bị chặn.
 
 **Gợi ý trình bày:** mở `ban_do_lo_trinh.png` – chỉ đường thẳng đen cắt qua núi và ổ mưa dông; sau đó chỉ bảng chiều về: *"khí hậu nhiệt đới quyết định phương án bay – và toàn bộ việc tính này chạy trên máy không có Internet."*
+
+## 14. Slide 12 – Tìm và lọc tài liệu bước đầu (Sci-Bot, Sci-Hub, Claude)
+
+**Câu hỏi 14.1 – nhập vào Sci-Bot** (mỗi lần một câu, tiếng Anh):
+```
+Which environmental factors control the first-year atmospheric corrosion rate of carbon steel
+in tropical climates, and how accurate is the ISO 9223 dose-response function there?
+```
+```
+What field-exposure data on atmospheric corrosion of carbon steel and zinc exist for Vietnam
+and for the Russian Far East, and which models were fitted to them?
+```
+
+**Câu lệnh 14.2 – lọc bài trên Claude** (tải lên bảng tiêu đề – tóm tắt – DOI đã thu từ Sci-Bot, Google Scholar Labs):
+```
+Tôi tải lên danh sách bài báo ứng viên cho tổng quan tài liệu về ăn mòn khí quyển của thép
+cacbon trong khí hậu nhiệt đới. Hãy lọc theo tiêu chí:
+- ĐƯA VÀO: số liệu phơi mẫu thực địa hoặc mô hình dự báo tốc độ ăn mòn; kim loại thép cacbon,
+  kẽm, đồng, nhôm; có thông tin môi trường (nhiệt độ, độ ẩm/TOW, Cl⁻, SO₂).
+- LOẠI RA: chỉ thí nghiệm trong phòng; lớp phủ, sơn; bê tông cốt thép.
+Lập bảng: tác giả – năm – DOI – địa điểm – kim loại – quyết định (đưa vào/loại ra) – lý do.
+Đánh dấu bài trùng nhau và bài thiếu DOI. Không thêm bài nào ngoài danh sách tôi đưa.
+```
+
+**Kết quả mong đợi:** bảng lọc có lý do cho từng bài; danh sách 10–30 bài đưa vào → lấy toàn văn (Sci-Hub theo DOI, Unpaywall, CORE) → tải PDF vào dự án cho câu lệnh mục 1 (Slide 13).
 

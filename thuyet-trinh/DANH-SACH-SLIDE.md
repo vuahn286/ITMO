@@ -2,7 +2,7 @@
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
 **Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 27 slide trình bày + 5 phụ lục + trang bìa
-**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận"; Slide 3 thêm tính năng mới của AI Agent và ô giới hạn (6′, thảo luận còn 12′). **Cập nhật:** thêm Slide 17 (mô hình 3D quá trình ăn mòn) và Slide 22 (Demo 3 – công cụ cho máy không Internet); từ slide cũ 16 trở đi số slide cộng 2; thảo luận còn 9′. **Điều chỉnh theo đánh giá phản biện:** mọi demo **chạy trước, chỉ trình chiếu kết quả** (ảnh chụp, video); giảm chữ trên slide – phần chi tiết chuyển sang `TAI-LIEU-PHAT-TAY.md`; thảo luận 15′; thêm Phụ lục E (câu hỏi thường gặp). **Bổ sung:** Slide 7 – công cụ tìm và đọc tài liệu (Sci-Hub, Sci-Bot và lựa chọn hợp pháp); từ Slide 7 cũ trở đi số slide cộng 1; thảo luận 12′. **Mở rộng Phần IV (đề tài mật) lên 15′, 4 slide (20–23):** ranh giới pháp lý (Luật 117/2025/QH15), mô hình ba vùng, minh họa 3, sai lầm thường gặp; bù bằng cách rút Phần II −4′, Phần III −4′, Phần V −2′. **Tệp này là bố cục slide chính thức.**
+**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận"; Slide 3 thêm tính năng mới của AI Agent và ô giới hạn (6′, thảo luận còn 12′). **Cập nhật:** thêm Slide 17 (mô hình 3D quá trình ăn mòn) và Slide 22 (Demo 3 – công cụ cho máy không Internet); từ slide cũ 16 trở đi số slide cộng 2; thảo luận còn 9′. **Điều chỉnh theo đánh giá phản biện:** mọi demo **chạy trước, chỉ trình chiếu kết quả** (ảnh chụp, video); giảm chữ trên slide – phần chi tiết chuyển sang `TAI-LIEU-PHAT-TAY.md`; thảo luận 15′; thêm Phụ lục E (câu hỏi thường gặp). **Bổ sung:** Slide 12 – công cụ tìm và đọc tài liệu (Sci-Hub, Sci-Bot và lựa chọn hợp pháp); từ Slide 12 cũ trở đi số slide cộng 1; thảo luận 12′. **Mở rộng Phần IV (đề tài mật) lên 15′, 4 slide (20–23):** ranh giới pháp lý (Luật 117/2025/QH15), mô hình ba vùng, minh họa 3, sai lầm thường gặp; bù bằng cách rút Phần II −4′, Phần III −4′, Phần V −2′. **Tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -23,12 +23,12 @@ Nguyên tắc trình bày: **mỗi slide một ý chính, tối đa một bảng
 
 | Việc | Slide | Xong |
 |---|---|---|
-| Chạy trước và **ghi hình màn hình** (1–2 phút/demo) + **chụp ảnh kết quả**: tổng hợp nhiều nguồn; điền biểu mẫu (Demo 1); tiến độ – kinh phí; xử lý dữ liệu (Demo 2); mô hình 3D; công cụ máy không Internet (Demo 3) | 9, 14, 15, 16, 17, 22 | [ ] |
+| Chạy trước và **ghi hình màn hình** (1–2 phút/demo) + **chụp ảnh kết quả**: tổng hợp nhiều nguồn; điền biểu mẫu (Demo 1); tiến độ – kinh phí; xử lý dữ liệu (Demo 2); mô hình 3D; công cụ máy không Internet (Demo 3) | 8, 14, 15, 16, 17, 22 | [ ] |
 | Chép video, ảnh, thư mục `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/` vào máy trình chiếu – **mở được không cần Internet** (tệp HTML 3D dùng `plotly.min.js` cùng thư mục) | 16, 17 | [ ] |
 | Gửi biểu mẫu thật của Trung tâm; chạy thử 2 lần | 14, 15 | [ ] |
 | Hỏi bộ phận chức năng về **quy định sử dụng dịch vụ AI** của Bộ Quốc phòng, Trung tâm → điền Phụ lục E | 32 | [ ] |
 | Điền 5 ô chính sách dữ liệu của các công cụ AI (N14) | 6 | [ ] |
-| Xác nhận các căn cứ ◐: N1b, N2, N15, N21, N25–N27, N30–N32; xem lại số liệu METR | 1, 3, 8 | [ ] |
+| Xác nhận các căn cứ ◐: N1b, N2, N15, N21, N25–N27, N30–N32; xem lại số liệu METR | 1, 3, 7 | [ ] |
 | Xác nhận "EeiE", danh mục ВАК hiện hành; URL AI4S, AIPOCH, CES Global | 18, 31 | [ ] |
 | In tài liệu phát tay `TAI-LIEU-PHAT-TAY.md`; phiếu khảo sát trước – sau | – | [ ] |
 
@@ -44,16 +44,16 @@ Nguyên tắc trình bày: **mỗi slide một ý chính, tối đa một bảng
 | 2 | AI trong khoa học: ví dụ quốc tế và Việt Nam | I | 5′ | [ ] |
 | 3 | Năng lực cốt lõi và tính năng mới của AI Agent | I | 5′ | [ ] |
 | 4 | Phương thức nghiên cứu đang thay đổi: từ thao tác thủ công đến quy trình liên tục | I | 4′ | [ ] |
-| | **PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP – 32′** | | | |
+| | **PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP – 28′** | | | |
 | 5 | Chọn đúng công cụ: việc nào dùng chatbot, việc nào cần AI Agent | II | 5′ | [ ] |
 | 6 | Các công cụ AI phổ biến và vai trò của từng loại | II | 2′ | [ ] |
-| 7 | 🆕 Tìm và đọc tài liệu khoa học: Sci-Hub, Sci-Bot và các lựa chọn hợp pháp | II | 4′ | [ ] |
-| 8 | Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows | II | 6′ | [ ] |
-| 9 | Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn | II | 5′ | [ ] |
-| 10 | Giao việc cho AI Agent: cách viết yêu cầu 5 bước | II | 5′ | [ ] |
-| 11 | Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án | II | 3′ | [ ] |
-| 12 | Skill, Subagent và hệ thống nhiều Agent | II | 2′ | [ ] |
-| | **PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC – 30′** | | | |
+| 7 | Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows | II | 6′ | [ ] |
+| 8 | Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn | II | 5′ | [ ] |
+| 9 | Giao việc cho AI Agent: cách viết yêu cầu 5 bước | II | 5′ | [ ] |
+| 10 | Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án | II | 3′ | [ ] |
+| 11 | Skill, Subagent và hệ thống nhiều Agent | II | 2′ | [ ] |
+| | **PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC – 34′** | | | |
+| 12 | Tìm và lọc tài liệu bước đầu: Sci-Hub, Sci-Bot và các công cụ hỗ trợ | III | 4′ | [ ] |
 | 13 | Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu | III | 6′ | [ ] |
 | 14 | Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 5′ | [ ] |
 | 15 | Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm | III | 4′ | [ ] |
@@ -167,7 +167,7 @@ Sáu năng lực cốt lõi:
 
 > ⚠ **AI vẫn có thể sai:** bịa tài liệu tham khảo, tính nhầm, chọn sai phương pháp mà vẫn trả lời rất tự tin → nhà khoa học kiểm tra lại mọi kết quả.
 
-**Không chiếu (tài liệu phát tay):** bảng đầy đủ 6 tính năng mới kèm mốc thời gian; bảng so sánh chatbot – AI Agent; ví dụ trong dự án ăn mòn: AI phát hiện lỗi đơn vị (Slide 10) nhưng cũng chọn sai cách tìm số đo bất thường (Slide 16).
+**Không chiếu (tài liệu phát tay):** bảng đầy đủ 6 tính năng mới kèm mốc thời gian; bảng so sánh chatbot – AI Agent; ví dụ trong dự án ăn mòn: AI phát hiện lỗi đơn vị (Slide 9) nhưng cũng chọn sai cách tìm số đo bất thường (Slide 16).
 
 **Nguồn:** N3, N29–N32
 
@@ -195,9 +195,9 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (32 phút)
+# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (28 phút)
 
-**Trang chuyển phần:** tên Phần II · Slide 5–12
+**Trang chuyển phần:** tên Phần II · Slide 5–11
 
 ---
 
@@ -241,32 +241,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 7 – Tìm và đọc tài liệu khoa học: Sci-Hub, Sci-Bot và các lựa chọn hợp pháp (4′) 🆕
-
-**Chữ trên slide:**
-
-| Nhóm | Công cụ tiêu biểu | Lưu ý |
-|---|---|---|
-| ⚠ **Thư viện "bóng tối"** | **Sci-Hub** – kho ~88 triệu bài báo, sách · **Sci-Bot** (04/2026) – trợ lý AI hỏi – đáp trên kho Sci-Hub, bản thử nghiệm | Tòa án ở Mỹ, Nga (2018), Ấn Độ (2025) xác định vi phạm bản quyền, chặn truy cập; nhiều trang giả mạo – rủi ro mã độc; Sci-Bot thiếu bài mới (sau ~2021–2022), chỉ trả lời từng câu |
-| ✅ **Toàn văn mở hợp pháp** | Unpaywall (tiện ích trình duyệt) · CORE · arXiv · PubMed Central · DOAJ | Miễn phí; tìm bản tác giả đã tự lưu trữ hợp pháp |
-| ✅ **Tìm kiếm có AI** | Google Scholar Labs (11/2025) · Semantic Scholar · Elicit · Consensus · SciSpace · Undermind | Trả lời kèm bài báo dẫn chứng; vẫn phải đọc bản gốc |
-| ✅ **Cơ sở dữ liệu thu phí** | Scopus AI · Web of Science Research Assistant | Qua tài khoản thư viện, tổ chức |
-| ✅ **Nguồn Việt – Nga** | VJOL (tạp chí Việt Nam, miễn phí) · CyberLeninka (thư viện mở Nga) · eLIBRARY.ru (РИНЦ) | Tài liệu tiếng Việt, tiếng Nga – thế mạnh riêng của Trung tâm |
-
-> **Khuyến nghị:** ưu tiên kênh hợp pháp → không có bản mở thì gửi thư xin bản PDF từ tác giả hoặc qua thư viện; tuân thủ quy định bản quyền và an toàn thông tin của đơn vị.
-
-**Hình ảnh:** ảnh chụp Unpaywall hiện nút "bản mở" cạnh bài báo; ảnh Google Scholar Labs trả lời một câu hỏi về ăn mòn khí quyển.
-
-**Không chiếu (tài liệu phát tay):** mô tả, địa chỉ, cách dùng từng công cụ – `TAI-LIEU-PHAT-TAY.md` mục 11.
-
-**Nguồn:** N33–N37
-
-**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
-**Ghi chú:**
-
----
-
-## Slide 8 – Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows (6′)
+## Slide 7 – Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows (6′)
 
 **Chữ trên slide:**
 - **Claude** – trợ lý AI của công ty Anthropic (Mỹ). Trên Windows: **trình duyệt (claude.ai)** hoặc **ứng dụng Claude cho Windows**; hội thoại, dự án đồng bộ giữa hai cách.
@@ -292,7 +267,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 9 – Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn (5′)
+## Slide 8 – Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn (5′)
 
 **Chữ trên slide:**
 
@@ -348,7 +323,7 @@ AI cần phát hiện: tệp 1 ghi đơn vị chưa rõ/sai (giá trị thực l
 
 ---
 
-## Slide 10 – Giao việc cho AI Agent: cách viết yêu cầu 5 bước (5′)
+## Slide 9 – Giao việc cho AI Agent: cách viết yêu cầu 5 bước (5′)
 
 **Chữ trên slide:** quy trình 5 bước
 
@@ -380,9 +355,9 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 
 ---
 
-## Slide 11 – Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án (3′)
+## Slide 10 – Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án (3′)
 
-**Chữ trên slide:** *Mỗi nhiệm vụ khoa học – một dự án* (cách tạo dự án: xem Slide 9)
+**Chữ trên slide:** *Mỗi nhiệm vụ khoa học – một dự án* (cách tạo dự án: xem Slide 8)
 
 | Thành phần của dự án | Ví dụ – nhiệm vụ ăn mòn khí quyển |
 |---|---|
@@ -411,7 +386,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 12 – Skill, Subagent và hệ thống nhiều Agent (2′) – *chỉ giới thiệu*
+## Slide 11 – Skill, Subagent và hệ thống nhiều Agent (2′) – *chỉ giới thiệu*
 
 **Chữ trên slide:**
 - **Skill:** quy trình mẫu đóng gói sẵn (hướng dẫn + biểu mẫu + mã), AI tự dùng lại
@@ -430,12 +405,38 @@ du-an-nghien-cuu/
 
 ---
 
-# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (30 phút)
+# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (34 phút)
 
-**Trang chuyển phần:** tên Phần III · Slide 13–19
+**Trang chuyển phần:** tên Phần III · Slide 12–19
 
 > 🆕 v2.4: Phần III **bắt đầu ngay bằng tìm khoảng trống nghiên cứu**; slide tổng quan vòng đời chuyển xuống cuối phần (Slide 19) để tổng kết.
 > Slide 14–15 dùng **biểu mẫu thật của Trung tâm** (người trình bày cung cấp); Slide 13 và 15 dùng **dữ liệu, tài liệu thật đã công bố**; dữ liệu giả lập chỉ còn dùng để minh họa phát hiện lỗi.
+
+---
+
+## Slide 12 – Tìm và lọc tài liệu bước đầu: Sci-Hub, Sci-Bot và các công cụ hỗ trợ (4′)
+
+**Chữ trên slide:** quy trình 4 bước tìm – lọc tài liệu
+
+| Bước | Công cụ | Làm gì |
+|---|---|---|
+| 1. Đặt câu hỏi, tìm bài ứng viên | **Sci-Bot** (trợ lý AI trên kho Sci-Hub, 04/2026) · Google Scholar Labs · Semantic Scholar | Hỏi bằng tiếng Anh, nêu rõ đối tượng – điều kiện – yếu tố cần xét → câu trả lời tổng hợp kèm danh sách bài báo, DOI |
+| 2. Lọc theo tiêu đề, tóm tắt | Elicit · Consensus · Claude (dự án) | Áp tiêu chí đưa vào / loại ra → giữ 10–30 bài |
+| 3. Lấy toàn văn | **Sci-Hub** (tra theo DOI hoặc tiêu đề) · Unpaywall · CORE · VJOL · CyberLeninka · eLIBRARY.ru | Tải PDF để đọc kỹ |
+| 4. Đưa vào dự án | Claude | Tải PDF vào dự án → lập ma trận bằng chứng (Slide 13) |
+
+**Câu hỏi mẫu cho Sci-Bot:** *"Which environmental factors control the first-year atmospheric corrosion rate of carbon steel in tropical climates, and how accurate is the ISO 9223 dose-response function there?"*
+
+> Lưu ý khi dùng: Sci-Bot là bản thử nghiệm – mỗi lần một câu hỏi, thiếu bài mới (sau ~2021–2022) → bổ sung bài mới bằng Google Scholar Labs; kiểm tra DOI của mọi trích dẫn. Chỉ truy cập địa chỉ chính thức (nhiều trang giả mạo); không dùng trên máy có tài liệu mật.
+
+**Hình ảnh:** ảnh chụp Sci-Bot trả lời câu hỏi mẫu kèm danh sách bài; ảnh Sci-Hub tra một bài theo DOI; ảnh bảng lọc bài trên Claude.
+
+**Không chiếu (tài liệu phát tay):** hướng dẫn chi tiết từng công cụ – `TAI-LIEU-PHAT-TAY.md` mục 11; câu lệnh lọc tài liệu – `cau-lenh-demo.md` mục 14.
+
+**Nguồn:** N33, N35–N37
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
 
 ---
 
@@ -444,7 +445,7 @@ du-an-nghien-cuu/
 **Chữ trên slide:**
 - **Tình huống:** ăn mòn khí quyển của kim loại trong khí hậu nhiệt đới Việt Nam
 - 🌍 **Ví dụ thật:** AI co-scientist (Google) – nhiều trợ lý đề xuất, phản biện, xếp hạng giả thuyết
-- 🧰 **Công cụ tìm và đọc tài liệu** (xem Slide 7): Claude Research · Elicit (tổng quan hệ thống, trích xuất bảng) · Consensus (câu trả lời có dẫn chứng) · Semantic Scholar (miễn phí) · Scite (trích dẫn ủng hộ hay phản bác) · ResearchRabbit (bản đồ trích dẫn)
+- 🧰 **Tài liệu đầu vào:** các bài đã tìm, lọc ở Slide 12; công cụ hỗ trợ đọc: Claude Research · Elicit (tổng quan hệ thống, trích xuất bảng) · Consensus (câu trả lời có dẫn chứng) · Semantic Scholar (miễn phí) · Scite (trích dẫn ủng hộ hay phản bác) · ResearchRabbit (bản đồ trích dẫn)
 - ⌨ **Câu lệnh:**
   > Từ các bài báo trong dự án, lập ma trận bằng chứng (tác giả – năm, địa điểm, kim loại, thời gian phơi mẫu, biến môi trường, mô hình, kết luận, hạn chế). Chỉ ra điểm chưa thống nhất và 3 khoảng trống cho điều kiện Việt Nam, mỗi khoảng trống dẫn chứng ít nhất 2 bài.
 - ✅ **Nhà khoa học xác nhận:** nguồn có thật; khoảng trống có giá trị
@@ -526,7 +527,7 @@ du-an-nghien-cuu/
 - ⌨ **Câu lệnh đã dùng:** rà soát dữ liệu → tính toán và lập mô hình → vẽ biểu đồ
 - 📊 **Kết quả:**
   - Dữ liệu giả lập: phát hiện đủ **14/14 lỗi** cài sẵn; thép CT3 ven biển C4 · đô thị C3 · nội địa C2
-  - Dữ liệu thật (387 số đo): kết quả chính đã nêu ở Slide 10; mô hình 3D ở Slide 17
+  - Dữ liệu thật (387 số đo): kết quả chính đã nêu ở Slide 9; mô hình 3D ở Slide 17
 - 💡 **Bài học:** AI viết mã rất nhanh – nhưng cách tìm số đo bất thường AI chọn lần đầu đánh dấu nhầm 20 giá trị bình thường và bỏ sót lỗi gõ nhầm; chọn phương pháp phù hợp với thiết kế thí nghiệm (3 mẫu lặp) là việc của người làm chuyên môn
 
 **Hình ảnh:** `thuyet-trinh/ket-qua-demo/gia-lap/bieu_do_dong_hoc_an_mon.png`; `du-an-nghien-cuu/05-ket-qua/hinh/do_vs_du_doan.png`; `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/3D_3_be_mat_tam_thep.png`.
