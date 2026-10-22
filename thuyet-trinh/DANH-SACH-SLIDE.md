@@ -23,9 +23,9 @@ Nguyên tắc trình bày: **mỗi slide một ý chính, tối đa một bảng
 
 | Việc | Slide | Xong |
 |---|---|---|
-| Chạy trước và **ghi hình màn hình** (1–2 phút/demo) + **chụp ảnh kết quả**: tổng hợp nhiều nguồn; điền biểu mẫu (Demo 1); tiến độ – kinh phí; xử lý dữ liệu (Demo 2); mô hình 3D; công cụ máy không Internet (Demo 3) | 8, 14, 15, 16, 17, 22 | [ ] |
+| Chạy trước và **ghi hình màn hình** (1–2 phút/demo) + **chụp ảnh kết quả**: tổng hợp nhiều nguồn; điền biểu mẫu (Demo 1); tiến độ – kinh phí; xử lý dữ liệu (Demo 2); mô hình 3D; công cụ máy không Internet (Demo 3) | 8, 13, 14, 16, 17, 22 | [ ] |
 | Chép video, ảnh, thư mục `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/` vào máy trình chiếu – **mở được không cần Internet** (tệp HTML 3D dùng `plotly.min.js` cùng thư mục) | 16, 17 | [ ] |
-| Gửi biểu mẫu thật của Trung tâm; chạy thử 2 lần | 14, 15 | [ ] |
+| Gửi biểu mẫu thật của Trung tâm; chạy thử 2 lần | 13, 14 | [ ] |
 | Hỏi bộ phận chức năng về **quy định sử dụng dịch vụ AI** của Bộ Quốc phòng, Trung tâm → điền Phụ lục E | 32 | [ ] |
 | Điền 5 ô chính sách dữ liệu của các công cụ AI (N14) | 6 | [ ] |
 | Xác nhận các căn cứ ◐: N1b, N2, N15, N21, N25–N27, N30–N32; xem lại số liệu METR | 1, 3, 7 | [ ] |
@@ -53,13 +53,13 @@ Nguyên tắc trình bày: **mỗi slide một ý chính, tối đa một bảng
 | 10 | Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án | II | 3′ | [ ] |
 | 11 | Skill, Subagent và hệ thống nhiều Agent | II | 2′ | [ ] |
 | | **PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC – 34′** | | | |
-| 12 | Tìm và lọc tài liệu bước đầu: Sci-Hub, Sci-Bot và các công cụ hỗ trợ | III | 4′ | [ ] |
-| 13 | Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu | III | 6′ | [ ] |
-| 14 | Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 5′ | [ ] |
-| 15 | Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm | III | 4′ | [ ] |
-| 16 | Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 | III | 6′ | [ ] |
+| 12 | Nghiên cứu tài liệu và tổng quan: từ tìm, lọc tài liệu đến khoảng trống nghiên cứu | III | 8′ | [ ] |
+| 13 | Xây dựng thuyết minh đề tài: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 5′ | [ ] |
+| 14 | Hoàn thiện thuyết minh: tiến độ và dự toán kinh phí theo biểu mẫu Trung tâm | III | 4′ | [ ] |
+| 15 | 🆕 Hướng dẫn xử lý dữ liệu với AI: quy trình 5 bước | III | 4′ | [ ] |
+| 16 | Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 | III | 5′ | [ ] |
 | 17 | Mô hình 3D: mô phỏng quá trình ăn mòn vật liệu theo thời gian | III | 3′ | [ ] |
-| 18 | Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng | III | 4′ | [ ] |
+| 18 | Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng | III | 3′ | [ ] |
 | 19 | Toàn cảnh: một nhiệm vụ khoa học đi qua AI Agent | III | 2′ | [ ] |
 | | **PHẦN IV. ĐỀ TÀI MẬT: ỨNG DỤNG AI KHI DỮ LIỆU KHÔNG ĐƯỢC ĐƯA LÊN INTERNET – 15′** | | | |
 | 20 | 🆕 Ranh giới pháp lý: dữ liệu mật và AI trực tuyến | IV | 3′ | [ ] |
@@ -371,9 +371,9 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 ```
 du-an-nghien-cuu/
 ├── 00-quan-ly-du-an/        ← kế hoạch, nhật ký (ghi cả lần sai và sửa), việc còn lại
-├── 01-tong-quan-tai-lieu/   ← 13 tài liệu đã xác minh, ma trận bằng chứng, khoảng trống   (Slide 13)
-├── 02-de-xuat-thuyet-minh/  ← bản nháp đề xuất + biểu mẫu Trung tâm                       (Slide 14–15)
-├── 03-du-lieu/              ← thô (chỉ đọc) → đã xử lý → bổ sung; từ điển dữ liệu           (Slide 16)
+├── 01-tong-quan-tai-lieu/   ← 13 tài liệu đã xác minh, ma trận bằng chứng, khoảng trống   (Slide 12)
+├── 02-de-xuat-thuyet-minh/  ← bản nháp đề xuất + biểu mẫu Trung tâm                       (Slide 13–14)
+├── 03-du-lieu/              ← thô (chỉ đọc) → đã xử lý → bổ sung; từ điển dữ liệu           (Slide 15–16)
 ├── 04-ma-nguon/             ← 4 bước mã: hợp nhất → mô hình → hiệu chỉnh → 3D
 ├── 05-ket-qua/              ← bảng, hình, mô hình 3D, kiểm tra bằng Skill                 (Slide 16, 17, 24)
 ├── 06-bai-bao/              ← bản thảo bài báo                                             (Slide 18)
@@ -409,64 +409,44 @@ du-an-nghien-cuu/
 
 **Trang chuyển phần:** tên Phần III · Slide 12–19
 
-> 🆕 v2.4: Phần III **bắt đầu ngay bằng tìm khoảng trống nghiên cứu**; slide tổng quan vòng đời chuyển xuống cuối phần (Slide 19) để tổng kết.
-> Slide 14–15 dùng **biểu mẫu thật của Trung tâm** (người trình bày cung cấp); Slide 13 và 15 dùng **dữ liệu, tài liệu thật đã công bố**; dữ liệu giả lập chỉ còn dùng để minh họa phát hiện lỗi.
+> Mạch Phần III: nghiên cứu tài liệu → tổng quan, khoảng trống (Slide 12) → xây dựng thuyết minh (13, 14) → hướng dẫn xử lý dữ liệu (15) → xử lý dữ liệu, mô hình 3D (16, 17) → công bố (18) → toàn cảnh (19).
+> Slide 13–14 dùng **biểu mẫu thật của Trung tâm** (người trình bày cung cấp); Slide 12 và 16 dùng **tài liệu, dữ liệu thật đã công bố**.
 
 ---
 
-## Slide 12 – Tìm và lọc tài liệu bước đầu: Sci-Hub, Sci-Bot và các công cụ hỗ trợ (4′)
-
-**Chữ trên slide:** quy trình 4 bước tìm – lọc tài liệu
-
-| Bước | Công cụ | Làm gì |
-|---|---|---|
-| 1. Đặt câu hỏi, tìm bài ứng viên | **Sci-Bot** (trợ lý AI trên kho Sci-Hub, 04/2026) · Google Scholar Labs · Semantic Scholar | Hỏi bằng tiếng Anh, nêu rõ đối tượng – điều kiện – yếu tố cần xét → câu trả lời tổng hợp kèm danh sách bài báo, DOI |
-| 2. Lọc theo tiêu đề, tóm tắt | Elicit · Consensus · Claude (dự án) | Áp tiêu chí đưa vào / loại ra → giữ 10–30 bài |
-| 3. Lấy toàn văn | **Sci-Hub** (tra theo DOI hoặc tiêu đề) · Unpaywall · CORE · VJOL · CyberLeninka · eLIBRARY.ru | Tải PDF để đọc kỹ |
-| 4. Đưa vào dự án | Claude | Tải PDF vào dự án → lập ma trận bằng chứng (Slide 13) |
-
-**Câu hỏi mẫu cho Sci-Bot:** *"Which environmental factors control the first-year atmospheric corrosion rate of carbon steel in tropical climates, and how accurate is the ISO 9223 dose-response function there?"*
-
-> Lưu ý khi dùng: Sci-Bot là bản thử nghiệm – mỗi lần một câu hỏi, thiếu bài mới (sau ~2021–2022) → bổ sung bài mới bằng Google Scholar Labs; kiểm tra DOI của mọi trích dẫn. Chỉ truy cập địa chỉ chính thức (nhiều trang giả mạo); không dùng trên máy có tài liệu mật.
-
-**Hình ảnh:** ảnh chụp Sci-Bot trả lời câu hỏi mẫu kèm danh sách bài; ảnh Sci-Hub tra một bài theo DOI; ảnh bảng lọc bài trên Claude.
-
-**Không chiếu (tài liệu phát tay):** hướng dẫn chi tiết từng công cụ – `TAI-LIEU-PHAT-TAY.md` mục 11; câu lệnh lọc tài liệu – `cau-lenh-demo.md` mục 14.
-
-**Nguồn:** N33, N35–N37
-
-**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
-**Ghi chú:**
-
----
-
-## Slide 13 – Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu (6′)
+## Slide 12 – Nghiên cứu tài liệu và tổng quan: từ tìm, lọc tài liệu đến khoảng trống nghiên cứu (8′)
 
 **Chữ trên slide:**
 - **Tình huống:** ăn mòn khí quyển của kim loại trong khí hậu nhiệt đới Việt Nam
-- 🌍 **Ví dụ thật:** AI co-scientist (Google) – nhiều trợ lý đề xuất, phản biện, xếp hạng giả thuyết
-- 🧰 **Tài liệu đầu vào:** các bài đã tìm, lọc ở Slide 12; công cụ hỗ trợ đọc: Claude Research · Elicit (tổng quan hệ thống, trích xuất bảng) · Consensus (câu trả lời có dẫn chứng) · Semantic Scholar (miễn phí) · Scite (trích dẫn ủng hộ hay phản bác) · ResearchRabbit (bản đồ trích dẫn)
-- ⌨ **Câu lệnh:**
-  > Từ các bài báo trong dự án, lập ma trận bằng chứng (tác giả – năm, địa điểm, kim loại, thời gian phơi mẫu, biến môi trường, mô hình, kết luận, hạn chế). Chỉ ra điểm chưa thống nhất và 3 khoảng trống cho điều kiện Việt Nam, mỗi khoảng trống dẫn chứng ít nhất 2 bài.
-- ✅ **Nhà khoa học xác nhận:** nguồn có thật; khoảng trống có giá trị
 
-**🆕 Khoảng trống gợi ý – có căn cứ từ phân tích dữ liệu thật** *(đề xuất, nhà khoa học quyết định)*:
-1. Mô hình quốc tế **đánh giá thấp ~31%** ăn mòn thép ở Việt Nam → cần hàm liều – đáp ứng hiệu chỉnh cho khí hậu nhiệt đới (thêm độ ẩm, mưa, chu kỳ khô – ướt).
-2. Huế, Nha Trang ăn mòn cao dù clorua thấp → yếu tố chưa được giải thích.
-3. Số liệu Việt Nam chủ yếu 1995–2005, chủ yếu thép cacbon năm đầu → thiếu dữ liệu dài hạn và cập nhật theo biến đổi khí hậu.
+| Bước | Công cụ | Kết quả |
+|---|---|---|
+| 1. Tìm bài ứng viên | **Sci-Bot** (trợ lý AI trên kho Sci-Hub) · Google Scholar Labs · Semantic Scholar | Danh sách bài báo kèm DOI |
+| 2. Lọc theo tiêu đề, tóm tắt | Elicit · Consensus · Claude | 10–30 bài theo tiêu chí đưa vào / loại ra |
+| 3. Lấy toàn văn | **Sci-Hub** (theo DOI) · Unpaywall · CORE · VJOL · CyberLeninka · eLIBRARY.ru | Bộ PDF đưa vào dự án Claude |
+| 4. Lập ma trận bằng chứng | Claude (dự án) | Bảng: tác giả – năm, địa điểm, kim loại, biến môi trường, mô hình, kết luận, hạn chế |
+| 5. Xác định khoảng trống | Claude + nhà khoa học | 3 khoảng trống, mỗi khoảng trống dẫn chứng ≥ 2 bài |
 
-**Hình ảnh (thay bảng tài liệu):** ảnh chụp ma trận bằng chứng do AI lập và 3 khoảng trống có điểm phản biện.
+- 📊 **Kết quả – 3 khoảng trống** *(đề xuất, nhà khoa học quyết định)*:
+  1. Mô hình quốc tế **đánh giá thấp ~31%** ăn mòn thép ở Việt Nam → cần hàm liều – đáp ứng hiệu chỉnh cho khí hậu nhiệt đới
+  2. Huế, Nha Trang ăn mòn cao dù clorua thấp → yếu tố chưa được giải thích
+  3. Số liệu Việt Nam chủ yếu 1995–2005, chỉ năm đầu → thiếu dữ liệu dài hạn
+- ✅ **Nhà khoa học xác nhận:** nguồn có thật (kiểm tra DOI); khoảng trống có giá trị → chuyển sang xây dựng thuyết minh (Slide 13)
 
-**Không chiếu (tài liệu phát tay):** danh mục 8 tài liệu thật dùng cho demo – `TAI-LIEU-PHAT-TAY.md` mục 7; danh mục đầy đủ 13 tài liệu: `du-an-nghien-cuu/01-tong-quan-tai-lieu/DANH-MUC-TAI-LIEU.csv`.
+> Lưu ý: Sci-Bot là bản thử nghiệm – mỗi lần một câu hỏi, thiếu bài mới (sau ~2021–2022) → bổ sung bằng Google Scholar Labs. Chỉ truy cập địa chỉ chính thức; không dùng trên máy có tài liệu mật.
 
-**Nguồn:** G2 · N25 (công cụ tài liệu) · tài liệu 1–8 · Câu lệnh 1.1–1.3
+**Hình ảnh:** ảnh Sci-Bot trả lời câu hỏi mẫu; ảnh ma trận bằng chứng do AI lập và 3 khoảng trống.
+
+**Không chiếu (tài liệu phát tay):** hướng dẫn Sci-Bot, Sci-Hub – `TAI-LIEU-PHAT-TAY.md` mục 11; danh mục 8 tài liệu thật – mục 7; câu lệnh: `cau-lenh-demo.md` mục 14 (tìm – lọc), mục 1 (ma trận, khoảng trống).
+
+**Nguồn:** N25, N33, N35–N37 · tài liệu 1–8
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-## Slide 14 – Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 (5′)
+## Slide 13 – Xây dựng thuyết minh đề tài: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 (5′)
 
 **Chữ trên slide:**
 - Khoảng trống → tính cấp thiết, mục tiêu, nội dung, phương pháp, sản phẩm
@@ -493,7 +473,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 15 – Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm (4′)
+## Slide 14 – Hoàn thiện thuyết minh: tiến độ và dự toán kinh phí theo biểu mẫu Trung tâm (4′)
 
 **Chữ trên slide:**
 - 🎬 **Kết quả demo đã chạy trước:** biểu mẫu thuyết minh – tiến độ – dự toán của Trung tâm được AI lập từ thuyết minh đã duyệt
@@ -519,12 +499,41 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 16 – Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 (6′)
+## Slide 15 – Hướng dẫn xử lý dữ liệu với AI: quy trình 5 bước (4′) 🆕
+
+**Chữ trên slide:**
+
+| Bước | AI làm | Nhà khoa học kiểm soát |
+|---|---|---|
+| 1. Chuẩn bị dữ liệu | Đọc tệp, mô tả cấu trúc: số dòng, tên cột, đơn vị, nguồn | Giữ **bản gốc chỉ đọc**; lập từ điển dữ liệu; chỉ đưa dữ liệu được phép |
+| 2. Kiểm tra chất lượng | Tìm dòng trùng, ô trống, sai định dạng, sai đơn vị, giá trị bất thường → báo cáo | **Chỉ đánh dấu, không tự xóa**; quyết định giữ / loại |
+| 3. Phân tích, lập mô hình | Viết và chạy mã Python: thống kê, hồi quy, mô hình theo tiêu chuẩn | **Chọn phương pháp** phù hợp thiết kế thí nghiệm; nêu rõ giả định |
+| 4. Kiểm định kết quả | Tách tập kiểm định độc lập, tính sai số, so với tiêu chuẩn, số liệu đã công bố | Đánh giá kết quả có hợp lý về chuyên môn |
+| 5. Lưu trữ, tái lập | Lưu mã, dữ liệu đã xử lý, nhật ký từng bước | Chạy lại ra cùng kết quả; lưu theo cấu trúc dự án |
+
+⌨ **Mẫu câu lệnh:**
+```
+Tôi tải lên [tệp dữ liệu]. Làm lần lượt, dừng sau mỗi bước để tôi xác nhận:
+1. Mô tả cấu trúc dữ liệu (số dòng, cột, đơn vị); 2. Kiểm tra chất lượng – chỉ đánh dấu,
+không xóa; 3. Đề xuất phương pháp phân tích và giải thích vì sao; 4. Phân tích, kiểm định
+trên tập độc lập; 5. Lưu toàn bộ mã Python và nhật ký để chạy lại.
+```
+
+**Hình ảnh:** sơ đồ 5 bước, mỗi bước có điểm dừng "nhà khoa học xác nhận".
+
+**Không chiếu (tài liệu phát tay):** `TAI-LIEU-PHAT-TAY.md` mục 12; cấu trúc thư mục dữ liệu mẫu: `du-an-nghien-cuu/03-du-lieu/README.md`.
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
+
+---
+
+## Slide 16 – Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 (5′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** ERA (Google, *Nature* 2026) – AI tự viết, chạy, chấm điểm, cải tiến mã
 - **Nhà khoa học không cần biết lập trình:** mô tả việc cần làm → AI viết mã Python → chạy → trả bảng, biểu đồ, **kèm mã để tái lập**
-- ⌨ **Câu lệnh đã dùng:** rà soát dữ liệu → tính toán và lập mô hình → vẽ biểu đồ
+- ⌨ **Áp dụng quy trình 5 bước (Slide 15):** rà soát dữ liệu → tính toán và lập mô hình → kiểm định → vẽ biểu đồ, lưu mã
 - 📊 **Kết quả:**
   - Dữ liệu giả lập: phát hiện đủ **14/14 lỗi** cài sẵn; thép CT3 ven biển C4 · đô thị C3 · nội địa C2
   - Dữ liệu thật (387 số đo): kết quả chính đã nêu ở Slide 9; mô hình 3D ở Slide 17
@@ -569,7 +578,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 18 – Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng (4′)
+## Slide 18 – Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng (3′)
 
 **Chữ trên slide:**
 - 🆕 **Một kết quả – nhiều định dạng công bố:**
@@ -601,7 +610,7 @@ du-an-nghien-cuu/
 
 **Chữ trên slide:**
 
-**Hình ảnh (chính):** sơ đồ vòng đời: Tài liệu → Khoảng trống (S13) → Phiếu đề xuất, thuyết minh (S14) → Tiến độ – kinh phí (S15) → Dữ liệu – kết quả, mô hình 3D (S16–S17) → Bài báo – báo cáo (S18); mỗi bước có dấu ✅ "nhà khoa học xác nhận".
+**Hình ảnh (chính):** sơ đồ vòng đời: Tài liệu → Khoảng trống (S12) → Phiếu đề xuất, thuyết minh (S13) → Tiến độ – kinh phí (S14) → Xử lý dữ liệu theo 5 bước, mô hình 3D (S15–S17) → Bài báo – báo cáo (S18); mỗi bước có dấu ✅ "nhà khoa học xác nhận".
 
 > Cùng một dự án, cùng một bộ tài liệu – AI nối các công đoạn; nhà khoa học duyệt ở mỗi bước.
 

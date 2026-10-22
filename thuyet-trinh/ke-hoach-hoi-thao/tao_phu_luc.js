@@ -84,7 +84,7 @@ body.push(table([700, 5171, 1600, 1600], [
   ["Phần", "Nội dung", "Slide", "Thời lượng"],
   [{ t: "I", c: true }, "Tổng quan: AI và sự thay đổi phương thức nghiên cứu khoa học", { t: "1 – 4", c: true }, { t: "18 phút", c: true }],
   [{ t: "II", c: true }, "Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude", { t: "5 – 11", c: true }, { t: "28 phút", c: true }],
-  [{ t: "III", c: true }, "AI Agent trong chu trình thực hiện nhiệm vụ khoa học (tìm, lọc tài liệu; minh họa 1, 2; mô hình 3D)", { t: "12 – 19", c: true }, { t: "34 phút", c: true }],
+  [{ t: "III", c: true }, "AI Agent trong chu trình thực hiện nhiệm vụ khoa học: tài liệu, tổng quan → thuyết minh → xử lý dữ liệu (minh họa 1, 2; mô hình 3D) → công bố", { t: "12 – 19", c: true }, { t: "34 phút", c: true }],
   [{ t: "IV", c: true }, "Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, quy trình, minh họa 3)", { t: "20 – 23", c: true }, { t: "15 phút", c: true }],
   [{ t: "V", c: true }, "Skill, khoa học mở và tự động hóa", { t: "24 – 26", c: true }, { t: "13 phút", c: true }],
   [{ t: "VI", c: true }, "Trao đổi, thảo luận", { t: "27", c: true }, { t: "12 phút", c: true }],
@@ -118,10 +118,10 @@ part("2. Phần II – Lựa chọn và sử dụng công cụ AI phù hợp (28
 part("3. Phần III – AI Agent trong chu trình thực hiện nhiệm vụ khoa học (34 phút)",
   "minh họa AI hỗ trợ từng công đoạn của một nhiệm vụ khoa học và công nghệ, trên ví dụ “Khả năng áp dụng mô hình ăn mòn khí quyển quốc tế cho khí hậu nhiệt đới Việt Nam” (387 số đo thực địa đã công bố).",
   [
-    "Tìm và lọc tài liệu bước đầu (4 bước): (1) đặt câu hỏi nghiên cứu cho Sci-Bot – trợ lý AI trên kho Sci-Hub – để nhận câu trả lời tổng hợp kèm danh sách bài báo, DOI; bổ sung bài mới bằng Google Scholar Labs, Semantic Scholar; (2) lọc theo tiêu đề, tóm tắt với tiêu chí đưa vào – loại ra (Elicit, Consensus, Claude); (3) lấy toàn văn theo DOI qua Sci-Hub, Unpaywall, CORE; nguồn tiếng Việt – tiếng Nga qua VJOL, CyberLeninka, eLIBRARY.ru; (4) đưa bài đã chọn vào dự án Claude. Kiểm tra DOI của mọi trích dẫn.",
-    "Tổng quan tài liệu: lập ma trận bằng chứng, xác định 3 khoảng trống nghiên cứu.",
-    "Minh họa 1: xây dựng phiếu đề xuất, thuyết minh theo biểu mẫu của Trung tâm; lập tiến độ, dự toán theo Thông tư 03/2023/TT-BTC và quy định của Bộ Quốc phòng.",
-    "Minh họa 2: AI viết và chạy mã Python xử lý dữ liệu – phát hiện lỗi đơn vị trong dữ liệu công bố; mô hình quốc tế dự đoán thấp hơn thực đo ở Việt Nam khoảng 31%; sau hiệu chỉnh theo vùng, xếp đúng cấp ăn mòn 9/12 trạm (trước là 2/12).",
+    "Nghiên cứu tài liệu và tổng quan: tìm bài ứng viên bằng Sci-Bot – trợ lý AI trên kho Sci-Hub (câu trả lời tổng hợp kèm danh sách bài báo, DOI), bổ sung bài mới bằng Google Scholar Labs, Semantic Scholar; lọc theo tiêu đề, tóm tắt (Elicit, Consensus, Claude); lấy toàn văn theo DOI qua Sci-Hub, Unpaywall, CORE và nguồn tiếng Việt – tiếng Nga (VJOL, CyberLeninka, eLIBRARY.ru); lập ma trận bằng chứng, xác định 3 khoảng trống nghiên cứu; kiểm tra DOI của mọi trích dẫn.",
+    "Xây dựng thuyết minh đề tài từ khoảng trống đã chọn (minh họa 1): phiếu đề xuất, thuyết minh theo biểu mẫu của Trung tâm; tiến độ, dự toán theo Thông tư 03/2023/TT-BTC và quy định của Bộ Quốc phòng.",
+    "Hướng dẫn xử lý dữ liệu với AI theo 5 bước: chuẩn bị dữ liệu (giữ bản gốc, từ điển dữ liệu) → kiểm tra chất lượng (chỉ đánh dấu, không tự xóa) → phân tích, lập mô hình (nhà khoa học chọn phương pháp) → kiểm định trên tập độc lập → lưu mã, nhật ký để tái lập.",
+    "Minh họa 2 – áp dụng quy trình trên: AI viết và chạy mã Python xử lý dữ liệu, phát hiện lỗi đơn vị trong dữ liệu công bố; mô hình quốc tế dự đoán thấp hơn thực đo ở Việt Nam khoảng 31%; sau hiệu chỉnh theo vùng, xếp đúng cấp ăn mòn 9/12 trạm (trước là 2/12).",
     "Mô hình 3D mô phỏng quá trình ăn mòn thép tại Nha Trang trong 30 năm và so sánh thép – kẽm – đồng – nhôm.",
     "Công bố kết quả theo nhiều định dạng: tạp chí Scopus/Web of Science, danh mục ВАК (Nga), tạp chí trong nước, báo cáo của Trung tâm; nhà khoa học xác nhận ở mỗi bước.",
   ]);

@@ -104,7 +104,7 @@
 |---|---|---|---|
 | I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
 | II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 28 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (tìm, lọc tài liệu với Sci-Bot, Sci-Hub; Demo 1, 2; mô hình 3D) | 12–19 | 34 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học: tài liệu, tổng quan (Sci-Bot, Sci-Hub) → thuyết minh → hướng dẫn và demo xử lý dữ liệu → mô hình 3D → công bố | 12–19 | 34 phút |
 | IV | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, mô hình ba vùng, Demo 3, sai lầm thường gặp) | 20–23 | 15 phút |
 | V | Skill, khoa học mở và tự động hóa | 24–26 | 13 phút |
 | VI | Trao đổi, thảo luận | 27 | 12 phút |

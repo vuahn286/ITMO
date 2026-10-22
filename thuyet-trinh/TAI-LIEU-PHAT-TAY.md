@@ -85,7 +85,7 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 [5. Kiểm tra] Tách "kết quả tính toán" và "diễn giải đề xuất"; nêu rõ hạn chế.
 ```
 
-## 7. Bộ tài liệu thật dùng trong ví dụ ăn mòn khí quyển (Slide 13)
+## 7. Bộ tài liệu thật dùng trong ví dụ ăn mòn khí quyển (Slide 12)
 
 | # | Tài liệu | Ghi chú |
 |---|---|---|
@@ -171,6 +171,24 @@ Mã mẫu: `ma-nguon-demo/may-cach-ly/` (hướng dẫn trong `README.md`).
 | **eLIBRARY.ru** | Thư viện điện tử khoa học Nga, nền của chỉ số trích dẫn РИНЦ | Đăng ký miễn phí; một phần toàn văn mở | Kiểm tra tạp chí trong danh mục ВАК |
 
 **Khi không có bản mở:** gửi thư cho tác giả liên hệ (đa số tác giả sẵn lòng gửi PDF) · nhờ thư viện của đơn vị · tìm bản tác giả trên trang cá nhân, kho của trường.
+
+## 12. Xử lý dữ liệu với AI – quy trình 5 bước (Slide 15)
+
+| Bước | AI làm | Nhà khoa học kiểm soát |
+|---|---|---|
+| 1. Chuẩn bị dữ liệu | Đọc tệp, mô tả cấu trúc: số dòng, tên cột, đơn vị, nguồn | Giữ bản gốc chỉ đọc; lập từ điển dữ liệu; chỉ đưa dữ liệu được phép |
+| 2. Kiểm tra chất lượng | Tìm dòng trùng, ô trống, sai định dạng, sai đơn vị, giá trị bất thường → báo cáo | Chỉ đánh dấu, không tự xóa; quyết định giữ / loại |
+| 3. Phân tích, lập mô hình | Viết và chạy mã Python: thống kê, hồi quy, mô hình theo tiêu chuẩn | Chọn phương pháp phù hợp thiết kế thí nghiệm; nêu rõ giả định |
+| 4. Kiểm định kết quả | Tách tập kiểm định độc lập, tính sai số, so với tiêu chuẩn, số liệu đã công bố | Đánh giá kết quả có hợp lý về chuyên môn |
+| 5. Lưu trữ, tái lập | Lưu mã, dữ liệu đã xử lý, nhật ký từng bước | Chạy lại ra cùng kết quả; lưu theo cấu trúc dự án |
+
+Mẫu câu lệnh:
+```
+Tôi tải lên [tệp dữ liệu]. Làm lần lượt, dừng sau mỗi bước để tôi xác nhận:
+1. Mô tả cấu trúc dữ liệu (số dòng, cột, đơn vị); 2. Kiểm tra chất lượng – chỉ đánh dấu,
+không xóa; 3. Đề xuất phương pháp phân tích và giải thích vì sao; 4. Phân tích, kiểm định
+trên tập độc lập; 5. Lưu toàn bộ mã Python và nhật ký để chạy lại.
+```
 
 ## 10. Giải nghĩa thuật ngữ
 
