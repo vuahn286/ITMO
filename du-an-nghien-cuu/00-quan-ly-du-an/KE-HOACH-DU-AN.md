@@ -14,14 +14,14 @@
 | 4 | Phân tích, mô hình | `04-ma-nguon/`, `05-ket-qua/` | Mô hình, kiểm định độc lập, hiệu chỉnh vùng, mô hình 3D, kiểm tra bằng Skill | ✅ | ☐ Phương pháp · ☐ Diễn giải |
 | 5 | Bài báo | `06-bai-bao/` | Bản thảo tiếng Việt, tóm tắt Việt – Anh | ✅ Bản thảo | ☐ Nội dung · ☐ Tác giả |
 | 6 | Báo cáo tổng hợp | `07-bao-cao/` | Báo cáo tổng hợp kết quả | ✅ Bản đầu; 🟡 chờ biểu mẫu Trung tâm | ☐ |
-| 8 | Mở rộng dữ liệu | `03-du-lieu/3-bo-sung/` | Số liệu trạm của Trung tâm, bảng gốc Lê Thị Hồng Liên 2007, Chico 2017 | ⏳ | ☐ Phân loại dữ liệu |
+| 7 | Mở rộng dữ liệu | `03-du-lieu/3-bo-sung/` | Số liệu trạm của Trung tâm, bảng gốc Lê Thị Hồng Liên 2007, Chico 2017 | ⏳ | ☐ Phân loại dữ liệu |
 
 ## Liên hệ với bài thuyết trình
 
 | Slide | Giai đoạn dự án | Mở thư mục / tệp khi trình bày |
 |---|---|---|
-| 10 | Giao việc 5 bước với dữ liệu thật | `05-ket-qua/README.md` |
-| 11 | Tổ chức dự án | Cây thư mục `du-an-nghien-cuu/` |
+| 9 | Giao việc 5 bước với dữ liệu thật | `05-ket-qua/README.md` |
+| 10 | Tổ chức dự án | Cây thư mục `du-an-nghien-cuu/` |
 | 13 | Tài liệu → khoảng trống | `01-tong-quan-tai-lieu/MA-TRAN-BANG-CHUNG.md`, `KHOANG-TRONG-NGHIEN-CUU.md` |
 | 14–15 | Đề xuất, thuyết minh | `02-de-xuat-thuyet-minh/DE-XUAT-NHIEM-VU-ban-nhap.md` |
 | 16 | Xử lý dữ liệu bằng Python | `03-du-lieu/README.md`, `04-ma-nguon/`, `05-ket-qua/mo-hinh-3d/*.html` |

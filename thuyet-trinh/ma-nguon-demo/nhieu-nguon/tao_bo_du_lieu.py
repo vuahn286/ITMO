@@ -1,5 +1,5 @@
 """
-Tạo bộ dữ liệu THẬT nhiều nguồn cho demo Slide 9 từ bộ dữ liệu C-OLR (đã công bố, giấy phép MIT).
+Tạo bộ dữ liệu THẬT nhiều nguồn cho demo Slide 8 từ bộ dữ liệu C-OLR (đã công bố, giấy phép MIT).
 
 Đầu ra: thuyet-trinh/du-lieu-demo/nhieu-nguon/
   nguon1_ISOCORRAG_MICAT_quoc_te.xlsx  – 320 trạm, giữ NGUYÊN tiêu đề gốc (kể cả cột WL không ghi đơn vị)

@@ -103,8 +103,8 @@
 | Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
 | I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude và cách dùng cơ bản | 5–12 | 32 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (Demo 1, 2; mô hình 3D) | 13–19 | 30 phút |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude và cách dùng cơ bản | 5–11 | 28 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học (tìm, lọc tài liệu với Sci-Bot, Sci-Hub; Demo 1, 2; mô hình 3D) | 12–19 | 34 phút |
 | IV | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, mô hình ba vùng, Demo 3, sai lầm thường gặp) | 20–23 | 15 phút |
 | V | Skill, khoa học mở và tự động hóa | 24–26 | 13 phút |
 | VI | Trao đổi, thảo luận | 27 | 12 phút |
@@ -581,9 +581,9 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N30 | Sử dụng máy tính (computer use): thử nghiệm công khai 22/10/2024 cùng Claude 3.5 Sonnet nâng cấp – AI nhìn màn hình, di chuột, bấm, gõ phím | 3 | anthropic.com/news/3-5-models-and-computer-use | ◐ – mở trang gốc trước khi dùng |
 | N31 | Agent Skills công bố thành chuẩn mở giữa 12/2025 (đặc tả và SDK tại agentskills.io; tệp SKILL.md) | 3 | agentskills.io; The New Stack, AI Business (12/2025) | ◐ – ngày chính xác (16–19/12) chưa thống nhất giữa các nguồn, chỉ ghi "12/2025" |
 | N32 | Deep Research: Google Gemini 11/12/2024 · OpenAI 02/02/2025 · Claude Research 15/04/2025 | 3 | Thông báo của từng hãng; Ars Technica (05/2025) | ◐ – Claude ✅ (thông báo Anthropic); Google, OpenAI theo báo chí |
-| N33 | Sci-Hub: ~88 triệu tài liệu; Sci-Bot – trợ lý AI trên kho Sci-Hub, ra mắt 04/2026 (sci-bot.ru), bản thử nghiệm, thiếu bài sau ~2021–2022 | 7 | C&EN (04/2026) "Sci-Hub has created a new AI chatbot"; Xataka; Wikipedia "Sci-Hub" | ◐ – nguồn báo chí |
-| N34 | Pháp lý Sci-Hub: Tòa Moscow 2018 (chặn Sci-Hub, LibGen); Tòa cấp cao Delhi 19/08/2025 (lệnh tạm thời chặn Sci-Hub, Sci-Net); các phán quyết bồi thường ở Mỹ (Elsevier 2017, ACS 2017) | 7 | World IP Review; The Bookseller (2018); MediaNama, Storyboard18 (08/2025); EU IP Helpdesk (10/2025) | ◐ – kiểm tra diễn biến sau phiên 01/12/2025 |
-| N35 | Google Scholar Labs ra mắt 18/11/2025: tìm kiếm có AI, cần đăng nhập, câu hỏi tiếng Anh | 7 | scholar.googleblog.com; The Verge (11/2025) | ✅ |
-| N36 | Unpaywall (tiện ích, ~½ yêu cầu tìm được bản mở); CORE (> 100 triệu bài); Open Access Button đã ngừng 18/11/2025 – không đưa vào slide | 7 | Hướng dẫn thư viện UCSD, Sheffield; trang Unpaywall, CORE | ◐ – xem số liệu trên trang chính thức |
-| N37 | VJOL – CSDL tạp chí Việt Nam (Cục Thông tin, Thống kê KH&CN quốc gia, ra mắt 2007, INASP hỗ trợ); CyberLeninka – thư viện mở Nga; Scopus AI, WoS Research Assistant, Undermind (đánh giá của thư viện SMU, 2025) | 7 | vjol.info.vn; cyberleninka.ru; library.smu.edu.sg | ◐ |
+| N33 | Sci-Hub: ~88 triệu tài liệu; Sci-Bot – trợ lý AI trên kho Sci-Hub, ra mắt 04/2026 (sci-bot.ru), bản thử nghiệm, thiếu bài sau ~2021–2022 | 12 | C&EN (04/2026) "Sci-Hub has created a new AI chatbot"; Xataka; Wikipedia "Sci-Hub" | ◐ – nguồn báo chí |
+| N34 | Pháp lý Sci-Hub: Tòa Moscow 2018 (chặn Sci-Hub, LibGen); Tòa cấp cao Delhi 19/08/2025 (lệnh tạm thời chặn Sci-Hub, Sci-Net); các phán quyết bồi thường ở Mỹ (Elsevier 2017, ACS 2017) | 12 | World IP Review; The Bookseller (2018); MediaNama, Storyboard18 (08/2025); EU IP Helpdesk (10/2025) | ◐ – kiểm tra diễn biến sau phiên 01/12/2025 |
+| N35 | Google Scholar Labs ra mắt 18/11/2025: tìm kiếm có AI, cần đăng nhập, câu hỏi tiếng Anh | 12 | scholar.googleblog.com; The Verge (11/2025) | ✅ |
+| N36 | Unpaywall (tiện ích, ~½ yêu cầu tìm được bản mở); CORE (> 100 triệu bài); Open Access Button đã ngừng 18/11/2025 – không đưa vào slide | 12 | Hướng dẫn thư viện UCSD, Sheffield; trang Unpaywall, CORE | ◐ – xem số liệu trên trang chính thức |
+| N37 | VJOL – CSDL tạp chí Việt Nam (Cục Thông tin, Thống kê KH&CN quốc gia, ra mắt 2007, INASP hỗ trợ); CyberLeninka – thư viện mở Nga; Scopus AI, WoS Research Assistant, Undermind (đánh giá của thư viện SMU, 2025) | 12 | vjol.info.vn; cyberleninka.ru; library.smu.edu.sg | ◐ |
 | N38 | Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 (thông qua 10/12/2025, hiệu lực 01/3/2026; Lệnh công bố 55/2025/L-CTN), Điều 5: nghiêm cấm soạn thảo, lưu giữ tài liệu mật trên thiết bị kết nối Internet, mạng máy tính, mạng viễn thông (trừ mạng LAN độc lập); nghiêm cấm dùng hệ thống trí tuệ nhân tạo, công nghệ mới xâm phạm bí mật nhà nước | 20, 23 | thuvienphapluat.vn (toàn văn); xaydungchinhsach.chinhphu.vn; daibieunhandan.vn | ◐ – các nguồn đánh số khoản khác nhau, đối chiếu Công báo trước khi trích khoản |
