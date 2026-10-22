@@ -48,6 +48,8 @@ Kết quả mong đợi (`../../ket-qua-demo/may-cach-ly/bao_cao.md`, `ban_do_lo
 
 ## Quy tắc
 
+- Căn cứ: **Luật Bảo vệ bí mật nhà nước số 117/2025/QH15** (hiệu lực 01/3/2026) – nghiêm cấm soạn thảo, lưu giữ tài liệu mật trên thiết bị kết nối Internet, mạng máy tính, mạng viễn thông (trừ mạng LAN độc lập theo quy định) và nghiêm cấm dùng hệ thống trí tuệ nhân tạo để xâm phạm bí mật nhà nước. Công cụ có thể chạy trên máy không kết nối hoặc trong mạng LAN độc lập.
+
 - Chỉ đưa cho AI **cấu trúc** dữ liệu – đặt tên cột chung chung, **không** đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
 - Mọi việc chuyển tệp giữa hai máy theo **quy định bảo vệ bí mật nhà nước và quy chế của đơn vị** (thiết bị lưu trữ được cấp phép, kiểm tra mã độc, sổ theo dõi). Công cụ này không thay thế quy định đó.
 - Khi cần sửa công cụ: sửa trên máy có Internet với dữ liệu giả → kiểm tra → đóng gói lại. Không mang lỗi kèm dữ liệu thật ra ngoài để hỏi AI – chỉ mô tả lỗi bằng lời hoặc tái tạo bằng dữ liệu giả.

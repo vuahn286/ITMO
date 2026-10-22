@@ -100,7 +100,7 @@ học mô hình; 67 trạm độc lập (có 12 trạm Việt Nam, 18 trạm Nga
 
 Danh mục đầy đủ 13 tài liệu đã xác minh: `du-an-nghien-cuu/01-tong-quan-tai-lieu/DANH-MUC-TAI-LIEU.csv`.
 
-## 8. Thí nghiệm: không dùng và có dùng Skill (Slide 21)
+## 8. Thí nghiệm: không dùng và có dùng Skill (Slide 24)
 
 | Câu hỏi kiểm tra | Không dùng Skill (phân tích ban đầu) | Có dùng Skill |
 |---|---|---|
@@ -110,14 +110,29 @@ Danh mục đầy đủ 13 tài liệu đã xác minh: `du-an-nghien-cuu/01-tong
 | Dữ liệu thiếu theo nhóm, theo tập? | Kiểm tra thủ công | Bảng tự động theo từng nhóm, từng tập |
 | Quy tắc an toàn | Tùy người làm | Không tự xóa, không tự điền, không tự biến đổi dữ liệu; không kết luận nhân quả |
 
-## 9. Dữ liệu mật: AI viết công cụ, máy không kết nối Internet xử lý (Slide 20)
+## 9. Dữ liệu mật: AI viết công cụ, máy không kết nối Internet xử lý (Slide 20–23)
 
-1. Chỉ mô tả **cấu trúc** dữ liệu cho AI (tên cột, đơn vị) – không đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
-2. AI viết công cụ, tự sinh dữ liệu giả, chạy thử.
-3. Nhà khoa học đọc mã; chạy chương trình quét mã (không có kết nối mạng, lệnh hệ thống).
-4. Đóng gói kèm mã băm SHA-256.
-5. Chuyển sang máy không kết nối Internet **theo quy định của đơn vị**; đối chiếu mã băm; chạy với dữ liệu thật.
-6. Kết quả ở lại máy đó. Khi công cụ lỗi: tái tạo lỗi bằng dữ liệu giả để hỏi AI.
+**Căn cứ:** Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 (hiệu lực 01/3/2026), Điều 5 nghiêm cấm: soạn thảo, lưu giữ tài liệu có nội dung bí mật nhà nước trên thiết bị đang kết nối Internet, mạng máy tính, mạng viễn thông (trừ mạng LAN độc lập theo quy định); sử dụng hệ thống trí tuệ nhân tạo, công nghệ mới để xâm phạm bí mật nhà nước. *Đối chiếu khoản cụ thể trong văn bản chính thức.*
+
+| Được đưa cho AI trực tuyến | Không bao giờ đưa |
+|---|---|
+| Cấu trúc dữ liệu với tên cột trung tính | Giá trị số liệu thật, tọa độ, bản đồ, ảnh |
+| Bài toán mô tả ở dạng tổng quát | Tên đơn vị, phiên hiệu, khu vực, mục đích nhiệm vụ |
+| Dữ liệu giả do AI sinh ra | Thông số kỹ thuật thật của vũ khí, trang bị |
+| Thông báo lỗi đã tái tạo trên dữ liệu giả | Ảnh chụp màn hình, nhật ký lỗi, tệp kết quả từ máy mật |
+
+**Quy trình 6 bước – ba vùng (luồng một chiều: chỉ mã đi vào, không gì đi ra):**
+
+| Vùng | Bước | Điểm kiểm soát |
+|---|---|---|
+| A. Máy có Internet | 1. Mô tả cấu trúc dữ liệu, bài toán tổng quát | Rà soát mô tả theo bảng trên |
+| | 2. AI viết công cụ, sinh dữ liệu giả, chạy thử | Chỉ thư viện được phép |
+| | 3. Đọc mã; quét mã | Không thư viện mạng, lệnh hệ thống, địa chỉ web |
+| | 4. Đóng gói + mã băm SHA-256 | Ghi sổ danh sách tệp, mã băm |
+| B. Chuyển giao | 5. Chép sang máy mật | Thiết bị được cấp phép, quét mã độc, đối chiếu mã băm |
+| C. Máy không kết nối Internet / LAN độc lập | 6. Chạy với dữ liệu thật | Báo cáo ghi mã băm dữ liệu; kết quả lưu tại chỗ |
+
+**Năm sai lầm dễ làm lộ dữ liệu:** (1) chụp màn hình, dán trích đoạn tài liệu mật để hỏi AI; (2) dùng Cowork, tiện ích AI trên trình duyệt, tính năng sử dụng máy tính trên máy có tài liệu mật; (3) bật đồng bộ đám mây hoặc Kết nối (Connectors) trên máy đó; (4) mang nhật ký lỗi, kết quả từ máy mật ra máy có Internet; (5) dùng tài khoản AI cá nhân cho công việc nội bộ.
 
 Mã mẫu: `ma-nguon-demo/may-cach-ly/` (hướng dẫn trong `README.md`).
 

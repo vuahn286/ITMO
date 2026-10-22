@@ -178,14 +178,14 @@ Lập bảng: Mục tiêu (theo thuyết minh đã duyệt) | Sản phẩm cam k
 
 ---
 
-## 6. Slide 23 – Quy trình tự động QT-01 (bản tin công bố hằng tuần)
+## 6. Slide 26 – Quy trình tự động QT-01 (bản tin công bố hằng tuần)
 
 ```
 Mỗi sáng thứ Hai: tìm các công bố mới trong 7 ngày qua về "atmospheric corrosion" AND (tropical OR marine OR chloride) trên Crossref, arXiv, ScienceDirect.
 Với mỗi bài: tiêu đề, tác giả, tạp chí, DOI, tóm tắt tiếng Việt 3 câu, mức độ liên quan với hướng "ăn mòn khí quyển nhiệt đới" (cao / trung bình / thấp) và lý do.
 Sắp xếp theo mức độ liên quan, tối đa 10 bài.
 ```
-(Trên Claude: dùng tính năng tác vụ định kỳ/Routine hoặc chạy thủ công rồi chụp màn hình cho Slide 23.)
+(Trên Claude: dùng tính năng tác vụ định kỳ/Routine hoặc chạy thủ công rồi chụp màn hình cho Slide 26.)
 
 
 ---
@@ -257,7 +257,7 @@ Phản biện nội bộ:
 Đóng vai phản biện khó tính của tạp chí [tên]: 5 nhược điểm lớn nhất và cách trả lời.
 ```
 
-## 11. Slide 21 – Thí nghiệm có / không dùng Skill
+## 11. Slide 24 – Thí nghiệm có / không dùng Skill
 
 1. Tải Skill `exploratory-data-analysis` từ https://github.com/K-Dense-AI/claude-scientific-skills (thư mục `skills/exploratory-data-analysis`), nén thành ZIP (thư mục Skill ở cấp ngoài cùng của ZIP).
 2. **Lần 1 – không tải Skill** – cuộc trò chuyện mới, tải `an_mon_387.csv`:
@@ -301,7 +301,7 @@ Cấp C3, sau 30 năm (tốc độ giữa khoảng C3): thép ≈ 218 µm · k�
 
 **Gợi ý:** nếu AI không tự ghi phần "minh họa – tham số giả định" → hỏi lại: *"Phần nào trong hình có căn cứ đo đạc, phần nào là giả định?"* – đây là điểm nhấn của slide.
 
-## 13. Slide 20 – Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet (DEMO 3)
+## 13. Slide 22 – Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet (DEMO 3)
 
 **Nguyên tắc:** chỉ mô tả **cấu trúc** dữ liệu. Không đưa giá trị, tọa độ, tên khu vực, thông số thiết bị thật.
 
