@@ -1,6 +1,6 @@
 # ĐÁNH GIÁ BÀI THUYẾT TRÌNH – GÓC NHÌN NGƯỜI PHẢN BIỆN
 
-> *Số slide trong bản đánh giá này theo bố cục **trước khi thêm Slide 7** (công cụ tìm tài liệu) – từ Slide 7 trở đi, số slide hiện hành cộng 1.*
+> *Số slide trong bản đánh giá này theo bố cục **trước khi thêm Slide 7** (công cụ tìm tài liệu) – từ Slide 7 trở đi, số slide hiện hành cộng 1; Phần IV (đề tài mật) nay mở rộng thành Slide 20–23, các slide sau cộng thêm 3.*
 >
 > **Trạng thái xử lý (21/10/2026):**
 > - ✅ Demo: chạy trước, chỉ trình chiếu video – ảnh (Slide 8, 13, 14, 15, 16, 19); mô hình 3D mở được không cần Internet.

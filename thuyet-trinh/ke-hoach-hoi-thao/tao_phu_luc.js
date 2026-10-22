@@ -80,16 +80,16 @@ body.push(B("Các phần minh họa được thực hiện trước, tại hội
 
 // II
 body.push(H1("II. BỐ CỤC VÀ THỜI LƯỢNG"));
-body.push(P("Bài trình bày gồm 24 slide, chia thành 6 phần, kèm 5 phụ lục dự phòng (không trình bày, dùng khi có câu hỏi). Tổng thời lượng 120 phút, trong đó trình bày 108 phút, trao đổi – thảo luận 12 phút."));
+body.push(P("Bài trình bày gồm 27 slide, chia thành 6 phần, kèm 5 phụ lục dự phòng (không trình bày, dùng khi có câu hỏi). Tổng thời lượng 120 phút, trong đó trình bày 108 phút, trao đổi – thảo luận 12 phút."));
 body.push(table([700, 5171, 1600, 1600], [
   ["Phần", "Nội dung", "Slide", "Thời lượng"],
   [{ t: "I", c: true }, "Tổng quan: AI và sự thay đổi phương thức nghiên cứu khoa học", { t: "1 – 4", c: true }, { t: "18 phút", c: true }],
-  [{ t: "II", c: true }, "Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude", { t: "5 – 12", c: true }, { t: "36 phút", c: true }],
-  [{ t: "III", c: true }, "AI Agent trong chu trình thực hiện nhiệm vụ khoa học (minh họa 1, 2; mô hình 3D)", { t: "13 – 19", c: true }, { t: "34 phút", c: true }],
-  [{ t: "IV", c: true }, "Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (minh họa 3)", { t: "20", c: true }, { t: "5 phút", c: true }],
-  [{ t: "V", c: true }, "Skill, khoa học mở và tự động hóa", { t: "21 – 23", c: true }, { t: "15 phút", c: true }],
-  [{ t: "VI", c: true }, "Trao đổi, thảo luận", { t: "24", c: true }, { t: "12 phút", c: true }],
-  [{ t: "", c: true }, { t: "Tổng cộng", b: true }, { t: "24 slide", c: true, b: true }, { t: "120 phút", c: true, b: true }],
+  [{ t: "II", c: true }, "Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude", { t: "5 – 12", c: true }, { t: "32 phút", c: true }],
+  [{ t: "III", c: true }, "AI Agent trong chu trình thực hiện nhiệm vụ khoa học (minh họa 1, 2; mô hình 3D)", { t: "13 – 19", c: true }, { t: "30 phút", c: true }],
+  [{ t: "IV", c: true }, "Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, quy trình, minh họa 3)", { t: "20 – 23", c: true }, { t: "15 phút", c: true }],
+  [{ t: "V", c: true }, "Skill, khoa học mở và tự động hóa", { t: "24 – 26", c: true }, { t: "13 phút", c: true }],
+  [{ t: "VI", c: true }, "Trao đổi, thảo luận", { t: "27", c: true }, { t: "12 phút", c: true }],
+  [{ t: "", c: true }, { t: "Tổng cộng", b: true }, { t: "27 slide", c: true, b: true }, { t: "120 phút", c: true, b: true }],
 ]));
 
 // III
@@ -110,7 +110,7 @@ part("1. Phần I – Tổng quan (18 phút, slide 1 – 4)",
     "Xu thế chuyển từ thao tác thủ công, riêng lẻ sang quy trình liên tục; nhà khoa học giữ vai trò dẫn dắt.",
   ],
   "người nghe phân biệt được AI trả lời câu hỏi với AI Agent thực hiện nhiệm vụ, và nhận thức được cả năng lực lẫn giới hạn của AI.");
-part("2. Phần II – Lựa chọn và sử dụng công cụ AI phù hợp (36 phút, slide 5 – 12)",
+part("2. Phần II – Lựa chọn và sử dụng công cụ AI phù hợp (32 phút, slide 5 – 12)",
   "giúp người nghe chọn đúng công cụ cho đúng việc và bắt đầu sử dụng được Claude trên máy tính Windows.",
   [
     "Phân loại công việc nghiên cứu theo 5 bậc (hỏi – đáp; làm việc với một tài liệu; tổng hợp nhiều nguồn; xử lý nhiều tệp, dữ liệu; chuỗi nhiệm vụ tự động) và công cụ phù hợp với từng bậc.",
@@ -122,7 +122,7 @@ part("2. Phần II – Lựa chọn và sử dụng công cụ AI phù hợp (36
     "Tổ chức không gian làm việc theo từng nhiệm vụ; giới thiệu Skill, Subagent và hệ thống nhiều Agent.",
   ],
   "người nghe tự tạo được tài khoản, dự án và viết được một yêu cầu đủ 5 bước cho công việc của mình.");
-part("3. Phần III – AI Agent trong chu trình thực hiện nhiệm vụ khoa học (34 phút, slide 13 – 19)",
+part("3. Phần III – AI Agent trong chu trình thực hiện nhiệm vụ khoa học (30 phút, slide 13 – 19)",
   "minh họa AI Agent hỗ trợ từng công đoạn của một nhiệm vụ khoa học và công nghệ, trên một dự án nghiên cứu thật.",
   [
     "Ví dụ xuyên suốt: “Khả năng áp dụng mô hình ăn mòn khí quyển quốc tế cho khí hậu nhiệt đới Việt Nam”, dùng 387 số đo thực địa đã công bố (quốc tế, Việt Nam, Nga).",
@@ -134,15 +134,16 @@ part("3. Phần III – AI Agent trong chu trình thực hiện nhiệm vụ kho
     "Tổng kết chu trình: nhà khoa học xác nhận ở mỗi bước.",
   ],
   "người nghe thấy được AI hỗ trợ cụ thể ở công đoạn nào, kết quả ra sao, và trách nhiệm kiểm tra của nhà khoa học ở từng công đoạn.");
-part("4. Phần IV – Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (5 phút, slide 20)",
-  "định hướng cách khai thác AI cho nhiệm vụ có dữ liệu mật mà vẫn bảo đảm bí mật.",
+part("4. Phần IV – Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (15 phút, slide 20 – 23)",
+  "định hướng cách khai thác AI cho nhiệm vụ có nội dung bí mật nhà nước, bí mật quân sự mà vẫn tuân thủ pháp luật về bảo vệ bí mật nhà nước.",
   [
-    "Nguyên tắc: AI chỉ viết công cụ, không bao giờ tiếp cận dữ liệu thật.",
-    "Quy trình 6 bước: mô tả cấu trúc dữ liệu → AI viết công cụ, chạy thử với dữ liệu giả → nhà khoa học đọc mã, quét mã kiểm tra không có kết nối mạng → đóng gói kèm mã băm → chuyển sang máy không kết nối Internet theo quy định, đối chiếu mã băm, chạy với dữ liệu thật → kết quả lưu tại máy đó.",
-    "Minh họa 3 (dữ liệu giả lập): công cụ ước lượng lộ trình thiết bị bay không người lái theo địa hình và khí hậu nhiệt đới; trọng tâm là quy trình, mô hình đã được đơn giản hóa.",
+    "Ranh giới pháp lý (slide 20): Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 (hiệu lực từ 01/3/2026) nghiêm cấm soạn thảo, lưu giữ tài liệu có nội dung bí mật nhà nước trên thiết bị đang kết nối Internet, mạng máy tính, mạng viễn thông (trừ mạng LAN độc lập theo quy định) và nghiêm cấm sử dụng hệ thống trí tuệ nhân tạo, công nghệ mới để xâm phạm bí mật nhà nước; phân định rõ thông tin được và không được đưa cho AI trực tuyến; cảnh báo nguy cơ suy luận ra thông tin mật từ việc ghép nhiều thông tin.",
+    "Mô hình ba vùng và quy trình 6 bước (slide 21): vùng A – máy có Internet (AI viết công cụ, chạy thử với dữ liệu giả, quét mã, đóng gói kèm mã băm); vùng B – chuyển giao bằng thiết bị lưu trữ được cấp phép, quét mã độc, đối chiếu mã băm, ghi sổ; vùng C – máy không kết nối Internet hoặc mạng LAN độc lập (chạy với dữ liệu thật, kết quả lưu tại chỗ). Luồng một chiều, mỗi bước có điểm kiểm soát và người chịu trách nhiệm.",
+    "Minh họa 3 (slide 22, dữ liệu giả lập): công cụ ước lượng lộ trình thiết bị bay không người lái theo địa hình và khí hậu nhiệt đới; kết quả kiểm tra an toàn (quét mã chặn thư viện kết nối mạng, đối chiếu mã băm khớp); trọng tâm là quy trình, mô hình đã được đơn giản hóa.",
+    "Sai lầm thường gặp và phương án khác (slide 23): chụp màn hình, dán trích đoạn tài liệu mật; dùng Cowork, tiện ích AI trên trình duyệt, tính năng sử dụng máy tính hoặc đồng bộ đám mây trên máy có tài liệu mật; mang nhật ký lỗi từ máy mật ra ngoài; dùng tài khoản cá nhân. Phương án mô hình AI chạy cục bộ, mạng LAN độc lập – chỉ khi được cấp có thẩm quyền cho phép.",
   ],
-  "người nghe nắm được quy trình và các điểm kiểm soát khi áp dụng AI cho nhiệm vụ có dữ liệu mật.");
-part("5. Phần V – Skill, khoa học mở và tự động hóa (15 phút, slide 21 – 23)",
+  "người nghe nắm vững quy định pháp luật, quy trình và các điểm kiểm soát; nhận biết được các sai lầm dễ làm lộ dữ liệu.");
+part("5. Phần V – Skill, khoa học mở và tự động hóa (13 phút, slide 24 – 26)",
   "giới thiệu hướng chuẩn hóa và tự động hóa dần các quy trình nghiên cứu tại Trung tâm.",
   [
     "Skill (quy trình mẫu đóng gói) và thư viện Skill khoa học mở; kết quả thí nghiệm trên cùng bộ dữ liệu khi không dùng và có dùng Skill.",
@@ -150,7 +151,7 @@ part("5. Phần V – Skill, khoa học mở và tự động hóa (15 phút, sl
     "Bản đồ quy trình tự động dự kiến của Trung tâm (QT-00 đến QT-06) và năm quyết định thuộc về nhà khoa học.",
   ],
   "các phòng xác định được quy trình có thể thí điểm tự động hóa.");
-part("6. Phần VI – Trao đổi, thảo luận (12 phút, slide 24)",
+part("6. Phần VI – Trao đổi, thảo luận (12 phút, slide 27)",
   "giải đáp thắc mắc và thu thập đề xuất.",
   [
     "Kết quả phiếu khảo sát trước hội thảo.",
@@ -170,7 +171,8 @@ body.push(B("Phát tài liệu phát tay (bảng chọn công cụ, mẫu giao v
 body.push(H1("V. YÊU CẦU VỀ BẢO MẬT, AN TOÀN THÔNG TIN VÀ BẢN QUYỀN"));
 body.push(B("Dữ liệu dùng trong bài trình bày và các phần minh họa chỉ gồm dữ liệu đã công bố (bộ dữ liệu ăn mòn khí quyển C-OLR, giấy phép MIT) và dữ liệu giả lập."));
 body.push(B("Biểu mẫu đã điền nội dung nhiệm vụ thật chỉ xử lý bằng tài khoản dịch vụ AI dạng tổ chức (không dùng dữ liệu để huấn luyện mô hình) hoặc thay bằng nội dung giả định khi ghi hình; không lưu vào kho mã công khai."));
-body.push(B("Tuyệt đối không đưa thông tin, tài liệu thuộc phạm vi bí mật nhà nước, bí mật quân sự lên dịch vụ AI trực tuyến; việc chuyển tệp sang máy tính không kết nối Internet thực hiện theo quy định của Bộ Quốc phòng và quy chế của Trung tâm."));
+body.push(B("Tuyệt đối không đưa thông tin, tài liệu thuộc phạm vi bí mật nhà nước, bí mật quân sự lên dịch vụ AI trực tuyến, theo Luật Bảo vệ bí mật nhà nước số 117/2025/QH15; việc chuyển tệp sang máy tính không kết nối Internet thực hiện theo quy định của Bộ Quốc phòng và quy chế của Trung tâm."));
+body.push(B("Không trình diễn, không chụp ảnh màn hình bất kỳ dữ liệu thật nào của nhiệm vụ có nội dung bí mật; minh họa 3 chỉ dùng dữ liệu giả lập."));
 body.push(B("Không khuyến nghị sử dụng Sci-Hub, Sci-Bot; nội dung này chỉ nêu để cảnh báo về bản quyền và an toàn thông tin."));
 body.push(B("Việc sử dụng dịch vụ AI nước ngoài tại đơn vị thực hiện theo quy định hiện hành; nội dung trả lời được thống nhất với cơ quan chức năng trước hội thảo."));
 
@@ -191,7 +193,7 @@ body.push(gap());
 
 // VII
 body.push(H1("VII. TÀI LIỆU KÈM THEO"));
-body.push(B("Danh sách slide và nội dung từng slide (24 slide, 5 phụ lục dự phòng)."));
+body.push(B("Danh sách slide và nội dung từng slide (27 slide, 5 phụ lục dự phòng)."));
 body.push(B("Tài liệu phát tay."));
 body.push(B("Bộ câu lệnh minh họa kèm kết quả mong đợi."));
 body.push(B("Dự án nghiên cứu minh họa: dữ liệu, mã nguồn, kết quả, mô hình 3D, bản thảo bài báo."));

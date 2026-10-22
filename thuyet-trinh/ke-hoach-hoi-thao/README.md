@@ -6,4 +6,4 @@
 | `PHU-LUC-DINH-HUONG-TRINH-BAY.md` | Bản văn bản thuần của phụ lục (để đối chiếu, sửa nhanh) |
 | `tao_phu_luc.js` | Mã sinh lại tệp Word: `node tao_phu_luc.js` (cần thư viện `docx` của Node.js) |
 
-Phụ lục được xây dựng từ bố cục chính thức `../DANH-SACH-SLIDE.md` (24 slide, 6 phần, 120 phút). Các chỗ `…` (số kế hoạch, ngày, thời hạn, đơn vị) do cơ quan soạn kế hoạch điền.
+Phụ lục được xây dựng từ bố cục chính thức `../DANH-SACH-SLIDE.md` (27 slide, 6 phần, 120 phút). Các chỗ `…` (số kế hoạch, ngày, thời hạn, đơn vị) do cơ quan soạn kế hoạch điền.

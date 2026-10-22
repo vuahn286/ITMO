@@ -1,8 +1,8 @@
 # DANH SÁCH SLIDE ĐỂ CHỈNH SỬA VÀ DUYỆT
 
 **Bài thuyết trình:** AI Agent và sự chuyển đổi phương thức nghiên cứu khoa học
-**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 24 slide trình bày + 5 phụ lục + trang bìa
-**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận"; Slide 3 thêm tính năng mới của AI Agent và ô giới hạn (6′, thảo luận còn 12′). **Cập nhật:** thêm Slide 17 (mô hình 3D quá trình ăn mòn) và Slide 20 (Demo 3 – công cụ cho máy không Internet); từ slide cũ 16 trở đi số slide cộng 2; thảo luận còn 9′. **Điều chỉnh theo đánh giá phản biện:** mọi demo **chạy trước, chỉ trình chiếu kết quả** (ảnh chụp, video); giảm chữ trên slide – phần chi tiết chuyển sang `TAI-LIEU-PHAT-TAY.md`; thảo luận 15′; thêm Phụ lục E (câu hỏi thường gặp). **Bổ sung:** Slide 7 – công cụ tìm và đọc tài liệu (Sci-Hub, Sci-Bot và lựa chọn hợp pháp); từ Slide 7 cũ trở đi số slide cộng 1; thảo luận 12′. **Tệp này là bố cục slide chính thức.**
+**Đối tượng:** Cán bộ, nhà khoa học Trung tâm Nhiệt đới Việt – Nga · **Thời lượng:** 120 phút · **Số slide:** 27 slide trình bày + 5 phụ lục + trang bìa
+**Căn cứ:** Kế hoạch v2.1 · **Bản v2.5 (21/10/2026):** giữ đúng các phần anh/chị đã xóa trong tệp Word (không đưa lại); bỏ toàn bộ phần lời nói (người trình bày tự soạn); bỏ slide "Lộ trình triển khai và kết luận"; Slide 3 thêm tính năng mới của AI Agent và ô giới hạn (6′, thảo luận còn 12′). **Cập nhật:** thêm Slide 17 (mô hình 3D quá trình ăn mòn) và Slide 22 (Demo 3 – công cụ cho máy không Internet); từ slide cũ 16 trở đi số slide cộng 2; thảo luận còn 9′. **Điều chỉnh theo đánh giá phản biện:** mọi demo **chạy trước, chỉ trình chiếu kết quả** (ảnh chụp, video); giảm chữ trên slide – phần chi tiết chuyển sang `TAI-LIEU-PHAT-TAY.md`; thảo luận 15′; thêm Phụ lục E (câu hỏi thường gặp). **Bổ sung:** Slide 7 – công cụ tìm và đọc tài liệu (Sci-Hub, Sci-Bot và lựa chọn hợp pháp); từ Slide 7 cũ trở đi số slide cộng 1; thảo luận 12′. **Mở rộng Phần IV (đề tài mật) lên 15′, 4 slide (20–23):** ranh giới pháp lý (Luật 117/2025/QH15), mô hình ba vùng, minh họa 3, sai lầm thường gặp; bù bằng cách rút Phần II −4′, Phần III −4′, Phần V −2′. **Tệp này là bố cục slide chính thức.**
 
 ---
 
@@ -23,13 +23,13 @@ Nguyên tắc trình bày: **mỗi slide một ý chính, tối đa một bảng
 
 | Việc | Slide | Xong |
 |---|---|---|
-| Chạy trước và **ghi hình màn hình** (1–2 phút/demo) + **chụp ảnh kết quả**: tổng hợp nhiều nguồn; điền biểu mẫu (Demo 1); tiến độ – kinh phí; xử lý dữ liệu (Demo 2); mô hình 3D; công cụ máy không Internet (Demo 3) | 9, 14, 15, 16, 17, 20 | [ ] |
+| Chạy trước và **ghi hình màn hình** (1–2 phút/demo) + **chụp ảnh kết quả**: tổng hợp nhiều nguồn; điền biểu mẫu (Demo 1); tiến độ – kinh phí; xử lý dữ liệu (Demo 2); mô hình 3D; công cụ máy không Internet (Demo 3) | 9, 14, 15, 16, 17, 22 | [ ] |
 | Chép video, ảnh, thư mục `du-an-nghien-cuu/05-ket-qua/mo-hinh-3d/` vào máy trình chiếu – **mở được không cần Internet** (tệp HTML 3D dùng `plotly.min.js` cùng thư mục) | 16, 17 | [ ] |
 | Gửi biểu mẫu thật của Trung tâm; chạy thử 2 lần | 14, 15 | [ ] |
-| Hỏi bộ phận chức năng về **quy định sử dụng dịch vụ AI** của Bộ Quốc phòng, Trung tâm → điền Phụ lục E | 29 | [ ] |
+| Hỏi bộ phận chức năng về **quy định sử dụng dịch vụ AI** của Bộ Quốc phòng, Trung tâm → điền Phụ lục E | 32 | [ ] |
 | Điền 5 ô chính sách dữ liệu của các công cụ AI (N14) | 6 | [ ] |
 | Xác nhận các căn cứ ◐: N1b, N2, N15, N21, N25–N27, N30–N32; xem lại số liệu METR | 1, 3, 8 | [ ] |
-| Xác nhận "EeiE", danh mục ВАК hiện hành; URL AI4S, AIPOCH, CES Global | 18, 28 | [ ] |
+| Xác nhận "EeiE", danh mục ВАК hiện hành; URL AI4S, AIPOCH, CES Global | 18, 31 | [ ] |
 | In tài liệu phát tay `TAI-LIEU-PHAT-TAY.md`; phiếu khảo sát trước – sau | – | [ ] |
 
 ---
@@ -44,37 +44,40 @@ Nguyên tắc trình bày: **mỗi slide một ý chính, tối đa một bảng
 | 2 | AI trong khoa học: ví dụ quốc tế và Việt Nam | I | 5′ | [ ] |
 | 3 | Năng lực cốt lõi và tính năng mới của AI Agent | I | 5′ | [ ] |
 | 4 | Phương thức nghiên cứu đang thay đổi: từ thao tác thủ công đến quy trình liên tục | I | 4′ | [ ] |
-| | **PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP – 36′** | | | |
+| | **PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP – 32′** | | | |
 | 5 | Chọn đúng công cụ: việc nào dùng chatbot, việc nào cần AI Agent | II | 5′ | [ ] |
-| 6 | Các công cụ AI phổ biến và vai trò của từng loại | II | 3′ | [ ] |
+| 6 | Các công cụ AI phổ biến và vai trò của từng loại | II | 2′ | [ ] |
 | 7 | 🆕 Tìm và đọc tài liệu khoa học: Sci-Hub, Sci-Bot và các lựa chọn hợp pháp | II | 4′ | [ ] |
 | 8 | Giới thiệu Claude: mô hình, gói dịch vụ và tính năng nổi bật trên Windows | II | 6′ | [ ] |
-| 9 | Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn | II | 6′ | [ ] |
-| 10 | Giao việc cho AI Agent: cách viết yêu cầu 5 bước | II | 6′ | [ ] |
+| 9 | Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn | II | 5′ | [ ] |
+| 10 | Giao việc cho AI Agent: cách viết yêu cầu 5 bước | II | 5′ | [ ] |
 | 11 | Không gian làm việc nghiên cứu: mỗi nhiệm vụ một dự án | II | 3′ | [ ] |
-| 12 | Skill, Subagent và hệ thống nhiều Agent | II | 3′ | [ ] |
-| | **PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC – 34′** | | | |
-| 13 | Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu | III | 7′ | [ ] |
-| 14 | Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 6′ | [ ] |
+| 12 | Skill, Subagent và hệ thống nhiều Agent | II | 2′ | [ ] |
+| | **PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC – 30′** | | | |
+| 13 | Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu | III | 6′ | [ ] |
+| 14 | Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 | III | 5′ | [ ] |
 | 15 | Hồ sơ nhiệm vụ: thuyết minh, tiến độ và kinh phí theo biểu mẫu Trung tâm | III | 4′ | [ ] |
-| 16 | Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 | III | 7′ | [ ] |
+| 16 | Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 | III | 6′ | [ ] |
 | 17 | Mô hình 3D: mô phỏng quá trình ăn mòn vật liệu theo thời gian | III | 3′ | [ ] |
-| 18 | Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng | III | 5′ | [ ] |
+| 18 | Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng | III | 4′ | [ ] |
 | 19 | Toàn cảnh: một nhiệm vụ khoa học đi qua AI Agent | III | 2′ | [ ] |
-| | **PHẦN IV. ĐỀ TÀI MẬT: ỨNG DỤNG AI KHI DỮ LIỆU KHÔNG ĐƯỢC ĐƯA LÊN INTERNET – 5′** | | | |
-| 20 | Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet – DEMO 3 | IV | 5′ | [ ] |
-| | **PHẦN V. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA – 15′** | | | |
-| 21 | Skill và khoa học mở: nền móng của tự động hóa | V | 6′ | [ ] |
-| 22 | Tự động hóa từng bước: từ một công việc đến toàn quy trình | V | 5′ | [ ] |
-| 23 | Quy trình tự động của Trung tâm và năm quyết định của nhà khoa học | V | 4′ | [ ] |
+| | **PHẦN IV. ĐỀ TÀI MẬT: ỨNG DỤNG AI KHI DỮ LIỆU KHÔNG ĐƯỢC ĐƯA LÊN INTERNET – 15′** | | | |
+| 20 | 🆕 Ranh giới pháp lý: dữ liệu mật và AI trực tuyến | IV | 3′ | [ ] |
+| 21 | 🆕 Mô hình ba vùng và quy trình 6 bước có điểm kiểm soát | IV | 4′ | [ ] |
+| 22 | Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet – DEMO 3 | IV | 5′ | [ ] |
+| 23 | 🆕 Sai lầm thường gặp và các phương án khác | IV | 3′ | [ ] |
+| | **PHẦN V. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA – 13′** | | | |
+| 24 | Skill và khoa học mở: nền móng của tự động hóa | V | 5′ | [ ] |
+| 25 | Tự động hóa từng bước: từ một công việc đến toàn quy trình | V | 4′ | [ ] |
+| 26 | Quy trình tự động của Trung tâm và năm quyết định của nhà khoa học | V | 4′ | [ ] |
 | | **PHẦN VI. TRAO ĐỔI VÀ THẢO LUẬN – 12′** | | | |
-| 24 | Trao đổi và thảo luận | VI | 12′ | [ ] |
+| 27 | Trao đổi và thảo luận | VI | 12′ | [ ] |
 | | **PHỤ LỤC (không trình bày)** | | | |
-| 25 | Phụ lục A: AI lập trình (không trình bày) | PL | – | [ ] |
-| 26 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | PL | – | [ ] |
-| 27 | Phụ lục C: Nguồn tham khảo (không trình bày) | PL | – | [ ] |
-| 28 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | PL | – | [ ] |
-| 29 | 🆕 Phụ lục E: Câu hỏi thường gặp (dự phòng khi được hỏi) | PL | – | [ ] |
+| 28 | Phụ lục A: AI lập trình (không trình bày) | PL | – | [ ] |
+| 29 | Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi) | PL | – | [ ] |
+| 30 | Phụ lục C: Nguồn tham khảo (không trình bày) | PL | – | [ ] |
+| 31 | Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày) | PL | – | [ ] |
+| 32 | 🆕 Phụ lục E: Câu hỏi thường gặp (dự phòng khi được hỏi) | PL | – | [ ] |
 | | **Tổng** | | **120′** = 108′ trình bày + 12′ thảo luận | |
 
 ---
@@ -192,7 +195,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (36 phút)
+# PHẦN II. LỰA CHỌN VÀ SỬ DỤNG CÔNG CỤ AI PHÙ HỢP (32 phút)
 
 **Trang chuyển phần:** tên Phần II · Slide 5–12
 
@@ -219,7 +222,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 6 – Các công cụ AI phổ biến và vai trò của từng loại (3′)
+## Slide 6 – Các công cụ AI phổ biến và vai trò của từng loại (2′)
 
 **Chữ trên slide:** *(cập nhật 10/2026)*
 
@@ -289,7 +292,7 @@ Sáu năng lực cốt lõi:
 
 ---
 
-## Slide 9 – Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn (6′)
+## Slide 9 – Bắt đầu với Claude: 6 bước đầu tiên và tổng hợp dữ liệu nhiều nguồn (5′)
 
 **Chữ trên slide:**
 
@@ -345,7 +348,7 @@ AI cần phát hiện: tệp 1 ghi đơn vị chưa rõ/sai (giá trị thực l
 
 ---
 
-## Slide 10 – Giao việc cho AI Agent: cách viết yêu cầu 5 bước (6′)
+## Slide 10 – Giao việc cho AI Agent: cách viết yêu cầu 5 bước (5′)
 
 **Chữ trên slide:** quy trình 5 bước
 
@@ -397,7 +400,7 @@ du-an-nghien-cuu/
 ├── 02-de-xuat-thuyet-minh/  ← bản nháp đề xuất + biểu mẫu Trung tâm                       (Slide 14–15)
 ├── 03-du-lieu/              ← thô (chỉ đọc) → đã xử lý → bổ sung; từ điển dữ liệu           (Slide 16)
 ├── 04-ma-nguon/             ← 4 bước mã: hợp nhất → mô hình → hiệu chỉnh → 3D
-├── 05-ket-qua/              ← bảng, hình, mô hình 3D, kiểm tra bằng Skill                 (Slide 16, 17, 21)
+├── 05-ket-qua/              ← bảng, hình, mô hình 3D, kiểm tra bằng Skill                 (Slide 16, 17, 24)
 ├── 06-bai-bao/              ← bản thảo bài báo                                             (Slide 18)
 └── 07-bao-cao/              ← báo cáo tổng hợp
 ```
@@ -408,7 +411,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 12 – Skill, Subagent và hệ thống nhiều Agent (3′) – *chỉ giới thiệu*
+## Slide 12 – Skill, Subagent và hệ thống nhiều Agent (2′) – *chỉ giới thiệu*
 
 **Chữ trên slide:**
 - **Skill:** quy trình mẫu đóng gói sẵn (hướng dẫn + biểu mẫu + mã), AI tự dùng lại
@@ -427,7 +430,7 @@ du-an-nghien-cuu/
 
 ---
 
-# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (34 phút)
+# PHẦN III. AI AGENT TRONG VÒNG ĐỜI NHIỆM VỤ KHOA HỌC (30 phút)
 
 **Trang chuyển phần:** tên Phần III · Slide 13–19
 
@@ -436,7 +439,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 13 – Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu (7′)
+## Slide 13 – Tổng quan tài liệu: từ bài báo đến khoảng trống nghiên cứu (6′)
 
 **Chữ trên slide:**
 - **Tình huống:** ăn mòn khí quyển của kim loại trong khí hậu nhiệt đới Việt Nam
@@ -462,7 +465,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 14 – Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 (6′)
+## Slide 14 – Đề xuất nhiệm vụ: từ khoảng trống đến phiếu đề xuất và thuyết minh – DEMO 1 (5′)
 
 **Chữ trên slide:**
 - Khoảng trống → tính cấp thiết, mục tiêu, nội dung, phương pháp, sản phẩm
@@ -515,7 +518,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 16 – Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 (7′)
+## Slide 16 – Xử lý dữ liệu: AI viết và chạy mã Python – DEMO 2 (6′)
 
 **Chữ trên slide:**
 - 🌍 **Ví dụ thật:** ERA (Google, *Nature* 2026) – AI tự viết, chạy, chấm điểm, cải tiến mã
@@ -565,7 +568,7 @@ du-an-nghien-cuu/
 
 ---
 
-## Slide 18 – Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng (5′)
+## Slide 18 – Công bố kết quả: bài báo và báo cáo tổng hợp theo nhiều định dạng (4′)
 
 **Chữ trên slide:**
 - 🆕 **Một kết quả – nhiều định dạng công bố:**
@@ -606,49 +609,112 @@ du-an-nghien-cuu/
 
 ---
 
-# PHẦN IV. ĐỀ TÀI MẬT: ỨNG DỤNG AI KHI DỮ LIỆU KHÔNG ĐƯỢC ĐƯA LÊN INTERNET (5 phút)
+# PHẦN IV. ĐỀ TÀI MẬT: ỨNG DỤNG AI KHI DỮ LIỆU KHÔNG ĐƯỢC ĐƯA LÊN INTERNET (15 phút)
 
-**Trang chuyển phần:** tên Phần IV · Slide 20
+**Trang chuyển phần:** tên Phần IV · Slide 20–23
 
 ---
 
-## Slide 20 – Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet – DEMO 3 (5′)
+## Slide 20 – Ranh giới pháp lý: dữ liệu mật và AI trực tuyến (3′)
 
 **Chữ trên slide:**
-- **Nguyên tắc: AI viết công cụ – AI không bao giờ thấy dữ liệu thật**
+- **Luật Bảo vệ bí mật nhà nước số 117/2025/QH15** (hiệu lực 01/3/2026), Điều 5 – nghiêm cấm:
+  - soạn thảo, lưu giữ tài liệu có nội dung bí mật nhà nước trên máy tính, thiết bị đang kết nối Internet, mạng máy tính, mạng viễn thông (trừ mạng LAN độc lập theo quy định);
+  - sử dụng hệ thống trí tuệ nhân tạo, công nghệ mới để xâm phạm bí mật nhà nước.
+- → **Dữ liệu mật không bao giờ đi vào AI trực tuyến** – kể cả "hỏi thử", một đoạn trích hay một ảnh chụp màn hình.
 
-| Máy có Internet (dùng AI) | | Máy không Internet (dữ liệu mật) |
-|---|---|---|
-| 1. Chỉ mô tả **cấu trúc** dữ liệu (tên cột, đơn vị) | | |
-| 2. AI viết công cụ, sinh **dữ liệu giả**, chạy thử | | |
-| 3. Nhà khoa học đọc mã; **quét mã** – không có kết nối mạng | | |
-| 4. Đóng gói + **mã băm SHA-256** | ➜ chuyển theo quy định ➜ | 5. Đối chiếu mã băm → chạy với **dữ liệu thật** |
-| | | 6. Kết quả **ở lại** máy này |
+| Được đưa cho AI trực tuyến | Không bao giờ đưa |
+|---|---|
+| Cấu trúc dữ liệu với tên cột trung tính (`do_cao_m`, `gio_u_ms`) | Giá trị số liệu thật, tọa độ, bản đồ, ảnh |
+| Bài toán mô tả ở dạng tổng quát ("tìm đường tốn ít năng lượng nhất trên lưới") | Tên đơn vị, phiên hiệu, khu vực, mục đích nhiệm vụ |
+| Dữ liệu giả do AI sinh ra | Thông số kỹ thuật thật của vũ khí, trang bị |
+| Thông báo lỗi đã tái tạo trên dữ liệu giả | Ảnh chụp màn hình, nhật ký lỗi, tệp kết quả từ máy mật |
 
-- 🧪 **Ví dụ:** *Ảnh hưởng của địa hình và khí hậu nhiệt đới đến lộ trình của thiết bị bay không người lái* – công cụ tìm lộ trình tốn ít năng lượng nhất, tránh núi cao, ổ mưa dông, gió mạnh; tính ảnh hưởng của gió, mưa, nhiệt độ – độ ẩm, leo cao
-- 📊 **Kết quả với dữ liệu giả lập:**
-  - Đường thẳng cắt qua **8 ô cấm bay** → lộ trình vòng qua đèo: 14,5 km, 240 Wh
-  - Chiều về ngược gió mùa: **422 Wh – gấp 1,8 lần chiều đi** → không đủ pin, phải đổi phương án
-  - Công cụ chạy trong ~3 giây trên máy tính thường, không cần mạng
-- 🎯 **Trọng tâm là quy trình** – mô hình bay trong ví dụ đã đơn giản hóa; đơn vị thay bằng mô hình và thông số của mình.
-- ⚠ Chuyển tệp giữa hai máy theo **quy định bảo vệ bí mật nhà nước và quy chế của đơn vị**. Khi công cụ lỗi: tái tạo lỗi bằng dữ liệu giả để hỏi AI – không mang dữ liệu thật ra ngoài.
+> ⚠ Ghép nhiều thông tin tưởng như vô hại có thể suy ra thông tin mật → mô tả càng chung càng tốt; khi chưa chắc, hỏi cán bộ bảo mật trước.
 
-**Hình ảnh:** sơ đồ hai máy; `thuyet-trinh/ket-qua-demo/may-cach-ly/ban_do_lo_trinh.png`.
-
-**🎬 Trình chiếu:** ảnh bản đồ lộ trình + báo cáo đã chạy; ảnh màn hình chương trình quét mã báo "không phát hiện kết nối mạng" và báo **chặn** khi thử chèn `import requests` (câu lệnh: `cau-lenh-demo.md` mục 13; mã: `thuyet-trinh/ma-nguon-demo/may-cach-ly/`).
+**Nguồn:** N38 (Luật 117/2025/QH15), N10 (Luật Trí tuệ nhân tạo 134/2025/QH15)
 
 **Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
 **Ghi chú:**
 
 ---
 
-# PHẦN V. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (15 phút)
+## Slide 21 – Mô hình ba vùng và quy trình 6 bước có điểm kiểm soát (4′)
 
-**Trang chuyển phần:** tên Phần V · Slide 21–23
+**Chữ trên slide:**
+- **Nguyên tắc: AI viết công cụ – AI không bao giờ thấy dữ liệu thật · luồng một chiều: chỉ mã đi vào, không gì đi ra**
+
+| Vùng | Bước | Điểm kiểm soát | Người chịu trách nhiệm |
+|---|---|---|---|
+| **A. Máy có Internet** (dùng AI) | 1. Mô tả cấu trúc dữ liệu, bài toán tổng quát | Rà soát mô tả trước khi gửi (bảng "được – không được" Slide 20) | Chủ nhiệm nhiệm vụ |
+| | 2. AI viết công cụ, sinh dữ liệu giả, chạy thử | Chỉ dùng thư viện được phép; không gọi mạng | Chủ nhiệm nhiệm vụ |
+| | 3. Đọc mã; chạy chương trình **quét mã** | Không thư viện mạng, không lệnh hệ thống, không địa chỉ web | Chủ nhiệm + cán bộ CNTT |
+| | 4. Đóng gói + **mã băm SHA-256** | Danh sách tệp, mã băm ghi sổ | Cán bộ CNTT |
+| **B. Chuyển giao** | 5. Chép sang máy mật | Thiết bị lưu trữ được cấp phép, quét mã độc, sổ theo dõi; **đối chiếu mã băm** | Cán bộ bảo mật |
+| **C. Máy không kết nối Internet** (hoặc mạng LAN độc lập) | 6. Chạy với dữ liệu thật | Báo cáo tự ghi mã băm của dữ liệu, cấu hình → truy vết được; kết quả lưu tại chỗ | Chủ nhiệm nhiệm vụ |
+
+- Sửa công cụ: quay lại vùng A với dữ liệu giả → đóng gói lại → mã băm mới.
+
+**Hình ảnh:** sơ đồ ba vùng A – B – C, mũi tên một chiều A → C.
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
 
 ---
 
-## Slide 21 – Skill và khoa học mở: nền móng của tự động hóa (6′)
+## Slide 22 – Đề tài mật: xây dựng công cụ và xử lý ngay trên máy không kết nối Internet – DEMO 3 (5′)
+
+**Chữ trên slide:**
+- 🧪 **Bài toán (dữ liệu giả lập):** *Ảnh hưởng của địa hình và khí hậu nhiệt đới đến lộ trình của thiết bị bay không người lái*
+- **Công cụ AI viết** (chỉ dùng numpy, matplotlib): tìm lộ trình tốn ít năng lượng nhất, tránh núi cao, ổ mưa dông, gió mạnh; tính ảnh hưởng của gió, mưa, nhiệt độ – độ ẩm, leo cao; kiểm tra pin chiều đi, chiều về
+- 📊 **Kết quả:**
+  - Đường thẳng cắt qua **8 ô cấm bay** → lộ trình vòng qua đèo: 14,5 km, 240 Wh
+  - Chiều về ngược gió mùa: **422 Wh – gấp 1,8 lần chiều đi** → không đủ pin, phải đổi phương án
+  - Chạy ~3 giây trên máy tính thường, không cần mạng
+- 🔒 **Kiểm tra an toàn đã chạy:** quét mã → "không phát hiện kết nối mạng"; thử chèn `import requests` → **bị chặn**; đối chiếu mã băm trên máy đích → **KHỚP**
+- 🎯 **Trọng tâm là quy trình** – mô hình bay đã đơn giản hóa; đơn vị thay bằng mô hình và thông số của mình.
+
+**Hình ảnh:** `thuyet-trinh/ket-qua-demo/may-cach-ly/ban_do_lo_trinh.png`; ảnh báo cáo có dòng mã băm.
+
+**🎬 Trình chiếu:** ảnh bản đồ lộ trình + báo cáo; ảnh màn hình chương trình quét mã và đối chiếu mã băm (câu lệnh: `cau-lenh-demo.md` mục 13; mã: `thuyet-trinh/ma-nguon-demo/may-cach-ly/`).
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
+
+---
+
+## Slide 23 – Sai lầm thường gặp và các phương án khác (3′)
+
+**Chữ trên slide:**
+
+**Năm sai lầm dễ làm lộ dữ liệu:**
+1. Chụp màn hình, dán đoạn trích tài liệu mật để "hỏi nhanh" AI
+2. Dùng **Cowork**, tiện ích AI trong trình duyệt, tính năng **sử dụng máy tính** trên máy có tài liệu mật – AI đọc được mọi tệp trong thư mục được cấp quyền
+3. Bật **đồng bộ đám mây** (OneDrive, Google Drive) hoặc **Kết nối (Connectors)** trên máy xử lý tài liệu mật
+4. Mang nhật ký lỗi, tệp kết quả từ máy mật sang máy có Internet để nhờ AI sửa
+5. Dùng tài khoản AI cá nhân cho công việc nội bộ của đơn vị
+
+**Phương án khác (khi được cấp có thẩm quyền cho phép):**
+
+| Phương án | Ưu điểm | Hạn chế |
+|---|---|---|
+| Mô hình AI mã nguồn mở chạy cục bộ trên máy không kết nối | Hỏi – đáp, tóm tắt trực tiếp trên dữ liệu mật | Phải kiểm định, phê duyệt; năng lực thấp hơn; cần máy cấu hình cao |
+| Mạng LAN độc lập trong trụ sở | Nhiều cán bộ dùng chung công cụ | Theo quy định về mạng LAN độc lập của Luật 117/2025 |
+
+**Nguồn:** N38
+
+**Duyệt:** [ ] Duyệt · [ ] Sửa · [ ] Bỏ
+**Ghi chú:**
+
+---
+
+# PHẦN V. SKILL, KHOA HỌC MỞ VÀ TỰ ĐỘNG HÓA (13 phút)
+
+**Trang chuyển phần:** tên Phần V · Slide 24–26
+
+---
+
+## Slide 24 – Skill và khoa học mở: nền móng của tự động hóa (5′)
 
 **Chữ trên slide:**
 - **Skill** = hướng dẫn quy trình + tri thức chuyên môn + biểu mẫu + mã; AI tự dùng khi cần, cho kết quả nhất quán
@@ -681,7 +747,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 22 – Tự động hóa từng bước: từ một công việc đến toàn quy trình (5′)
+## Slide 25 – Tự động hóa từng bước: từ một công việc đến toàn quy trình (4′)
 
 **Chữ trên slide:**
 
@@ -710,7 +776,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 23 – Quy trình tự động của Trung tâm và năm quyết định của nhà khoa học (4′)
+## Slide 26 – Quy trình tự động của Trung tâm và năm quyết định của nhà khoa học (4′)
 
 **Chữ trên slide:**
 
@@ -737,7 +803,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 24 – Trao đổi và thảo luận (12′)
+## Slide 27 – Trao đổi và thảo luận (12′)
 
 **Chữ trên slide:**
 - Kết quả phiếu khảo sát trước buổi học (biểu đồ)
@@ -754,7 +820,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 25 – Phụ lục A: AI lập trình (không trình bày)
+## Slide 28 – Phụ lục A: AI lập trình (không trình bày)
 
 **Chữ trên slide:**
 - GitHub Octoverse 2025: hơn 180 triệu lập trình viên; hơn 36 triệu người mới trong một năm; 630 triệu kho mã; gần 1 tỷ lần đẩy mã; 4,3 triệu dự án AI
@@ -769,7 +835,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 26 – Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi)
+## Slide 29 – Phụ lục B: Ví dụ Google và các nhà khoa học dùng AI (không trình bày – dự phòng khi được hỏi)
 
 **Chữ trên slide:** dòng thời gian ngang, 5 thẻ; thẻ ① phóng to
 
@@ -799,7 +865,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 27 – Phụ lục C: Nguồn tham khảo (không trình bày)
+## Slide 30 – Phụ lục C: Nguồn tham khảo (không trình bày)
 
 **Chữ trên slide:** danh mục nguồn theo Mục 11 của kế hoạch – 5 công bố ví dụ ở Phụ lục B (kèm DOI), số liệu bối cảnh, pháp lý Việt Nam, tiêu chuẩn ISO 9223 / 9224, khoa học mở.
 
@@ -810,7 +876,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 28 – Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày)
+## Slide 31 – Phụ lục D: Dự án và bộ Skill khoa học mở (không trình bày)
 
 **Chữ trên slide:** K-Dense Scientific Agent Skills – https://github.com/K-Dense-AI/claude-scientific-skills (177 Skill, MIT; sinh học, hóa học, vật liệu, thống kê, viết khoa học…) · AI4S Open Science · AIPOCH Open Science · CES Global – kèm URL và lĩnh vực của từng bộ.
 
@@ -821,7 +887,7 @@ Dữ liệu: 387 số đo ăn mòn thép (ISOCORRAG, MICAT, Việt Nam, Nga – 
 
 ---
 
-## Slide 29 – Phụ lục E: Câu hỏi thường gặp (dự phòng khi được hỏi) 🆕
+## Slide 32 – Phụ lục E: Câu hỏi thường gặp (dự phòng khi được hỏi) 🆕
 
 **Chữ trên slide:**
 

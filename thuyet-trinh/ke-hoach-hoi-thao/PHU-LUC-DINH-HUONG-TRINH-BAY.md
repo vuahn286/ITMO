@@ -47,19 +47,19 @@
 
 **II. BỐ CỤC VÀ THỜI LƯỢNG**
 
-Bài trình bày gồm 24 slide, chia thành 6 phần, kèm 5 phụ lục dự phòng
+Bài trình bày gồm 27 slide, chia thành 6 phần, kèm 5 phụ lục dự phòng
 (không trình bày, dùng khi có câu hỏi). Tổng thời lượng 120 phút, trong
 đó trình bày 108 phút, trao đổi – thảo luận 12 phút.
 
-| **Phần** | **Nội dung**                                                                     | **Slide**    | **Thời lượng** |
-|----------|----------------------------------------------------------------------------------|--------------|----------------|
-| I        | Tổng quan: AI và sự thay đổi phương thức nghiên cứu khoa học                     | 1 – 4        | 18 phút        |
-| II       | Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude  | 5 – 12       | 36 phút        |
-| III      | AI Agent trong chu trình thực hiện nhiệm vụ khoa học (minh họa 1, 2; mô hình 3D) | 13 – 19      | 34 phút        |
-| IV       | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (minh họa 3)     | 20           | 5 phút         |
-| V        | Skill, khoa học mở và tự động hóa                                                | 21 – 23      | 15 phút        |
-| VI       | Trao đổi, thảo luận                                                              | 24           | 12 phút        |
-|          | **Tổng cộng**                                                                    | **24 slide** | **120 phút**   |
+| **Phần** | **Nội dung**                                                                                               | **Slide**    | **Thời lượng** |
+|----------|------------------------------------------------------------------------------------------------------------|--------------|----------------|
+| I        | Tổng quan: AI và sự thay đổi phương thức nghiên cứu khoa học                                               | 1 – 4        | 18 phút        |
+| II       | Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude                            | 5 – 12       | 32 phút        |
+| III      | AI Agent trong chu trình thực hiện nhiệm vụ khoa học (minh họa 1, 2; mô hình 3D)                           | 13 – 19      | 30 phút        |
+| IV       | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, quy trình, minh họa 3) | 20 – 23      | 15 phút        |
+| V        | Skill, khoa học mở và tự động hóa                                                                          | 24 – 26      | 13 phút        |
+| VI       | Trao đổi, thảo luận                                                                                        | 27           | 12 phút        |
+|          | **Tổng cộng**                                                                                              | **27 slide** | **120 phút**   |
 
 **III. ĐỊNH HƯỚNG NỘI DUNG TỪNG PHẦN**
 
@@ -89,7 +89,7 @@ nào và đã thay đổi cách nghiên cứu khoa học ra sao.
 Agent thực hiện nhiệm vụ, và nhận thức được cả năng lực lẫn giới hạn của
 AI.
 
-***2. Phần II – Lựa chọn và sử dụng công cụ AI phù hợp (36 phút, slide 5
+***2. Phần II – Lựa chọn và sử dụng công cụ AI phù hợp (32 phút, slide 5
 – 12)***
 
 **Mục tiêu:** giúp người nghe chọn đúng công cụ cho đúng việc và bắt đầu
@@ -127,7 +127,7 @@ sử dụng được Claude trên máy tính Windows.
 được một yêu cầu đủ 5 bước cho công việc của mình.
 
 ***3. Phần III – AI Agent trong chu trình thực hiện nhiệm vụ khoa học
-(34 phút, slide 13 – 19)***
+(30 phút, slide 13 – 19)***
 
 **Mục tiêu:** minh họa AI Agent hỗ trợ từng công đoạn của một nhiệm vụ
 khoa học và công nghệ, trên một dự án nghiên cứu thật.
@@ -164,30 +164,48 @@ nào, kết quả ra sao, và trách nhiệm kiểm tra của nhà khoa học �
 công đoạn.
 
 ***4. Phần IV – Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên
-Internet (5 phút, slide 20)***
+Internet (15 phút, slide 20 – 23)***
 
-**Mục tiêu:** định hướng cách khai thác AI cho nhiệm vụ có dữ liệu mật
-mà vẫn bảo đảm bí mật.
+**Mục tiêu:** định hướng cách khai thác AI cho nhiệm vụ có nội dung bí
+mật nhà nước, bí mật quân sự mà vẫn tuân thủ pháp luật về bảo vệ bí mật
+nhà nước.
 
 **Nội dung chính:**
 
-- Nguyên tắc: AI chỉ viết công cụ, không bao giờ tiếp cận dữ liệu thật.
+- Ranh giới pháp lý (slide 20): Luật Bảo vệ bí mật nhà nước số
+  117/2025/QH15 (hiệu lực từ 01/3/2026) nghiêm cấm soạn thảo, lưu giữ
+  tài liệu có nội dung bí mật nhà nước trên thiết bị đang kết nối
+  Internet, mạng máy tính, mạng viễn thông (trừ mạng LAN độc lập theo
+  quy định) và nghiêm cấm sử dụng hệ thống trí tuệ nhân tạo, công nghệ
+  mới để xâm phạm bí mật nhà nước; phân định rõ thông tin được và không
+  được đưa cho AI trực tuyến; cảnh báo nguy cơ suy luận ra thông tin mật
+  từ việc ghép nhiều thông tin.
 
-- Quy trình 6 bước: mô tả cấu trúc dữ liệu → AI viết công cụ, chạy thử
-  với dữ liệu giả → nhà khoa học đọc mã, quét mã kiểm tra không có kết
-  nối mạng → đóng gói kèm mã băm → chuyển sang máy không kết nối
-  Internet theo quy định, đối chiếu mã băm, chạy với dữ liệu thật → kết
-  quả lưu tại máy đó.
+- Mô hình ba vùng và quy trình 6 bước (slide 21): vùng A – máy có
+  Internet (AI viết công cụ, chạy thử với dữ liệu giả, quét mã, đóng gói
+  kèm mã băm); vùng B – chuyển giao bằng thiết bị lưu trữ được cấp phép,
+  quét mã độc, đối chiếu mã băm, ghi sổ; vùng C – máy không kết nối
+  Internet hoặc mạng LAN độc lập (chạy với dữ liệu thật, kết quả lưu tại
+  chỗ). Luồng một chiều, mỗi bước có điểm kiểm soát và người chịu trách
+  nhiệm.
 
-- Minh họa 3 (dữ liệu giả lập): công cụ ước lượng lộ trình thiết bị bay
-  không người lái theo địa hình và khí hậu nhiệt đới; trọng tâm là quy
-  trình, mô hình đã được đơn giản hóa.
+- Minh họa 3 (slide 22, dữ liệu giả lập): công cụ ước lượng lộ trình
+  thiết bị bay không người lái theo địa hình và khí hậu nhiệt đới; kết
+  quả kiểm tra an toàn (quét mã chặn thư viện kết nối mạng, đối chiếu mã
+  băm khớp); trọng tâm là quy trình, mô hình đã được đơn giản hóa.
 
-**Kết quả cần đạt:** người nghe nắm được quy trình và các điểm kiểm soát
-khi áp dụng AI cho nhiệm vụ có dữ liệu mật.
+- Sai lầm thường gặp và phương án khác (slide 23): chụp màn hình, dán
+  trích đoạn tài liệu mật; dùng Cowork, tiện ích AI trên trình duyệt,
+  tính năng sử dụng máy tính hoặc đồng bộ đám mây trên máy có tài liệu
+  mật; mang nhật ký lỗi từ máy mật ra ngoài; dùng tài khoản cá nhân.
+  Phương án mô hình AI chạy cục bộ, mạng LAN độc lập – chỉ khi được cấp
+  có thẩm quyền cho phép.
 
-***5. Phần V – Skill, khoa học mở và tự động hóa (15 phút, slide 21 –
-23)***
+**Kết quả cần đạt:** người nghe nắm vững quy định pháp luật, quy trình
+và các điểm kiểm soát; nhận biết được các sai lầm dễ làm lộ dữ liệu.
+
+***5. Phần V – Skill, khoa học mở và tự động hóa (13 phút, slide 24 –
+26)***
 
 **Mục tiêu:** giới thiệu hướng chuẩn hóa và tự động hóa dần các quy
 trình nghiên cứu tại Trung tâm.
@@ -207,7 +225,7 @@ trình nghiên cứu tại Trung tâm.
 **Kết quả cần đạt:** các phòng xác định được quy trình có thể thí điểm
 tự động hóa.
 
-***6. Phần VI – Trao đổi, thảo luận (12 phút, slide 24)***
+***6. Phần VI – Trao đổi, thảo luận (12 phút, slide 27)***
 
 **Mục tiêu:** giải đáp thắc mắc và thu thập đề xuất.
 
@@ -256,9 +274,13 @@ hướng dẫn tiếp.
   khai.
 
 - Tuyệt đối không đưa thông tin, tài liệu thuộc phạm vi bí mật nhà nước,
-  bí mật quân sự lên dịch vụ AI trực tuyến; việc chuyển tệp sang máy
-  tính không kết nối Internet thực hiện theo quy định của Bộ Quốc phòng
-  và quy chế của Trung tâm.
+  bí mật quân sự lên dịch vụ AI trực tuyến, theo Luật Bảo vệ bí mật nhà
+  nước số 117/2025/QH15; việc chuyển tệp sang máy tính không kết nối
+  Internet thực hiện theo quy định của Bộ Quốc phòng và quy chế của
+  Trung tâm.
+
+- Không trình diễn, không chụp ảnh màn hình bất kỳ dữ liệu thật nào của
+  nhiệm vụ có nội dung bí mật; minh họa 3 chỉ dùng dữ liệu giả lập.
 
 - Không khuyến nghị sử dụng Sci-Hub, Sci-Bot; nội dung này chỉ nêu để
   cảnh báo về bản quyền và an toàn thông tin.
@@ -282,7 +304,7 @@ hướng dẫn tiếp.
 
 **VII. TÀI LIỆU KÈM THEO**
 
-- Danh sách slide và nội dung từng slide (24 slide, 5 phụ lục dự phòng).
+- Danh sách slide và nội dung từng slide (27 slide, 5 phụ lục dự phòng).
 
 - Tài liệu phát tay.
 

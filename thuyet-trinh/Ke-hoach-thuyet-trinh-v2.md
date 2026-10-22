@@ -103,13 +103,13 @@
 | Phần | Nội dung | Slide (v2.5) | Thời lượng |
 |---|---|---|---|
 | I | Tổng quan: AI và sự thay đổi nghiên cứu khoa học | 1–4 | 18 phút |
-| II | Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude và cách dùng cơ bản | 5–12 | 36 phút |
-| III | AI Agent trong vòng đời nhiệm vụ khoa học (Demo 1, 2; mô hình 3D) | 13–19 | 34 phút |
-| IV | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (Demo 3) | 20 | 5 phút |
-| V | Skill, khoa học mở và tự động hóa | 21–23 | 15 phút |
-| VI | Trao đổi, thảo luận | 24 | 12 phút |
-| – | Phụ lục (không trình bày) | 25–29 | – |
-| **Tổng cộng** | **24 slide + 5 phụ lục** | **120 phút** |
+| II | Lựa chọn và sử dụng công cụ AI phù hợp; công cụ tìm tài liệu; giới thiệu Claude và cách dùng cơ bản | 5–12 | 32 phút |
+| III | AI Agent trong vòng đời nhiệm vụ khoa học (Demo 1, 2; mô hình 3D) | 13–19 | 30 phút |
+| IV | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, mô hình ba vùng, Demo 3, sai lầm thường gặp) | 20–23 | 15 phút |
+| V | Skill, khoa học mở và tự động hóa | 24–26 | 13 phút |
+| VI | Trao đổi, thảo luận | 27 | 12 phút |
+| – | Phụ lục (không trình bày) | 28–32 | – |
+| **Tổng cộng** | **27 slide + 5 phụ lục** | **120 phút** |
 
 *v2.5: bỏ slide "Lộ trình triển khai và kết luận"; thời gian chuyển sang thảo luận. Slide 3 thêm 6 tính năng mới của AI Agent và ô "AI vẫn có thể sai" (+1′). Thêm Slide 16 – mô hình 3D quá trình ăn mòn (3′) và Slide 19 – Demo 3 (thành Phần IV riêng): công cụ cho máy không Internet với đề tài có dữ liệu mật (5′); bù bằng: thảo luận −3′, Slide 10, 12, 13, 14, 18 mỗi slide −1′. Bố cục chi tiết: `DANH-SACH-SLIDE.md`.*
 
@@ -586,3 +586,4 @@ Trạng thái: ✅ đã đối chiếu nguồn gốc · ◐ đã đối chiếu 
 | N35 | Google Scholar Labs ra mắt 18/11/2025: tìm kiếm có AI, cần đăng nhập, câu hỏi tiếng Anh | 7 | scholar.googleblog.com; The Verge (11/2025) | ✅ |
 | N36 | Unpaywall (tiện ích, ~½ yêu cầu tìm được bản mở); CORE (> 100 triệu bài); Open Access Button đã ngừng 18/11/2025 – không đưa vào slide | 7 | Hướng dẫn thư viện UCSD, Sheffield; trang Unpaywall, CORE | ◐ – xem số liệu trên trang chính thức |
 | N37 | VJOL – CSDL tạp chí Việt Nam (Cục Thông tin, Thống kê KH&CN quốc gia, ra mắt 2007, INASP hỗ trợ); CyberLeninka – thư viện mở Nga; Scopus AI, WoS Research Assistant, Undermind (đánh giá của thư viện SMU, 2025) | 7 | vjol.info.vn; cyberleninka.ru; library.smu.edu.sg | ◐ |
+| N38 | Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 (thông qua 10/12/2025, hiệu lực 01/3/2026; Lệnh công bố 55/2025/L-CTN), Điều 5: nghiêm cấm soạn thảo, lưu giữ tài liệu mật trên thiết bị kết nối Internet, mạng máy tính, mạng viễn thông (trừ mạng LAN độc lập); nghiêm cấm dùng hệ thống trí tuệ nhân tạo, công nghệ mới xâm phạm bí mật nhà nước | 20, 23 | thuvienphapluat.vn (toàn văn); xaydungchinhsach.chinhphu.vn; daibieunhandan.vn | ◐ – các nguồn đánh số khoản khác nhau, đối chiếu Công báo trước khi trích khoản |

@@ -27,5 +27,5 @@
 | 16 | Xử lý dữ liệu bằng Python | `03-du-lieu/README.md`, `04-ma-nguon/`, `05-ket-qua/mo-hinh-3d/*.html` |
 | 17 | Mô hình 3D quá trình ăn mòn | `05-ket-qua/mo-hinh-3d/3D_4_qua_trinh_an_mon_dong.html`, `3D_5_so_sanh_vat_lieu.html` |
 | 18 | Bài báo, báo cáo | `06-bai-bao/BAN-THAO-bai-bao.md`, `07-bao-cao/` |
-| 21 | Skill | `05-ket-qua/kiem-tra-bang-skill/README.md` |
-| 22 | Khoa học mở | `03-du-lieu/1-du-lieu-tho/c-olr/NGUON.md` (dữ liệu mở → phát hiện lỗi → tri thức mới) |
+| 24 | Skill | `05-ket-qua/kiem-tra-bang-skill/README.md` |
+| 25 | Khoa học mở | `03-du-lieu/1-du-lieu-tho/c-olr/NGUON.md` (dữ liệu mở → phát hiện lỗi → tri thức mới) |
