@@ -22,9 +22,9 @@
 |---|---|---|
 | 9 | Giao việc 5 bước với dữ liệu thật | `05-ket-qua/README.md` |
 | 10 | Tổ chức dự án | Cây thư mục `du-an-nghien-cuu/` |
-| 13 | Tài liệu → khoảng trống | `01-tong-quan-tai-lieu/MA-TRAN-BANG-CHUNG.md`, `KHOANG-TRONG-NGHIEN-CUU.md` |
-| 14–15 | Đề xuất, thuyết minh | `02-de-xuat-thuyet-minh/DE-XUAT-NHIEM-VU-ban-nhap.md` |
-| 16 | Xử lý dữ liệu bằng Python | `03-du-lieu/README.md`, `04-ma-nguon/`, `05-ket-qua/mo-hinh-3d/*.html` |
+| 12 | Tài liệu → khoảng trống | `01-tong-quan-tai-lieu/MA-TRAN-BANG-CHUNG.md`, `KHOANG-TRONG-NGHIEN-CUU.md` |
+| 13–14 | Đề xuất, thuyết minh | `02-de-xuat-thuyet-minh/DE-XUAT-NHIEM-VU-ban-nhap.md` |
+| 15–16 | Xử lý dữ liệu bằng Python | `03-du-lieu/README.md`, `04-ma-nguon/`, `05-ket-qua/mo-hinh-3d/*.html` |
 | 17 | Mô hình 3D quá trình ăn mòn | `05-ket-qua/mo-hinh-3d/3D_4_qua_trinh_an_mon_dong.html`, `3D_5_so_sanh_vat_lieu.html` |
 | 18 | Bài báo, báo cáo | `06-bai-bao/BAN-THAO-bai-bao.md`, `07-bao-cao/` |
 | 24 | Skill | `05-ket-qua/kiem-tra-bang-skill/README.md` |

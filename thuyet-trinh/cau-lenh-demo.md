@@ -27,7 +27,7 @@ Bạn là trợ lý nghiên cứu cho nhóm nghiên cứu độ bền nhiệt đ
 
 ---
 
-## 1. Slide 13 – Tài liệu → khoảng trống nghiên cứu
+## 1. Slide 12 – Tài liệu → khoảng trống nghiên cứu
 
 ### Câu lệnh 1.1 – Lập bản đồ chủ đề (bật Web search hoặc dùng Research)
 ```
@@ -55,7 +55,7 @@ Sau bảng, chỉ ra: (a) các điểm các nghiên cứu KHÔNG thống nhất;
 
 ---
 
-## 2. Slide 14 – Khoảng trống → thuyết minh (DEMO 1, trình diễn trực tiếp câu lệnh 2.2)
+## 2. Slide 13 – Khoảng trống → thuyết minh (DEMO 1, trình diễn trực tiếp câu lệnh 2.2)
 
 ### Câu lệnh 2.1 – Soạn các mục thuyết minh
 ```
@@ -78,7 +78,7 @@ Lập bảng đối chiếu: Mục tiêu cụ thể → Nội dung → Phương 
 
 ---
 
-## 3. Slide 15 – Tiến độ và kinh phí
+## 3. Slide 14 – Tiến độ và kinh phí
 
 ### Câu lệnh 3.1 (tệp `ke_hoach_cong_viec.csv`)
 ```
@@ -222,7 +222,7 @@ ISOCORRAG + MICAT) để học mô hình; "kiem_dinh_doc_lap" (67 trạm, có 12
 ```
 **Đối chiếu:** `du-an-nghien-cuu/07-bao-cao/BAO-CAO-TONG-HOP.md` – mô hình quốc tế thấp hơn thực đo ở Việt Nam khoảng 31%, cao hơn ở Nga khoảng 80%.
 
-## 9. Slide 14–15 – Biểu mẫu thật của Trung tâm
+## 9. Slide 13–14 – Biểu mẫu thật của Trung tâm
 
 > ⚠ Biểu mẫu trống: nhóm xanh. Nội dung đề xuất thật: **nhóm vàng** – chỉ dùng tài khoản gói tổ chức, hoặc dùng nội dung giả định khi trình diễn.
 
@@ -373,5 +373,5 @@ Lập bảng: tác giả – năm – DOI – địa điểm – kim loại – 
 Đánh dấu bài trùng nhau và bài thiếu DOI. Không thêm bài nào ngoài danh sách tôi đưa.
 ```
 
-**Kết quả mong đợi:** bảng lọc có lý do cho từng bài; danh sách 10–30 bài đưa vào → lấy toàn văn (Sci-Hub theo DOI, Unpaywall, CORE) → tải PDF vào dự án cho câu lệnh mục 1 (Slide 13).
+**Kết quả mong đợi:** bảng lọc có lý do cho từng bài; danh sách 10–30 bài đưa vào → lấy toàn văn (Sci-Hub theo DOI, Unpaywall, CORE) → tải PDF vào dự án cho câu lệnh mục 1 (Slide 12).
 
