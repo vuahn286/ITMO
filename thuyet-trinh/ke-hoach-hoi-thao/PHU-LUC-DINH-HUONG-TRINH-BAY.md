@@ -10,9 +10,16 @@
 
 ***1. Mục đích***
 
-- Cập nhật cho cán bộ, nhà khoa học của Trung tâm tốc độ phát triển,
-  năng lực và xu thế ứng dụng trí tuệ nhân tạo (AI), đặc biệt là AI
-  Agent, trong nghiên cứu khoa học.
+- Định hướng lại nhận thức của cán bộ, nhà khoa học của Trung tâm về trí
+  tuệ nhân tạo (AI): AI đã chứng minh hiệu quả trong nghiên cứu khoa học
+  và được nhiều quốc gia đặt lên hàng đầu, gắn với an ninh quốc gia; vấn
+  đề không còn là AI có hiệu quả hay không, mà là sử dụng AI như thế nào
+  cho hiệu quả và có trách nhiệm.
+
+- Khắc phục hai tâm lý chưa đúng hiện nay: một là chưa biết cách khai
+  thác nên cho rằng AI không hiệu quả và không sử dụng; hai là có sử
+  dụng nhưng thiếu trách nhiệm, không kiểm soát kết quả và dữ liệu đưa
+  lên AI.
 
 - Hướng dẫn lựa chọn và sử dụng công cụ AI phù hợp với từng loại công
   việc nghiên cứu; giới thiệu cách sử dụng cơ bản Claude trên máy tính
@@ -51,7 +58,7 @@ trong đó trình bày 108 phút, trao đổi – thảo luận 12 phút.
 
 | **Phần** | **Nội dung**                                                                                                                                  | **Slide**    | **Thời lượng** |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------------|
-| I        | Tổng quan: AI và sự thay đổi phương thức nghiên cứu khoa học                                                                                  | 1 – 4        | 18 phút        |
+| I        | Tổng quan: định hướng nhận thức – sử dụng AI hiệu quả và có trách nhiệm; AI và sự thay đổi phương thức nghiên cứu khoa học                    | 1 – 4        | 18 phút        |
 | II       | Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude                                                                                     | 5 – 11       | 28 phút        |
 | III      | AI Agent trong chu trình thực hiện nhiệm vụ khoa học: tài liệu, tổng quan → thuyết minh → xử lý dữ liệu (minh họa 1, 2; mô hình 3D) → công bố | 12 – 19      | 34 phút        |
 | IV       | Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, quy trình, minh họa 3)                                    | 20 – 23      | 15 phút        |
@@ -72,21 +79,41 @@ dựng hoàn chỉnh với sự hỗ trợ của AI Agent; toàn bộ kết qu�
 
 **IV. ĐỊNH HƯỚNG NỘI DUNG TỪNG PHẦN**
 
-***1. Phần I – Tổng quan (18 phút)***
+***1. Phần I – Tổng quan: định hướng nhận thức về AI (18 phút)***
 
-**Mục tiêu:** nắm được tốc độ phát triển, năng lực, giới hạn của AI và
-xu thế thay đổi phương thức nghiên cứu.
+**Mục tiêu:** định hướng lại nhận thức – không còn câu hỏi AI có hiệu
+quả hay không, mà là sử dụng AI như thế nào cho hiệu quả và có trách
+nhiệm.
 
-- Số liệu phát triển: khoảng một nửa dân số dùng AI tạo sinh chỉ sau 3
-  năm; AI đạt mức huy chương vàng Olympic Toán quốc tế 2025; độ dài công
-  việc AI tự thực hiện được tăng từ vài giây (2019) lên hơn 16 giờ
-  (2026).
+- Vị trí chiến lược của AI: nhiều quốc gia đặt AI lên hàng đầu, ngang
+  với an ninh quốc gia. Hoa Kỳ khởi động “Sứ mệnh Genesis” (Sắc lệnh
+  14363, tháng 11/2025) dùng AI tăng tốc khám phá khoa học, được ví với
+  Dự án Manhattan; từ tháng 9/2026 dùng khái niệm “siêu trí tuệ” trong
+  văn bản của Chính phủ liên bang, thành lập Lực lượng Siêu trí tuệ do
+  Giám đốc Tình báo Quốc gia đứng đầu và xác định đây là vấn đề an ninh
+  quốc gia. Ở Việt Nam, Nghị quyết số 57-NQ/TW của Bộ Chính trị xác định
+  phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số là
+  đột phá quan trọng hàng đầu.
+
+- Bằng chứng về hiệu quả – số liệu phát triển: khoảng một nửa dân số
+  dùng AI tạo sinh chỉ sau 3 năm; AI đạt mức huy chương vàng Olympic
+  Toán quốc tế 2025; độ dài công việc AI tự thực hiện được tăng từ vài
+  giây (2019) lên hơn 16 giờ (2026).
 
 - Ví dụ ứng dụng AI trong viễn thám, khí tượng, sinh học, vật liệu –
   liên hệ với các hướng nghiên cứu của Trung tâm.
 
 - Sáu năng lực cốt lõi và các tính năng mới của AI Agent; giới hạn: AI
   vẫn có thể sai, nhà khoa học phải kiểm tra.
+
+- Hai tâm lý cần khắc phục và định hướng: (1) chưa biết cách khai thác
+  nên cho rằng AI không hiệu quả, không sử dụng – nguyên nhân thường là
+  chọn sai công cụ, giao việc chưa đúng cách, khắc phục bằng phương pháp
+  ở Phần II, III; (2) sử dụng nhưng thiếu trách nhiệm, không kiểm soát –
+  dùng kết quả không kiểm tra, trích dẫn không xác minh, đưa dữ liệu
+  không được phép lên AI, khắc phục bằng nguyên tắc: nhà khoa học kiểm
+  tra, xác nhận và chịu trách nhiệm về kết quả; phân loại dữ liệu trước
+  khi đưa lên AI (Phần IV).
 
 - Xu thế chuyển từ thao tác thủ công, riêng lẻ sang quy trình liên tục;
   nhà khoa học giữ vai trò dẫn dắt.

@@ -67,7 +67,8 @@ body.push(C("(Kèm theo Kế hoạch số …/KH-… ngày … tháng … năm 2
 // I
 body.push(H1("I. MỤC ĐÍCH, YÊU CẦU"));
 body.push(H2("1. Mục đích"));
-body.push(B("Cập nhật cho cán bộ, nhà khoa học của Trung tâm tốc độ phát triển, năng lực và xu thế ứng dụng trí tuệ nhân tạo (AI), đặc biệt là AI Agent, trong nghiên cứu khoa học."));
+body.push(B("Định hướng lại nhận thức của cán bộ, nhà khoa học của Trung tâm về trí tuệ nhân tạo (AI): AI đã chứng minh hiệu quả trong nghiên cứu khoa học và được nhiều quốc gia đặt lên hàng đầu, gắn với an ninh quốc gia; vấn đề không còn là AI có hiệu quả hay không, mà là sử dụng AI như thế nào cho hiệu quả và có trách nhiệm."));
+body.push(B("Khắc phục hai tâm lý chưa đúng hiện nay: một là chưa biết cách khai thác nên cho rằng AI không hiệu quả và không sử dụng; hai là có sử dụng nhưng thiếu trách nhiệm, không kiểm soát kết quả và dữ liệu đưa lên AI."));
 body.push(B("Hướng dẫn lựa chọn và sử dụng công cụ AI phù hợp với từng loại công việc nghiên cứu; giới thiệu cách sử dụng cơ bản Claude trên máy tính Windows."));
 body.push(B("Minh họa ứng dụng AI Agent trong toàn bộ chu trình thực hiện nhiệm vụ khoa học và công nghệ, từ tìm kiếm tài liệu đến công bố kết quả, trên hai dự án minh họa gắn với lĩnh vực của Trung tâm: dự án nghiên cứu về ăn mòn khí quyển của kim loại trong khí hậu nhiệt đới và bộ minh họa đi kèm bài trình bày (mục III)."));
 body.push(B("Định hướng cách khai thác AI đối với nhiệm vụ có dữ liệu mật: AI chỉ tham gia xây dựng công cụ, dữ liệu được xử lý trên máy tính không kết nối Internet."));
@@ -82,7 +83,7 @@ body.push(H1("II. BỐ CỤC VÀ THỜI LƯỢNG"));
 body.push(P("Bài trình bày gồm 27 slide, chia thành 6 phần; tổng thời lượng 120 phút, trong đó trình bày 108 phút, trao đổi – thảo luận 12 phút."));
 body.push(table([700, 5171, 1600, 1600], [
   ["Phần", "Nội dung", "Slide", "Thời lượng"],
-  [{ t: "I", c: true }, "Tổng quan: AI và sự thay đổi phương thức nghiên cứu khoa học", { t: "1 – 4", c: true }, { t: "18 phút", c: true }],
+  [{ t: "I", c: true }, "Tổng quan: định hướng nhận thức – sử dụng AI hiệu quả và có trách nhiệm; AI và sự thay đổi phương thức nghiên cứu khoa học", { t: "1 – 4", c: true }, { t: "18 phút", c: true }],
   [{ t: "II", c: true }, "Lựa chọn và sử dụng công cụ AI phù hợp; giới thiệu Claude", { t: "5 – 11", c: true }, { t: "28 phút", c: true }],
   [{ t: "III", c: true }, "AI Agent trong chu trình thực hiện nhiệm vụ khoa học: tài liệu, tổng quan → thuyết minh → xử lý dữ liệu (minh họa 1, 2; mô hình 3D) → công bố", { t: "12 – 19", c: true }, { t: "34 phút", c: true }],
   [{ t: "IV", c: true }, "Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên Internet (ranh giới pháp lý, quy trình, minh họa 3)", { t: "20 – 23", c: true }, { t: "15 phút", c: true }],
@@ -107,12 +108,14 @@ const part = (title, mt, nd) => {
   body.push(P([{ t: "Mục tiêu: ", b: true }, mt]));
   nd.forEach((x) => body.push(B(x)));
 };
-part("1. Phần I – Tổng quan (18 phút)",
-  "nắm được tốc độ phát triển, năng lực, giới hạn của AI và xu thế thay đổi phương thức nghiên cứu.",
+part("1. Phần I – Tổng quan: định hướng nhận thức về AI (18 phút)",
+  "định hướng lại nhận thức – không còn câu hỏi AI có hiệu quả hay không, mà là sử dụng AI như thế nào cho hiệu quả và có trách nhiệm.",
   [
-    "Số liệu phát triển: khoảng một nửa dân số dùng AI tạo sinh chỉ sau 3 năm; AI đạt mức huy chương vàng Olympic Toán quốc tế 2025; độ dài công việc AI tự thực hiện được tăng từ vài giây (2019) lên hơn 16 giờ (2026).",
+    "Vị trí chiến lược của AI: nhiều quốc gia đặt AI lên hàng đầu, ngang với an ninh quốc gia. Hoa Kỳ khởi động “Sứ mệnh Genesis” (Sắc lệnh 14363, tháng 11/2025) dùng AI tăng tốc khám phá khoa học, được ví với Dự án Manhattan; từ tháng 9/2026 dùng khái niệm “siêu trí tuệ” trong văn bản của Chính phủ liên bang, thành lập Lực lượng Siêu trí tuệ do Giám đốc Tình báo Quốc gia đứng đầu và xác định đây là vấn đề an ninh quốc gia. Ở Việt Nam, Nghị quyết số 57-NQ/TW của Bộ Chính trị xác định phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số là đột phá quan trọng hàng đầu.",
+    "Bằng chứng về hiệu quả – số liệu phát triển: khoảng một nửa dân số dùng AI tạo sinh chỉ sau 3 năm; AI đạt mức huy chương vàng Olympic Toán quốc tế 2025; độ dài công việc AI tự thực hiện được tăng từ vài giây (2019) lên hơn 16 giờ (2026).",
     "Ví dụ ứng dụng AI trong viễn thám, khí tượng, sinh học, vật liệu – liên hệ với các hướng nghiên cứu của Trung tâm.",
     "Sáu năng lực cốt lõi và các tính năng mới của AI Agent; giới hạn: AI vẫn có thể sai, nhà khoa học phải kiểm tra.",
+    "Hai tâm lý cần khắc phục và định hướng: (1) chưa biết cách khai thác nên cho rằng AI không hiệu quả, không sử dụng – nguyên nhân thường là chọn sai công cụ, giao việc chưa đúng cách, khắc phục bằng phương pháp ở Phần II, III; (2) sử dụng nhưng thiếu trách nhiệm, không kiểm soát – dùng kết quả không kiểm tra, trích dẫn không xác minh, đưa dữ liệu không được phép lên AI, khắc phục bằng nguyên tắc: nhà khoa học kiểm tra, xác nhận và chịu trách nhiệm về kết quả; phân loại dữ liệu trước khi đưa lên AI (Phần IV).",
     "Xu thế chuyển từ thao tác thủ công, riêng lẻ sang quy trình liên tục; nhà khoa học giữ vai trò dẫn dắt.",
   ]);
 part("2. Phần II – Lựa chọn và sử dụng công cụ AI phù hợp (28 phút)",
