@@ -20,8 +20,9 @@
 
 - Minh họa ứng dụng AI Agent trong toàn bộ chu trình thực hiện nhiệm vụ
   khoa học và công nghệ, từ tìm kiếm tài liệu đến công bố kết quả, trên
-  một ví dụ gắn với lĩnh vực của Trung tâm (ăn mòn khí quyển của kim
-  loại trong khí hậu nhiệt đới).
+  hai dự án minh họa gắn với lĩnh vực của Trung tâm: dự án nghiên cứu về
+  ăn mòn khí quyển của kim loại trong khí hậu nhiệt đới và bộ minh họa
+  đi kèm bài trình bày (mục III).
 
 - Định hướng cách khai thác AI đối với nhiệm vụ có dữ liệu mật: AI chỉ
   tham gia xây dựng công cụ, dữ liệu được xử lý trên máy tính không kết
@@ -33,8 +34,9 @@
 ***2. Yêu cầu***
 
 - Nội dung chính xác, có căn cứ; ví dụ minh họa dùng dữ liệu thật đã
-  công bố; ngôn ngữ dễ hiểu với người nghe không chuyên về công nghệ
-  thông tin.
+  công bố; phần cần cài sẵn lỗi hoặc thay cho dữ liệu mật dùng dữ liệu
+  giả lập, ghi rõ trên slide; ngôn ngữ dễ hiểu với người nghe không
+  chuyên về công nghệ thông tin.
 
 - Chấp hành nghiêm quy định về bảo vệ bí mật nhà nước và an toàn thông
   tin; không đưa dữ liệu nội bộ, dữ liệu mật lên dịch vụ AI trực tuyến.
@@ -57,7 +59,18 @@ trong đó trình bày 108 phút, trao đổi – thảo luận 12 phút.
 | VI       | Trao đổi, thảo luận                                                                                                                           | 27           | 12 phút        |
 |          | **Tổng cộng**                                                                                                                                 | **27 slide** | **120 phút**   |
 
-**III. ĐỊNH HƯỚNG NỘI DUNG TỪNG PHẦN**
+**III. DỰ ÁN MINH HỌA**
+
+Các phần minh họa của bài trình bày được thực hiện trên hai dự án đã xây
+dựng hoàn chỉnh với sự hỗ trợ của AI Agent; toàn bộ kết quả chạy lại
+được bằng một lệnh.
+
+| **TT** | **Dự án**                                                                                           | **Nội dung chính**                                                                                                                                                                                                                                                                                       | **Dữ liệu**                                                                | **Sử dụng tại slide**  |
+|--------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------|
+| 1      | Dự án nghiên cứu “Khả năng áp dụng mô hình ăn mòn khí quyển quốc tế cho khí hậu nhiệt đới Việt Nam” | Thực hiện đủ vòng đời một nhiệm vụ: tổng quan tài liệu (13 tài liệu đã xác minh, ma trận bằng chứng, 3 khoảng trống) → bản nháp đề xuất → hợp nhất, kiểm tra dữ liệu → mô hình, hiệu chỉnh theo vùng → mô hình 3D → bản thảo bài báo → báo cáo tổng hợp; có nhật ký thực hiện, ghi cả các lần sai và sửa | Thật, đã công bố: 387 số đo thực địa (kho dữ liệu mở C-OLR, giấy phép MIT) | 9, 10, 12 – 19, 24, 25 |
+| 2      | Bộ minh họa của bài trình bày                                                                       | Tổng hợp dữ liệu từ 3 nguồn công bố, 4 định dạng; bộ dữ liệu ăn mòn, khí tượng và kế hoạch công việc có cài sẵn lỗi để AI phát hiện; công cụ ước lượng lộ trình thiết bị bay không người lái chạy trên máy không kết nối Internet                                                                        | Thật (trích từ C-OLR) và giả lập                                           | 8, 14, 16, 22          |
+
+**IV. ĐỊNH HƯỚNG NỘI DUNG TỪNG PHẦN**
 
 ***1. Phần I – Tổng quan (18 phút)***
 
@@ -92,32 +105,39 @@ Claude trên máy tính Windows.
 - Giới thiệu Claude trên Windows: các mô hình, năm tính năng dùng ngay
   (dự án, tạo tệp – chạy mã, nghiên cứu chuyên sâu, Cowork, tác vụ theo
   lịch); sáu bước bắt đầu sử dụng; minh họa tổng hợp dữ liệu từ 3 nguồn
-  công bố.
+  công bố (Dự án 2): 4 tệp khác định dạng → bảng tổng hợp, báo cáo Word;
+  AI phát hiện nhãn đơn vị sai trong nguồn.
 
 - Phương pháp giao việc cho AI Agent theo 5 bước (nhiệm vụ – dữ liệu –
-  đầu ra – dẫn nguồn, lưu mã – kiểm tra).
+  đầu ra – dẫn nguồn, lưu mã – kiểm tra); ví dụ câu lệnh đủ 5 bước trên
+  dữ liệu thật của Dự án 1.
 
-- Tổ chức không gian làm việc theo từng nhiệm vụ; giới thiệu Skill,
-  Subagent và hệ thống nhiều Agent.
+- Tổ chức không gian làm việc theo từng nhiệm vụ, lấy cấu trúc Dự án 1
+  làm mẫu (mỗi giai đoạn của nhiệm vụ một thư mục, từ quản lý dự án, tài
+  liệu đến bài báo, báo cáo); giới thiệu Skill, Subagent và hệ thống
+  nhiều Agent.
 
 ***3. Phần III – AI Agent trong chu trình thực hiện nhiệm vụ khoa học
 (34 phút)***
 
 **Mục tiêu:** minh họa AI hỗ trợ từng công đoạn của một nhiệm vụ khoa
-học và công nghệ, trên ví dụ “Khả năng áp dụng mô hình ăn mòn khí quyển
-quốc tế cho khí hậu nhiệt đới Việt Nam” (387 số đo thực địa đã công bố).
+học và công nghệ, theo đúng trình tự các giai đoạn của Dự án 1; phần
+minh họa phát hiện lỗi dùng dữ liệu giả lập của Dự án 2.
 
 - Nghiên cứu tài liệu và tổng quan: tìm bài ứng viên bằng Sci-Bot – trợ
   lý AI trên kho Sci-Hub (câu trả lời tổng hợp kèm danh sách bài báo,
   DOI), bổ sung bài mới bằng Google Scholar Labs, Semantic Scholar; lọc
   theo tiêu đề, tóm tắt (Elicit, Consensus, Claude); lấy toàn văn theo
   DOI qua Sci-Hub, Unpaywall, CORE và nguồn tiếng Việt – tiếng Nga
-  (VJOL, CyberLeninka, eLIBRARY.ru); lập ma trận bằng chứng, xác định 3
-  khoảng trống nghiên cứu; kiểm tra DOI của mọi trích dẫn.
+  (VJOL, CyberLeninka, eLIBRARY.ru); lập ma trận bằng chứng từ 13 tài
+  liệu đã xác minh, xác định 3 khoảng trống nghiên cứu (Dự án 1); kiểm
+  tra DOI của mọi trích dẫn.
 
-- Xây dựng thuyết minh đề tài từ khoảng trống đã chọn (minh họa 1):
-  phiếu đề xuất, thuyết minh theo biểu mẫu của Trung tâm; tiến độ, dự
-  toán theo Thông tư 03/2023/TT-BTC và quy định của Bộ Quốc phòng.
+- Xây dựng thuyết minh đề tài từ khoảng trống thứ nhất của Dự án 1 (minh
+  họa 1): phiếu đề xuất, thuyết minh theo biểu mẫu của Trung tâm; tiến
+  độ, dự toán theo Thông tư 03/2023/TT-BTC và quy định của Bộ Quốc
+  phòng; với kế hoạch công việc giả lập (Dự án 2), AI phát hiện đủ 3 bất
+  hợp lý cài sẵn về trình tự công việc.
 
 - Hướng dẫn xử lý dữ liệu với AI theo 5 bước: chuẩn bị dữ liệu (giữ bản
   gốc, từ điển dữ liệu) → kiểm tra chất lượng (chỉ đánh dấu, không tự
@@ -125,16 +145,19 @@ quốc tế cho khí hậu nhiệt đới Việt Nam” (387 số đo thực đ�
   định trên tập độc lập → lưu mã, nhật ký để tái lập.
 
 - Minh họa 2 – áp dụng quy trình trên: AI viết và chạy mã Python xử lý
-  dữ liệu, phát hiện lỗi đơn vị trong dữ liệu công bố; mô hình quốc tế
-  dự đoán thấp hơn thực đo ở Việt Nam khoảng 31%; sau hiệu chỉnh theo
-  vùng, xếp đúng cấp ăn mòn 9/12 trạm (trước là 2/12).
+  dữ liệu. Với dữ liệu giả lập (Dự án 2): phát hiện đủ 14/14 lỗi cài
+  sẵn. Với 387 số đo thật (Dự án 1): phát hiện lỗi đơn vị trong dữ liệu
+  công bố; mô hình quốc tế dự đoán thấp hơn thực đo ở Việt Nam khoảng
+  31%; sau hiệu chỉnh theo vùng, xếp đúng cấp ăn mòn 9/12 trạm (trước là
+  2/12).
 
-- Mô hình 3D mô phỏng quá trình ăn mòn thép tại Nha Trang trong 30 năm
-  và so sánh thép – kẽm – đồng – nhôm.
+- Mô hình 3D tương tác (Dự án 1) mô phỏng quá trình ăn mòn thép tại Nha
+  Trang trong 30 năm và so sánh thép – kẽm – đồng – nhôm.
 
-- Công bố kết quả theo nhiều định dạng: tạp chí Scopus/Web of Science,
-  danh mục ВАК (Nga), tạp chí trong nước, báo cáo của Trung tâm; nhà
-  khoa học xác nhận ở mỗi bước.
+- Công bố kết quả: bản thảo bài báo (tóm tắt Việt – Anh) và báo cáo tổng
+  hợp của Dự án 1; chuyển đổi theo nhiều định dạng: tạp chí Scopus/Web
+  of Science, danh mục ВАК (Nga), tạp chí trong nước, báo cáo của Trung
+  tâm; nhà khoa học xác nhận ở mỗi bước.
 
 ***4. Phần IV – Đề tài mật: ứng dụng AI khi dữ liệu không được đưa lên
 Internet (15 phút)***
@@ -156,8 +179,11 @@ mật quân sự mà vẫn tuân thủ pháp luật về bảo vệ bí mật nh
   tại chỗ); luồng một chiều, mỗi bước có điểm kiểm soát và người chịu
   trách nhiệm.
 
-- Minh họa 3 (dữ liệu giả lập): công cụ ước lượng lộ trình thiết bị bay
-  không người lái theo địa hình và khí hậu nhiệt đới.
+- Minh họa 3 (Dự án 2, dữ liệu giả lập thay cho dữ liệu mật): công cụ
+  ước lượng lộ trình thiết bị bay không người lái theo địa hình và khí
+  hậu nhiệt đới – lộ trình vòng tránh 8 ô cấm bay; chiều về ngược gió
+  mùa tốn năng lượng gấp 1,8 lần chiều đi nên phải đổi phương án; quét
+  mã không phát hiện kết nối mạng, mã băm trên máy đích khớp.
 
 - Sai lầm thường gặp: chụp màn hình, dán trích đoạn tài liệu mật; dùng
   Cowork, tiện ích AI trên trình duyệt hoặc đồng bộ đám mây trên máy có
@@ -169,11 +195,14 @@ mật quân sự mà vẫn tuân thủ pháp luật về bảo vệ bí mật nh
 **Mục tiêu:** định hướng chuẩn hóa và tự động hóa dần các quy trình
 nghiên cứu tại Trung tâm.
 
-- Skill và thư viện Skill khoa học mở; kết quả thí nghiệm khi không dùng
-  và có dùng Skill.
+- Skill và thư viện Skill khoa học mở; thí nghiệm trên 387 số đo của Dự
+  án 1 khi không dùng và có dùng Skill: Skill bổ sung 3 bước kiểm tra mà
+  phân tích ban đầu bỏ qua.
 
-- Khoa học mở; ba mức tự động hóa (hỗ trợ từng bước – bán tự động – tự
-  động toàn trình).
+- Khoa học mở qua vòng đời bộ dữ liệu của Dự án 1: dữ liệu công bố mở →
+  tái sử dụng → phát hiện lỗi đơn vị → tri thức mới → đóng góp lại cộng
+  đồng; ba mức tự động hóa (hỗ trợ từng bước – bán tự động – tự động
+  toàn trình).
 
 - Bản đồ quy trình tự động dự kiến của Trung tâm và năm quyết định thuộc
   về nhà khoa học.
@@ -183,7 +212,7 @@ nghiên cứu tại Trung tâm.
 **Mục tiêu:** giải đáp thắc mắc, thu thập đề xuất các quy trình thí điểm
 tự động hóa.
 
-**IV. YÊU CẦU VỀ BẢO MẬT VÀ AN TOÀN THÔNG TIN**
+**V. YÊU CẦU VỀ BẢO MẬT VÀ AN TOÀN THÔNG TIN**
 
 - Dữ liệu dùng trong bài trình bày và các phần minh họa chỉ gồm dữ liệu
   đã công bố và dữ liệu giả lập; không trình chiếu dữ liệu thật của
@@ -198,12 +227,12 @@ tự động hóa.
   truy cập Internet của đơn vị; chỉ dùng địa chỉ chính thức, không dùng
   trên máy tính có tài liệu mật.
 
-**V. CÔNG TÁC CHUẨN BỊ**
+**VI. CÔNG TÁC CHUẨN BỊ**
 
-| **TT** | **Nội dung công việc**                                                           | **Cơ quan, cá nhân thực hiện**              | **Thời hạn** | **Sản phẩm**         |
-|--------|----------------------------------------------------------------------------------|---------------------------------------------|--------------|----------------------|
-| 1      | Hoàn thiện bài trình bày; thực hiện trước và ghi hình các phần minh họa          | Người trình bày                             | Trước … ngày | Bộ slide, video, ảnh |
-| 2      | Cung cấp biểu mẫu phiếu đề xuất, thuyết minh, tiến độ, dự toán, báo cáo tổng hợp | Phòng/ban quản lý khoa học                  | Trước … ngày | Biểu mẫu trống       |
-| 3      | Thống nhất nội dung về quy định sử dụng dịch vụ AI, bảo mật                      | Bộ phận bảo mật, CNTT                       | Trước … ngày | Nội dung trả lời     |
-| 4      | Kiểm tra máy chiếu, máy trình chiếu; in tài liệu phát tay                        | Bộ phận CNTT, văn thư                       | Trước 1 ngày | Thiết bị, tài liệu   |
-| 5      | Tổng hợp đề xuất thí điểm sau hội thảo                                           | Người trình bày, phòng/ban quản lý khoa học | Sau … ngày   | Báo cáo tổng hợp     |
+| **TT** | **Nội dung công việc**                                                                             | **Cơ quan, cá nhân thực hiện**              | **Thời hạn** | **Sản phẩm**                          |
+|--------|----------------------------------------------------------------------------------------------------|---------------------------------------------|--------------|---------------------------------------|
+| 1      | Hoàn thiện bài trình bày; chạy lại 2 dự án minh họa, thực hiện trước và ghi hình các phần minh họa | Người trình bày                             | Trước … ngày | Bộ slide, video, ảnh; kết quả 2 dự án |
+| 2      | Cung cấp biểu mẫu phiếu đề xuất, thuyết minh, tiến độ, dự toán, báo cáo tổng hợp                   | Phòng/ban quản lý khoa học                  | Trước … ngày | Biểu mẫu trống                        |
+| 3      | Thống nhất nội dung về quy định sử dụng dịch vụ AI, bảo mật                                        | Bộ phận bảo mật, CNTT                       | Trước … ngày | Nội dung trả lời                      |
+| 4      | Kiểm tra máy chiếu, máy trình chiếu; in tài liệu phát tay                                          | Bộ phận CNTT, văn thư                       | Trước 1 ngày | Thiết bị, tài liệu                    |
+| 5      | Tổng hợp đề xuất thí điểm sau hội thảo                                                             | Người trình bày, phòng/ban quản lý khoa học | Sau … ngày   | Báo cáo tổng hợp                      |
