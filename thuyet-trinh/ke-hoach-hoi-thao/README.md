@@ -6,4 +6,4 @@
 | `PHU-LUC-DINH-HUONG-TRINH-BAY.md` | Bản văn bản thuần của phụ lục (để đối chiếu, sửa nhanh) |
 | `tao_phu_luc.js` | Mã sinh lại tệp Word: `node tao_phu_luc.js` (cần thư viện `docx` của Node.js) |
 
-Phụ lục được xây dựng từ bố cục chính thức `../DANH-SACH-SLIDE.md` (27 slide, 6 phần, 120 phút). Các chỗ `…` (số kế hoạch, ngày, thời hạn, đơn vị) do cơ quan soạn kế hoạch điền.
+Phụ lục được xây dựng từ bố cục chính thức `../DANH-SACH-SLIDE.md` (27 slide, 6 phần, 120 phút). Mục III giới thiệu hai dự án minh họa: Dự án 1 – dự án nghiên cứu `../../du-an-nghien-cuu/`; Dự án 2 – bộ minh họa của bài trình bày (`../du-lieu-demo/`, `../ma-nguon-demo/`, `../ket-qua-demo/`). Các chỗ `…` (số kế hoạch, ngày, thời hạn, đơn vị) do cơ quan soạn kế hoạch điền.
